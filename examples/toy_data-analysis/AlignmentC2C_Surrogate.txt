@@ -1,0 +1,9 @@
+cosine_lexical_tok2	cosine_lexical_tok3	cosine_lexical_lem4	cosine_lexical_tok4	cosine_lexical_lem3	cosine_syntax_penn_tok4	cosine_syntax_penn_tok3	cosine_syntax_penn_tok2	cosine_syntax_penn_lex2	cosine_syntax_penn_lex3	cosine_syntax_penn_lex4	cosine_lexical_lem2	condition_info
+0.101273936708	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.101273936708	condition_2-dyad_10-dyad_12
+0.0578314931966	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0554700196225	condition_1-dyad_12-dyad_15
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	condition_2-dyad_12-dyad_15
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	condition_2-dyad_12-dyad_15
+0.0578314931966	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0554700196225	condition_1-dyad_12-dyad_15
+0.0578314931966	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0554700196225	condition_1-dyad_10-dyad_15
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	condition_1-dyad_10-dyad_15
+0.0578314931966	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0554700196225	condition_2-dyad_10-dyad_12
