@@ -1,0 +1,9 @@
+cosine_lexical_tok2	cosine_lexical_tok3	cosine_lexical_lem4	cosine_lexical_tok4	cosine_lexical_lem3	cosine_syntax_penn_tok4	cosine_syntax_penn_tok3	cosine_syntax_penn_tok2	cosine_syntax_penn_lex2	cosine_syntax_penn_lex3	cosine_syntax_penn_lex4	cosine_lexical_lem2	condition_info
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_10-condition_1.txt
+0.113227703414	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.109253556109	dyad_10-condition_2.txt
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_12-condition_1.txt
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_12-condition_2.txt
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_15-condition_2.txt
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_15-condition_1.txt
+0.081786082011	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0784464540553	dyad_13-condition_1.txt
+0.113227703414	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.109253556109	dyad_13-condition_2.txt
