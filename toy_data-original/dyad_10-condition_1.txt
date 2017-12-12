@@ -1,1 +1,0 @@
-participant	content1	What're we doing? uh...2	Uh We just want to make sure that we're capturing the right stuff.1	We don't really care about what we're saying right now.2	Let's test some more.1	More testing. But we need more variety2	And more testing.1	Testing.2	This is just some sample text.
