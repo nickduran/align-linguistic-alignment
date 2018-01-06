@@ -1,0 +1,230 @@
+participant	content
+kid	I had some tonight.
+cgv	last night.
+cgv	did you like it.
+kid	no tonight wasn't last night I had some jelly tonight while you were at work.
+cgv	that was last night tonight hasn't happened yet tonight follows today.
+kid	Momma.
+cgv	huh.
+kid	could I just drink my milk now.
+cgv	yeah these shredded wheats are really filling aren't they.
+kid	yeah.
+cgv	we're going to help Lou and Elliot move today.
+kid	I don't know where their house is their new house.
+cgv	it's just down the street from their old house.
+kid	I don't want to go.
+cgv	you don't.
+kid	no I wan(t) (t)a go to the silly park.
+cgv	I already told you that we'd go after we help Lou and Elliot.
+kid	no.
+cgv	did you play really late last night.
+kid	did Daddy tell you that.
+cgv	no I was just wondering how late did you play.
+kid	I played as late as Chris played.
+cgv	was it real late.
+kid	yeah and know what we found.
+cgv	what.
+kid	Chris Chris found two big one big rock.
+cgv	did it have any fossils in it.
+kid	no and it was so big we couldn't carry it and you had to help us.
+cgv	who did.
+kid	you did.
+cgv	how could I help you.
+cgv	I wasn't even here.
+kid	all daytime you had to.
+cgv	oh where did Chris find that big rock.
+kid	close to the sand+pile Chris is already home Dad.
+cgv	oh where did he go.
+kid	he went camping Mommy you could drink my milk.
+cgv	I have my coffee here.
+cgv	did you tell Mom what you did last night.
+kid	I played outside really late didn't I.
+cgv	yep.
+cgv	were you exhausted when you came in.
+kid	what is exhausted.
+cgv	exhausted means you're so tired you can hardly move.
+kid	hardly.
+cgv	yeah you're really tired come on we have to get ready to go now.
+kid	I said +"/..
+kid	+" could I play outside.
+kid	and you said +"/..
+kid	+" yes.
+cgv	when did I say that.
+kid	when you asked me that.
+cgv	you're trying to trick me.
+cgv	when did you ask her.
+kid	I already did I wan(t) (t)a go I wan(t) (t)a go get that rock.
+cgv	hhmm:.
+kid	you know that big rock we found I want to go get it.
+cgv	what are you going to do with it.
+kid	I'll show you where it is.
+cgv	what are you going to do with it.
+kid	I'm not gon (t)a do with it with anything.
+cgv	where are you going to put it.
+kid	on the sidewalk.
+cgv	then people won't be able to ride their bikes.
+kid	no not right right on the straight on.
+cgv	why don't we just go look at it.
+kid	no I want it I want it.
+cgv	do you know what Karen wants for Christmas.
+kid	what.
+cgv	a rock polishing kit.
+kid	what's that.
+cgv	what do you think it would do.
+kid	find rocks.
+cgv	she finds rocks and puts them in the little thing and turns it and it makes em shiny.
+kid	do you know what I want for Christmas.
+cgv	what.
+kid	I forgot oh I know now two guns.
+cgv	what would you do with two guns.
+kid	I mean one big gun and I I will use that big old gun.
+cgv	oh one new gun to go with your old one.
+kid	yeah when is your birthday gon (t)a start.
+cgv	huh.
+kid	when is your birthday gon (t)a start.
+cgv	when's mine.
+kid	yeah.
+cgv	in three more weeks what are you going to give me for my birthday.
+kid	your your friends are gon (t)a give you something.
+cgv	do you know what I'd like.
+kid	what.
+cgv	a beautiful picture that you painted for me.
+kid	from where.
+cgv	paints or watercolors or oil pastels.
+kid	what's oiled pastels.
+cgv	they're like little crayons but they're oiler.
+kid	I don't want to go help Lou and Elliot.
+cgv	you don't.
+kid	no.
+cgv	why.
+kid	because.
+cgv	tell Mom what we're going to do when we go to Texas.
+kid	what.
+cgv	what were we talking about last night.
+kid	we'll go to the moon.
+cgv	no what used to live in Texas.
+kid	mean dinosaurs.
+cgv	uhhuh did you tell Daddy that you and Chris wrestled yesterday.
+kid	we did wrestle and we wrestled on the grass hey that's mine.
+cgv	I'm just looking at it why did you wrestle on the grass.
+kid	because because we didn't want to get hurt.
+cgv	oh what would have happened if you would've wrestled on the sidewalk.
+kid	that would hurt.
+cgv	hmm.
+kid	that would hurt.
+cgv	did you sleep good last night.
+kid	yeah.
+cgv	did you have any dreams.
+kid	I forgot.
+cgv	Daddy dreamt about werewolves and shadows.
+kid	what kind of shadows.
+cgv	you'll have to ask Daddy it was his dream.
+kid	what kind of shadows were you dreaming about.
+cgv	just regular shadows we should go help Lou and Elliot right now.
+kid	I wan(t) (t)a stay in the car.
+cgv	you are.
+kid	no I'm going in with ya I'm going I'm already ready [=! laughs] I put some flies in the house.
+cgv	I'm gon (t)a make you eat em.
+kid	you better not or I will make you eat em or catch ya I caught ya.
+cgv	you sure did.
+kid	you better run before I catch you again I caught you now you can't move forever.
+cgv	oh no.
+kid	this is mine see.
+kid	this is the one I got.
+cgv	oh huh what did you do at the park today.
+kid	play and play and play.
+cgv	wow.
+cgv	tell Dad about the playground equipment.
+kid	I forgot about it Mom where's that saw.
+cgv	huh.
+kid	where's the saw Daddy got me.
+cgv	did you find it.
+kid	no I can't find it did you find it.
+cgv	here it is.
+kid	oh.
+cgv	run up and go tee+tee and then your waffle will be ready.
+kid	I want honey on my waffle.
+cgv	okay.
+kid	Mommy is the waffle ready.
+cgv	I was wrong you were too fast.
+kid	oh Daddy does does this saw metal stuff.
+cgv	huh.
+kid	does this saw metal wood.
+cgv	no it's a play saw.
+kid	oh Mom where should I put all these workman's stuff.
+cgv	how (a)bout in your lunchbox.
+kid	how come in my lunch box.
+kid	how come in my lunch box.
+cgv	(be)cause workmen take their lunchboxes to work with em.
+kid	and do they put their work stuff in them.
+cgv	sometimes.
+kid	Mommy where's my log.
+kid	where is it.
+kid	where is some wood I could hammer this this in.
+kid	where is some wood I could hammer this this in.
+kid	I found this in your purse is my waffle ready.
+cgv	uhhuh.
+kid	Mommy.
+cgv	uhhuh.
+kid	can can this dig.
+cgv	what is it.
+kid	this shovel.
+cgv	yeah I bet it can dig real easy in sand.
+kid	and how could it dig real easy in the sand.
+cgv	how can it.
+kid	yeah.
+cgv	(be)cause the sand is really soft.
+kid	I'm putting em in the lunch box I'm putting em in the lunch box Mom.
+cgv	good did you want honey.
+kid	I I wanted syrup did you cut it up.
+cgv	uhhuh.
+kid	I thought you did Mommy.
+cgv	uhhuh.
+kid	can you scoot this chair over.
+cgv	sure.
+cgv	we have a baseball game.
+kid	today.
+cgv	no on Thursday we have a meeting tonight.
+kid	and who's gon (t)a babysit for me.
+cgv	I think we're gon (t)a take you.
+kid	how come you think you're you're gon (t)a take me.
+cgv	Abe what would have happened if Mommy would have just filled your glass to here.
+cgv	see.
+cgv	to here what would have happened then.
+kid	then I would get thirsty.
+cgv	how come.
+kid	(be)cause I won't have enough to drink.
+cgv	what would you say then.
+kid	I would say +"/..
+kid	+" Mommy get me some milk I'm thirsty.
+cgv	oh.
+kid	Mom I wanted a crispy waffle.
+cgv	yours is crispy.
+kid	hi I'm eating supper I couldn't play with you when when you were out (ex)cept I was at a park with Chris that's how come I couldn't come out that's how come I couldn't come out oh you know that one with a red one and just one one yellow one.
+kid	can we go there tonight.
+cgv	one red and one yellow what.
+kid	everything can we go to that one.
+cgv	what.
+cgv	one red what.
+kid	can we go to that one that had a red one and and a white one.
+cgv	a red what.
+kid	a red horsiz horses] [?].
+cgv	oh.
+kid	can we go to that one.
+cgv	not tonight.
+kid	I'm not gon (t)a go play with Leslie.
+cgv	how come.
+kid	I'm gon (t)a go ask Chris if he could come out.
+cgv	if Chris can't come out Leslie would be fun to play with.
+kid	but I'm not gon (t)a play with Leslie after supper probably I will go to that big big sand+pile.
+cgv	oh can Leslie go to the big sand+pile.
+kid	if she asks her Mom.
+cgv	pretty soon we'll have a sandbox right down here.
+kid	and then we could go get that shovel.
+cgv	Abe look your butterfly hatched.
+kid	look Mommy look what Daddy saw my butterfly.
+cgv	wow how pretty.
+kid	Mommy I haven't touched butterflies.
+cgv	you never have.
+kid	no can I tough this one.
+cgv	not now he'd die if you touched him now.

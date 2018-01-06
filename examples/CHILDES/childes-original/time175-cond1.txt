@@ -1,0 +1,162 @@
+participant	content
+kid	well do we got any waffles.
+cgv	yeah do you want another waffle.
+kid	yeah.
+cgv	okay.
+kid	Dad.
+cgv	what.
+kid	look at this thing it's more benter@n than this thing.
+cgv	yep.
+kid	Dad do you know how I got up this way I did a chin+up chin+up.
+cgv	do you want one waffle or two.
+kid	two.
+cgv	will you eat two.
+kid	I'll eat two I can eat two I'm really hungry.
+cgv	okay.
+kid	Daddy have you found my cowboy hat yet.
+cgv	no I wasn't even looking for it where do you think it is.
+kid	yeah.
+cgv	what.
+kid	do you know what I meant.
+cgv	no what did you mean.
+kid	right.
+cgv	I don't know what you're saying.
+kid	I said +"/..
+kid	+" right.
+cgv	oh do you like that t+shirt you have on.
+kid	yeah.
+cgv	why.
+kid	because I like it I like whatever Nana and Pete get me.
+cgv	oh.
+kid	I bet both of em popped up.
+cgv	how come.
+kid	I just bet.
+cgv	don't you have a reason.
+kid	oh yeah they did both pop up (ex)cept how did they both pop up.
+cgv	how do you think they both popped up.
+kid	I don't know they both went down and then they both popped up that's how they did it.
+cgv	I didn't know that.
+kid	that's how they did it Daddy they really did Daddy (ex)cept you couldn't hear the song me either I just knowed they were doing that hey Daddy.
+cgv	yeah buddy.
+kid	can you go look for that Lassie book.
+cgv	I know where it is.
+kid	huh.
+cgv	I know where it is.
+kid	where.
+kid	upstairs.
+cgv	uhhuh.
+kid	(ex)cept do you know where it is upstairs.
+cgv	uhhuh.
+kid	in my room.
+cgv	no at the top of the stairs.
+kid	oh boy is that a big waffle that you cooked.
+cgv	do you want some milk.
+kid	yep Daddy it's still breakfast time.
+cgv	nope.
+kid	uhhuh.
+cgv	it's lunchtime now.
+kid	uhuh it's still breakfast time that's what I said Dad.
+cgv	uhhuh yeah for who.
+kid	for me.
+cgv	for who.
+kid	for me.
+cgv	okay.
+kid	Daddy is there three words for tee+tee.
+kid	there's one word for tee+tee tee+tee there's another word for tee+tee tee+tee and there's another word for tee+tee tee+tee.
+cgv	tee+tee is the same word you said the same word three times.
+kid	I mean there's a tee+tee word for tee+tee and there's a pottie word for pottie and there's a poop word for poop.
+cgv	there is more than one word for tee+tee you're right.
+kid	Dad I'm glad that you put this little waffle so I could eat all my waffles at one time.
+cgv	really.
+kid	yeah that's a small waffle a bee's bigger than this waffle.
+cgv	what is.
+kid	a bee's bigger than this waffle.
+cgv	that's right.
+kid	this is really a tiny waffle.
+cgv	uhhuh.
+kid	Daddy can you get me some more milk.
+cgv	uhhuh.
+kid	Daddy that was my tummy growling when you heared@n that noise.
+cgv	it was not you liar.
+kid	it's true.
+cgv	I saw that truck make the noise.
+kid	no my tummy maked the noise.
+cgv	no.
+kid	yes.
+cgv	the truck made the noise.
+kid	it might have maked a noise but it didn't make the noise my tummy maked.
+cgv	okay.
+kid	Daddy don't look look where you were looking the first time I'll tell you when to look.
+cgv	okay.
+kid	okay there's something under this hand.
+cgv	there's what.
+kid	there's a wheel under one of these hands.
+cgv	a wheel.
+kid	uhhuh.
+cgv	what am I supposed to do.
+kid	try to find the hand.
+cgv	okay.
+kid	you were right.
+cgv	now I'll do it and you try to find it.
+kid	okay you said I'm supposed to find it you sayed I'm supposed to find it right.
+cgv	uhhuh which one's it under.
+kid	this one.
+cgv	why.
+kid	I just think so I was right do it again put it under a different one and I'll close my eyes.
+cgv	okay I'm ready.
+kid	it's under the little one I think.
+cgv	why.
+kid	I just think so.
+cgv	you're right why don't you pick up some of your toys.
+kid	I'm not ready I haven't even ate all my sandwich.
+cgv	all your what.
+kid	all my waffle.
+cgv	okay finish eating then.
+kid	Daddy.
+cgv	what.
+kid	do you know what I'm really going to do after I'm done eating.
+cgv	what.
+kid	oh never mind that's what some cowboys do see.
+kid	that's how they wear their hats sometimes Daddy guess which hand the prai(r)ie dog's under which hand.
+cgv	which hand.
+kid	uhhuh no I said hand.
+cgv	it wasn't under either hand.
+kid	which uh how did you know that.
+cgv	(be)cause I know you you tried to trick me.
+kid	Daddy.
+cgv	uhhuh.
+kid	do you know something.
+cgv	yeah I know something get your fork okay.
+kid	(ex)cept then I can't get up.
+cgv	I'll help you.
+kid	okay Daddy sometimes I lost lost lost lost my appetite you know that.
+cgv	where're you going.
+kid	I'm going poop.
+cgv	oh do you have enough milk.
+kid	I don't want any more milk.
+cgv	okay.
+kid.	
+cgv	what.
+kid	I was just talking to me.
+cgv	what were you saying.
+kid	I was just talking to myself I wasn't saying anything.
+cgv	what are you going to do while I take a shower.
+kid	go out and play.
+cgv	oh.
+kid	Daddy do what you were going to do do what you were going to do.
+cgv	what.
+kid	look that's the right way if you're a cow+poke.
+cgv	oh I may be out of the shower before you go out.
+kid	huh.
+cgv	I may be out of the shower before you go out.
+kid	why don't you take a big shower.
+cgv	why.
+kid	I just was wondering a very long shower.
+cgv	how come.
+kid	because I'd like you to.
+cgv	why would you like me to.
+kid	because it's so boring I like it when it's so boring.
+cgv	you're crazy.
+kid	I could play in peace then.
+cgv	oh do I bother you.
+kid	yeah.

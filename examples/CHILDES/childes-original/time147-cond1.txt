@@ -1,0 +1,137 @@
+participant	content
+cgv	do you want to take his clothes off.
+kid	yeah and see if any more stuff's broke I fixed the bottom.
+cgv	did you.
+kid	uhhuh Daddy I think this broke again.
+cgv	yeah you have to take it apart before you can fix it see.
+kid	yeah I'll I'll put the other piece in if I can.
+cgv	okay.
+kid	let me.
+cgv	okay do you know what we need to get.
+kid	what.
+cgv	some tape do you know where your tape is.
+kid	no I don't know I know where your tape is.
+cgv	oh.
+kid	Dad can this be my tape.
+kid	can this be my tape from now on.
+cgv	why don't we just let it be everybody's tape.
+kid	okay it will be everybody else's in our family.
+cgv	yeah that's what I mean.
+kid	Dad can you put the clothes on.
+cgv	huh.
+kid	can you put the clothes on my man.
+kid	oh I lost part of it.
+cgv	it's not important what are you going to do with this guy.
+kid	play with him.
+cgv	what are you going to play.
+kid	army.
+cgv	do army guys do.
+kid	they fight.
+cgv	why.
+kid	they just fight if one guy says +"/..
+kid	+" hey do you want to fight.
+kid	and they just do if if the one who says +"/..
+kid	+" do you wan(t) (t)a fight.
+kid	wins you know what.
+kid	he might think +"/..
+kid	+" oh good I'm the gooderest@wp fighter in the world.
+cgv	is that important.
+cgv	what would happen if nobody fought.
+kid	huh.
+cgv	what would happen if nobody fought.
+kid	nobody winned@n.
+cgv	yeah.
+kid	if somebody winned@n do you mean.
+cgv	no what would happen if nobody fought.
+kid	then that would be good.
+cgv	right so why do you think army guys fight.
+kid	just if they have a war.
+cgv	what.
+kid	I'm not talking to you.
+cgv	who are you talking to.
+kid	I'm pretending these little guys are talking.
+cgv	oh here's your big guy.
+kid	okay (ex)cept I'm coming Dad can I bring his sleeves up.
+cgv	sure what are you going to do now.
+kid	I'm pretending these guys are having a fight.
+cgv	oh.
+kid	+" I caught you come on let's get him I caught you too.
+kid	nobody can get this guy this guy is really big.
+cgv	who.
+kid	this guy +"/..
+kid	+" hey you little army man I'm gon (t)a get you.
+kid.	
+cgv	what are you doing now.
+kid	having more army fights.
+cgv	oh.
+kid	the kangaroo's carrying the girl home oh boy hop hop the kangaroo lives in the castle hop hop the kangaroo is hopping here.
+cgv	what happened.
+kid	the road broke.
+cgv	how did it break.
+kid	I was trying to get it fixed and it broke +"/..
+kid	+" I'm going I'm going.
+kid	the army guys are going to close the road so nobody can enter captain America's going to rest the army men are hopping into their trucks look the army airplane is flying into a crash landing.
+cgv	what happened.
+kid	the army airplane was crash landing.
+cgv	wow.
+kid	do you know they're going to have a log of army men.
+kid	Captain America's gon (t)a rest no I mean he's going to stand up Dad could you make him stand up.
+cgv	let me see.
+kid	okay make him stand up right in that line okay.
+cgv	okay I don't think he can stand up.
+kid	he can too.
+cgv	where do you want him to stand.
+kid	I'll show you I think right here.
+cgv	okay I think we can manage that.
+kid	soon the army guys are gon (t)a close the road so nothing so nothing could go through it.
+cgv	who's going to close it.
+kid	the army men (be)cause it's their road if they don't want anybody to get in it they can close it they think that's funny if they close it and nobody can get in it after these two guys after these guys get in they're gon (t)a shut all the parts so nobody can get through he's shutting this part did you see that.
+cgv	uhhuh.
+kid	Daddy now look how much it gots@n see.
+cgv	uhhuh.
+kid	where do you think the other army man can be.
+cgv	I don't know.
+kid	a cowboy could be a army man no I don't need this I'm going to poop Daddy.
+cgv	huh.
+kid	save my army men.
+cgv	what.
+kid	save my army men.
+cgv	save them from what.
+kid	so they just don't get wrecked up.
+cgv	okay.
+kid	hey I'm gon (t)a draw off ["] so can you get some pieces of paper and put em on the floor.
+cgv	do you want to draw.
+kid	yeah.
+cgv	okay are you about done.
+kid	I am done.
+cgv	oh good.
+kid	anyway did you get me that stuff for me to write +"/..
+kid	+" off.
+cgv	what.
+kid	did you did you get the things for me to make +"/..
+kid	+" off.
+kid	off off did you do that.
+cgv	your paper's on the table.
+kid	I thought you said you would get the things to make off ["] and put em on the floor did you forget about it.
+cgv	it was already on the table so I left it there.
+kid	why.
+kid	you could you could have put it on the floor for me I asked you so you should have done it.
+cgv	I'll get it now.
+kid	do you know where his shield is.
+cgv	Captain America's shield.
+kid	yeah.
+cgv	no I don't know here's your stuff I don't see why you couldn't have got it where are you going to do it.
+kid	right right right where I am right here.
+cgv	okay.
+kid	I don't know why you got this pen the top's stuck on.
+cgv	I'll get it off.
+kid	okay off does o@l make yyy.
+cgv	o@l makes yyy or yyy.
+kid	o@l f@l f@l that makes off.
+cgv	uhhuh.
+kid	is this a good o@l.
+cgv	it sure is.
+kid	now I'm gon (t)a do it on the other side.
+cgv	why.
+kid	because that wasn't a good f@l.
+cgv	you can fix it you know.

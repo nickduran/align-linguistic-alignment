@@ -1,0 +1,224 @@
+participant	content
+cgv	tell me what happened today.
+kid	we went to the fair and looked at lots of stuff and I Mommy found arrowheads.
+cgv	what.
+kid	Mommy found arrowheads.
+cgv	she did.
+kid	yeah we didn't bring em home.
+cgv	where were they.
+kid	they were inside.
+cgv	at the fair.
+kid	uhhuh.
+cgv	what else did you do at the fair.
+kid	get lots of stuff.
+cgv	did you ride on the slide.
+kid	yeah (ex)cept we (ex)cept we rided on em with rugs.
+cgv	was that fun.
+kid	yeah.
+cgv	will you take me to the fair next week.
+kid	I hope so.
+cgv	I hope so too.
+kid	we need to bring my Momma.
+cgv	huh.
+kid	we need to bring my Momma.
+cgv	we'll all go together.
+kid	yeah (ex)cept who else.
+cgv	just me you and Mom do you know what we need to do tonight.
+kid	what.
+cgv	yesterday was Keith's birthday and we forgot to call him so should we call him tonight.
+kid	if it's if it's still his birthday.
+cgv	it's not still his birthday (be)cause his birthday was yesterday but we can call him and say +"/..
+cgv	+" we're sorry we forgot.
+cgv	right.
+kid	okay Mom I see Mom.
+cgv	Mommy's home good deal.
+cgv	did you tell Daddy we went to the fair.
+kid	we went to the fair Dad I was telling Dad about it.
+cgv	did you tell him about the forest ranger's look+out.
+kid	I got to go up and look out and look from a forest ranger's look+out tower.
+cgv	did you see any forest fires.
+kid	no.
+cgv	how tall was it.
+kid	look how tall in the picture.
+cgv	wow.
+cgv	did you tell Dad about the slide.
+cgv	he did and he told me you needed something special to slide on it.
+cgv	what was it.
+kid	rug Mommy went on with me.
+cgv	she did.
+kid	because Mommy didn't get two rugs we shared one rug you have to come on these next time.
+cgv	I want to.
+kid	I got surprises I'll show you surprise that was on my shirt.
+cgv	okay.
+kid	it's fun.
+cgv	is it.
+kid	yeah it's on my shirt still are you ready to get it.
+cgv	a button let me see what it says it says +"/..
+cgv	+" kiss Abe on the tummy.
+cgv	okay come here.
+kid	it doesn't say that.
+cgv	I'm just teasing.
+kid	look Dad look Daddy.
+cgv	wow what a neat hat.
+kid	where's my cowboy hat.
+kid	did you forgot to take it home Mom.
+cgv	no it's here.
+kid	oh look Dad I got one more cowboy hat.
+cgv	Mom look at this cowboy.
+cgv	I know.
+kid	didn't I didn't I sleep real late Mom.
+cgv	we both did we had a nice nap.
+kid	I slept later than you did.
+cgv	yeah but not much.
+kid	Mom we have to call Keith today right Dad.
+kid	it was Keith's birthday yesterday and we forgot to call Happy Birthday I'm gon (t)a call him and say +"/..
+kid	+" Happy Birthday Keith.
+cgv	come here and let me see that hat.
+kid	huh.
+cgv	I want to look at your new hat.
+kid	it's made out of paper it could rip easily.
+cgv	what would happen if it ripped.
+kid	then we would have to tape it it ripped already.
+cgv	it did.
+kid	yeah we already taped it.
+cgv	can I see if it fits me.
+kid	yeah.
+cgv	does it.
+kid	it need to go down it fits me too it needs to go like this and I got one engineer Mom where's my engineer.
+cgv	huh.
+kid	where's my engineer.
+cgv	I think it's on the table.
+kid	oh I like it to go like this because I want to see it better.
+cgv	let me see.
+kid	Daddy you're breaking that that could rip easily.
+cgv	I think it goes like this.
+kid	no how did you do that.
+cgv	do you like it like that.
+kid	no.
+cgv	where did you get all those hats.
+kid	I got two of em.
+cgv	where did you get em.
+kid	I'll show you what else I got for for a surprise.
+cgv	okay.
+kid	this (ex)cept Mommy was carrying it and look what it got.
+cgv	what.
+kid	ripped.
+cgv	how did that happen.
+kid	Mommy was carrying it Mommy can't you tape it.
+kid	could I get a pop+up from your house.
+kid	how come.
+kid	I could.
+kid	how come.
+cgv	Abe what else happened at the fair.
+kid	just too much I couldn't tell you I forgot.
+cgv	here's a surprise guess what it is.
+kid	candy.
+cgv	no.
+kid	a peanut I didn't want this I wanted something else.
+cgv	did you already eat you popsicle.
+kid	no I saved it for after dinner when John eated with us (ex)cept I forgot it can I eat it now.
+cgv	how (a)bout half.
+kid	yeah half.
+cgv	here you go.
+kid	thanks I got half of a popsicle and I got the other half too.
+cgv	tell Dad what you got to eat at the fair.
+kid	I got candy.
+cgv	candy.
+cgv	cotton candy.
+kid	I didn't eat it all because Momma throwed it away.
+cgv	she did.
+kid	yeah.
+cgv	well when I go to the fair you know what we can do.
+kid	you get one and I get one.
+cgv	right and we'll both eat it.
+kid	I don't want this throw it away.
+cgv	did you see any animals at the fair.
+kid	we saw lots of em (ex)cept we didn't see the horses.
+cgv	uhhuh we went and saw that horse show.
+kid	well we didn't see the other horse shows.
+cgv	in the stalls.
+kid	yeah.
+cgv	tell Dad about the horse show we saw.
+kid	did one fall down.
+cgv	they were jumping over the ramps.
+kid	and then one comed@n first and and and the one that was jumping made the poles fall down.
+cgv	did the horse get hurt.
+kid	no (be)cause the man on the microphone said he didn't.
+cgv	oh are you going to take me to see that show Abe.
+kid	yeah are we going to take Daddy to see that show.
+cgv	we can.
+kid	we saw a big ape (ex)cept it had sharp teeth.
+cgv	real sharp.
+cgv	like mine.
+kid	no.
+cgv	sharper than mine.
+kid	not sharper than yours they were just plastic sharp the rest of him was plastic.
+cgv	a plastic ape.
+kid	yeah he wasn't real.
+cgv	what would you have done if that ape would have said +"/..
+cgv	+" hi Abe.
+kid	I would say +"/..
+kid	+" hi dum+dum.
+cgv	what.
+kid	I would say +"/..
+kid	+" hi dum+dum.
+kid	if he was real.
+cgv	oh.
+kid	because I didn't want him to bite me.
+cgv	what else did you see.
+kid	pigs they were sleeping.
+cgv	how long did you stay at the fair.
+kid	I don't know how long (ex)cept I didn't just see the ape and horses I saw plastic horses you could ride on.
+cgv	plastic horses.
+kid	you could ride on.
+cgv	oh.
+kid	remember that ball we got tomorrow.
+cgv	what.
+kid	(re)member that ball we got when you played softball tomorrow.
+cgv	you mean yesterday.
+kid	yeah yesterday tomorrow.
+cgv	no just yesterday how come you and Mommy were so tired today.
+kid	because we got tired at the fair.
+cgv	tell Daddy about the bees.
+kid	there was a beehive and and the bee and the bee house (ex)cept the bee house was covered and you could see the bee house because because it wasn't covered from from a cover (ex)cept (ex)cept a bee house was inside (ex)cept (ex)cept the bees in the bee+house were the bees and the bee+house were inside inside some some glass and some wood (ex)cept they weren't smashed because the glass and the wood were inside and they put it together.
+cgv	you could see the bees (be)cause they were inside some glass.
+kid	yeah you could have sawed too (be)cause there weren't any covers.
+cgv	I could have seen em.
+kid	yeah.
+cgv	how come I didn't see em.
+kid	(be)cause you had to go to school.
+cgv	uhhuh.
+kid	look how red my lips are getting.
+cgv	they're really getting red alright.
+kid	can you read this now.
+cgv	where did you get this dinosaur book.
+kid	where the other where the rest of the books were.
+cgv	at the fair.
+kid	uhhuh.
+cgv	which part do you want me to read.
+kid	I'll show ya where the fire that wasn't real was.
+cgv	where the what.
+kid	where the fire was here.
+cgv	how come you don't think that was real.
+kid	it's in the pages.
+cgv	oh it's just a picture.
+kid	yeah do you wan(t) (t)a read it.
+kid	I showed you where the fire was that's what I want you to do read it.
+cgv	tell Daddy who was here when we got home from the fair.
+kid	that workman (ex)cept he was nice he was fixing our house he was fixing our house he was in the front room.
+cgv	do you want me to read you this part now.
+kid	yeah no I don't mean that part I mean the part that was on fire.
+cgv	this part.
+kid	yeah.
+cgv	how come the animals are running away from the fire.
+kid	because they don't want to get dead whoops Mom could I have this stick.
+cgv	yeah.
+kid	Daddy.
+cgv	uhhuh.
+kid	you should have killed a tyrannosaurus Rex if you were alive that time I saw a caveman when we got my dinasaurs dinosaurs] I saw a caveman and he could kill tyrannosaurus Rex.
+cgv	the caveman could.
+kid	yeah so so if you were alive and I was alive that time we should have killed tyrannosaurus Rex.
+cgv	do you think we could have.
+kid	yeah we would have sticked him into with our spears and and then he would have died.
+cgv	oh those would have to be pretty big spears.
+kid	yeah really big.

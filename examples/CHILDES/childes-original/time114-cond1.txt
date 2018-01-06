@@ -1,0 +1,228 @@
+participant	content
+cgv	huh.
+kid	don't spray on the couch that's where the toys are gon (t)a be.
+cgv	oh okay know what I want you to do.
+kid	what.
+cgv	go to the back door where are we going to go.
+kid	just gon (t)a go find eggs and bones.
+cgv	where.
+kid	I know where we're gon (t)a go.
+cgv	where.
+kid	(ex)cept I'm not sure yet I'm gon (t)a tell you after we get a map.
+cgv	okay.
+kid	I think I know now I think we're gon (t)a go far away I'm gon (t)a bring some string along too.
+cgv	hmm.
+kid	we're gon (t)a bring some string along too.
+cgv	we are.
+kid	we are yeah we are.
+cgv	okay are you ready.
+kid	nope we're not ready now we're gon (t)a bring lots of string along scientists bring lots of string along when they go somewhere to get things.
+cgv	oh.
+kid	this is what we're gon (t)a do with it.
+cgv	okay that's a good idea.
+kid	okay let's go now we forgot our scientist's hats.
+cgv	huh.
+kid	we forgot our scientist's hats you don't have a scientist hat.
+cgv	I don't are you ready.
+kid	uhhuh let's go on another walk and find some more fossils.
+cgv	huh.
+kid	let's go on another walk and find more fossils.
+cgv	let's go where.
+kid	let's go on another walk and find more fossils.
+cgv	I'm tired how (a)bout you.
+kid	yeah.
+cgv	do you want to sit here and rest for a minute.
+kid	are you gon (t)a sit.
+kid	I'm gon (t)a lay.
+cgv	okay.
+kid	how come you're not gon (t)a lay.
+kid	I'm gon (t)a lay.
+cgv	you lay I'll sit.
+kid	close your eyes.
+cgv	how come.
+kid	because you're going to sleep.
+cgv	no I'm not I'm just resting my body.
+kid	rest your eyes too.
+cgv	okay.
+kid	do you wan(t) (t)a go take a nap.
+kid	do you wan(t) (t)a go take a nap.
+cgv	no.
+kid	do you wan(t) (t)a go take a nap.
+cgv	no.
+kid	do you wan(t) (t)a go take a nap.
+cgv	Abe I already said I didn't.
+kid	okay go take one.
+cgv	I said no.
+kid	say yes.
+cgv	Abe.
+kid	I'm just being silly.
+cgv	I think you're ready for a nap +....
+kid	I am not get up.
+cgv	why should I get up.
+kid	because you said it.
+cgv	you know what.
+kid	what.
+kid	I think Mommy's home.
+cgv	go check.
+kid	okay you got a cavity.
+cgv	where.
+kid	right here on this tooth I can't open the door.
+cgv	here is she home.
+kid	no I wan(t) (t)a go on another dinosaur walk.
+cgv	maybe later on.
+kid	I wan(t) (t)a go in a short while okay.
+cgv	we'll see hey don't slam the door it makes such a loud noise.
+kid	you better close your eyes then you better close your eyes I said close your eyes.
+cgv	I guess I'm all done resting.
+kid	okay get up morning okay get up it's morning okay get up morning.
+cgv	I heard you Abe how come you have to repeat everything twenty times.
+kid	because I like it okay up morning okay get up it's morning.
+cgv	did you have fun on our dinosaur hunt.
+kid	yeah maybe we could do it again someday.
+cgv	we probably can.
+kid	it was really fun but I'm so tired I can't sleep very often.
+cgv	let's go upstairs you can take a nap then okay.
+kid	no I'm gon (t)a sleep on the couch.
+cgv	no let's go take a nap if you're tired are you tired.
+kid	I'm a little bit tired now.
+cgv	we should eat lunch soon don't you think.
+kid	yeah about that dinosaur hunt.
+cgv	what.
+kid	maybe about that dinosaur hunt.
+cgv	what about it.
+kid	(be)cause some people eat lunch about that dinosaur hunt what about it.
+cgv	what do you mean.
+kid	just because I mean like a fossil egg.
+cgv	you want to eat that fossil egg for lunch.
+kid	no people eat some fossil eggs because they're tasty Daddy get the toys that have been in this box out I want to put my new toys in.
+cgv	later what do you want for lunch.
+kid	what do I want for lunch.
+kid	I'm not sure yet.
+cgv	well I'm going to eat lunch.
+kid	(o)kay I think some cereal.
+cgv	some what.
+kid	some cereal I said some cereal.
+cgv	what kind of cereal.
+kid	did Mommy throw the wheat cereal away.
+kid	a whole box.
+cgv	do you want some shredded wheat.
+kid	yeah.
+cgv	I'll have some too.
+kid	I know what I want shredded wheat with blueberries and honey.
+cgv	we don't have any blueberries.
+kid	where are they.
+cgv	somebody ate em all.
+kid	did you.
+cgv	I ate some of them.
+kid	did I.
+cgv	you ate some of em too.
+kid	did Mommy.
+kid	did Mommy.
+cgv	Mommy ate some of em too.
+kid	then who ate em all.
+cgv	we all ate some and you put us all together then ea(c)h of us ate a little of them all what do you want on your cereal.
+kid	nothing or honey honey this kind of cereal Karen has this kind of cereal.
+cgv	uhhuh.
+kid	how come we have it too.
+cgv	because we like it too.
+kid	how (a)bout giving me a spoon.
+cgv	here.
+kid	tonight did you throw the trash away.
+cgv	what.
+kid	I said tonight did you throw the trash away.
+cgv	did I throw it away.
+kid	uhhuh.
+cgv	when.
+kid	tonight.
+cgv	last night.
+kid	tonight.
+cgv	tonight isn't here yet.
+kid	is this tomorrow.
+cgv	no.
+kid	is this today.
+cgv	yeah.
+kid	then last night did you throw the trash away.
+cgv	no.
+kid	then why didn't I see any wheat cereal in the trash.
+cgv	what.
+kid	I didn't see any wheat cereal in the trash.
+cgv	oh you looked for it.
+kid	uhhuh.
+cgv	maybe Mommy ate it.
+kid	here's a ax.
+cgv	I'm going to cut it with a knife I don't need to chop it.
+kid	how come you don't need to chop it.
+cgv	it's not that hard.
+kid	how come you're going to put some (ba)nana in yours.
+cgv	because I like it do you want some in yours.
+kid	no I don't want to eat it with a ax Dad how do you make wheat cereal.
+cgv	well you grow some wheat then you dry it and put it together into little bars.
+kid	(ex)cept this isn't little bars.
+cgv	huh.
+kid	this isn't little bars.
+cgv	it used to be how come you and Mommy got this cereal.
+kid	because we like it.
+cgv	oh when did you eat it.
+kid	today we did.
+cgv	oh but when before.
+cgv	how did you know that you'd like it.
+kid	because Karen has it.
+cgv	you ate some there.
+kid	yeah I want some milk wasn't that a silly thing.
+cgv	uhhuh.
+kid	I want some milk.
+cgv	can you wait just a second.
+kid	no my throat is so thirsty I can't eat any more cereal until I drink some milk so get me some milk.
+cgv	(o)kay here.
+kid	thanks how come you got me so many.
+cgv	huh.
+kid	how come how come you got me so many.
+cgv	so many what.
+kid	so many wheat cereal.
+cgv	I just thought you liked it can't you eat it all.
+kid	no I'll eat some more later okay.
+cgv	okay.
+kid	(ex)cept put it in the fridge.
+cgv	okay.
+kid	can we go on uh can we go dinosaur hunting tomorrow night.
+cgv	maybe what happened.
+kid	some got on my shirt.
+cgv	how.
+kid	I don't know I thought it didn't.
+cgv	what.
+kid	I thought it didn't.
+cgv	well it's okay it's just cereal.
+kid	of course how did you get the things for to hang that on the door.
+cgv	what.
+kid	how did you hang that on the door.
+cgv	they were already on there I just put em on.
+kid	and those little green things.
+kid	is that how it hanged on.
+cgv	yeah the little green things were real sticky and just stuck to the door.
+kid	oh I know a funny way to play darts.
+cgv	how.
+kid	you take a gun and get some darts and the darts go in the gun and you shoot em at the crows and the crows fall down.
+cgv	the crows what.
+kid	the crows fell down.
+cgv	fell down.
+kid	yeah like Robby and Mike they had that kind.
+cgv	would you like that kind of game.
+kid	yeah maybe do we have any money yet.
+cgv	no but I get paid tomorrow.
+kid	how much money.
+cgv	not enough but we'll have some.
+kid	I'll show you where I found it.
+cgv	found what.
+kid	the funny way to get some darts that game.
+cgv	where did you find it.
+kid	at K_Mart let's get it.
+cgv	can you be a scientist and a dart player at the same time.
+kid	yep.
+cgv	wow.
+kid	that's hard isn't it.
+cgv	it's pretty hard alright what are you doing.
+kid	I'm trying to get this stuck in the doorway.
+cgv	why.
+kid	the shoe's in the doorway I want this in the doorway instead.
+cgv	why.
+kid	because just because.

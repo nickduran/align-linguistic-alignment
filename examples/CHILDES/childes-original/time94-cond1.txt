@@ -1,0 +1,179 @@
+participant	content
+cgv	what would you like to drink Abe.
+cgv	milk.
+kid	how (a)bout water.
+cgv	okay.
+kid	I'm gon (t)a have this one.
+cgv	do you want cheese.
+kid	uhhuh.
+cgv	lettuce.
+kid	uhhuh over here Mommy what is that.
+cgv	just a piece of lettuce.
+kid	Mommy roll this up no I want Mommy to roll it up.
+cgv	would you like a little bit more meat.
+kid	no that's all the meat I want.
+cgv	how do they taste.
+kid	fine I want that spoon.
+cgv	okay.
+kid	use this fork instead of my spoon.
+cgv	okay.
+cgv	Abe how did you get that balloon.
+kid	from one of my teachers I got that from the balloon party (ex)cept there wasn't any cake there there was just there was just balloons.
+cgv	oh did anything else exciting happen at school.
+kid	yeah I got lots of stuff and I was starving I just had chocolate chip cookies and orange juice at school and I started to starve and then I came home Momma.
+cgv	huh.
+kid	I thought you were gon (t)a pick me up Pat took me to school and she picked me up.
+cgv	I know I took you and picked you up Friday so I asked Pat to take you and pick you up today that way we share the driving.
+kid	hawks could come to school and pick me up (ex)cept they're not at school they're just at camping.
+cgv	what would you do if a hawk came to school to pick you up.
+kid	laugh.
+cgv	what'd everybody else say.
+kid	I don't know.
+cgv	they'd say +"/..
+cgv	+" what is that.
+kid	and I would say +"/..
+kid	+" it's a hawk.
+kid	hey what is this.
+cgv	it's a onion.
+kid	can you eat one.
+cgv	I don't care to Daddy likes em though.
+kid	do you wan(t) (t)a eat it on your taco.
+cgv	sure thank you pardner partner].
+kid	Mommy hawk meat is different because hawk meat is red.
+cgv	what color is the taco meat.
+kid	brown.
+cgv	after it's cooked before we cook it it's red.
+kid	Mommy I just wan(t) (t)a put meat and lettuce and cheese and meat in in my taco and I don't wan(t) (t)a put this in my tacos.
+cgv	what are those.
+kid	tomatoes.
+cgv	remember when we grew tomatoes in our garden Abe.
+kid	yeah before it snowed we did.
+cgv	uhhuh last Summer did you ever eat any of them.
+kid	I eated one bite of tomato.
+cgv	they were good weren't they.
+kid	I said +"/..
+kid	+" yuck.
+cgv	I thought they were good.
+kid	hawks like to eat tomatoes.
+cgv	am I a hawk.
+kid	no I want another taco put it back I'm gon (t)a pick it up Mom.
+cgv	what.
+kid	this is right I wanted a taco with holes.
+cgv	good I'm glad it all worked out okay.
+kid	I'm gon (t)a get some cheese first Daddy did you taste your your onion.
+kid	I thought you tasted your your part of your onion.
+cgv	I did it was pretty good.
+cgv	here's your big spoon.
+kid	no I don't want it I wanted that fork I wanted to use that fork.
+cgv	here.
+kid	now roll it up again.
+cgv	okay.
+kid	whoops some fell out Daddy did you taste part of your onion.
+cgv	I sure did I like onions.
+kid	hawks like to eat whole onions.
+cgv	they must have bad breath.
+kid	they have good breath.
+cgv	oh.
+kid	hawks could roll their tacos up all by themself themselves] [*] (ex)cept if you get a hawk tacos they just roll it up and they eat the whole taco all up.
+kid	Dad do you want this onion now.
+kid	you could have this onion.
+cgv	thank you.
+kid	this is good (ex)cept I want you to eat the tomatoes all up we need to start planting tomatoes.
+cgv	that's right.
+kid	Daddy.
+kid	it's really neat after you eat your taco I will show you.
+cgv	what.
+kid	okay I'll show you now.
+cgv	what.
+cgv	what is it.
+kid	right here all the seeds are sprouting.
+cgv	oh how nice wow.
+kid	hey are these tomatoes.
+cgv	no that's part of a red pepper.
+cgv	Abe why does that balloon float in the air.
+kid	because they have helium.
+cgv	why does helium float.
+kid	it don't float.
+cgv	what's the difference between helium and the plain air you blow in a balloon.
+kid	you just blow with plain air know what happened.
+kid	this got tied on here.
+cgv	who tied it.
+kid	a teacher.
+cgv	why did she tie it to your wrist.
+kid	just a second I can't talk now my mouth is full Mom because the teacher tied it on they because they don't want it to blow away.
+cgv	oh.
+kid	hey I found something a toy a toy was in the car when we goed@n to the store.
+cgv	that's right.
+kid	balloon come back balloon come back balloon come back balloon come back I better get it Mommy watch this Mommy watch this.
+cgv	hey that was pretty fast.
+kid	hey what is this.
+cgv	I don't know did you find the outside.
+kid	no it makes a lot of noise so it must be a little noise+maker.
+cgv	Abe if I filled you up with helium would you float away.
+kid	yeah (ex)cept don't fill me up with helium I'm not a balloon.
+cgv	I won't.
+kid	Mommy where's the thing that was on here.
+kid	here it is.
+cgv	did you tell Daddy we walked down to Amara's house this morning.
+kid	we drived down to Amara's house.
+cgv	Abe drove his truck down.
+kid	and we parked in back of her house and we saw a baby.
+cgv	oh.
+kid	Mommy don't you think we could play we could go on a bear hunt.
+cgv	good idea when we go camping we'll look for some bears.
+kid	no no we could go on a bear hunt now it's just pretend we did that at school once.
+cgv	you did.
+kid	yeah.
+cgv	did you find any bears.
+kid	no we just pretended you could play that and I could too Mom what would happen if I taked this balloon.
+cgv	if you took it.
+cgv	where are you going to take it.
+kid	nowhere.
+cgv	then nothing will happen.
+kid	you dummy balloon Mommy my balloon goed@n up now it comed@n down.
+cgv	okay see if you can reach it now.
+kid	this is gon (t)a be really neat I could stand on this and get it.
+cgv	yeah that's one way.
+kid	I can't reach it this is gon (t)a be pretty hard this one is gon (t)a be really fun whoops I slipped.
+cgv	are you ready to go camping.
+kid	when the sun comes back up.
+cgv	not in the morning we'll probably go in the afternoon okay.
+kid	okay Daddy now you jump and get it.
+cgv	okay now you see if you can touch it.
+kid	I need something I could touch it with my hammer.
+cgv	let's see whoops.
+kid	come back balloon come back.
+cgv	it's stuck on the ceiling.
+kid	here's one way that you could get it down.
+cgv	what.
+kid	put it up really high okay.
+cgv	okay.
+kid	I think you could reach it I really need someone to help me.
+cgv	no just scoot the chair over I think that would do it.
+kid	I'm gon (t)a throw it up in the air.
+cgv	okay.
+kid	take me down balloon my balloon hit me you dummy balloon don't hit me now get it up really high.
+cgv	just let it go.
+kid	okay I can't reach it.
+cgv	wish me luck.
+kid	where are you gon (t)a go.
+cgv	to class I have to take a test.
+kid	I got my balloon Mommy I almost got my balloon down I almost got my balloon down.
+cgv	hey that looks pretty dangerous to me.
+cgv	yeah go ahead and put your highchair back.
+kid	where is my highchair.
+cgv	right here.
+kid	put it back where it goes my balloon my balloon I'm thirsty I'm thirsty Dad.
+cgv	what do you want.
+kid	orange juice and milk first milk and then orange juice.
+cgv	okay I'll get you some milk now.
+kid	get my orange juice last and my milk first.
+cgv	okay here's your milk.
+kid	I'm swimming see.
+cgv	goodbye Mom.
+kid	goodbye and have a good time.
+kid	let's play baseball.
+cgv	what.
+kid	let's play with your baseball.
+cgv	do you want to.
+kid	yeah.

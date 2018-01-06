@@ -1,0 +1,354 @@
+participant	content
+kid	thank you that's a pen yeah.
+cgv	what are you doing.
+kid	I'm scribbling you hang this on the wall for me.
+cgv	okay I will as soon as I'm done here hey.
+cgv	don't write on the desk.
+kid	you find the top I can't find it.
+cgv	it's right over there.
+kid	I want something to eat.
+cgv	what do you want.
+kid	I wan(t) (t)a eat.
+cgv	you wan(t) (t)a eat.
+kid	yeah.
+cgv	you don't wan(t) (t)a wait until lunch time.
+kid	no.
+cgv	what do you want to eat.
+kid	I want a sandwich.
+cgv	I thought you wanted yogurt.
+kid	I want a sandwich now.
+cgv	oh you want a sandwich now and yogurt when I get it.
+kid	yeah.
+cgv	okay this is all of our bread.
+kid	huh.
+cgv	this is all of our bread.
+cgv	that bath+room light's on.
+cgv	I know I'm going +....
+kid	what's on today.
+kid	what's on today.
+cgv	Abe Daddy said that the bath+room light's on do you want apple butter.
+kid	yeah apple butter is this yours Ann.
+kid	is this yours Ann.
+kid	is this yours.
+cgv	uhhuh did you leave the cap off when you used it last.
+kid	no I didn't use it last.
+cgv	here you go Abe.
+kid	thank you I need some milk.
+cgv	okay.
+kid	I don't want this apple butter outside.
+cgv	lick it off then it tastes the same outside as it does inside.
+kid	I wan(t) (t)a put my apple butter somewhere else okay.
+cgv	huh.
+kid	I wan(t) (t)a put my apple butter somewhere else.
+cgv	okay.
+kid	why I can't why some kids are playing outside.
+cgv	we can go out and play now if you want to when you finish your sandwich.
+kid	no.
+cgv	I don't think it's very cold outside.
+kid	you go feel it.
+cgv	let me go brush my teeth and get my glasses.
+cgv	do you like that sandwich.
+kid	uhhuh.
+cgv	huh.
+kid	huh.
+cgv	huh.
+kid	I didn't said anything.
+cgv	you didn't.
+kid	hunhunh.
+cgv	how come.
+kid	because.
+cgv	what happened.
+kid	I didn't said anything nothing did happen.
+cgv	nothing happened.
+kid	hunhunh.
+cgv	I'm so happy Jean found our stuff.
+kid	you have ta make one now it's Christmas.
+cgv	I have to do what.
+kid	you have to make a stocking now it's Christmas.
+cgv	I have to make a stocking for me now that it's Christmas time.
+kid	yeah what what you what's that.
+cgv	it's our pinecone wreath.
+kid	how come.
+cgv	remember.
+cgv	last year we went and found all of these pinecones.
+kid	uhhuh.
+cgv	and then came home and stuck them on here.
+kid	uhhuh last Christmas are those my cards.
+cgv	we can look at them together what's this.
+kid	a fire Santa Claus.
+cgv	uhhuh I'm looking to see who sent us cards last Christmas.
+kid	I hope Sherri did I hope Sherri did last Christmas.
+cgv	you hope Sherri did what.
+kid	get those cards for us last Christmas.
+cgv	no her Mommy found them in the storage chest.
+kid	why her found them in the storage chest.
+cgv	because remember when Terry came.
+cgv	they got knocked over are you happy now that you're eating.
+kid	yeah.
+cgv	I don't know what to do about that macrame cord.
+kid	what.
+kid	where.
+cgv	I need to go get some but I can't if it's not there but if it is there I need to go before it's all sold out again.
+kid	is that mine.
+cgv	it sure is Ann made it for you last year.
+kid	how come.
+cgv	for your birthday do you want me to put Santa Claus on here.
+cgv	this.
+cgv	the key to the mailbox.
+kid	oh do you have lot of keys.
+cgv	uhhuh.
+kid	how come.
+cgv	a key to the car to the house to +....
+kid	how come.
+kid	I said.
+cgv	we need keys to lock ourselves in and other people out.
+kid	and other people out lock ourselfs ourselves] in and other people out.
+cgv	uhhuh.
+kid	is those mine.
+kid	is that mine.
+cgv	it was on our door I don't know where it is.
+kid	is that mine Daddy.
+cgv	you can look at it.
+kid	what's in it.
+cgv	a newspaper.
+kid	I don't wan(t) (t)a look at a newspaper.
+cgv	you don't.
+kid	something on Friday night.
+cgv	uhhuh.
+kid	what's on Friday night.
+cgv	today's Saturday.
+kid	what's on Friday night.
+cgv	next Friday.
+kid	yeah.
+cgv	maybe a cartoon.
+kid	a cartoon's on Friday night.
+cgv	yeah.
+cgv	I hope daddy's right.
+kid	the mailman got me something.
+cgv	no he just brought a bill for Mom and Dad.
+kid	how come.
+kid	I want something I want something.
+cgv	this is for you.
+kid	no I don't want it I don't want it I want something for me.
+cgv	here you can have this I don't think Daddy wants it.
+kid	I don't want that.
+cgv	well beggars can't be choosers Abe.
+kid	I want something.
+cgv	well there it is on the table if you want it.
+kid	I don't want that I want some thing else.
+cgv	would you like to go to the co_op.
+kid	not now after lunch you can go after lunch you can go after lunch you can go to the co_op after lunch you can go to the co_op.
+cgv	I thought you wanted yogurt for lunch.
+kid	uhhuh.
+cgv	well I have to go to the co_op to get it and I thought you might want to come with me so you can pick it out.
+kid	I want to can I eat my sandwich first.
+cgv	sure go ahead and finish it.
+kid	no I will eat the rest when we come home from the co_op.
+cgv	okay let's get ready to go.
+kid	why those are in there.
+cgv	oh I didn't know they were there do you want em.
+cgv	what are they.
+kid	in here.
+cgv	oh little puzzles.
+kid	can you get em out.
+cgv	you can get em out.
+kid	okay I wan(t) (t)a get a box with nothing in it I wan(t) (t)a get a box with nothing in it.
+cgv	at the co_op.
+kid	uhhuh.
+cgv	okay.
+cgv	Abe there's your coat.
+kid	I wan(t) (t)a I wan(t) (t)a take these.
+cgv	okay.
+cgv	do you think you might lose them.
+kid	hunhunh I think I'm gon (t)a take them home.
+cgv	okay.
+kid	what you what you find.
+cgv	nothing this is a piece of trash.
+kid	I guess I'm gon (t)a leave these here I guess I'm gon (t)a leave these here when we get back from the co_op.
+cgv	you are going to leave them home.
+kid	uhhuh you want your you want to get your mittens.
+cgv	no I don't think I need them.
+kid	how come.
+kid	how come.
+cgv	it's not very cold out here.
+cgv	what else did you get.
+kid	blueberry yogurt.
+cgv	wow.
+kid	that's that's uh blueberry yogurt is for me and this is for me and the big things are for me.
+cgv	wow.
+cgv	Mom got some surprises too.
+kid	yeah big ones what are those big ones.
+cgv	those are grapefruit.
+kid	can I eat some.
+cgv	yeah.
+kid	I wan(t) (t)a eat these first.
+cgv	do you want me to cut it.
+kid	yeah.
+cgv	do you know that today is the first of December, Abe.
+kid	is my birthday coming.
+cgv	pretty soon in about two weeks to be exact.
+kid	how come.
+cgv	because it's the first today and your birthday is on the fifteenth so it's two weeks from today here is this okay.
+kid	I guess so.
+cgv	it sure is juicy you can drink the juice out of the bowl.
+kid	I don't want to.
+cgv	okay it was just an idea.
+kid	what is that.
+cgv	what.
+cgv	the pomegranate.
+kid	no this.
+cgv	that's just a piece of skin you can put it right here.
+kid	what's Mary.
+kid	what's Mary.
+cgv	Mary is the lady who had Jesus for a baby.
+cgv	Abe you know what.
+kid	uhhuh.
+cgv	what.
+kid	did you get me a surprise.
+cgv	I didn't go anywhere I stayed at home.
+kid	where you what you do.
+kid	what you do.
+cgv	I just worked while you were shopping.
+kid	in seven months is uh be my birth day.
+cgv	in seven months.
+kid	yeah.
+cgv	I think that fourteen days is more like it.
+kid	after after my pomegranate can I have grapefruit.
+cgv	you want a grapefruit.
+kid	yeah after pomegranate I can huh.
+cgv	sure if you want one.
+kid	I think it is good for me I think it's good for me.
+cgv	yeah grapefruit is good for you.
+kid	I like it I don't like it I don't like it when I was I didn't like it when I was a baby.
+cgv	but you like it now.
+kid	uhhuh.
+cgv	that's nice to know.
+kid	that's nice when you have grapefruit here right.
+cgv	right.
+kid	Daddy will be happy when the uh when he eats it.
+cgv	he sure will be.
+cgv	I already am happy just thinking about it.
+kid	you wan(t) (t)a taste pomegranates.
+cgv	yeah I'll come eat some.
+kid	do you want this one.
+cgv	can't I have more than one.
+kid	uhhuh here.
+cgv	mm: thank you.
+kid	do animals like pomegranates.
+cgv	I'm sure they do.
+kid	huh.
+cgv	I'm sure that they would like them.
+kid	some pomegranates are spicy.
+cgv	gosh this is really juicy.
+kid	how come.
+cgv	because it must be just right you chose a perfect pomegranate.
+kid	I want a juicy one.
+cgv	Abe be careful.
+kid	I beed careful they didn't spilled.
+cgv	okay I just thought I'd warn you.
+kid	hey what what's going on in there.
+cgv	Mommy and Daddy are +/..
+cgv	we're having a discussion.
+kid	you have a fight.
+cgv	what.
+kid	you have a fight.
+cgv	we're just playing.
+kid	what goed@n on in there.
+cgv	Daddy was trying to wrestle.
+kid	how come.
+cgv	that's just Daddy.
+kid	and me also.
+cgv	he likes to wrestle with you too doesn't he.
+kid	huh.
+cgv	Daddy likes to wrestle with you too doesn't he.
+kid	yeah.
+cgv	I wan(t) (t)a wrestle with you too.
+kid	don't wrestle with me now.
+cgv	how come.
+kid	I'm eating.
+cgv	what are you eating.
+kid	I'm eating pomegranates see.
+kid	you wan(t) (t)a eat one.
+cgv	okay just one.
+kid	how come.
+cgv	because I'm not hungry okay.
+kid	can you broke these.
+cgv	there I got some more out.
+kid	what you doing.
+cgv	I'm getting them out for you so that you can eat em easier is that alright.
+kid	yeah I guess really be nice you get em out.
+cgv	what do you guess.
+kid	I guess I'm they taste how long how long I'm uh eat em all up.
+cgv	you can eat em until you're full I guess then you can have yogurt or grapefruit if you want.
+kid	grapefruit untie my shoe.
+cgv	it's already untied do you want me to tie it.
+kid	yeah tie it what's tied.
+kid	what's tied.
+cgv	tied.
+kid	yeah tied what's tied.
+kid	Todd is one my friends at school.
+cgv	you think his name is tied.
+kid	uhhuh.
+cgv	I think it's Todd.
+kid	Todd why Todd is a boy.
+cgv	because when he was born he wasn't a girl.
+kid	how long you were born Dad.
+cgv	huh.
+kid	how long you were born.
+cgv	how long ago was I born.
+kid	uhhuh.
+cgv	I was born +/..
+cgv	before dinosaurs existed he's an old man.
+cgv	shit I was born in nineteen fifty.
+kid	what what happened when you were born.
+cgv	it shocked the world a dinosaur was recreated.
+kid	what what what what you what happened when you were borned@n.
+cgv	there was holy day throughout the land.
+kid	uhhuh.
+cgv	what happened when you were born.
+kid	nothing.
+cgv	oh yes sir Daddy was so happy.
+cgv	I was really happy too Abe.
+kid	how come.
+cgv	because we were waiting for you to be born and you were born and we all said +"/..
+cgv	+" Hurrah.
+kid	I'm through right now.
+cgv	okay I'll put the rest in the fridge I'm glad that you like pomegranates.
+kid	yeah wash off my hands look at them.
+cgv	wow I've never seen red hands like that.
+kid	why I have red hands.
+cgv	because pomegranate juice is red right.
+kid	uhhuh can I have grapefruit right now.
+cgv	if you want it.
+kid	I like grapefruit do you like grapefruit.
+cgv	uhhuh before you were born Mom and Daddy used to eat twenty pounds of grapefruit a week.
+kid	before I was born I used to like mushrooms when they were by by themselfs themselves].
+cgv	oh you used to like mushrooms.
+kid	uhhuh I like em now and and I liked em when I was born too.
+cgv	oh.
+kid	Mommy.
+kid	your typing is too loud.
+cgv	it is.
+kid	your typing is making me mad don't type any more.
+cgv	I have to do you like mushrooms on pizza.
+cgv	yeah.
+kid	do you.
+cgv	yeah do you.
+kid	I do too do you Mommy.
+cgv	yeah they're fine.
+kid	do you like em in in in pizza.
+cgv	uhhuh.
+kid	why you cutting the juice out.
+cgv	I'm not I'm just cutting it so the fruit will come out easier and some of the juice is leaking out.
+kid	I want yogurt with with my grapefruit.
+cgv	well eat your grapefruit first and I'll get you some yogurt when you're through.
+kid	what are those.
+cgv	the grapefruit here's how you do it here is it sour Abe.
+kid	I'll eat the rest of it later.
+cgv	you don't want the rest.
+kid	hunhunh.
+cgv	would you like to watch Sesame Street.
+kid	yeah.
+cgv	okay I'll turn it on.
+kid	I wan(t) (t)a move to this side so I can see the tv better.
+cgv	okay I'll sit over here.

@@ -1,0 +1,204 @@
+participant	content
+cgv	the basket fell down.
+kid	yeah and Andy and Danny were crying.
+cgv	did they get hurt.
+kid	yeah a lady had a little dog (ex)cept know what.
+cgv	what.
+kid	she said the doggy's sorry for that accident.
+cgv	she thought the dog was sorry.
+kid	yeah (ex)cept know what.
+cgv	what.
+kid	we went to the store and I got monster vitamins.
+cgv	did you eat one.
+kid	yeah in the car.
+cgv	you know what.
+kid	what.
+cgv	you're starting to look like a monster did anything else happen at the store.
+kid	yeah.
+cgv	what.
+kid	I don't know.
+cgv	what would have happened if Danny and Andy would have got their heads cut when the basket fell.
+kid	then we then we would take em to the hospital.
+cgv	you would have had to take em to the hospital.
+kid	yeah.
+cgv	what would have happened there.
+kid	they would get fixed know what.
+kid	that lady with a dog got us money (ex)cept Mommy spended three of my monies@c.
+cgv	you spent it.
+cgv	what did you get.
+kid	candy+bars.
+cgv	can I have a bite.
+kid	I already ate it.
+cgv	oh Abe I'm so hungry for a candy+bar.
+kid	I got two of em in my back pack.
+cgv	two candy+bars.
+kid	yeah.
+cgv	you can save them for later if you want to.
+kid	I don't wan(t) (t)a I'll get one to you oh it already melted could I have it.
+cgv	sure.
+kid	can I eat it all.
+cgv	yeah what kind was it.
+kid	it was a candy+bar.
+cgv	what's that that's sticking in it.
+kid	that's another piece.
+cgv	oh here's your bag.
+kid	I don't want it.
+cgv	are you going to eat it all now.
+kid	uhhuh.
+cgv	did you go to the park today.
+kid	I didn't go to the big park.
+cgv	where did you go.
+cgv	I thought it was a pretty big park.
+kid	it wasn't a big park that gots@n two big sandboxes.
+cgv	what park was it then.
+kid	it was next to your school.
+cgv	it was close to my school.
+kid	yeah.
+cgv	what was there.
+kid	a lot of stuff we taked a picnic lunch could I put it all in my mouth.
+cgv	if you think it'll fit.
+cgv	are you enjoying that candy+bar.
+kid	uhhuh.
+cgv	I thought so.
+cgv	do you remember when Grandpa and Grandma were here.
+kid	yeah.
+cgv	what do you remember about em.
+kid	I love em.
+cgv	why is the house so dirty.
+kid	because lots of kids been here.
+cgv	why.
+kid	because lots of kids been here.
+cgv	I'm sorry I didn't hear you.
+kid	there's been lots of kids here.
+cgv	and the kids made the house dirty.
+kid	yeah.
+cgv	Abe where do you want to go exploring tonight.
+kid	we might go everywhere.
+cgv	like where.
+kid	like to find arrowheads.
+cgv	where would we look around here.
+kid	remember where the dirt is.
+kid	that's where.
+cgv	oh did you tell Daddy about you and Sammy jumping off all of the benches at the park.
+kid	what were we jumping off.
+kid	what were we jumping off.
+cgv	grandstand seats.
+kid	yeah we climbed through that little gate and know how we got out.
+kid	we saw a open door and we got out it.
+cgv	wow.
+kid	that was a baseball park.
+cgv	it sure was.
+kid	Dad I'll share this with you.
+cgv	you will.
+kid	yeah know why.
+kid	you wouldn't have to use your flashlight if I share this one so we could take your flashlight camping and we can use it (be)cause it's a big one.
+cgv	Abe that's a really good idea.
+cgv	Abe do you want to babysit for Danny and Andy next week.
+kid	yes.
+cgv	you do.
+kid	yes.
+cgv	how come.
+kid	just because.
+cgv	I know but why.
+kid	because I love those they're my friends I'm gon (t)a spank you.
+cgv	did you tell Daddy what you want Andy to give you for your birthday.
+kid	a wheelbarrow.
+cgv	what are you going to do with a wheelbarrow.
+kid	get dirt and put it in.
+cgv	where are going to take the dirt.
+kid	where do the workmen take the dirt.
+cgv	to dirt piles.
+kid	that's where.
+cgv	where's the paper.
+kid	no paper arrived yet.
+cgv	what.
+kid	no paper arrived yet.
+cgv	it hasn't arrived yet.
+kid	yeah.
+cgv	oh.
+cgv	Abe how long has it been since you went to the dentist.
+kid	twelve months old.
+cgv	that didn't make very much sense.
+kid	what is that.
+cgv	when that jar fell down a piece of glass hit me in the foot.
+kid	could I touch it.
+kid	could I touch it.
+cgv	yeah if you'd like to.
+kid	I like to.
+cgv	Abe could you make Mommy's wound better.
+kid	it's already better.
+cgv	what makes you think it's better.
+kid	because I feeled it and it wasn't bleeding get up Mommy get up I bounced on you Dad did that teach you a lesson.
+kid	did that teach you a lesson.
+kid	did that.
+kid	did it.
+cgv	yeah it did now I'm going to teach you a lesson.
+kid	I'm gon (t)a teach you a lesson.
+cgv	hey don't pull my hair hey tell Mom what we want from the co_op.
+kid	we want milk.
+cgv	why do we want milk.
+kid	because we don't have any.
+cgv	what would happen if Mommy didn't get any milk.
+kid	then we wouldn't have any.
+cgv	I know but what would we drink.
+kid	we would drink water you silly.
+cgv	oh.
+kid	but I want milk instead.
+cgv	hey do you want me to tie you up and you can try to escape.
+kid	yeah.
+cgv	(o)kay try to get out.
+kid	(o)kay I'm trying but I can't.
+cgv	you should try to take the rope off before you try to walk.
+kid	I could walk good like this.
+cgv	you could walk better if you take the rope off.
+kid	don't watch me don't watch me.
+cgv	(o)kay I won't.
+kid	don't look I almost lassoed you.
+cgv	you almost did.
+kid	let's go.
+cgv	where are we going.
+kid	this is where that's where.
+cgv	why did you hit me.
+kid	because I was gon (t)a show you where we're gon (t)a go.
+cgv	we're going to go where you hit me.
+kid	yeah.
+cgv	what should we take on the airplane with us.
+kid	lots of stuff.
+cgv	lots.
+kid	yeah.
+cgv	we can't take lots.
+kid	we could take you and we play with you and we will play with you what do you want for your birthday.
+cgv	what.
+kid	what do you want for your birthday.
+cgv	what are you thinking about getting me.
+kid	I think we'll get you a suitcase.
+cgv	a suitcase.
+kid	yeah.
+cgv	what for.
+kid	because you need one.
+cgv	who said.
+kid	I said.
+cgv	I have to go now.
+kid	I wan(t) (t)a get a kiss and a hug.
+cgv	(o)kay I'm waiting.
+kid	I'm a bat.
+cgv	you're a flying bat.
+kid	yeah.
+cgv	are you ready for bed.
+kid	no I'm not tired this is a funny rope.
+cgv	it sure is I think you must have gotten up real early this morning huh.
+kid	no I didn't.
+cgv	you did too I remember.
+kid	you remember.
+cgv	yeah what else did you do today.
+kid	nothing (ex)cept go to the park and then go home.
+cgv	you went to the park and then you came home.
+kid	yes and that's it (ex)cept Andy was crying so we put him to bed (ex)cept know what.
+kid	then I fell down hey Daddy could I type.
+cgv	what are you going to type.
+kid	paper.
+cgv	you're going to type a paper.
+kid	yeah what does this say.
+kid	what does this say.
+cgv	that says h@l six f@l d@l d@l x@l x@l.
+kid	can I type like this.

@@ -1,0 +1,88 @@
+participant	content
+cgv	what.
+kid	leave me alone.
+cgv	leave who alone.
+kid	leave me alone go away.
+cgv	you go away.
+kid	you go away.
+cgv	okay let's eat come and eat.
+cgv	Abe.
+cgv	Abe you better come eat.
+kid	I got a funny one too.
+cgv	okay come eat or no snacks later on.
+kid	this is a seed.
+cgv	uhhuh come eat.
+kid	here.
+cgv	thank you come sit at the table and eat okay.
+kid	water.
+cgv	here's your milk.
+cgv	don't put your glass up there it'll fall okay.
+kid	shut up here.
+cgv	thank you.
+kid	one for me one for my Mommy sun comes up.
+cgv	the sun comes up.
+cgv	when.
+kid	in the sky.
+cgv	the sun comes up in the sky.
+cgv	that's right.
+kid	Mommy look I want to stand up.
+cgv	go ahead and sit down and eat.
+kid	tee+tee Mommy tee+tee cracker.
+cgv	go tee+tee hurry up and get in there.
+cgv	do you want Mom or Dad to come.
+kid	I want my Dad come with me Stan tee+tee with me.
+cgv	okay let's go tee+tee.
+kid	in the pottie I poo+poo in the pottie see.
+cgv	okay.
+kid	nobody can eat our dinner but ourselves.
+cgv	what.
+kid	nobody can eat our dinner.
+cgv	nobody can eat our dinner.
+cgv	we can eat it let's eat okay.
+kid	cracker Jean is home.
+cgv	Jean's home.
+cgv	how do you know.
+kid	eat eat eat eat.
+cgv	we are eating you eat too okay.
+kid	good.
+cgv	it's good broth isn't it.
+kid	uhhuh Mommy's dinner no crackers for you no crackers for you see see you Ma see.
+cgv	I see go ahead and eat you soup okay.
+kid	that one here hey you guy.
+cgv	what do you mean +"/..
+cgv	+" hey you guy.
+cgv	huh.
+cgv	do you want more soup.
+kid	nope you get it you eat it you get in bed.
+cgv	what for.
+kid	mine.
+kid	I want mine.
+cgv	ask Mom for one.
+cgv	here Abe do you want this.
+kid	what's this.
+cgv	it's part of a muffin.
+kid	oh I want butter mine.
+cgv	okay give it here and I'll put butter on it.
+kid	I need butter on it I eat it my butter off I eat it my butter off.
+cgv	you ate all the butter go ahead and eat the muffin now okay.
+kid	you go away Dad you go away.
+cgv	I'm not gon (t)a go away.
+kid	you go away I can't go away.
+cgv	I know you can't go away I'm not going away and you can't go away.
+kid	look Stan.
+cgv	I see sit down and I'll push you closer to the table.
+kid	no outside outside go outside.
+cgv	go ahead and go outside and play don't go very far okay.
+kid	later I poopooed in the pottie.
+cgv	you did.
+kid	uhhuh.
+cgv	that's great.
+kid	I made you happy.
+cgv	you sure did I really like it when you poo+poo in the pottie.
+kid	push me please.
+kid	please please please him him him him him him push me pizza Mommy pizza.
+cgv	you want to eat pizza.
+kid	uhhuh.
+cgv	maybe tomorrow but not tonight.
+kid	goodbye guys.
+cgv	goodbye guys.

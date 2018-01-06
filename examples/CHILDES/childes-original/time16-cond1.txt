@@ -1,0 +1,90 @@
+participant	content
+kid	don't know.
+cgv	okay here it is.
+cgv	what is it Abe.
+kid	my present this present is mine.
+cgv	did you tell Daddy thank you.
+kid	thank you.
+cgv	you're welcome do you like the puzzle.
+kid	uhhuh Humpty Dumpty.
+cgv	uhhuh let's say the rhyme.
+kid	wan(t) (t)a cow.
+cgv	okay let's say Hey Diddle Diddle.
+kid	this go here.
+cgv	does that look like the right one.
+kid	uhhuh.
+cgv	go ahead and try it.
+kid	it doesn't fit.
+cgv	it must be the wrong one huh.
+kid	uhhuh this one worked.
+cgv	uhhuh that was the right one where does this one go.
+kid	I don't know.
+cgv	look and see if you can find the right hole.
+kid	I find it and I put it in.
+cgv	uhhuh try this one.
+kid	Little Miss Muffet.
+cgv	uhhuh who is this.
+kid	this is Jack and Jill.
+kid	I put it in.
+cgv	Dad Abe worked the puzzle all by himself.
+cgv	that's good why don't you do it again.
+kid	this is Jack and Jill too.
+cgv	uhhuh can you find where it's supposed to go.
+kid	uhhuh Mommy where that those go.
+cgv	okay you have to turn them over and +/..
+kid	look at the story see if you can match up the story with the pictures on here.
+cgv	who is this.
+kid	I don't know.
+cgv	who is it.
+kid	Hey Diddle Diddle.
+cgv	uhhuh where do they go.
+kid	up there.
+cgv	uhhuh.
+kid	he's funny.
+cgv	uhhuh the dog's funny.
+kid	where this goes.
+cgv	who is it.
+kid	Humpty Dumpty.
+cgv	what happened to Humpty Dumpty.
+kid	fall down the wall.
+cgv	then what happened.
+kid	that's not Jack and Jill.
+cgv	uhhuh who is that.
+kid	I don't know.
+cgv	does it look like Little Miss Muffet.
+kid	uhhuh Daddy thank you for doing dishes.
+cgv	that's right Abe thank you Dad.
+cgv	thank you and you're both welcome.
+kid	that was pretty nice.
+cgv	well thank you Abe you're pretty nice too who's that.
+kid	that's not Jack and Jill.
+cgv	who is it.
+kid	I don't know Momma where's my calendar.
+kid	Momma where's my calendar.
+cgv	right over here.
+kid	I wan(t) (t)a color it and give it to Daddy.
+cgv	that would really be nice.
+cgv	do you have a pen.
+cgv	uhhuh.
+cgv	let me see it okay.
+cgv	don't be so grabby.
+kid	you grab it Dad.
+cgv	no Abe I just want to use it for a second Mommy wouldn't let me use it.
+kid	you go sit in the corner Mom.
+cgv	that's right.
+cgv	I'm innocent Abe.
+kid	Humpty Dumpty sat on the wall Humpty Dumpty sat on the wall.
+cgv	you really like that puzzle don't you Abe.
+kid	uhhuh oh no.
+cgv	what happened.
+kid	two fall down and look like a choo+choo train.
+cgv	oh that was pretty good.
+kid	you are grabby Mom Mom you are grabby you are naughty you are naughty you are naughty you are naughty at my daddy Momma you are naughty.
+cgv	I am not you are naughty.
+kid	Momma you want this on your tummy.
+cgv	I don't want that on my tummy don't put it on me okay.
+kid	Momma bubbles on your tummy.
+cgv	bubbles on my tummy.
+cgv	I don't want bubbles on my tummy.
+kid	I caught you.
+cgv	I caught you and I'm gon (t)a tickle you.

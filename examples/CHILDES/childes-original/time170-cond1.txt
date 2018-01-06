@@ -1,0 +1,211 @@
+participant	content
+cgv	you have to tell me what you want I'm not going to guess.
+kid	okay peanut butter and cinnamon.
+cgv	okay.
+kid	and honey okay.
+cgv	okay.
+kid	I wonder where Mommy is.
+cgv	at work.
+kid	I mean Mommy's top.
+cgv	Mommy's what.
+kid	Mommy's top.
+cgv	oh.
+kid	know what I got Jason.
+cgv	what did you get Jason.
+kid	huh.
+cgv	what did you get Jason.
+kid	a top.
+cgv	oh I just cut your sandwich into two instead of four okay.
+kid	I like it into four.
+cgv	I know but this sandwich is too messy for that.
+kid	oh I see what you mean.
+cgv	do you want toast too.
+kid	uhhuh does Joey still go to my school.
+cgv	huh.
+kid	does Joey still go to my school.
+cgv	yeah doesn't he.
+kid	I though he had changed his mind and had started to go to another school.
+cgv	I don't think so.
+kid	I do think so.
+cgv	what have you been doing.
+kid	eating.
+cgv	huh.
+kid	playing and eating.
+cgv	oh.
+kid	no just watching cartoons.
+cgv	oh.
+kid	why are you frowning for.
+cgv	I'm not frowning.
+kid	uhhuh.
+cgv	I don't mean to frown what do you want on your toast.
+kid	a sandwich.
+cgv	no what do you want on your toast.
+kid	the same thing I had on my first sandwich.
+cgv	how (a)bout jelly instead.
+kid	jelly and peanut butter I want jelly and peanut butter okay.
+cgv	okay what did you do yesterday when Jason came over.
+kid	played.
+cgv	what did you play.
+kid	outside.
+cgv	what did you do outside.
+kid	played.
+cgv	I know but what kind of playing.
+kid	you know like bats.
+cgv	like what.
+kid	bats.
+cgv	what kind of game is that.
+kid	one bat has to win and two other things and the lion have to get the bat.
+cgv	oh the bat tries to run away.
+kid	no the bat tries to win.
+cgv	but how does he win.
+cgv	I don't understand.
+kid	well it's sort of a easy game.
+cgv	well tell me.
+kid	one just has to run off and the two bats have to try to catch it and you know what.
+kid	we didn't have ta.
+cgv	you didn't have ta what.
+kid	catch the lion.
+cgv	how come.
+kid	well.
+cgv	how come.
+kid	because we didn't want to catch it I think.
+cgv	why didn't you want to catch it.
+kid	oh well I'll tell that later I can't tell any more.
+cgv	how come.
+kid	because I don't know the other things.
+cgv	oh you don't know about the game.
+kid	not very much why didn't you cut this sandwich in three pieces.
+cgv	(be)cause it has too much jelly on it.
+kid	oh try to throw it right here try to throw it and make it stay up.
+cgv	okay.
+kid	no I meant right here.
+cgv	oh.
+kid	watch I won.
+kid	I made it stay up.
+cgv	uhhuh.
+kid	did we both win.
+kid	how did it land.
+cgv	like that.
+kid	we both winned@n you know what.
+cgv	what.
+kid	I wish Jason hadn't gone to his grandmother's.
+cgv	is he at his grandmother's.
+kid	yeah.
+cgv	he'll be home later today I think.
+kid	yeah.
+cgv	what are we going to do this afternoon.
+kid	what what kind of game would you like to play.
+cgv	I thought we might go see the show.
+kid	oh yeah the four musketeers no the five musketeers.
+cgv	huh.
+kid	on some other day on the end I I think they're gon (t)a have five musketeers.
+cgv	you think so.
+kid	uhhuh I'd like some other toast.
+cgv	eat that first okay.
+kid	okay one without cinnamon.
+cgv	maybe after we go to the movie we can go to Minnehaha.
+kid	ride our bikes.
+cgv	I don't think so maybe when we come home you and Mommy can go on a bike ride.
+kid	and you too.
+cgv	okay maybe me too maybe me too.
+kid	own hair.
+cgv	why.
+kid	own hair.
+cgv	I don't know.
+kid	that's silly look at the other side.
+cgv	let's see yep.
+kid	can you get me my toast.
+kid	again.
+cgv	you want some more toast.
+kid	uhhuh.
+cgv	I think I'll have some more too.
+kid	Daddy look at this ferris wheel good good.
+kid	no.
+cgv	what do you want on your toast.
+kid	the same thing I had on the first toast.
+cgv	okay.
+kid	(ex)cept this time cut it into four pieces.
+cgv	I haven't heard anybody ask for anything.
+kid	please is that better.
+cgv	that's better.
+kid	Daddy can I tell you something.
+cgv	yeah.
+kid	Daddy did you throw that yellow sled away.
+cgv	what sled.
+kid	it was paper and it was long and it had a line.
+cgv	I don't remember it.
+kid	well it was a paper one that I made.
+cgv	oh I don't think I threw it away.
+kid	well I never saw it again maybe Mommy throwed it away.
+cgv	maybe when did you make it.
+kid	a day when you weren't home.
+cgv	how long has it been since you made it.
+kid	about three days I think.
+cgv	really.
+kid	uhhuh why did you pop that toast up Dad.
+kid	I don't want any more milk.
+cgv	oh.
+kid	why did you put this wheel like this.
+cgv	I was just trying to be tricky.
+kid	okay I'm not tricky Daddy can I get something.
+cgv	what.
+kid	can I get two things.
+cgv	what two things.
+kid	the top and the little wheel that was blue it is blue it was and it is still.
+cgv	that's right blue wheels are for turkeys.
+kid	did a joker scientist tell you that.
+cgv	what.
+kid	what you just said.
+cgv	no I made it up.
+kid	then it must be not true.
+cgv	why.
+kid	because you said you made it up I know when you make something up it's not true.
+cgv	how do you know.
+kid	(be)cause maked@n up stuff is not true it's just pretend Daddy.
+cgv	uhhuh.
+kid	didn't you put too much peanut butter on.
+cgv	I don't think so did I.
+kid	uhhuh.
+cgv	I'm sorry you better eat the rest of your sandwich.
+kid	why did you say sandwich.
+cgv	you better eat the rest of your toast.
+kid	why did you say that for.
+kid	Daddy do you want to see a little trick.
+cgv	uhhuh that looks good.
+kid	what looks good.
+cgv	that trick you just did.
+kid	what what did I just do.
+cgv	that trick with that top.
+kid	Daddy.
+cgv	uhhuh.
+kid	look at this it's with two that's one of my angel's tricks.
+cgv	really.
+kid	a angel taught me.
+cgv	what was the angel's name.
+kid	house do you know who the angel was.
+cgv	who.
+kid	our house.
+cgv	that's pretty silly.
+kid	Daddy how cold is it outside.
+cgv	it doesn't look very cold at all.
+kid	for a winter jacket.
+cgv	maybe.
+kid	here comes the biggest now I have to get it to you it got to you.
+cgv	did it.
+kid	yeah.
+cgv	what do you think would have happened this morning if we wouldn't have gotten up until nighttime.
+kid	we wouldn't get to eat breakfast we would have to eat at nighttime.
+cgv	that's right.
+kid	we would have to eat until day I got it to you I got it to you I didn't get it to you that time before you close the door the milk too.
+cgv	do you want to watch tv.
+kid	yeah God watches tv too.
+cgv	huh.
+kid	gods watch tv too they sure do I smacked my head I smacked my head I smacked my head that sure hurts.
+cgv	what.
+kid	I said that sure hurts when are we gon (t)a mail this to Ninny.
+kid	her bill.
+cgv	we'll mail it pretty soon who are these for.
+kid	those are for my cousins and aunts and grannies.
+cgv	oh the Super Friends are on.
+kid	oh and then what else.
+cgv	a basketball game I think.

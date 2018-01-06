@@ -1,0 +1,306 @@
+participant	content
+kid	uhhuh Dad I wan(t) (t)a eat more pancakes <I eat this> [= when I eat this].
+cgv	you wan(t) (t)a eat more pancakes after you eat those.
+kid	uhhuh.
+cgv	okay I'll fix some more.
+kid	I don't wan(t) (t)a eat this part Mom.
+cgv	how come.
+kid	because I don't like this part I wan(t) (t)a take it off Mom I don't like this big part Dad.
+cgv	how come.
+kid	because I don't like it.
+cgv	okay.
+kid	I don't like this part I like I like I don't like those I like this uhhuh milk milk.
+cgv	milk what.
+kid	my milk.
+cgv	what about your milk.
+kid	please.
+cgv	that's better here's some more milk.
+kid	Momma I don't like any more.
+cgv	oh you don't want any more pancakes.
+kid	uhuh Dad I don't like pancakes.
+cgv	you don't like them.
+cgv	how come.
+kid	I like tiny ones and and and short ones.
+cgv	you like tiny ones and short ones huh.
+cgv	would you like this one.
+kid	uhhuh more milk.
+cgv	do you need more milk Abe.
+kid	uhhuh no more.
+cgv	no more pancakes.
+kid	uhhuh more more milk I break that apart.
+cgv	Abe.
+kid	huh.
+cgv	what would you like to do this morning.
+kid	I wan(t) (t)a go at the park.
+cgv	you wan(t) (t)a go to the park.
+kid	uhhuh.
+cgv	how about this instead.
+cgv	how'd you like to go to the movies.
+kid	I like to go at the movies.
+cgv	okay.
+kid	I wan(t) (t)a go now hurry.
+cgv	I'll tell you what we'll go at eleven o'clock okay.
+kid	okay.
+cgv	we have to make popcorn and stuff first.
+kid	we have to make popcorn and more popcorn and more popcorn we get popcorn outside and it's a grow and we it's a get ripe and we eat it.
+cgv	it got ripe you ate it.
+kid	no I didn't it's still growing.
+cgv	oh it's still growing I see when it gets ripe you'll eat it.
+kid	uhhuh ripe Dad I don't wan(t) (t)a eat that.
+cgv	okay you don't have to eat it I'll eat it.
+kid	see those you can eat those tiny ones.
+cgv	I can.
+kid	uhhuh you eat that big one eat that part.
+cgv	I am.
+cgv	0.
+kid	Momma I wan(t) (t)a make popcorn we got ta go at the movies.
+cgv	yeah we'll make popcorn Abe.
+kid	my mommy said that we make popcorn at the we go at the movies.
+cgv	good.
+kid	Mom you through doing that.
+cgv	huh.
+kid	you through doing that.
+cgv	I have ta go hang them out would you like to go outside.
+kid	I like to go out no I wan(t) (t)a make popcorn and we going at the movies.
+cgv	we still have to wait an hour.
+kid	hot Mom.
+cgv	is that water hot.
+kid	hot Mom it's real hot Mommy.
+cgv	a you wan(t) (t)a come outside with me.
+kid	uhhuh I wan(t) (t)a put my panties on.
+cgv	here.
+kid	those my shorts.
+cgv	these are your panties.
+kid	these are my panties I wan(t) (t)a make popcorn I wan(t) (t)a make popcorn Mom please I wan(t) (t)a make popcorn for at the movies okay Mom.
+cgv	okay Abe we'll make some later here.
+kid	those my shorts.
+kid	those my shorts Mom.
+cgv	uhhuh.
+kid	Mom I wan(t) (t)a make popcorn.
+cgv	Abe I already said that we would we have to wait another hour and then we'll make popcorn.
+kid	I wan(t) (t)a make popcorn Mom.
+cgv	we're going to later Abe we have to wait.
+kid	I wan(t) (t)a make popcorn.
+cgv	what did I say.
+kid	you turned that down.
+cgv	I turned it on I didn't turn it down.
+kid	you turned it on.
+cgv	yeah I turned it on.
+kid	I can't hear it.
+cgv	you can't.
+kid	uhuh.
+cgv	you know now come.
+cgv	because it's listening to you.
+kid	oh.
+cgv	and it's listening to Daddy too.
+kid	oh you doing work at home.
+cgv	huh.
+kid	you doing work at home Dad.
+cgv	I'm doing work at home.
+kid	uhhuh.
+cgv	I sure am.
+kid	why you doing work at home.
+cgv	why am I.
+cgv	well I have work to do so I thought I'd do some at home okay.
+kid	okay where your where your where your picture Daddy.
+cgv	which picture.
+kid	where your poster.
+cgv	oh my poster.
+kid	uhhuh.
+cgv	it's at school you can come see it.
+kid	okay I wan(t) (t)a get a gumdrop.
+cgv	oh you wan(t) (t)a get a gumdrop.
+kid	uhhuh.
+cgv	I'll tell you what next time you come to school I'll give you a a gumdrop okay.
+kid	okay what's that noise Dad.
+kid	what's that noise Daddy.
+cgv	what noise.
+kid	that noise.
+cgv	oh somebody's mopping in the hall.
+kid	Lisa come there tomorrow today.
+cgv	she is.
+kid	uhhuh Lisa can't see us.
+cgv	Lisa can't see us.
+kid	uhhuh.
+cgv	how come.
+kid	Lisa can't see us at the movies.
+cgv	oh she can't see us at the movies do you know what movie we're going to see.
+kid	uhhuh.
+cgv	which one.
+kid	I don't know.
+cgv	we're going to see Mary Poppins.
+kid	oh.
+cgv	would you like to see what.
+kid	uhhuh.
+cgv	good.
+kid	you got ta different one at home.
+cgv	what.
+kid	that different thing.
+cgv	oh I just brought that home so that I could look at some stuff okay.
+kid	okay can you doing work.
+cgv	huh.
+kid	you doing work.
+cgv	am I doing work.
+kid	uhhuh.
+cgv	I think so.
+kid	you got a pencil I can draw too like this.
+cgv	you can draw too.
+kid	uhhuh who's doing that.
+cgv	whose doing that.
+cgv	it sounds like Jean is mopping the hall.
+kid	Jean and Jean and Jean and Sherry's daddy.
+cgv	uhhuh.
+kid	why.
+cgv	probably because the hall is dirty.
+kid	you got a big thing.
+cgv	what is that.
+kid	I don't know.
+cgv	it's just a piece of skin.
+kid	oh why is it piece of skin.
+cgv	why.
+kid	uhhuh.
+cgv	you got one too see right here.
+kid	I got piece of skin right here.
+cgv	you've got one there too.
+kid	I've got one here too.
+cgv	uhhuh you've got skin like that in between every finger see.
+kid	uhhuh you do too.
+cgv	uhhuh.
+kid	those are big fingers.
+cgv	these are big fingers.
+kid	uhhuh what's that Stan.
+cgv	that's a magazine subscription.
+kid	that's for me.
+cgv	uhhuh and for Karen and Rob and Rich.
+kid	no this is for me by myself what's in it Dad.
+kid	what's in it Daddy.
+kid	what's in it.
+kid	nothing.
+cgv	nothing now but I'm going to put this in it.
+kid	oh why you put this in it.
+kid	why you put that in it.
+kid	what's that thing.
+cgv	that's a microphone.
+kid	what's what's holes in it.
+cgv	uhhuh there are holes in it do you know why.
+kid	uhhuh.
+cgv	why.
+kid	because.
+cgv	there are holes in it because the air vibrates when you talk and the holes help the micriphone microphone] to hear what you say.
+kid	I wan(t) (t)a do it.
+kid	hi hi hi hi I wan(t) (t)a do that on there.
+cgv	that'll turn the microphone off you can do it later okay.
+kid	this don't works.
+cgv	it works don't push it okay.
+kid	Jack and Jill went down a hill oh that scares me.
+cgv	it scares you.
+kid	sure it does.
+cgv	okay lets put the microphone back up then okay.
+kid	Daddy that's for you.
+cgv	it's for you too.
+kid	I wan(t) (t)a go see that.
+cgv	you wan(t) (t)a go see Niagara Falls.
+kid	uhhuh Niagara Falls I wan(t) (t)a go see that and play what's those.
+cgv	those are rocks at the bottom of the waterfall.
+kid	what those boys.
+cgv	those boys are sitting on the rocks.
+kid	what's they names.
+kid	what's they names.
+cgv	I don't know.
+kid	why.
+kid	my Mommy comes here what's they names I wan(t) (t)a go and watch them Niagara Falls let's see this I wan(t) (t)a go see that Niagara Falls.
+cgv	maybe we will some day.
+kid	open yours what's that.
+cgv	my tongue.
+kid	that thing in your teeth.
+cgv	those are fillings.
+kid	oh I got I don't have fillings.
+cgv	I know you do have a couple caps.
+kid	uhhuh caps where's my Mommy.
+cgv	she's out hanging up clothes.
+kid	Mom we making popcorn.
+kid	Mom we making popcorn.
+cgv	we will in a little while Abe do you want to paint.
+kid	uhhuh.
+cgv	okay I'll get the stuff.
+kid	I wan(t) (t)a paint a picture for you.
+cgv	okay I'd like a picture come over here and paint.
+kid	this is for you Dad this is for you.
+cgv	okay let me see it oh I really like it.
+kid	you can take it to school and show your friends.
+cgv	I can.
+kid	uhhuh that's for take for school and leave it there okay.
+cgv	okay I'll hang it up in my office.
+kid	where's Mommy.
+kid	I didn't see my Mommy.
+cgv	you didn't.
+kid	uhhuh.
+cgv	she'll be in soon.
+kid	I wan(t) (t)a play with me barn puzzle.
+cgv	you wan(t) (t)a play with your barn puzzle.
+kid	uhhuh you get it.
+cgv	okay I'll get it.
+kid	you too strong.
+cgv	I'm too strong.
+kid	uhhuh.
+cgv	okay here's your puzzle.
+kid	thank you Dad I like this puzzle.
+cgv	you do like it.
+kid	uhhuh how you get this puzzle Daddy.
+kid	how you get this puzzle.
+kid	what's this.
+cgv	it's a b@l.
+kid	what's this.
+cgv	it says b@l a@l r@l n@l.
+kid	what's this.
+cgv	it's part of the barn.
+kid	oh what's a part of a barn.
+cgv	all of those are parts of a barn you put it together and it makes a barn.
+kid	you put it together and makes a barn this is a big piece.
+cgv	it sure is.
+kid	and this is a tiny little piece this.
+kid	a silo.
+cgv	it is.
+kid	uhhuh what's this.
+cgv	what's what.
+kid	this one piece.
+cgv	it's a piece of a barn.
+kid	what's this.
+cgv	it's all part of a barn.
+kid	oh what's this part of it.
+cgv	that's another part of a barn.
+kid	Dad I can't fix this Daddy what's this goes.
+cgv	look and see if you can tell.
+kid	right here.
+cgv	I think so.
+kid	no right here no right here no this goes right here.
+kid	yeah this goes right here.
+kid	yeah this goes right here.
+kid	yeah this goes right here what's this goes Daddy.
+kid	Dad what's this goes.
+kid	Mom what's this goes.
+kid	right Mom.
+cgv	can you figure it out.
+kid	uhuh I can't figure it out Dad.
+cgv	just a second and I'll help you.
+kid	I can't figure it out Mom I can't figure it out.
+cgv	okay I'll help you.
+kid	what's this.
+kid	you are cold.
+cgv	am I cold.
+kid	uhhuh you are cold I didn't see you Mommy.
+cgv	this is a silo.
+kid	this goes right here.
+cgv	right that's a small a@l.
+kid	where's a big a@l.
+kid	Dad where's a big a@l Daddy.
+kid	this a big a@l.
+cgv	that's a big b@l.
+kid	oh big b@l that a b@l Daddy.
+kid	that a b@l.
+cgv	uhhuh.
+kid	where another piece Mom.
+kid	where this goes Mom.
+kid	where this goes Mom.
+cgv	something must have happened.
+kid	I heard another one Mom.

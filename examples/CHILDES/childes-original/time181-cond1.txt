@@ -1,0 +1,151 @@
+participant	content
+kid	what did I do.
+cgv	we went to the park this morning.
+kid	yep (ex)cept Leslie didn't come.
+cgv	she didn't.
+kid	hunhunh she was at school.
+cgv	oh did you go to school today.
+kid	yep we saw ducks.
+cgv	they had an incubator.
+cgv	oh.
+kid	(ex)cept what is a incubator.
+kid	Mother what is a incubator.
+cgv	it's a warm container to keep eggs in.
+cgv	what do you want to drink Abe.
+kid	anything I already got something to drink.
+cgv	you do.
+kid	yeah Mother.
+cgv	uhhuh.
+kid	what did Tippy do when she was a kid.
+cgv	Tippy.
+kid	uhhuh.
+cgv	she walked on her tiptoes so Bumpa so Grandpa called her Tippy.
+kid	what did Bumpa call her.
+cgv	Tippy so we all called her Tippy her real name's Florence.
+kid	hunhunh her real name is Tippytoes or Tippyfeet Mother I thought I said I didn't want any bread Mother I though I said I didn't want any bread.
+cgv	I thought you said you wanted bread.
+kid	uh uh toast is bread and I said I didn't want toast.
+cgv	toast is hard bread.
+kid	well I didn't want hard bread or soft bread Mother you can take this and make a little butter on it those are real good I like those a lot.
+cgv	how long do you think before it'll be ready sug(ar).
+cgv	about five minutes.
+kid	ready for what.
+cgv	our souffle will be done in a few minutes.
+cgv	where are you going.
+kid	outside.
+cgv	now.
+kid	yeah.
+cgv	well what do you think would happen if instead of going outside I hit you in the head.
+kid	that would be silly.
+cgv	oh.
+cgv	what happened to your knee.
+kid	once I putted a paper cast on.
+cgv	how did you make your paper cast.
+kid	I forgot with paper and tape that's what.
+cgv	oh.
+kid	see here's the tape mark.
+cgv	sounds like my toast popped up huh.
+kid	yeah real bad too.
+cgv	I like toast do you.
+kid	I like it too.
+cgv	what're you doing.
+kid	I was I was bouncing a balloon and trying to catch it (ex)cept the balloon mostly was up in the air and that makes it really hard.
+cgv	I bet.
+kid	Daddy I got a lot of rocks (ex)cept I haven't eated Ralphie's sugar yet.
+cgv	huh.
+kid	I haven't ate Ralphie's sugar yet.
+cgv	are you going to save it for a souvenir.
+kid	yeah I hit the balloon and it went real hard.
+cgv	huh.
+kid	I want it to land on my head Daddy is today a pretty cold day for a jacket.
+cgv	pretty cold.
+kid	not pretty cold.
+cgv	it's probably just right.
+cgv	here I come.
+kid	and here you go down to the cowboy rodeo.
+cgv	something smells good.
+kid	toast or coffee.
+cgv	come here Abe.
+kid	that this thing keeps falling off Mother.
+cgv	did you tell Daddy about the guy with the bird in his pocket.
+kid	yeah he didn't have a real one he he just made believe and he sounded like a real bird.
+cgv	wow.
+cgv	did he trick you.
+kid	yeah he sure did.
+cgv	what do you think would happen if somebody kept a bird in his pocket Abe.
+kid	I don't know a real bird.
+cgv	yeah a real bird.
+kid	I don't know I still don't know oh Mother I could put this back on.
+cgv	you better hurry.
+cgv	what would you do if a giant put you in his pocket.
+kid	a giant doesn't even have no pants.
+cgv	what does he walk around in.
+kid	he walks around in in his underwear.
+cgv	oh come over here and get dressed now.
+kid	hey Mother can you do that.
+kid	can you do that.
+kid	I already fixed it.
+cgv	good come here.
+kid	five is this how many pockets I got on those pants.
+cgv	no do you want to put a bird in your pocket.
+kid	I got a pretend bird Mom I want to wear a muscle shirt I want to wear a muscle shirt.
+cgv	okay.
+kid	Mother how big are my muscles.
+cgv	about this big.
+kid	are they hard.
+cgv	sort of.
+kid	Mother what are muscles.
+cgv	muscles are the tissues that go around bones.
+kid	Mother put my socksies@c.
+cgv	get your tennis shoes.
+kid	okay where are my tennis shoes anyway.
+cgv	upstairs.
+kid	I'll go see Mother Mother this is a good game you know why.
+cgv	why.
+kid	it's it's a game to see how long you play it's hard to play it you're supposed to see how long you can play it it's a exercise game Mother.
+cgv	I believe it.
+kid	Mother do you wan(t) (t)a play that game.
+kid	it's really a good outside game.
+cgv	maybe when we get back from rollerskating we can play it outside.
+kid	do we have to go rollerskating today.
+kid	Mother does Daddy have to go to school.
+cgv	uhhuh.
+kid	maybe I want to go with Daddy instead of going rollerskating I don't wan(t) (t)a step in that white stuff.
+cgv	why not.
+kid	because Mother I got sand in my shoes.
+cgv	why don't you come over here and dump it in the trash.
+kid	anyway who are we going with.
+cgv	Jean and Leslie.
+kid	now can you put these on Mother.
+cgv	they won't fit me.
+kid	me how much times do I have to say that.
+kid	Mother put my shoes on me Mother.
+cgv	huh.
+kid	which feet do these go on.
+cgv	the right shoe goes on the right foot and the left shoe goes on the left foot.
+kid	which is left and which is right.
+cgv	this one's right and that one on the other side is left.
+kid	is this the right shoe Mother.
+cgv	it's the right shoe for the left foot.
+kid	is this one right.
+cgv	uhhuh why don't you run and ask Dad to help.
+kid	then Dad wouldn't help.
+cgv	well you can ask him.
+kid	Dad can you put these shoes on you.
+cgv	nope.
+kid	on me of course.
+cgv	okay.
+kid	now can you tie this.
+cgv	put your other one on and I'll tie them at the same time.
+kid	tie them together.
+cgv	no I won't tie them together.
+kid	no tie em together is that what you said.
+kid	no time em together.
+cgv	I'll tie em together the right way.
+kid	Daddy remember that time we were running up and running down the hill and my shoes got untied.
+cgv	uhhuh.
+kid	this is funny you tied my shoes together and I fell.
+cgv	uhhuh did you think that was funny.
+kid	uhhuh my my feet weren't holding onto the rug so I fell I fell.
+cgv	huh.
+kid	I said I fell (be)cause my feet didn't hold on to the rug.

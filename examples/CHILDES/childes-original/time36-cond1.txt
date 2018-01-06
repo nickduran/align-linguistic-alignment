@@ -1,0 +1,281 @@
+participant	content
+kid	thimble thimble you take mine thing off okay Mommy you take mine blue jacket off okay.
+cgv	okay come here and I'll take it.
+kid	Mom I want some ice cream okay I I eat some with chocolate and then I eat some more okay Mom okay.
+cgv	okay Abe did Daddy play with you.
+kid	no he didn't.
+cgv	you liar.
+kid	I want some ice cream with chocolate Mom.
+cgv	you'll have to hold your horses.
+kid	huh.
+cgv	you'll have to hold your horses for a moment.
+kid	my Daddy want any ice cream.
+cgv	do you Dad.
+cgv	yeah thanks.
+kid	peanut butter sandwich peanut butter sandwich.
+cgv	tell Daddy what kind of yogurt you had today.
+kid	what kind of yogurt.
+kid	peanut butter yogurt.
+cgv	Abe had listen to this Dad Abe had yogurt with honey cinnamon peanut butter and green food coloring.
+cgv	it sounds a little ridiculous to me.
+kid	I ate it all.
+cgv	you did.
+kid	uhhuh Mom what's that gon (t)a be.
+cgv	this is my fork.
+kid	huh.
+cgv	this is my fork.
+kid	we should've got a that's for me.
+cgv	it sure is.
+kid	that ice cream is for me.
+cgv	uhhuh.
+kid	why Mom.
+kid	why.
+cgv	who did you play with outside tonight.
+kid	huh.
+cgv	who did you play with tonight.
+kid	I don't know.
+cgv	was anybody outside tonight while you were outside.
+kid	no.
+cgv	you played by yourself.
+kid	uhhuh.
+cgv	he did not I played with him for awhile and then he played in the sandbox with his trucks.
+kid	you liar.
+cgv	what.
+kid	I said +"/..
+kid	+" you liar.
+cgv	didn't I come outside and play with you.
+kid	you said +"/..
+kid	+" you liar.
+cgv	I did not.
+kid	yeah you did.
+cgv	what were you doing outside when I came in the house.
+kid	playing in the sandbox.
+cgv	uhhuh now we're getting to the truth of the situation what did you say when I asked you if you wanted to come in.
+kid	I said no.
+cgv	okay.
+kid	I said no no I played in the sandbox and you goed@n in.
+cgv	uhhuh now you're telling the truth.
+kid	you didn't get me milk you didn't get me milk Mom.
+cgv	you didn't ask for milk.
+kid	huh.
+cgv	you didn't ask for milk did you.
+kid	please.
+cgv	okay I'll get you some milk.
+kid	that's okay Mom that's okay Mom.
+cgv	I'll get it.
+kid	that's okay Mom that's okay.
+cgv	I'll get it Abe.
+kid	don't.
+cgv	I already got it I didn't want it to melt on the floor and make a mess is maple nut still your favorite.
+kid	uhhuh I kissed it I kissed it why I kissed it Mommy.
+cgv	you were trying to lick it off and when you licked it kissed.
+kid	oh I kissed it again I kissed it again.
+cgv	uhhuh.
+kid	I bet my school is closed now.
+cgv	what's closed.
+kid	my school.
+cgv	your school.
+kid	uhhuh.
+cgv	you're right it opens in the morning and closes at night why do you think it closes at night.
+kid	huh.
+cgv	why do you think it closes at night.
+kid	because.
+cgv	why.
+kid	so everybody can go home and play with their friends.
+cgv	right Abe.
+kid	Lisa's Mommy said today Lisa's Mommy said she said <Lisa has to take a nap> ["] to me.
+cgv	she did.
+kid	uhhuh.
+cgv	when.
+cgv	when I was at the doctor's.
+kid	uhhuh no when you at the grocery store.
+cgv	oh tonight.
+kid	uhhuh Mom what kind of store you goed@n.
+cgv	I went to Harmar.
+kid	uhhuh.
+cgv	and went to a drug store.
+kid	why.
+cgv	to buy some medicine.
+kid	why.
+cgv	to see if I can get better.
+kid	you get better.
+cgv	uhhuh I will Abe.
+kid	I did.
+cgv	you got better.
+kid	uhhuh Mommy I don't want ice cream.
+cgv	you don't want the rest.
+kid	hunhunh Cookie Monster drinks it down and I drink it up.
+cgv	is that what happens.
+kid	uhhuh why you why you put it on me Mom.
+cgv	so you wouldn't spill your ice cream on you any more.
+kid	Mommy Mommy why I washing this Mommy.
+cgv	because you're trying to clean up and be a big help to Mommy.
+kid	I'm a busy beaver I'm gon (t)a put my hand under there like this.
+cgv	you look like a little senorita@s.
+kid	I'm a I'm a beaver in a boat someone help me I can't get out of here.
+cgv	oh.
+kid	boom.
+kid	boom.
+kid	someone catch me like this someone eat me up what's this Mommy.
+kid	what's this.
+cgv	it's what I got at Snyder's Drug Store it's a little box of foil.
+kid	why that's a little box of foil.
+kid	why that's a little box of foil.
+kid	I wan(t) (t)a go hide again and get a surprise.
+cgv	no you don't need any more surprises.
+kid	I have ta tee+tee I have ta tee+tee I can't do this I can't do this.
+cgv	come here and I'll help you.
+kid	thank you why that balloon fall down Mommy.
+kid	huh.
+kid	why Mommy.
+kid	why that balloon fall down.
+cgv	because you let go of it you've been eating a lot tonight your stomach is so big.
+kid	huh.
+cgv	you've been eating a lot tonight haven't you.
+kid	why my tummy so big Mom.
+cgv	because you ate a lot your tummy is full of food.
+kid	I have ta tee+tee I'm gon (t)a tee+tee on the floor.
+cgv	hunhunh.
+kid	why.
+kid	I need the light on I need the light on close the door please.
+cgv	you can close it.
+kid	come wipe my bottom please come wipe my bottom please come wipe my bottom.
+cgv	you need someone to come wipe your bottom.
+kid	yeah you come wipe my bottom you have ta do it.
+cgv	okay there you go all done.
+kid	you wear your belt like I wear my belt you wear your belt like I wear my belt you wear your belt like me you wear your belt okay.
+cgv	I'll wear it tomorrow okay.
+kid	no wear it now wear it now.
+cgv	where is it.
+kid	I saw it when I was jumping on the bed.
+cgv	you did.
+kid	uhhuh here it is you put it on your blue+jeans.
+cgv	okay.
+kid	you don't wear your belt your pants will fall down.
+cgv	they will.
+kid	uhhuh.
+cgv	will my shirt fall down.
+kid	you don't have a shirt.
+cgv	yes I do.
+kid	no you don't Mommy you hold me please.
+cgv	I sure will I haven't got to see you much today and when I have you've been whining like a tiny infant.
+kid	I'm not I'm not a tiny infant I'm a big infant.
+cgv	you're a big infant.
+kid	uhhuh see my big belly button why this is a big belly button Mom.
+cgv	because it's on a big boy.
+kid	why this is a big tummy.
+kid	why these are big pimples Mom.
+cgv	huh.
+kid	why these are big pimples.
+kid	Mommy why these are big pimples.
+kid	Mommy why these are big pimples.
+cgv	I think everybody has those.
+kid	Mommy my Daddy wearing his belt like me.
+cgv	uhhuh like father like son.
+kid	Mommy you weared your belt today.
+cgv	I wore it this morning remember.
+kid	you wear it when the sun comes up now.
+cgv	okay.
+kid	it's fastened you open this up now.
+cgv	not now.
+kid	oh.
+cgv	I'll give you that box when I'm through taking those.
+kid	huh.
+cgv	I'll give you that one day.
+kid	this is mine.
+cgv	I'll give it to you Sunday morning.
+kid	why.
+kid	what's in here Mom.
+kid	what's this.
+kid	please you get me this please Mom you get me this please.
+cgv	on Sunday morning after we read the funny papers.
+kid	I wan(t) (t)a read the funny papers now.
+cgv	well it's not Sunday morning is it Abe.
+cgv	you have to be patient and wait for Sunday morning to get here.
+kid	I want the sun come up right now and then the funny papers come everybody sleeps at night time.
+cgv	uhhuh.
+kid	why.
+cgv	so that they can rest their bodies everybody needs a rest.
+kid	and and big bodies have to take a nap.
+cgv	uhhuh and eat and drink too.
+kid	uhhuh.
+cgv	and exercise.
+kid	uhhuh.
+cgv	and what else.
+kid	there's nothing else.
+cgv	can you tell me what all you need to do to take care of your body.
+kid	I don't know.
+cgv	okay tell me.
+kid	play in the sandbox.
+cgv	uhhuh for exercise.
+kid	uhhuh for exercise and play with Lisa.
+cgv	uhhuh.
+kid	and play with Peter.
+cgv	uhhuh that's a lot of exercise.
+kid	and play with Daniel for exercise and play with Amara for exercise.
+cgv	what else.
+kid	I don't know Mommy I want a black hairy thing.
+cgv	what.
+kid	I want a black hairy thing like you.
+cgv	you want what.
+kid	a black hairy thing like you.
+cgv	you want to carry everything.
+kid	a black thing like you.
+cgv	what black thing.
+kid	a black thing with your penis like me.
+cgv	down here.
+kid	no up there.
+cgv	show me.
+kid	down here on your bottom on your bottom.
+cgv	oh well you'll grow hair when you get a little older.
+kid	I'm gon (t)a count my things okay Mom I'm gon (t)a count my things.
+cgv	what things.
+kid	these things one two three four what what are you doing Mom.
+cgv	I'm watching you to make sure you don't lose any.
+kid	three four five I'm making a choo+choo train.
+cgv	I see.
+kid	why you can't broke this Mommy.
+cgv	because.
+kid	why.
+kid	one two three four five six seven Mommy look what I made look what I made with what my Daddy got.
+cgv	hey where did you get that.
+kid	my Daddy got em to me.
+cgv	for playing a game.
+kid	uhhuh Mommy I wan(t) (t)a eat some cookies.
+cgv	okay go ahead.
+kid	when Greggy comes when Greggy comes again he will ask for some more cookies.
+cgv	uhhuh he can have some more when he comes.
+kid	fall down I falled@n down this is slippery.
+cgv	it is.
+kid	uhhuh.
+cgv	you better be careful did you see Lisa today.
+kid	uhhuh I hugged her and gived@n her a kiss.
+cgv	that's nice you like Lisa a lot don't you.
+kid	uhhuh her is pretty fine and I like her.
+cgv	what are you thinking about.
+kid	I don't know I'm thinking about Lisa.
+cgv	really.
+cgv	what about Lisa.
+kid	I like her.
+cgv	that's nice.
+kid	I wan(t) (t)a play with her.
+cgv	you can tomorrow.
+kid	I wan(t) (t)a play with her now look at this Mom.
+cgv	wow.
+kid	now look at this one.
+cgv	that's nice do you want to go look for ladybugs tomorrow.
+kid	and step on them.
+cgv	no we want them for our garden they're our friends.
+kid	why.
+cgv	because they're nice.
+kid	why this cracked Mommy.
+cgv	I don't know.
+kid	this is cracked.
+cgv	uhhuh a tiny crack.
+kid	it cracked right here watch Mom I can throw this way over there.
+cgv	wow.
+kid	I'm gon (t)a throw it again.
+cgv	let's go take a bath.
+kid	why.
+cgv	because you're dirty.
+kid	I don't wan(t) (t)a I don't need a +....

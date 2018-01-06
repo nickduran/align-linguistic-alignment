@@ -1,0 +1,146 @@
+participant	content
+cgv	do you want something for breakfast.
+kid	yeah.
+cgv	what do you want.
+kid	toast.
+cgv	okay.
+kid	did you know Mommy forgot something.
+cgv	what.
+kid	out here I don't know what it is but it's in here.
+cgv	okay just a second and I'll look at it.
+kid	Dad can I eat in here.
+kid	or are the cartoons over.
+cgv	the cartoons are over buddy we slept too late.
+kid	can I eat in here.
+cgv	sure.
+kid	Dad when is Mom gon (t)a come home.
+cgv	in a little while around lunchtime.
+kid	why were you calling me.
+cgv	because I thought you might want breakfast.
+kid	I do.
+cgv	what were you doing outside anyway.
+kid	I was looking at an experiment I made with those magnifying glasses.
+cgv	at an experiment you made.
+kid	uhhuh you know the one.
+cgv	what did you do.
+kid	Daddy I thought you told me that he was gon (t)a make a cocoon there.
+cgv	I still think he might Abe.
+kid	he's not.
+cgv	well it takes a long time Abe what's your experiment with the magnifying glasses.
+kid	you know in the sandbox.
+cgv	yeah.
+kid	I sat in it and put one magnifying glass here and looked at it and these's some sand and little rocks and little rocks are colored.
+cgv	really.
+kid	yeah.
+cgv	did you look through both the magnifying glasses at the same time.
+kid	no just one of em.
+cgv	oh what do you want on your toast.
+kid	I don't know I'm trying to decide can you open this.
+cgv	what is it.
+cgv	oh okay do you want peanut butter and jelly.
+kid	yes.
+cgv	Abe guess what.
+kid	what.
+cgv	we're going to take an airplane trip to Texas.
+kid	goody.
+kid	if it was a car it'd take a long time a lot of nights right Dad.
+cgv	it would take a long time alright.
+kid	and if we taked a airplane we could just take the whole day.
+cgv	it doesn't take very long.
+kid	we would get there at dinnertime.
+cgv	maybe what would we have to do if somebody hadn't invented airplanes.
+kid	or cars.
+cgv	or cars how would we get there then.
+kid	probably we would just have to walk.
+cgv	would that take a long time.
+kid	yeah we surely would starve to death you know why.
+cgv	why.
+kid	Daddy this leaf is getting all drippy.
+cgv	what.
+kid	that leaf is getting all drippy that leaf is gon (t)a get all drippy too.
+cgv	oh how do you know.
+kid	I see the water dripping off of this one.
+cgv	oh.
+kid	you think the guy didn't see you.
+cgv	what guy.
+kid	the guy that ran over you.
+cgv	oh no he saw me but he was just in too much of a hurry so he ran right over me.
+kid	was it one of the players.
+cgv	yeah.
+kid	well what was the player such in a hurry for.
+cgv	oh see he hit the ball and he was trying to get on base do you want to take a shower now.
+kid	if I get done with this in time.
+cgv	I'll call you when I'm ready.
+kid	Daddy can you get me something to drink.
+cgv	what.
+kid	I mean can you get me something to eat.
+cgv	like what.
+kid	I mean to write on paper.
+cgv	where is that big piece of paper I gave you yesterday.
+kid	remember.
+kid	I writed on it.
+cgv	oh that's right don't you have any paper down here buddy.
+kid	just little ones I want a big piece.
+cgv	can you wait until I go upstairs to get it.
+kid	uhhuh but that's gon (t)a be real short but that's gon (t)a be real short but that's gon (t)a be real short but that's gon (t)a be real short right Dad.
+cgv	yeah.
+kid	Dad are you up there.
+cgv	I'm coming.
+kid	oh what were you doing up.
+cgv	I was just getting some stuff.
+kid	oh can I have some gum.
+cgv	not right now buddy maybe when we go to school okay.
+kid	okay now how long is it for Mom to get home.
+cgv	what.
+kid	how long is it for Mom to get home.
+cgv	Mom should be home in about an hour or so.
+kid	oh yeah you said lunch time.
+cgv	that's right.
+kid	that's real soon right Dad.
+cgv	right do how many pieces of paper do you want Abe.
+kid	I guess two pieces.
+cgv	do you have colored crayons.
+kid	I don't think so.
+cgv	you used to didn't you.
+kid	I think so I guess I did why do you need em Dad.
+cgv	I thought that would be something neat to draw with here they are.
+kid	yeah they look old Dad.
+cgv	yeah but they still work.
+kid	uhhuh this is the window I like the blue one instead.
+cgv	huh.
+kid	I like the blue one instead.
+cgv	oh.
+kid	Daddy I made a house.
+cgv	a house.
+kid	yeah for you to take to school but I'm still making it what do you think should be on the inside.
+cgv	of the house.
+kid	stairs.
+cgv	yeah.
+kid	okay those are the stairs oh I have none red Dad I don't have none red.
+cgv	use another color then.
+kid	okay there's a curtain I mean that's the tv.
+kid	and this is the window it's a color window.
+cgv	wow.
+kid	here's a leg and there's a hand that's Abe Dad you're at school and my Mom's resting and I'm awake.
+cgv	that's a neat picture.
+kid	it's our new house.
+cgv	where's our new house.
+kid	here.
+cgv	oh.
+kid	it's for you and Mom Daddy there are some things I forgot to put in that picture.
+cgv	what did you forget.
+kid	grass look how long our grass grew.
+cgv	that's good looking grass.
+kid	I'm gon (t)a make another picture there's my room I'm making our old apartment.
+cgv	oh.
+kid	I really liked that place.
+cgv	did you really.
+kid	no scary dogs.
+cgv	are there scary dogs here.
+kid	some are see that's my room.
+cgv	is that the door.
+kid	no that's where you and Mom sleep.
+cgv	oh.
+kid	and here's the door tell Mom this is our old apartment.
+cgv	you can tell her.
+kid	it's mostly yours and Mom's and mine it's our picture.

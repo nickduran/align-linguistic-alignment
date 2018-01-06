@@ -1,0 +1,211 @@
+participant	content
+kid	if you're blindfolded.
+cgv	how come.
+kid	because you can shoot with your eyes closed let's go and eat breakfast.
+cgv	okay what do you want.
+kid	toast with honey hey Dad where are you Dad.
+cgv	in here.
+kid	I'm gon (t)a sit in the high chair.
+cgv	okay.
+kid	I'll take the toast out and put the honey on okay.
+kid	okay Daddy.
+cgv	what.
+kid	I'll take the toast out and put the honey on.
+cgv	okay.
+kid	if you lift me up I will.
+cgv	I'll lift you up.
+kid	okay is it in.
+cgv	not yet I'll put it in in just a second.
+kid	never mind I can get up here like this.
+cgv	you can get up.
+kid	yeah move all this stuff out.
+cgv	what stuff.
+kid	this and the honey okay.
+cgv	you can't sit there.
+kid	okay now now could I put this stuff right here.
+cgv	yeah.
+kid	where are you gon (t)a put the bread then.
+cgv	I'll find a place.
+kid	I want honey on my toast.
+cgv	why don't you put the toast in.
+kid	okay I wanted to put it in too.
+cgv	put two in.
+kid	how come this one goes in.
+cgv	(be)cause it's yours.
+kid	this is mine.
+cgv	yeah.
+kid	I wanted this one I wanted the first one.
+cgv	okay.
+kid	Daddy can we make something with this wood.
+cgv	what.
+kid	can we make something with this wood.
+cgv	what do you want to make.
+kid	I don't know what do we don't have that we can make.
+cgv	huh.
+kid	I don't know what do we don't have that we can make.
+cgv	how about a ship.
+kid	yeah a ship when can we make it.
+cgv	tomorrow.
+kid	is today tomorrow.
+cgv	no today's today tomorrow is the day after today but when tomorrow gets here it'll be today shit.
+kid	is my toast almost through.
+cgv	yeah is that it.
+kid	yeah I want I wanted this one.
+cgv	why don't you pull it out then.
+kid	I already did.
+cgv	oh do you want me to put the honey on.
+kid	yeah no honey's coming out.
+cgv	yeah it's starting.
+kid	Daddy you could have this one.
+cgv	thanks Abe.
+kid	how come you wanted toast too.
+cgv	(be)cause I'm hungry why don't you go get at the table.
+kid	I'll try to but you're in the way how can I get down.
+cgv	I'll get you down.
+kid	yea put it on a plate.
+cgv	huh.
+kid	put it in a plate.
+cgv	I will do you want some milk.
+kid	yeah.
+cgv	okay here you go huh.
+kid	nothing.
+cgv	I thought you said something.
+kid	who's there.
+cgv	Andy I didn't hear the doorbell.
+kid	I heard em.
+cgv	you did.
+kid	yeah they knocked.
+cgv	oh.
+kid	know what.
+cgv	what.
+kid	camping is really fun.
+cgv	captain.
+kid	no camping.
+cgv	oh what do you like about it.
+kid	lots of things know what.
+kid	I want to see some snakes when we go camping.
+cgv	rattlesnakes.
+kid	yeah have you ever seen rattlesnakes.
+cgv	yeah.
+kid	where have you seen em.
+cgv	in Texas.
+kid	who took you to the desert.
+cgv	they weren't desert rattlesnakes they were forest rattlesnakes.
+kid	oh what's happening.
+cgv	huh.
+kid	what's happening.
+kid	Andy's getting his coat taken off.
+kid	hey be quiet my Mom's sleeping she's lazy sometimes.
+cgv	she can get up.
+kid	I wan(t) (t)a watch cartoons.
+cgv	we will they come on at nine o'clock.
+kid	huh.
+cgv	they come on at nine o'clock.
+kid	and are they on a cartoon show.
+cgv	the Flintstones.
+kid	huh.
+cgv	the Flintstones.
+kid	the Flintstones is on a cartoon show.
+cgv	yeah.
+kid	which which ones are not.
+cgv	which ones aren't on.
+kid	yeah.
+cgv	the Flintstones are the only one that's on.
+kid	that's the longest.
+cgv	it's a long cartoon alright Abe.
+kid	what.
+cgv	I just remembered something.
+kid	what.
+cgv	you never did tell me what happened at the dentist.
+kid	nothing happened.
+cgv	something happened.
+kid	what.
+cgv	he pulled your teeth out.
+kid	yep don't forget he got me a little spray.
+cgv	he what.
+kid	he got me a little spray.
+cgv	on your teeth.
+kid	yeah.
+cgv	tell me what happened.
+kid	that's it.
+cgv	when did he put the spray on.
+kid	when the teeth were not.
+cgv	after he pulled the teeth.
+kid	no not after first when the teeth were still on.
+cgv	oh.
+kid	hey Daddy.
+cgv	yeah.
+kid	I didn't hear the Tooth Fairy walking up the stairs if it was magic.
+cgv	you didn't hear her.
+kid	no maybe she did magic while I was sleeping.
+cgv	I think that's what happened what would have happened if you would have woken up that morning and she wouldn't have left you anything.
+kid	then I would be sad.
+cgv	you would have been sad.
+kid	yeah.
+cgv	what would you have said to me and Mom.
+kid	I would say +"/..
+kid	+" the Tooth Fairy didn't get me anything.
+cgv	what could we have done.
+kid	we would go to the Tooth Fairy's house what would the Tooth Fairy say.
+cgv	she would have said +"/..
+cgv	+" I'm sorry Abe I'll bring you something tonight.
+cgv	what would have happened then.
+kid	then I don't know you tell me.
+cgv	we would have been real happy.
+kid	how (a)bout falling on the chair.
+cgv	I don't want to.
+kid	I'm through.
+cgv	what are you going to do.
+kid	I'm gon (t)a just get down.
+cgv	oh.
+kid	Daddy know what.
+cgv	what.
+kid	this could be quiet too.
+cgv	oh it's a quiet truck too.
+kid	yeah I think I heared@n Mom upstairs walking.
+cgv	you think so.
+kid	yeah.
+cgv	why don't you go check.
+kid	okay Daddy.
+cgv	uhhuh.
+kid	she was sleeping.
+cgv	did you wake her up.
+kid	no.
+cgv	good did you tell Andy what we're going to do in December.
+kid	Andy we're gon (t)a go to Texas and fly a airplane.
+kid	Andy we're gon (t)a go to Texas and fly a airplane.
+kid	I crashed.
+kid	that octopus is eating me.
+kid	help [x 7].
+kid	<somebody help me> [x 3].
+kid	<I'll help you> [x 5].
+cgv	hey don't throw stuff on the floor.
+kid	hey Dad we build a road with my trucks yesterday.
+cgv	you built your own road.
+kid	yeah and know what.
+kid	I dumped and Danny poured the sand into me and know what.
+kid	and know what.
+kid	and then he used the smoother@c.
+cgv	who did.
+kid	Andy did.
+cgv	what's a smoother@c.
+kid	a bulldozer it is a bulldozer.
+cgv	oh.
+kid	I'm gon (t)a roll off the couch.
+cgv	huh.
+kid	I'm gon (t)a roll off the couch.
+cgv	don't hurt yourself.
+kid	I'm gon (t)a do it right here hey Daddy.
+cgv	uhhuh.
+kid	we made a really big house with those chairs we made it tomorrow when we were building the road.
+cgv	you made it yesterday.
+kid	yeah we made it with a rug no with a blanket with a very big blanket.
+cgv	oh.
+kid	know how big the blanket was.
+kid	it was this blanket and this was the other blanket.
+cgv	two blankets.
+kid	yeah and one fell on me and I couldn't see.
+cgv	really.
+kid	yeah what's on.
+cgv	cartoons.
+kid	yea.
