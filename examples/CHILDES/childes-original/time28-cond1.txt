@@ -1,0 +1,242 @@
+participant	content
+kid	huh.
+cgv	you picked lot of good berries.
+kid	Mommy I need some of those.
+cgv	okay I'll get you a dish of your own.
+kid	not milk on them.
+cgv	no milk just a dish with blueberries.
+kid	why not a big dish.
+kid	why not a big dish Mom.
+cgv	I don't know just because I always give you one of these tiny bowls it's unbreakable.
+kid	oh I need water.
+cgv	here you go you want some water too.
+kid	uhhuh.
+cgv	okay here's your water.
+kid	thank you you never taste a red blueberries.
+cgv	huh.
+kid	you you never taste taste red blueberries.
+cgv	I've always tasted blueberries and I love them.
+kid	this red one.
+kid	this big red one.
+cgv	did you find a red blueberry.
+kid	uhhuh.
+cgv	it must not be completely ripe yet.
+kid	Mom that one mushy that one mushy.
+cgv	what was messy.
+kid	that one mushy.
+cgv	oh that one was mushy.
+kid	uhhuh Mommy taste this that good Mom.
+kid	that red blueberry good Mom.
+cgv	uhhuh it wasn't quite ripe but it was good.
+kid	this is good Mom.
+cgv	uhhuh.
+kid	it's not ripe I don't like reds.
+cgv	red ones are too tart for you.
+kid	uhhuh I don't like them I need a spoon Mom.
+cgv	okay.
+kid	I eat I eat three play for awhile.
+cgv	you want to play for awhile after you eat.
+kid	uhhuh I play for awhile this one's messy Mom.
+cgv	okay take it out and put it on the table don't throw it on the floor.
+kid	here Mom that one mushy for me.
+cgv	it's too mushy for you.
+kid	uhhuh.
+cgv	it tastes the same Abe.
+kid	Mom you eat this big one.
+cgv	you want me to eat it.
+kid	uhhuh.
+cgv	the big ones are really sweet.
+kid	this big one's really sweet Mom you wan(t) (t)a taste this little one.
+cgv	you can taste it I have a lot in my bowl you can eat yours.
+kid	Mom why you have a green bowl.
+cgv	because this was the only clean bowl so I took it.
+kid	Mom see this big one this one mushy mushy mushy.
+cgv	put it down you don't have to eat it.
+kid	Mom I wan(t) (t)a paint for awhile.
+cgv	would you like to paint with your watercolors.
+kid	uhhuh.
+cgv	okay I'll get them.
+kid	Mommy Terry got them to me and you.
+cgv	Terry.
+kid	uhhuh.
+cgv	uhhuh she got them for you.
+kid	why Mom.
+cgv	because she loves you.
+kid	I love her too.
+cgv	I have a idea.
+kid	uhhuh.
+cgv	when you paint you can paint a picture for Terry and I'll send it down to her.
+kid	okay.
+cgv	that was really a good lunch.
+kid	Mommy you find my hot chocolate.
+cgv	do you want another glass of milk.
+kid	another hot chocolate.
+cgv	hey Abe.
+kid	what.
+cgv	don't spill stuff on the table it makes the table all sticky.
+cgv	Abe are you going to paint a picture.
+kid	no.
+cgv	no.
+kid	no.
+cgv	why not.
+kid	I'm gon (t)a paint one for Terry.
+cgv	oh.
+kid	Mom why you do those Mom.
+cgv	I put them in this bowl so that I could water them I'm not sure that it will work though.
+kid	it better not work Mom it better not work or not it better not work or not.
+cgv	Abe do you want to use the water colors or colored pencils.
+kid	water colors water colors Mom Mommy I need those little things please.
+cgv	Abe you put your brush in the water first and then put it on the paint like this see.
+kid	why Mom.
+cgv	because it won't work unless the paint is wet and you have to wet the brush so that you can get the paint wet.
+kid	I need some more water Mom.
+cgv	use the water that's over here.
+kid	I need some more water Mom.
+cgv	there's still some water here.
+kid	Mommy see.
+cgv	uhhuh.
+kid	I made purple I made purple on this I need more paint Mom.
+cgv	put your brush here and then blot the excess out on this paper towel.
+kid	Mom Mom I made pink I made pink Mom.
+cgv	uhhuh that's a beautiful shade of pink.
+kid	Mom I made brown also.
+cgv	uhhuh.
+kid	I made green also.
+cgv	uhhuh I think that's a beautiful painting.
+kid	and more pink.
+cgv	that is so pretty.
+kid	Mommy I do that.
+cgv	that's okay.
+kid	I do that Mom.
+cgv	you know how to do it don't you.
+kid	uhhuh Mom this is for Stan Mom this is for Stan.
+cgv	is that for Daddy.
+kid	uhhuh Daddy this is a be for you.
+cgv	wow that is so pretty that's a really nice picture.
+kid	show it to Mike.
+cgv	okay I bet he'll like it.
+kid	do dum.
+cgv	huh.
+kid	do dum.
+cgv	do you want to make a picture for Terry.
+kid	after this.
+cgv	okay.
+kid	Mommy I made some more pink.
+cgv	uhhuh.
+kid	Mommy give this to me Dad.
+cgv	Dad Abe made you a surprise.
+cgv	let me see wow.
+cgv	how pretty thank you Abe.
+kid	I make this one for Terry.
+cgv	that would be nice Terry would really like it.
+kid	Mommy how Terry get this for you.
+cgv	huh.
+kid	how Terry get this a present for you.
+cgv	the watercolors.
+kid	uhhuh.
+cgv	she thought that you would like them.
+kid	Mom this is for Terry Mom see.
+cgv	uhhuh just a second.
+kid	this is for Terry I make tiny footprints see Mom.
+cgv	what did you make.
+kid	a clock.
+cgv	a clock.
+kid	uhhuh.
+cgv	right that is a nice clock Abe Dad look Abe made a clock.
+cgv	that's a nice clock Abe what time is it.
+kid	eight o'clock.
+cgv	eight o'clock time to get up.
+kid	I need some more Mom Mom this is getting brown Mom this is getting brown.
+cgv	that's okay.
+kid	Mom hang this on the wall Mom hang this on the wall for Terry comes.
+cgv	I thought we would mail it to her.
+kid	no Mom don't Mom.
+cgv	okay do you want to paint another one.
+kid	for Grandpa and Ninny@f and Bumpa@f I make one footprint Mom.
+cgv	one footprint.
+kid	uhhuh Mom it not works Mom it not works.
+cgv	huh.
+kid	Mom now it works.
+cgv	good.
+kid	Mommy I wan(t) (t)a send it for Terry and Ninny@f and Bumpa@f and Sue.
+cgv	how about Tippy and Steve and Joe.
+kid	and Tippy Mom and Tippy Mom.
+cgv	Tippy too.
+kid	uhhuh.
+cgv	oh you feel like painting another one.
+kid	no.
+cgv	are you getting tired.
+kid	no I paint for a for a for a cookie okay Mom.
+cgv	do you want me to put them away.
+kid	no fix this Mom Mom fix this Mom.
+cgv	what is it.
+kid	mine my colors.
+cgv	okay.
+kid	Mom why you do that.
+cgv	so you can see what colors are there I have to wipe the excess stuff off.
+cgv	I'll see you later I'm off to the dentist bye Mom.
+cgv	dye Dad.
+cgv	bye Abe.
+kid	bye Daddy hope you have a good time at camping.
+cgv	what.
+kid	hope you have a good time at at at the dentist.
+cgv	thanks I hope I do too Abe byebye.
+kid	I'm not going you are going.
+cgv	I'll see you later bye.
+kid	bye Daddy.
+cgv	bye Dad Abe I have to make a dentist's appointment so that you can get your teeth checked out.
+kid	Mom make it now.
+cgv	now.
+kid	uhhuh.
+cgv	one of these days.
+kid	not one of these days make it now Mom make it now Mom.
+cgv	okay when Daddy gets home I'll call the dentist and see if you can get in.
+kid	Mom you go at the my daddy's dentist.
+kid	huh.
+kid	Mom you go at my daddy's dentist.
+cgv	actually he's my dentist.
+kid	huh.
+cgv	I went to him first.
+kid	huh.
+cgv	Daddy and I have the same dentist.
+kid	Mommy you making.
+cgv	I'm making some bread.
+kid	Mom why Mom.
+kid	why Mommy.
+cgv	because we're out of bread.
+kid	banana bread.
+cgv	no regular bread.
+kid	for cut.
+cgv	huh.
+kid	for cut.
+kid	I smell flour Mom.
+cgv	you do smell it.
+kid	uhhuh I feel it Mom I open this up Mom Mom you opened that up Mom.
+cgv	okay I will.
+kid	Mom you smell my flour.
+cgv	uhhuh I smell it.
+kid	I wan(t) (t)a stir it right now.
+cgv	just a second and you can stir it.
+kid	Mom I have ta move the flour Mom.
+cgv	just a second Abe I'll move it.
+kid	now it's my turn.
+kid	now it's my turn Mom.
+cgv	uhhuh.
+kid	why this hot Mom.
+cgv	because I made you hot chocolate.
+kid	why this is cold Mom.
+cgv	because I haven't used it yet.
+kid	huh.
+kid	Mom mine turn.
+kid	mine turn Mom.
+cgv	okay go ahead and punch it.
+kid	Mom I eat this I eat this Mom.
+cgv	no Abe that has yeast in it you should wait before you eat it.
+kid	Mom I like yeast.
+cgv	you still have to wait before you eat it I'll tell you when you can it.
+kid	Mommy I want to put this down here down here.
+cgv	no put it in the sink.
+kid	Mommy I wan(t) (t)a wash my hands I wan(t) (t)a wash my hands Mommy I wan(t) (t)a wash my hands.
+cgv	oh you want me to wash them.
+kid	no me wash them.
+cgv	okay.

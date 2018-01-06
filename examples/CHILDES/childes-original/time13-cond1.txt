@@ -1,0 +1,184 @@
+participant	content
+cgv	Abe I have to eat breakfast before I can draw here you draw.
+kid	thus is broken Mom.
+cgv	what's broke.
+kid	this is broke.
+cgv	draw with another one okay.
+kid	that's not paper.
+cgv	that isn't paper.
+kid	uhuh that's not paper in here momma I don't want this picture.
+cgv	how come.
+kid	huh.
+cgv	how come you don't want that picture you drew it.
+kid	it's broken.
+cgv	oh the paper's ripped here draw on this.
+kid	this is a picture this is not paper.
+cgv	that's orange paper.
+kid	oh we didn't get orange paper Mom.
+cgv	go ahead you can draw on it.
+kid	here Mom see eyes see the eyes.
+cgv	oh Abe made two red eyes Dad.
+cgv	wow.
+kid	a bigger eye this is a.
+cgv	Stan put this in your desk drawer so we'll have it when we need it next time okay.
+cgv	okay give it here.
+kid	we haven't need it in a long time.
+cgv	we might need it again though.
+kid	this is white.
+cgv	uhhuh.
+kid	this white x@l.
+cgv	you made a white x@l.
+kid	Mama what's on here.
+cgv	this is a brochure which tells us that our street will be repaired and that we have to move our car.
+kid	Mama I want white paper I want white paper now that's paper white paper.
+cgv	here you go.
+kid	this is for you Mom.
+cgv	okay I always wanted a painting.
+kid	this is be a ladder.
+cgv	wow Abe's making a ladder.
+cgv	is somebody going to climb it.
+kid	uhhuh Mommy here.
+cgv	that's a neat ladder Abe.
+kid	this is not for you.
+cgv	it's not for me.
+kid	uhuh.
+cgv	who's it for.
+kid	Mommy.
+cgv	oh it's beautiful Abe.
+kid	my mommy like it.
+cgv	I like it.
+kid	my mommy liked it.
+cgv	I like it.
+kid	my mommy liked it.
+cgv	I do too.
+kid	you like red.
+cgv	uhhuh I like red.
+kid	here red.
+cgv	uhhuh.
+kid	we got this and this too it's ours you like this too.
+cgv	uhhuh what color is it.
+kid	it's not it's orange orange it's orange this is orange dot: dot.
+kid	dot.
+kid	dot.
+cgv	are you making dots.
+kid	uhhuh Momma come see this ladder I made.
+cgv	that's really a neat ladder.
+kid	it's for firemans firemen] +s].
+cgv	it's for fireman to climb up.
+kid	uhhuh fireman put out fire.
+cgv	uhhuh and painters use ladders to paint buildings.
+kid	not this house.
+cgv	not yet but they will soon.
+kid	this is ours this is ours what happen Mom.
+cgv	to what.
+kid	to this house.
+cgv	the sun went behind a cloud so it's not as bright in here.
+kid	I wan(t) (t)a turn it on.
+cgv	turn what on.
+kid	my light on you're not Abe.
+cgv	that's right.
+kid	you're not Stan you are Ann.
+cgv	that's right I'm Ann.
+kid	and two eyes Mom.
+cgv	uhhuh I'm going to go out and water the garden.
+kid	I don't want to.
+cgv	okay you can stay in here with Daddy.
+kid	where my ladder.
+kid	here it is wan(t) (t)a poo+poo Daddy I wan(t) (t)a poo+poo.
+cgv	okay I'll help you come on.
+kid	I wan(t) (t)a come back hurry.
+cgv	okay let's hurry drawing pictures again.
+kid	Daddy this is for you you take for school.
+cgv	oh what a neat picture I sure am going to take it to school.
+kid	I wan(t) (t)a go for school with you.
+cgv	okay you can come tomorrow okay Mommy will bring you.
+kid	okay I wan(t) (t)a watch tv I wan(t) (t)a watch tv.
+cgv	there's nothing on tv why don't we play a game okay.
+cgv	let's play hide and seek see I'll hide under the table.
+kid	Daddy birdie.
+cgv	a birdie.
+cgv	where at.
+kid	outside.
+cgv	oh the birdie's outside.
+kid	uhhuh my mommy got a doggy.
+cgv	she did.
+kid	uhhuh in here and we go to park.
+cgv	you went to a park.
+kid	we go park afternoon.
+cgv	oh you're going to a park this afternoon.
+kid	uhhuh Como Park.
+cgv	oh you're going to Como Park.
+kid	to Como Park: I wan(t) (t)a go to Como Park see the ducks.
+cgv	you wan(t) (t)a see the ducks.
+kid	uhhuh I like that.
+cgv	you sure are likable.
+kid	I'm not likable.
+cgv	you're not.
+kid	you are likable.
+cgv	I am.
+kid	uhhuh.
+cgv	thank you.
+kid	a cow in the barn.
+cgv	a cow's in the barn.
+kid	uhhuh that barn.
+cgv	oh a cow's in your barn.
+kid	uhhuh oh I'm sorry.
+cgv	that's okay.
+kid	girl girl girl.
+cgv	go ahead and get the girl a man's in the car.
+kid	who's in the car.
+kid	a man's in the car.
+cgv	that's right a man's in the car.
+kid	a funny man in the car and a silly man in the car.
+cgv	what a bunch of silly people in the car oh look out you almost got me.
+kid	I didn't got you.
+cgv	you almost got me.
+kid	no I didn't.
+cgv	you're silly.
+kid	I got you I got you help me.
+cgv	I'll help you I'm going to tickle you.
+kid	no.
+cgv	yes I am.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+kid	no.
+cgv	okay I won't.
+kid	I got it I got it you can't get it you can't get it.
+cgv	I can't get it.
+kid	you can't I can upside down merry+go+round merry+go+round.
+cgv	you're going to get dizzy.
+kid	Poe Ray Me read that at the store right.
+cgv	we can sing it here if you want to do you want to.
+kid	uhhuh.
+cgv	oh let me see your sore on your foot.
+kid	I didn't got a sore.
+cgv	you don't.
+kid	uhuh.
+cgv	you're right it's just some paint.
+kid	see this I hurt self outside.
+cgv	you hurt yourself outside.
+cgv	let me see your hand.
+kid	on a chair a green chair.
+cgv	how.
+kid	stuck.
+cgv	you know what.
+cgv	you need to have your fingernails cut.
+kid	what fingernails.
+cgv	see right here see how long they are.
+kid	uhhuh I don't want a fingernail cut I don't want a fingernail cut.
+cgv	sure you do.
+kid	I don't want to you do on your toes.
+cgv	you're crazy your fingernails are long my toenails are short so are yours your toenails are in pretty good shape.
+kid	no my toes are not pretty good shape.
+cgv	they are too.
+kid	they are round and circles you funny dummy.
+cgv	you're a silly goose.
+kid	you are a silly goose too a goose flewed flew] +ed] no flew away you flew away.
+cgv	you fly away.
+kid	no you.

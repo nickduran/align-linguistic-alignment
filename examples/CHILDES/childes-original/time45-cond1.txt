@@ -1,0 +1,283 @@
+participant	content
+kid	yes.
+cgv	oh that's so nice what are we going to do tonight.
+cgv	are we going to do anything tonight.
+kid	I don't know.
+cgv	what about going to Jack and Karen's.
+kid	yeah I wan(t) (t)a go to Jack and Karen's house.
+cgv	okay we'll go there tonight.
+kid	I wan(t) (t)a eat cake when we go at Jack and Karen's house.
+cgv	I think that we might be able to arrange that let me see what's on your face it looks like something froze on your face while you were outside what do you think it was.
+kid	I don't know what do you think it was.
+cgv	I think it was probably a chicken.
+kid	no chickens don't freeze on someone's face.
+cgv	is that right.
+kid	no.
+cgv	what do they do.
+kid	eat.
+cgv	oh chicken's eat a lot.
+kid	yeah chickens eat a lot they eat worms and bird food they don't eat that food.
+cgv	what food.
+kid	people food.
+cgv	chickens don't eat people food.
+kid	no.
+cgv	what are you doing.
+kid	cover this up.
+cgv	are you going inside.
+kid	you cover this up with a blanket okay.
+cgv	okay I will is that your cave.
+kid	no it's not a cave it's a forest a big forest cover it up cover it up please.
+cgv	I will.
+kid	cover it up please.
+cgv	I am where's Abe at.
+kid	don't say +"/..
+kid	+" where's Abe.
+cgv	you don't want me to say that.
+kid	no.
+cgv	okay I won't I sure do wish that I knew where he was.
+kid	what.
+cgv	I sure do wish that I knew where Abe was.
+kid	he's in a box and you covered him up.
+cgv	oh well I'm glad that I know where he is now.
+kid	I'm a bear I'm a bear I'm not a mean bear I'm a nice bear.
+cgv	you're a nice bear.
+kid	uhhuh I'm a nice bear I'm I'm gon (t)a fly up up to the ceiling I'm gon (t)a fly up to the ceiling fly fly fly fly.
+cgv	be careful.
+kid	I wan(t) (t)a make a cake I wan(t) (t)a make a cake.
+cgv	do you want to make me a cake.
+kid	uhhuh me Mommy and I make a birthday cake for you.
+cgv	that sure would be nice.
+kid	I wan(t) (t)a make a big big big cake.
+cgv	you can as soon as Mommy comes home.
+kid	I wan(t) (t)a watch tv I wan(t) (t)a watch tv.
+cgv	you wan(t) (t)a watch some tv.
+kid	yeah.
+cgv	we will in just a little while what can we do until then.
+kid	I don't know.
+cgv	what kind of cake are you going to make.
+kid	a chocolate frosting cake.
+cgv	really.
+kid	yeah.
+cgv	that sounds like a good idea to me hey what are you doing.
+kid	I wan(t) (t)a climb up here and watch it.
+cgv	what.
+kid	I wan(t) (t)a climb up and watch it.
+cgv	you're going to stand on top of that box and watch tv.
+kid	yeah.
+cgv	that's pretty dangerous.
+kid	I wan(t) (t)a watch tv.
+cgv	we will in just a little while what can we do until then.
+kid	I don't know.
+cgv	why don't we talk.
+cgv	what did you do when you went to school with Mommy today.
+kid	that play thing was closed.
+cgv	Mommy's pottery room was closed.
+kid	uhuh.
+cgv	what happened after that.
+kid	we didn't play in it.
+cgv	you didn't.
+kid	uhuh we didn't (be)cause it was closed.
+cgv	what else happened.
+kid	I don't know.
+cgv	did you go anywhere.
+kid	no.
+cgv	didn't you go the Dinkey Town.
+kid	it was closed.
+cgv	Dinkey Town was closed.
+kid	yeah.
+cgv	do you remember when Daddy honked at you.
+kid	uhuh I didn't see you.
+cgv	you didn't.
+kid	uhuh I didn't see you you honked when I didn't seed you.
+cgv	oh was I going too fast.
+kid	uhhuh my panties my panties my panties was my panties was my panties has a hole right here see.
+cgv	your panties has a hole in it.
+kid	right here see.
+cgv	let me see oh is Mommy going to fix it.
+cgv	is Mommy going to fix that hand.
+kid	no.
+cgv	oh you want it to stay that way.
+kid	uhhuh I like it I wan(t) (t)a watch tv.
+cgv	hey.
+kid	yeah what is it.
+cgv	I have an idea.
+kid	what is it.
+cgv	let's look at the pictures and you tell me what's going on okay.
+kid	okay and then you tell me okay.
+cgv	okay we'll take turns what were you doing here.
+kid	walking.
+cgv	what were you walking to.
+kid	to a tree.
+cgv	you're walking to a tree.
+kid	uhhuh.
+cgv	what about this one.
+kid	I'm walking with a eighteen ["] shirt on to school.
+cgv	uhhuh that's right who are you going with.
+kid	Mommy.
+cgv	uhhuh.
+kid	Mommy's not here now.
+cgv	she's at the store right.
+kid	right she's at the store again.
+cgv	again.
+kid	uhhuh.
+cgv	what about this picture.
+kid	it's Abe playing on the monkey bars.
+cgv	are you doing any tricks.
+kid	yeah.
+cgv	what are you doing there.
+kid	he's swinging and he's uh fall down and hurt his face.
+cgv	is that what happened.
+kid	uhhuh.
+cgv	and you remembered that.
+kid	no.
+cgv	do you know if it really happened.
+kid	I don't know.
+cgv	oh what about this one.
+kid	that's Abe making a beaver dam.
+cgv	oh what are you making it with.
+kid	I don't know.
+cgv	look and tell me what's in your beaver dam okay.
+kid	that's a chair and that's a chair and that's a truck and that's a blanket.
+cgv	uhhuh now tell me what you used all of those things for.
+kid	a chair is for sitting and that chair is for sitting that's a truck and I can ride it outside and that's Greggy's blanket.
+cgv	uhhuh you can also build a beaver dam with all that can't you.
+kid	uhhuh with this and this and this I wan(t) (t)a build a beaver damn when you are all done.
+cgv	don't you want to look at any more pictures.
+kid	no.
+cgv	okay I'll put em up what do you want to do.
+kid	I I I wan(t) (t)a go to Jack and Karen's house so we can eat ice cream okay.
+cgv	we will later on okay.
+cgv	do you know what.
+cgv	Halloween is coming pretty soon what are you going to be on Halloween.
+kid	be Robin.
+cgv	are you going to be Robin.
+kid	uhhuh and I will be Robin.
+cgv	oh what are you going to do on Halloween.
+kid	get some candy.
+cgv	is that what Halloween is all about.
+kid	uhhuh I wan(t) (t)a get some candy after I watch tv.
+cgv	you want to get candy after you watch tv.
+kid	uhhuh I wan(t) (t)a watch tv now.
+cgv	get me the schedule and I'll see what's on are you going to get it or do you want me to get it.
+kid	I'm a get it where is it.
+cgv	it's right over there.
+kid	okay.
+cgv	let me see.
+kid	what's on.
+cgv	I hear Mommy yelling for help let's go help her we're coming Mom.
+kid	we're coming I want a banana.
+cgv	well the bananas aren't quite ripe yet.
+kid	I want a banana Daddy I want a banana Daddy.
+cgv	I got some good fish Dad you should be proud.
+kid	I wan(t) (t)a see the good fish.
+cgv	I'll show it to you.
+kid	I wan(t) (t)a see if I want a banana.
+cgv	how about an apple.
+kid	no.
+cgv	how about a pear.
+kid	where's a pear.
+kid	I wan(t) (t)a see a fish you got I wan(t) (t)a see a fish you got I want a peanut butter sandwich I want a peanut butter sandwich Mom please please Mommy please.
+cgv	okay just a second and I'll get you whatever you want.
+kid	I want a peanut butter sandwich.
+cgv	okay hold on for just a second let me finish putting the groceries away.
+kid	I dropped it again.
+cgv	what dropped.
+kid	that dropped.
+cgv	oh I think that you did that on purpose you did didn't you.
+kid	no I didn't I didn't Mom what are you doing.
+kid	Mom what are you doing.
+cgv	I'm putting the celery away.
+kid	my Daddy got me a box.
+cgv	oh did you play in it.
+kid	uhhuh.
+cgv	thanks for picking up some of the junk off of the floor.
+kid	I sweepted@n and my Daddy holded the dust pan and my Daddy sweepted@n and I holded@n the dustpan.
+cgv	you cooperated.
+kid	uhhuh.
+cgv	how nice.
+kid	you get me two parts one on the top and one on the bottom.
+cgv	uhhuh and one middle full of peanut butter.
+kid	and jelly.
+cgv	okay.
+kid	that jelly put it in when you put it there.
+cgv	I'll put it on top of the peanut butter.
+kid	cut it.
+cgv	eat that and then we'll go.
+kid	we going at.
+cgv	we have to take our turntable back.
+kid	why we have ta do that.
+cgv	because it doesn't work right.
+kid	what you doing.
+cgv	I'm making apple+sauce for Daddy's birthday cake.
+kid	that we made at school you know.
+cgv	you made apple+sauce at school.
+kid	uhhuh.
+cgv	did you eat some.
+kid	uhhuh and Sarah did also what's Daddy doing.
+cgv	it looks like he's getting into the tool box.
+kid	why he doing that.
+cgv	he probably needs some tools.
+kid	why.
+cgv	to fix something.
+kid	oh milkie you get me some milkie.
+cgv	just a moment please.
+kid	Mommy Mommy +....
+cgv	hmm.
+kid	mommies have boobies and daddies just have pimples.
+cgv	are you sure.
+kid	uhhuh I'm a daddy and I got pimples you are a mommy and you got boobies.
+cgv	you've got everything figured out don't you Abe.
+kid	what.
+cgv	I just said that you have everything figured out.
+kid	why you said +"/..
+kid	+" I have everything figured out.
+cgv	because you're such a smartie.
+kid	it's too big for it.
+cgv	what.
+kid	it's too big for it.
+cgv	yeah but I couldn't find the small one.
+kid	why.
+cgv	it's hidden somewhere are you done eating.
+kid	I dropped one little pieces.
+cgv	that's okay one piece of crust isn't very important.
+kid	you didn't believe me when I dropped little bitty piece of bread crust.
+cgv	no do you want another sandwich.
+kid	uhhuh peanut butter and jelly sandwich.
+cgv	okay here's the grape jelly.
+kid	why that's grape jelly.
+cgv	because Grandma got lot of grapes and made jelly out of them.
+kid	oh I like her and Karen's a good friend.
+cgv	Karen is.
+kid	uhhuh Karen is when we go at Texas I give Karen a big kiss.
+cgv	oh I bet that she would really like that are you about ready to go.
+kid	I wan(t) (t)a eat my sandwich first.
+cgv	okay I saw a garage sale on the way to the store would you like to go to that.
+kid	you seed a garage sale on the way there.
+cgv	uhhuh we can go if you want to.
+kid	I get something we go there.
+cgv	we'll have to wait and see.
+kid	why we have ta wait and see.
+cgv	they might not have anything that you'd want.
+kid	I want something I get something and you get something and and my Daddy get something for him and then we be happy.
+cgv	that's a good idea but we'll have ta wait and see what they have at the garage sale.
+kid	let's go let's go right now.
+cgv	just a second let me use the bath+room do you have to tee+tee.
+kid	no mommies sit down when they tee+tee and daddies have ta stand up.
+cgv	I have to sit down when I tee+tee.
+kid	uhhuh.
+cgv	couldn't I stand up if I wanted to.
+kid	no you are a mommy and mommies sit down daddies stand up and you are not a daddy you are a mommy.
+cgv	tee+tee.
+kid	I will wait outside for you you tee+tee and then you come get me okay.
+cgv	wait in here instead okay.
+cgv	I'll only be a second.
+cgv	where's Mommy.
+kid	her's in the bath+room teeteeing.
+cgv	oh what are you doing.
+kid	I'm waiting for her her said +"/..
+kid	+" wait here.
+cgv	and you're just going to sit here.
+kid	uhhuh we going at a garage sale and get me something.
+cgv	oh really.
+kid	uhhuh.
+cgv	are you +....

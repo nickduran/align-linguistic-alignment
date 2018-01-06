@@ -1,0 +1,306 @@
+participant	content
+kid	a birthday.
+cgv	whose birthday.
+kid	mine right.
+cgv	I thought tomorrow was Halloween Is it.
+kid	yeah and, and, and tomorrow is my birthday.
+cgv	tomorrow we're having a party, but it's not a birthday party it's a Halloween party.
+kid	I don't want any rice.
+cgv	well, go ahead and eat just a little bit.
+cgv	what do you want to drink, Abe.
+kid	nothing I want milkie.
+cgv	okay.
+kid	hot I need butter on it.
+cgv	on your rice.
+kid	yeah.
+cgv	I'll give you some more rice.
+kid	no I don't want any.
+cgv	well, just leave it on your plate then.
+kid	I want some peanut butter.
+cgv	huh.
+kid	I want some peanut butter.
+cgv	this is a meal in a dish, Abe.
+kid	huh.
+cgv	this is a meal in a dish it has fish and vegatables vegetables] all in one.
+kid	that have any flavor in it.
+cgv	what.
+kid	that have any flavor in it.
+cgv	oh yes it's delicious would you like a taste.
+kid	no I want bread and butter.
+cgv	do you want to put rice on it and have a rice sandwich.
+kid	no I will dip it see I dipped it.
+cgv	do you want to make a rice sandwich.
+kid	I dipped it in again.
+cgv	good keep dipping it tell daddy what we did at the park, Abe.
+kid	I don't know.
+cgv	did you swing on the swings.
+kid	uhhuh.
+cgv	climb on the monkey bars.
+kid	I climbed highest.
+cgv	Abe went so high that I went underneath him.
+cgv	wow.
+kid	Aaron tripped on me.
+cgv	hhmm.
+kid	Aaron tripped on me.
+cgv	he tripped on you.
+kid	uhhuh Aaron tripped, you say Aaron on me.
+cgv	Aaron tripped on Abe.
+kid	I want more.
+cgv	what.
+kid	I want more.
+cgv	more what.
+cgv	bread.
+kid	yeah.
+cgv	I'll give you some of mine, okay.
+kid	okay After I eat that.
+cgv	what.
+kid	after I eat that, you get me more.
+cgv	sure.
+cgv	eat some rice now too.
+kid	so he was the leader right.
+cgv	who was the leader.
+kid	Aaron.
+cgv	uhhuh Aaron was the leader because it was his party and he wanted to be the leader.
+kid	yeah awoh it falled@n out of there.
+cgv	what.
+kid	the car falled@n out of there.
+cgv	the car fell.
+kid	no it falled@n it falled@n on the floor.
+cgv	we'll fix it after dinner, okay.
+cgv	We have to carve our pumpkin too.
+cgv	are we going to do that tonight or tomorrow.
+kid	tonight tomorrow tonight tomorrow.
+cgv	I bet that we can end doing it tonight what do you think.
+kid	I don't know I painted my face at Aaron's party.
+cgv	you did.
+kid	uhhuh.
+cgv	how.
+kid	with paints.
+cgv	what color was it.
+kid	red and white and yellow.
+cgv	all of those colors.
+kid	uhhuh.
+cgv	what mask did you like the best.
+kid	I don't know a goblin.
+cgv	yeah you really liked that, didn't you.
+kid	uhhuh I need more I need more.
+cgv	just a second.
+kid	I need more.
+cgv	do you want a roll.
+kid	I don't want a roll.
+cgv	you can put butter on it.
+kid	I don't want any roll.
+cgv	I put some butter on it here.
+kid	I wan(t) (t)a get it I wan(t) (t)a get it.
+cgv	okay Go ahead and get it.
+kid	it falled@n down you get it you get it and give it to me, okay.
+cgv	okay here you go.
+kid	when we go at Aaron's, at Aaron's.
+kid	house, we have to Iet Aaron be leader.
+cgv	what, Abe.
+kid	when Aaron, when Aaron, when we ask Aaron wan(t) (t)a come over to my, my party at, at Saturday, and I say we go to the park and, and then I'm gon (t)a be the leader.
+cgv	that sounds fair to me do you want to have a party.
+kid	I hope we do.
+cgv	we'll have to wait and see what the weather is going to be like.
+kid	what are you doing.
+cgv	I was just patting my tummy.
+kid	why.
+cgv	because it feels good why don't you try it.
+kid	I want some more milk you get some for me, okay.
+cgv	okay here you go.
+kid	I drink it all.
+cgv	go ahead.
+kid	I like this rice it's yummy.
+cgv	I'm glad that you like it.
+kid	why this fork have sharp, sharp little points.
+cgv	it helps you to eat a little easier.
+kid	I made two lines across the top.
+cgv	good.
+kid	look what I did why you doing that again.
+cgv	he thinks that his tummy is a drum what a silly daddy.
+kid	maybe these fit in here nope they don't fit in here.
+cgv	maybe the fork is too big.
+kid	why the fork is too big.
+kid	why the fork is too big, Mommy.
+cgv	it's just too big to fit inside.
+kid	where you going at.
+kid	where you going at.
+cgv	I'm not going anywhere I was just stretching after that delicious meal.
+cgv	thank you, Dad Abe, you need to go pottie, don't you.
+kid	uhhuh I need the light on mommy, you put this in turn the light off.
+kid	show Daddy mine, mine, mine costume.
+cgv	he saw it this morning.
+kid	you wan(t) (t)a see it.
+cgv	sure.
+kid	where is it.
+kid	I can't find it, Dad You help me find it, okay.
+cgv	okay here it is that's nice.
+kid	see.
+cgv	I sure do like it.
+kid	you didn't see my costume.
+cgv	sure I did and I really like it are you coming to my office tomorrow.
+kid	I don't know.
+cgv	if you do, I'll give you a trick.
+kid	what trick.
+cgv	daddy's just being silly.
+kid	daddy's not being nothing.
+cgv	he is too he's being silly.
+kid	where's my cookie.
+kid	where's my cookie.
+kid	Where's my cookie, Mom.
+cgv	it's up on top of the refrigerator.
+kid	I'm ready to eat it.
+cgv	I don't think that you ate any rice did you.
+kid	yeah.
+cgv	I don't think that you did.
+kid	I did I did too I did too I tasted it I tasted it I tasted it.
+cgv	eat a little bit more and then you can have your cookie.
+kid	I don't want anymore.
+cgv	okay, you don't get your cookie then.
+kid	I tasted it now I tasted it now I got butter on my shoe.
+cgv	wipe it off we have to go get some flash+cubes, Abe.
+kid	now.
+kid	now.
+cgv	pretty soon.
+kid	I don't want to I don't want to.
+cgv	you don't want to go to the store.
+kid	no I wan(t) (t)a stay home and watch tv +....
+cgv	okay.
+kid	ala@s peanut butter sandwiches.
+kid	why he says +"/..
+kid	+" ala@s peanut butter sandwiches.
+cgv	that's just his magic word.
+cgv	Do you want to say it.
+kid	no.
+cgv	why don't we say it together.
+kid	no you say it by yourself.
+kid	I'm gon (t)a see what this sign says it says +"/..
+kid	+" nobody fell in the whole world.
+cgv	why does it say that.
+kid	what.
+cgv	why does the sign say that.
+kid	because just because what time that show come on, Daddy.
+cgv	it's on in about ten minutes.
+kid	now.
+cgv	in about ten minutes.
+kid	it's ten now I wan(t) (t)a see a clock Yep it's ten minutes now it's ten minutes now, Daddy.
+cgv	is it ten minutes until the show.
+kid	where's ten minutes.
+kid	where is the ten on there.
+kid	on our clock.
+cgv	see.
+cgv	the ten is right here.
+kid	there's the ten it got ten, Daddy It got ten.
+cgv	the show will be on in just a little while, Abe.
+kid	so the show has to get about ten, okay.
+kid	More ten.
+cgv	it's almost time.
+kid	it's almost time I want something where's mine something.
+kid	Where's my something.
+kid	where's my something.
+kid	where's mine.
+cgv	where's your what, Abe.
+kid	mine, my red thing.
+cgv	what red thing.
+kid	that red thing where daddy going.
+cgv	I'm not going anywhere, Abe I'm just putting a shirt on because I'm cold.
+kid	later I will eat some ice cream, okay.
+kid	okay, Daddy.
+kid	okay.
+cgv	I think that we can work that out, Abe.
+kid	what you got in your mouth.
+kid	huh.
+cgv	it's a toothpick.
+kid	a toothpin@c.
+cgv	toothpick can you say toothpick.
+kid	no, I don't know how to say a toothpick Why that's a toothpick.
+cgv	it's just something that's good to chew on for a minute or two.
+kid	why that's good to chew on to a minute.
+cgv	do you want to carve our pumpkin tonight.
+kid	what, what carve.
+cgv	do you want to cut our pumpkin and put our gourds in.
+kid	yeah it's trick or treat now.
+cgv	tomorrow night.
+kid	okay, let's cut our pumpkin to put our gourds in, okay.
+cgv	not right now we will later on, okay.
+kid	okay why we're: cutting pumpkin to put gourds in it.
+cgv	so that it'll look neat for the party tomorrow morning.
+kid	what party.
+cgv	we're having a Halloween party tomorrow morning you knew that.
+kid	I wan(t) (t)a eat some of those.
+cgv	you have to wait until they're cooked, okay.
+kid	why.
+kid	they are wet.
+cgv	they're not cooked.
+kid	I wan(t) (t)a cook our seeds too I wan(t) (t)a cook our seeds too.
+cgv	we will as soon as we get done carving the pumpkin.
+kid	I wan(t) (t)a look outside I wan(t) (t)a look outside there's a mo(n)ster out there with a shadow.
+cgv	there is.
+kid	you push this up a little bit you push this up a little bit.
+cgv	do you want to go to K_Mart with me, Abe.
+kid	for what.
+cgv	for flash+cubes.
+kid	I don't want to go Mommy you do this.
+cgv	what are you doing, Abe.
+kid	I'm trying to push this up a little bit so I can see a shadow.
+cgv	we can't open it up any farther.
+kid	why.
+cgv	because it's impossible.
+kid	I wan(t) (t)a watch the show.
+cgv	we will in just a little while.
+kid	we going at the show.
+kid	we going at the show.
+cgv	no we're not going out to a theater Mom saw a show that is going to be on tv +....
+kid	I ask Mommy, ask Mommy what's on the theater is the show on the theater.
+cgv	no it's on the tv +....
+kid	it's on the tv +....
+cgv	not the theater.
+kid	no I asked mommy.
+cgv	and she told you.
+cgv	are you sure that you don't want to come with me.
+cgv	it won't take long.
+kid	why it won't take long.
+cgv	I'm just going to K_Mart.
+kid	I'm not ready I don't wan(t) (t)a go to K_Mart.
+cgv	okay.
+kid	it's cold right now it's cold right now, Mom.
+cgv	I hate going on these stupid little trips.
+cgv	have fun.
+kid	you want someone to come with you.
+cgv	yeah, if you want to.
+kid	no I wan(t) (t)a watch tv I wan(t) (t)a watch tv instead.
+cgv	okay Give me a kiss.
+kid	no I don't want a kiss I don't want a kiss on me.
+cgv	wipe it off goodbye.
+kid	I'm gon (t)a wave goodbye to you at the door I'm gon (t)a wave goodbye out of our door I'm gon (t)a wave goodbye out the door I'm gon (t)a try out in here I wan(t) (t)a wear my belt, Daddy I waved goodbye to Mommy I wan(t) (t)a say goodbye to Mommy again.
+cgv	I think it's time for the tv show why don't you turn it on.
+kid	when's the cartoons get on.
+kid	now.
+kid	when's the cartoons come on.
+cgv	not until seven do you want to watch the elephant show now.
+kid	yeah where's the elephant show come on.
+kid	huh.
+cgv	on channel five, I think.
+kid	where's the five.
+cgv	turn it on and we'll see.
+kid	there's a five it's too loud.
+kid	You tell me when it's too loud.
+cgv	okay.
+kid	hey.
+cgv	what.
+kid	your tape recorder is up.
+cgv	it's up here on my desk, isn't it.
+kid	yeah the tv's on.
+kid	that too loud.
+cgv	no, it's just about right.
+kid	I wan(t) (t)a eat one of my candies I got to store.
+cgv	you want one of the candies that you got at the store.
+kid	yeah.
+cgv	those are for Halloween you'll get a lot of candy tomorrow we'll have some candy when Mommy gets home, okay.
+kid	I wan(t) (t)a eat some ice cream while I watch this show, okay.
+cgv	okay, Mommy'll be home in just a few minutes.
+kid	I wish that you stop talking.
+cgv	you wish that he would.
+kid	uhhuh.
+cgv	I do too I don't like commercials.
+kid	I don't like, uh, I don't like commercials also.

@@ -1,0 +1,333 @@
+participant	content
+cgv	did you tell Daddy about your boomie@f.
+kid	I hurt my finger.
+cgv	how.
+kid	on the door I hurt my finger I hurt my finger I didn't watch out when I when I close the door.
+cgv	you didn't watch out when you closed the door.
+kid	hunhunh.
+cgv	will you watch out next time.
+kid	uhhuh.
+cgv	good is your finger okay.
+kid	it feels better now.
+cgv	tell Daddy what we did at the store.
+kid	I don't want to now.
+cgv	okay.
+kid	Mommy we do that.
+cgv	did you tell Daddy what store we went to.
+kid	the co_op store.
+cgv	I know but who did we see at the other store.
+kid	huh.
+cgv	remember who we saw at the other store.
+kid	I didn't see Mom.
+cgv	we saw Mickey Mouse there a long time ago.
+kid	I don't want to Mom.
+cgv	you don't want to what.
+kid	I don't wan(t) (t)a go there again Mom.
+cgv	you don't want to go there again.
+kid	hunhunh uhhuh I wan(t) (t)a go there again.
+cgv	we might.
+kid	Mommy.
+cgv	huh.
+kid	Mommy I want milk I want milk.
+cgv	okay here you go.
+kid	here Mommy.
+cgv	you don't want it or you want me to put it on the table.
+kid	put it on the table.
+cgv	I think it's getting ready to pop.
+kid	huh.
+kid	what's in it Mom.
+cgv	popcorn.
+kid	oh.
+cgv	it popped.
+cgv	hear it popping.
+kid	that scare me Mom.
+cgv	the popcorn scares you.
+kid	no boomie@f scare me.
+cgv	when I shake the pan back and forth it scares you.
+kid	uhhuh.
+cgv	it's done but it sure doesn't look like very much should I make more.
+cgv	uhhuh.
+kid	two of them.
+cgv	uhhuh will you eat a lot of popcorn.
+kid	I will Mom.
+cgv	good do you hear it popping.
+kid	I wan(t) (t)a see it Mom.
+cgv	it's popcorn Abe you can see it when I'm done.
+kid	Mom that scares me then you do it fast.
+cgv	it makes a lot of noise doesn't it.
+kid	uhhuh Mom I wan(t) (t)a eat now I wan(t) (t)a eat some popcorn when it's ready Mom I wan(t) (t)a eat some popcorn.
+cgv	ask Dad if he's ready.
+kid	you ready.
+cgv	I'm ready would you like some juice to drink.
+kid	uhhuh.
+cgv	I'll take some ice water.
+kid	I take some juice.
+cgv	ow.
+kid	that hurt.
+cgv	not too bad I'll be alright.
+kid	you alright Dad.
+cgv	uhhuh.
+kid	what's that.
+cgv	that's a truck driver going down the road.
+kid	what's this channel.
+cgv	this is channel nine.
+kid	I wan(t) (t)a watch I wan(t) (t)a watch some cartoons.
+cgv	you do.
+kid	uhhuh.
+cgv	they're not on until Saturday morning.
+cgv	Tricey Dick's on tonight though he's a real joke.
+kid	what's that.
+cgv	that's the truck he's after the car.
+kid	oh Mom he going Mom.
+kid	he going Mommy.
+cgv	he's just chasing the guy in the car.
+kid	why the truck driver try kill that man.
+cgv	I don't know Abe.
+kid	Mommy make some more make some more Mom.
+cgv	are you still hungry.
+kid	uhhuh Mommy you eat it all Mom.
+cgv	no I didn't we all ate it.
+kid	you ate it all.
+cgv	no I didn't you ate a lot of it.
+kid	I didn't eat all of it.
+cgv	I didn't either.
+kid	I didn't either Daddy I wan(t) (t)a play a game with you.
+cgv	huh.
+kid	I wan(t) (t)a play a game with you.
+cgv	you do.
+kid	uhhuh.
+cgv	I don't have a game right now but you can come sit over here and +/..
+kid	I wan(t) (t)a play a game with you I wan(t) (t)a play with the tree and the polar bear.
+cgv	a tree and a polar bear.
+kid	uhhuh.
+cgv	where is the tree and the polar bear.
+kid	my surprise you gotted@n at school one day.
+cgv	oh.
+kid	get them down two animals two animals in a bag you got at school one day.
+cgv	Abe I had to take those back to school.
+cgv	here's something for you to play with Abe.
+kid	Mom what's those.
+kid	I wan(t) (t)a do those Mom Mom I wan(t) (t)a do those I wan(t) (t)a play with those Mom those work.
+kid	Mom this work.
+kid	this work Mom.
+cgv	uhhuh.
+kid	how this work Mom.
+kid	how this work.
+kid	Mom what's this Mom.
+cgv	those are little cars.
+kid	oh watch this Mom.
+cgv	oh see this this is a milk truck.
+kid	Mom we saw that Mom.
+cgv	uhhuh.
+kid	Mom here Mom I have ta tee+tee Mom.
+cgv	run in there.
+kid	Mom turn the light on please.
+cgv	I will Abe here you go.
+kid	Mom what you doing.
+cgv	I'm trying to get something out of my mouth.
+kid	oh Mom what's this truck Mom.
+kid	what's this truck Mom.
+cgv	that's a sand truck.
+kid	huh.
+cgv	a sand truck.
+kid	Mom this is a this is another milk truck.
+cgv	uhhuh that's another milk truck.
+kid	Mom this works.
+cgv	uhhuh.
+kid	I like this truck Mom Mommy this falled@n over Mom.
+cgv	do you want me to fix it.
+kid	uhhuh thank you Mom Mom what's that Mom.
+kid	right here Mom what's this Mom.
+cgv	that's a dump truck.
+kid	Mom how (a)bout this one.
+kid	how about this one Mommy.
+cgv	that's a garbage truck.
+kid	what's that one Mom.
+cgv	that's a sand truck.
+kid	Mom I want another one with gas.
+cgv	what.
+kid	I want another one with gas.
+cgv	they all have gas Abe.
+kid	oh Mommy Mommy Mommy they dropped out Mom.
+cgv	you can play with them.
+kid	no I don't want to.
+cgv	you don't.
+kid	no I don't want to where's my milk truck.
+kid	where's my milk truck Mom.
+cgv	it's right here Abe.
+kid	thank you I never seed a monkey in a forest.
+cgv	you never saw a monkey in a forest.
+kid	no I never seed a alligator in a forest either.
+cgv	you didn't.
+kid	hunhunh.
+cgv	here's a monkey.
+kid	Mom where's another monkey.
+kid	where's another monkey.
+cgv	I don't know I think there's just one.
+kid	Mom there there no more.
+cgv	uhhuh there's just one monkey.
+kid	Mom those are boys.
+cgv	uhhuh.
+kid	I'm sorry Mom I'm sorry Mom.
+cgv	that's okay Abe it didn't bother me.
+kid	Mom they are all fall down.
+cgv	uhhuh they all fell down.
+kid	Mommy get em up Mom get em up Mommy.
+cgv	which ones.
+kid	these Mom.
+cgv	okay.
+kid	I knocked them down Mom.
+cgv	you knocked them down.
+kid	uhhuh they never going anywhere I knocked them down and you picked them up Mom why there areas two of them.
+cgv	two trees.
+kid	uhhuh.
+cgv	just because that's how many came with the trucks.
+kid	oh one two three four five six seven eight nine ten (e)leven twelve fifteen sixteen seventeen nineteen nineteen.
+cgv	is that how many there are.
+kid	uhhuh I knocked them everywhere.
+cgv	you sure did.
+kid	get them up Mom get them up Mommy put them in Mom put them in.
+cgv	in here.
+kid	uhhuh Mom what's that Mom.
+cgv	that's a tiny ant Abe.
+kid	oh Mommy put them in Mom Mom Mom put this up Mom.
+cgv	okay.
+kid	Mom why this is a hole.
+kid	Mom why there a hole in here.
+cgv	that just shows where his horns are.
+kid	huh.
+cgv	that just shows where his horns go.
+kid	I can't see them Mom where there horns.
+cgv	right here.
+kid	huh.
+cgv	here's his mouth his eyes and here are his horns.
+kid	I can't see them.
+cgv	they're right here Abe.
+kid	why Mom.
+cgv	so that he can protect his cows.
+kid	oh Mom Mom they are lost Mom Mom I better put them in before they get broken.
+kid	Mom that's not gas that's not gas Mom.
+cgv	it's water Abe.
+kid	Mom why are there are wheels so huge.
+cgv	so that they'll fit the truck.
+kid	Mom I can't put this on Mom I can't put this on Mom.
+cgv	give it here and I will.
+kid	here Mom here Mom.
+cgv	here it is Abe.
+kid	thank you Mom Mom why he has two bones.
+kid	why he has two bones.
+cgv	one for each side.
+kid	bones.
+cgv	uhhuh.
+kid	bones bones bones bones bones bones bones bones bones bones bones bones.
+kid	why Mom.
+cgv	to keep his body together.
+kid	bones bones bones bones bones bones bones Mom close this up Mom.
+cgv	you filled it up too much.
+kid	huh.
+cgv	you've got too much in there take some out.
+kid	there Mom it's not too much Mom.
+cgv	take all the animals out and put all the trucks back in.
+kid	this this this Mommy Mommy how this is got glued Mom.
+cgv	that one's okay put it back in the bag.
+kid	how this got glued Mom.
+kid	Mommy Mom Mom how this got glued.
+cgv	that's how the trucks are put together Abe they're glued.
+kid	Mom Mommy I come with you at George and Edna.
+cgv	huh.
+kid	not with you but with you at George and Edna house.
+cgv	a banana house.
+kid	George and Edna go at her house.
+cgv	oh.
+kid	Mom do it right now I got surprise of animals Mommy I got surprise of animals Mommmy.
+cgv	uhhuh.
+kid	Mom why those are bones of buffalos.
+kid	why Mom.
+cgv	huh.
+kid	Mom what's this one.
+cgv	that's the very top of the zoo.
+kid	Mom why this is two lions Mom.
+kid	why Mom.
+cgv	that's how many are in the zoo Abe.
+kid	Mom Mom I wan(t) (t)a make some more popcorn.
+cgv	would you rather have some granola.
+kid	uhhuh granola cereal I like my carrot for tacos I like carrots for tacos Mom.
+cgv	you do.
+kid	uhhuh carrots for tacos carrots for tacos carrots for tacos.
+cgv	here's your granola.
+kid	I like granola it's good.
+cgv	do you want some milk.
+kid	not milk in here milk in a glass.
+cgv	okay.
+kid	Mommy I need a fork with my spoon okay Mommy.
+kid	Mommy.
+kid	I need a fork with my spoon.
+kid	I need it Mom.
+cgv	a fork.
+kid	uhhuh a fork with my spoon.
+cgv	okay I'll get it for you.
+kid	Dad I need some crackers.
+cgv	you want some.
+kid	uhhuh.
+cgv	how many.
+kid	two two crackers.
+cgv	do you want peanut butter on these.
+kid	uhhuh Daddy I need two of them.
+cgv	huh.
+kid	I need two of them I need a top on them okay.
+cgv	okay I'll put a top on them.
+kid	Daddy turn it better Daddy.
+cgv	huh.
+kid	look at that tv +....
+cgv	I see it.
+kid	fix it.
+cgv	I'll try.
+kid	that's mine Dad.
+cgv	huh.
+kid	that's mine Grandma got it to me.
+cgv	Grandma got this for you.
+kid	uhhuh that's mine that's mine Mom.
+cgv	okay I won't wear it any more.
+kid	Dad we didn't have ice cream in in Texas Grandma bought some and and we have some.
+cgv	Grandma bought us some ice cream and we ate it.
+kid	uhhuh Mommy he said he said +"/..
+kid	+" Minnesota.
+cgv	uhhuh.
+kid	we goed@n there.
+cgv	that's where we live Abe.
+kid	oh when when he said Texas ["] we we goed@n there Mom.
+cgv	uhhuh.
+kid	when he said Texas ["] I told my Mom.
+cgv	uhhuh.
+kid	Dad.
+cgv	uhhuh.
+kid	it's doing not well.
+cgv	it's doing well.
+kid	hunhunh fix it.
+cgv	oh it's not doing well.
+kid	uhhuh fix it.
+cgv	I'll try.
+kid	don't eat that Mom.
+cgv	I won't what is it.
+kid	a peanut butter cracker you a peanut butter cracker I love you I can't hear it Dad I can't hear it.
+cgv	okay I'll turn it up.
+kid	what this for Dad.
+kid	what's this for Dad.
+cgv	that's a spoon.
+kid	what's this for.
+kid	what this spoon for Dad.
+cgv	to eat granola with.
+kid	huh.
+cgv	so that you can eat granola.
+kid	Mom you hungry.
+cgv	no I'm not hungry Dad bring me those big rocks on the second shelf.
+kid	what big rocks.
+cgv	here you go.
+kid	Mom what those.
+cgv	I'm going to put them in this pot.
+kid	Mom what those kind of rocks.
+kid	I don't those long Mommy.
+cgv	uhhuh they are long leaves let's go brush your teeth and get ready for bed.
+kid	okay.
+cgv	I think I'll cut your bangs too.
+kid	I don't wan(t) (t)a cut my bangs I wan(t) (t)a brush my teeth instead okay Mom okay.

@@ -1,0 +1,262 @@
+participant	content
+cgv	what have you got there.
+kid	a lion.
+cgv	where'd you get it.
+kid	at Greggy's house.
+cgv	did he give it to you.
+kid	no I have to take it back it was in my pocket.
+cgv	oh.
+kid	here Daddy catch.
+cgv	I'm ready oh I missed.
+kid	I'm gon (t)a throw it again here catch.
+cgv	okay nice throw do want me to throw it to you.
+kid	yeah catch Mom.
+cgv	whoa I thought you were throwing that to Mom where did it go.
+kid	I don't know.
+cgv	I don't see it.
+kid	I don't either.
+cgv	maybe it's under here look for it Abe I don't see it anywhere.
+kid	I don't either hey someone writes on here see.
+cgv	uhhuh here's your ball.
+kid	I'm gon (t)a throw it to Momma whoops I missed.
+cgv	you missed.
+kid	yeah I was gon (t)a throw it to Momma (ex)cept I missed.
+cgv	okay your food's ready.
+kid	I'm wan(t) (t)a sit right here and eat one.
+cgv	no last time you got crumbs all over everything come sit at the table.
+kid	that was for you I got you all that today.
+cgv	I know you were the mailman today.
+kid	Momma I can't eat this I don't have any hot chocolate how (a)bout hot chocolate.
+cgv	okay just a second I'll get it for you.
+kid	and how (a)bout honey on here.
+cgv	just a second.
+kid	I'm gon (t)a put it on.
+cgv	what.
+kid	the honey.
+cgv	I'll get the honey for you okay.
+kid	and then I'll put it on okay.
+cgv	okay need some help.
+kid	yeah.
+cgv	okay there you go.
+kid	that's not all look.
+cgv	oh you want some honey on each piece.
+kid	yeah.
+cgv	okay there you go.
+kid	Mommy remember the thing we watched on Sesame Street.
+cgv	what Abe.
+kid	rememember remember] on tv on Sesame Street we watched on Sesame Street.
+cgv	what did we watch.
+kid	a boy holding a bat and it started to hit.
+cgv	what was he hitting with it.
+kid	I don't know maybe a thing that was hanging from the ceiling from a rope.
+cgv	I don't remember.
+kid	um are you what are you gon (t)a make it out of.
+cgv	your hot chocolate.
+kid	no no what are you gon (t)a make that thing out of.
+cgv	what am I gon (t)a make what.
+kid	no what are you gon (t)a make the thing I saw on Sesame Street out of.
+cgv	how can I make it if I don't know what you're talking about.
+kid	you use a string.
+cgv	you'll have to draw a picture of it before I make it.
+kid	Mommy do you know what cocks are.
+cgv	you told me that they're real fragile what else.
+kid	yeah they eat dying birds.
+cgv	they eat what.
+kid	they eat dying birds.
+cgv	oh does that make them strong.
+kid	yeah they're really pretty strong hey this is really pretty hot I think some water in it.
+cgv	I hope you don't cut anything with those scissors.
+kid	like what.
+cgv	like paper those are material scissors I don't want them to get dull.
+kid	Mommy what is uh is this Indian thing made out of plastic.
+cgv	uhhuh that's a tepee.
+kid	is that a tepee that the Indians maded made] +ed] out of buffalo.
+cgv	what part of the buffalo did they use.
+kid	this part of buffalo this part of buffalo this part of buffalo.
+cgv	they used a buffalo's fur and skin to break the wind so the inside of their tepee wouldn't get cold.
+kid	when is this gon (t)a be all through.
+cgv	when you're done eating it all what did Greggy eat for dinner.
+kid	he eated supper not dinner.
+cgv	oh what did he eat for supper.
+kid	maybe mushrooms.
+cgv	oh what was on Dr Suess.
+kid	I don't know I didn't remember.
+cgv	was The Cat in the Hat on.
+kid	yeah he was at the end.
+cgv	oh at the very end you saw him.
+kid	yeah.
+cgv	did he say anything.
+kid	no.
+cgv	were the monkeys on.
+kid	did it have monkeys when we watched it.
+cgv	did it.
+kid	hunhunh it just had a big tree and trees and trees and forests and when the end was over it had horses.
+cgv	oh.
+kid	then after that a baby moonchin@c came out hey a giant then a giant story comed@n.
+cgv	a story about a giant.
+kid	yeah.
+cgv	did he say fee_fi_fo_fum@n.
+kid	no he was just a giant with a cane.
+cgv	with a can.
+kid	uhhuh.
+cgv	what did he use his cane on.
+kid	I don't know on the grass.
+cgv	did he use his cane to balance himself.
+kid	yeah he was a really old man giant with some hair some hair.
+cgv	where was his hair.
+kid	on his head.
+cgv	did he have a long beard too.
+kid	no and it had a boy I don't know his name and the boy said +"/..
+kid	+" who went to me mmm.
+cgv	here do you want some more hot chocolate.
+kid	no it's really hot.
+cgv	it's cooled off by now.
+kid	no it's still pretty hot.
+cgv	what are you thinking about.
+kid	nothin(g).
+cgv	what was on your mind.
+kid	nothin(g) (ex)cept I dreamed uh I thinked@n about something at Greggy's house.
+cgv	what did you think about.
+kid	I thinked@n about Alou@c.
+cgv	Lou.
+cgv	your friend.
+kid	no Alou@c it means going to a river.
+cgv	what kind of river is it.
+kid	it's the name of a river and it flows really soft.
+cgv	oh a real gentle river.
+kid	uhhuh with canoes and big ships.
+cgv	it's easy to canoe on a gentle river isn't it.
+kid	uhhuh.
+cgv	when is it hard to canoe.
+kid	when it gets snowy all over it.
+cgv	snowy.
+kid	yeah.
+cgv	what about when the river's flowing real rapidly.
+kid	I don't know.
+cgv	what do the ships do in Alou@c.
+kid	I don't know.
+cgv	what do the canoes do.
+kid	I don't know.
+cgv	what do the canoes do.
+kid	ships go near a canoe then they a big ship goes floating first then a canoe goes and finds fish and turtles.
+cgv	oh what do they do with the turtles.
+kid	they take em home and give them to people that put em in the water.
+cgv	they have new homes.
+kid	yeah no no no no so so a fish could look at them when it was nighttime.
+cgv	so they'd have their friends there.
+kid	uhhuh.
+cgv	who's in the canoe doing all that.
+kid	I would be doing that.
+cgv	you would.
+kid	uhhuh I would be in maybe in yeah what is those.
+kid	the picture I made you.
+cgv	what would you use to catch the turtles.
+kid	one of the fish nets.
+cgv	you don't think the turtle would be too heavy.
+kid	no a little thin turtle.
+cgv	oh a baby one.
+kid	yeah those kind of turtle.
+cgv	how could you find one that's as small as a pinhead.
+kid	no those kind of turtles are um malou@c that's the name of them those turtle's name and the river's name is malou@c.
+cgv	I thought you said the river's name was Alou@c.
+kid	Alou@c yeah I forgot.
+cgv	the malous@c live in the Alou@c.
+kid	yeah and and the cows come in that river too.
+cgv	what do the cows do when they get there.
+kid	they say +"/..
+kid	+" wee wee what a fine place to swim.
+cgv	who teaches the cows how to swim.
+kid	they just know how to swim.
+cgv	how do they do it.
+kid	they do it they just do it I don't know how they do it.
+cgv	do they kick and paddle.
+kid	yeah with their legs see those pictures I made a long time ago those that chicken knows how to swim and that and that thing right next to uh uh right next to the picture is a hawk and that knows how to swim.
+cgv	hawks do.
+kid	uhhuh.
+cgv	remember when we went to Texas and saw all those hawks.
+kid	uhhuh.
+cgv	where were they sitting.
+kid	I don't know.
+cgv	on top of telephone poles.
+kid	I think so those kind of hawks are different they're animal hawks.
+cgv	they aren't bird hawks.
+kid	(ex)cept they have wings those kind of hawks have wings I'll show you hawks have some stripes see.
+kid	those are the stripes some hawks have.
+cgv	uhhuh.
+kid	and here's the nose hawks have those kind of nose.
+cgv	they have big beaks.
+kid	those kind of hawks are different.
+cgv	different from what.
+kid	uh chicken those those were hawks chicken hawks.
+cgv	chicken hawks.
+kid	uhhuh those were different mmm elephant mask.
+cgv	I really like that elephant mask.
+kid	we had a circus when it was through we had hot dogs and I didn't want a hot dog part.
+cgv	what did you do then.
+kid	I eated the bun.
+cgv	just the bun.
+kid	uhhuh.
+cgv	what did it taste like.
+kid	I don't know maybe like bread and it had mustard on it.
+cgv	mustard.
+kid	uhhuh what's in here.
+cgv	did you drink all your hot chocolate.
+kid	no I don't want the rest open this I can't.
+cgv	here I'll show you how.
+kid	see Mommy know what.
+kid	if I go somewhere with you and Daddy with this money I could buy you uh Mommy and Dad you and Daddy a drink for this one and I could buy a drink with this one.
+cgv	oh Abe that would be so nice.
+kid	is this how you do it.
+cgv	you should probably use both hands pull it apart.
+kid	Mommy tonight can we go to one of the stores.
+cgv	no it's pretty late right now tomorrow we can ride our bikes to the store if it warms up.
+kid	and get me a new purse.
+cgv	no I don't think you need a new purse.
+kid	yeah because my other one is getting so old.
+cgv	what makes you think it's getting old.
+kid	because it's all covered with black marks.
+cgv	those are ink ink marks.
+kid	I don't want em on there.
+cgv	this is just the right size for you.
+kid	look at this part.
+cgv	what part.
+cgv	oh it has one little rip.
+kid	that's why I need a new one can I have a ride in my wagon.
+cgv	do you want me to pull you.
+kid	yeah.
+cgv	okay.
+kid	Daddy are cartoons on.
+cgv	not tonight Abe.
+cgv	have you and Daddy been watching cartoons.
+kid	yeah last day when you were at work we did.
+cgv	yesterday.
+kid	yeah.
+cgv	hey you're not supposed to throw books what are you making.
+kid	one of these things.
+cgv	look what shape did you make.
+kid	a square a square Mommy can we play one of these things doesn't belong here.
+cgv	okay go get some things and put em on here and sing the song and I'll guess the answer.
+kid	okay one of these things is not like the others tell me which one is different do you know.
+cgv	this one is different because it only has one block.
+kid	yeah.
+cgv	but this one is different because it has a colored block and these are all wooden which answer's right.
+kid	all of these are puzzle shapes and this one's different.
+cgv	because it's not a puzzle piece pretty clever.
+kid	let's put it all together now.
+cgv	go ahead.
+kid	I don't know how.
+cgv	that's a hard puzzle isn't it.
+kid	yeah I need some help.
+cgv	okay let's figure out the easiest way to do it.
+kid	okay I can't put it all together all by myself.
+cgv	put the large triangle in first.
+kid	oh I know where it belongs there.
+cgv	okay what shape is this.
+kid	I don't know.
+cgv	remember.
+cgv	asymmetrical.
+kid	oh where's the other one.
+kid	move over I think I see the one no I can't find it.
+cgv	well how can we find it.
+kid	maybe it's under here.
+cgv	look and see.

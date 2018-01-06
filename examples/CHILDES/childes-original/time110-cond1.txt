@@ -1,0 +1,211 @@
+participant	content
+cgv	let's get ready to go to the movie.
+kid	okay did we order that.
+cgv	no.
+kid	did we order that there.
+kid	that that letter.
+cgv	nope.
+kid	can we take it off and put it back.
+cgv	uhhuh.
+kid	that's a play gun let's go now.
+cgv	do you still want honey bread.
+kid	yeah.
+cgv	would you like some cereal instead.
+kid	no not any cereal you could bring some cereal with us.
+cgv	no.
+kid	okay I don't want any then I want some hot bread doesn't doesn't hot bread taste good.
+cgv	it sure does.
+cgv	mosquitoes can't come in.
+kid	flies don't come in when I have the door open we saw a big bug under a table.
+cgv	what kind of bug was it.
+kid	I don't know.
+cgv	a moth.
+kid	what is a moth.
+kid	is it a bug.
+cgv	a moth is similar to a butterfly.
+kid	then it's not a moth I saw.
+cgv	was it a beetle.
+kid	no it was big this big.
+cgv	wow.
+kid	uhhuh under a table and what kind of bug was it.
+cgv	a spider.
+kid	no tell me again.
+cgv	a mouse.
+kid	no a mouse isn't a bug it was dead.
+cgv	was it a butterfly.
+kid	no tell me again you tell me.
+cgv	was it a praying mantis.
+kid	what is a praying mantis.
+kid	no praying mantises aren't this big they aren't that big.
+cgv	they're that long but they're not that wide.
+kid	are they this wide.
+kid	are they this wide.
+cgv	no praying mantises are very thin.
+kid	oh the bug was a little bit like a praying mantis.
+cgv	I wish I knew what it was.
+kid	you haven't saw it you never saw it I want some honey on my toast.
+cgv	okay.
+kid	is that a lot.
+cgv	uhhuh.
+cgv	did they turn the lights off when you watched Bambi.
+kid	uhhuh one of the teachers showed it.
+cgv	did she use a projector.
+kid	yeah a yellow projector I want to go to Texas.
+cgv	you do.
+kid	yeah we could stay in Texas forever.
+cgv	really.
+kid	uhhuh.
+cgv	well we're not going until Christmas time.
+kid	let's go to the movie.
+cgv	what do we have to do before we go.
+kid	I don't know.
+cgv	what do we usually do.
+kid	get our stuff ready.
+cgv	uhhuh what stuff.
+kid	I don't know what stuff.
+cgv	what stuff do you think we should take.
+kid	candy and a sandwich.
+cgv	what else.
+kid	I don't know.
+cgv	what do we usually make.
+kid	sometimes we make cornbread.
+cgv	for dinner not for the show.
+kid	we should take some milk.
+cgv	in your little thermos.
+kid	yeah my little little thermos who got it to me.
+cgv	we got that at a garage sale.
+kid	I want some more milk.
+cgv	okay.
+kid	was it in here.
+kid	where is the top.
+cgv	right here.
+kid	I see it I see it get it to me I want it go get it and I could put it on go get it and I could put it on okay.
+cgv	here it is.
+kid	let me put it on let me Momma.
+cgv	what do you want on your sandwich Abe.
+kid	just butter.
+cgv	not peanut butter.
+kid	isn't peanut butter sticky for your for your face.
+cgv	no.
+kid	it's sticky for your teeth.
+cgv	I know but you'll have milk there to drink.
+kid	okay then get me some peanut butter and also some milk and some milk now get me some milk now get me some milk now.
+cgv	here.
+kid	Mommy I put my own thing on.
+cgv	you put your thermos together.
+kid	yeah Mommy your part fell over.
+cgv	what Abe.
+kid	Mommy's part fell over your part and Mommy's part Mommy how come tape is on here.
+kid	Mommy how come tape is on here.
+kid	are we not gon (t)a go now.
+cgv	huh.
+kid	are we not gon (t)a go now or are we gon (t)a go now.
+cgv	we're going pretty soon.
+cgv	we have to make popcorn.
+kid	oh.
+cgv	come in and help.
+kid	can't you already do it.
+cgv	come in.
+kid	are we going now.
+cgv	pretty soon.
+kid	I don't wan(t) (t)a come in I'm gon (t)a stay outside.
+cgv	come on in.
+kid	I'm gon (t)a look what's outside.
+cgv	does it look like it's going to rain.
+kid	uhhuh.
+cgv	do you see any more lightning.
+kid	I hear some.
+cgv	you hear lightning.
+kid	yeah.
+cgv	you hear thunder you see lightning.
+kid	I hear lightning could we go fishing today.
+cgv	not today.
+kid	I want to go tomorrow then.
+cgv	we'll see why don't you come in and look at the candy we're taking.
+kid	I already looked.
+cgv	come in and see it all okay.
+kid	and see what kind it is.
+cgv	yeah.
+kid	this is for playing hockey right.
+cgv	that's for playing golf.
+kid	this is for playing golf what is golf Dad.
+kid	what is golf.
+cgv	golf is a game you play with a stick and a little ball.
+kid	what is that.
+cgv	it's a little tiny candy bar.
+kid	we have a lot of candy my shovel broke.
+cgv	let's see do you think we can fix it.
+kid	I think so by tape I think by tape we could fix it.
+cgv	tape might work do you think it's time to go.
+kid	uhhuh because Mommy isn't here.
+cgv	what.
+kid	Mommy isn't down here there's Jason.
+kid	hi Jason.
+kid	someone's upstairs.
+cgv	who.
+kid	guess.
+cgv	Abe.
+kid	I was pooping.
+cgv	guess what Mommy's making for dinner.
+kid	what.
+cgv	cornbread.
+kid	and what else.
+cgv	why don't you go ask her.
+kid	what else with cornbread.
+cgv	carrots and cauliflower and fish.
+kid	carrots and cornbread and fish we don't need to have fish how come we don't need to have fish.
+cgv	we do need to eat fish.
+kid	then you're not going to cook it.
+cgv	yeah I am.
+kid	I don't think you are I'm not going to eat any I'm just going to eat a carrot I'm just going to eat a carrot can I have another plum.
+cgv	I don't think we have any more.
+kid	I'm not sure if we don't have any I will look and see you were right we don't have any plums I know what I want.
+cgv	what.
+kid	I want some milk now put some milk in here and I could do it myself okay.
+kid	okay Momma.
+cgv	what.
+kid	put some milk in here and I could do it by myself will you put some milk in here.
+kid	put some milk in here.
+cgv	no then it'll get dirty.
+kid	huh.
+cgv	I need to take it to work.
+kid	you don't need to I need to take it to school with milk with milk with milk Mommy our fence is broken.
+cgv	you'll have to work on it.
+kid	hey that's my jumprope that's my jumprope.
+cgv	what's wrong Abe.
+kid	I'm not gon (t)a tell you I'm gon (t)a go outside and drink my milk how's that.
+cgv	why don't you drink it in here.
+kid	I don't want to what Daddy.
+kid	what did Mommy say.
+cgv	she was talking about a type of car you know what.
+cgv	we need to go fishing this week.
+kid	when Karen comes.
+cgv	no this week before Karen comes.
+kid	now.
+cgv	no not today.
+kid	after dinner.
+cgv	no maybe on Wednesday shut the door bugs get in if you keep the door open.
+kid	how (a)bout from here.
+cgv	huh.
+kid	how (a)bout from here.
+cgv	no the screen's too small see how small the holes are.
+kid	how (a)bout real tiny tiny bugs.
+cgv	those'll get in anyway.
+kid	we could put some paper on it the bugs will eat all our flowers right.
+kid	right Dad.
+cgv	right.
+kid	and they will eat all our stuff we could play with right.
+cgv	right what would we do then.
+kid	we will smash em to death we will smash em to death.
+cgv	that's right isn't it nice that your old buddies live here.
+kid	who.
+cgv	Shannon and Leslie.
+kid	how come they're my old buddies.
+cgv	I thought they were your friends.
+kid	they are my new buddies and this house is my new buddy too and it's alive right.
+cgv	what's alive.
+kid	our house and it's breathing look at the curtains.
+cgv	the blinds are moving but the house isn't breathing silly.
+kid	I'm not silly I'm not hungry any more.
+cgv	how come.
+kid	because I ate some carrots I could eat one more carrot but no more.

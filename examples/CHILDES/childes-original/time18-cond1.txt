@@ -1,0 +1,155 @@
+participant	content
+kid	I did it see circles I draw picture Mom.
+cgv	that's right huh.
+kid	see the picture.
+cgv	uhhuh go get some more paper.
+kid	this ice is cold Mom that food store is closed.
+cgv	uhhuh we'll go to another store as soon as we're done here.
+kid	I wan(t) (t)a go to the grocery store.
+cgv	you wan(t) (t)a go to the grocery store.
+kid	uhhuh.
+cgv	or would you like to stay home with Dad.
+kid	I wan(t) (t)a go to the grocery store Mom this goes in here I do like defrost the freezer Mom I do like defrost the freezer Mom.
+cgv	you do like to.
+kid	uhhuh I want I know what good ice what goes in there Mom.
+cgv	where.
+kid	in in in in the freezer what goes in the freezer.
+kid	what goes in there.
+cgv	all our frozen food goes in there.
+cgv	what are you doing Abe.
+kid	Mom I'm hungry.
+cgv	you know why.
+kid	I don't know.
+cgv	because you didn't eat soup with Mom and Dad.
+kid	dirty this is dirty.
+cgv	go ahead and throw it in the sink.
+kid	okay let's put it in this in that bowl I wan(t) (t)a put this Mom I wan(t) (t)a put this in Mommy.
+cgv	in where.
+kid	in here Mom in here.
+cgv	in where.
+kid	in here Mom here.
+kid	this.
+kid	in there.
+cgv	in the freezer.
+kid	I wan(t) (t)a put this in in the in the freezer I wan(t) (t)a put this in the freezer I wan(t) (t)a put this in in the in the place the kitty cat goes.
+cgv	the place where the kitty cat goes.
+kid	my pillow.
+kid	my pillow and mine choo+choo train mine pillow and mine choo+choo train Mom get that pillow right now Mom.
+cgv	just a second.
+kid	no wait get it now.
+cgv	I will when I'm done with this.
+kid	Mom I wan(t) (t)a I wan(t) (t)a put this in in the freezer Mom.
+cgv	you do.
+kid	kitty cat and pillow go okay Mom.
+cgv	ask Daddy okay.
+cgv	come here and I'll help you.
+kid	where is it.
+kid	where is that pillow.
+kid	where that choo+choo train go.
+cgv	where'd they go.
+cgv	I don't know.
+kid	where that choo+choo train goes.
+cgv	I don't know.
+kid	get it.
+cgv	get it.
+kid	this goes in this.
+cgv	you want to help me.
+kid	uhhuh.
+cgv	okay you can help Daddy put his books in the box.
+kid	put books in the box put books in the box alright.
+cgv	okay just a second and I'll tell you what to do.
+kid	in here.
+cgv	you give me some books and I'll put them in the box okay.
+kid	okay now let me put them in.
+cgv	okay just a second I want to write my name in those books okay.
+kid	okay and you give you give them back to me.
+cgv	okay I'll give them back to you as soon as I'm done writing my name okay.
+kid	uhhuh.
+cgv	okay.
+kid	okay okay okay okay okay okay I didn't write you didn't write your that doesn't got Dad.
+cgv	just a second.
+kid	wan(t) (t)a put that in I wan(t) (t)a put that in.
+cgv	okay you put this in.
+kid	I'm gon (t)a put this in.
+cgv	okay.
+kid	books in here Dad.
+cgv	okay here's some more books to put in there.
+kid	I wan(t) (t)a get a tiny ones in I put here a tiny ones in Dad.
+cgv	okay Abe that's really nice packing here Abe.
+kid	Dad I can't put those in put this in Dad.
+cgv	you want me to help you.
+kid	uhhuh.
+cgv	okay just a second okay let's see this one goes like this see and this.
+kid	I wan(t) (t)a put that in.
+cgv	what.
+cgv	this one.
+cgv	okay.
+kid	you you you put it in.
+kid	you did put it in.
+kid	I didn't.
+cgv	you didn't.
+cgv	okay you can put this one in go get me some more books go get some okay wait don't put them in yet I have to put my name on them.
+kid	I want in.
+cgv	okay how about putting some of those in.
+cgv	put this one in.
+kid	okay.
+cgv	are there any more over there.
+kid	uhhuh let me put it in let me.
+cgv	okay let me write my name on it.
+kid	okay.
+cgv	is there any more back there.
+kid	here's another one.
+cgv	okay give it to me and I'll write my name on it then I'll give it back to you okay.
+kid	okay don't put those in.
+kid	those are Mr Munster books.
+kid	pony boy pony boy pony boy I wan(t) (t)a put those in they are falling Dad in there right this one is falling over I wan(t) (t)a I wan(t) (t)a put this in Dad this is oh you already did.
+cgv	uhhuh I already did.
+kid	how about in here.
+cgv	go ahead and put it in.
+kid	you draw this one.
+cgv	yep.
+kid	oh I can't put this in Dad.
+cgv	okay I'll fix it that's okay.
+kid	you already draw that one.
+cgv	yep.
+kid	thank you this one go in here this one go in here here one got one put it on here.
+cgv	thank you here's some to put in.
+kid	thank you another one in here.
+cgv	what.
+kid	another one in here.
+cgv	go ahead.
+kid	I wan(t) (t)a put those books.
+cgv	you wan(t) (t)a come to the food store with Mommy Abe.
+kid	I no wan(t) (t)a go food store.
+cgv	you don't want to.
+kid	uhhuh.
+cgv	you do want to.
+kid	bye Daddy I'm gon (t)a go food store.
+cgv	goodbye Abe have a good time.
+kid	Mom I wan(t) (t)a cracker Mom please I have a cracker Mom.
+kid	please I have a cracker.
+kid	no.
+kid	I don't like this Mom.
+cgv	go ahead and eat it.
+kid	I want two please Mom I want two please two please.
+cgv	here you go.
+kid	thank you Momma don't do that I wan(t) (t)a go Mom.
+cgv	goodbye Mom goodbye Abe back from the grocery store.
+kid	milk.
+cgv	I gave you milk and you didn't want it.
+kid	I want it now.
+cgv	well you'll have to wait until I'm done with this.
+kid	my milk Mom get that Mom get that that thing is didn't got a part for it.
+cgv	thank you.
+kid	Mommy what's that Mom.
+cgv	turkey burger.
+kid	oh turkey burger uhhuh that turkey burger right Mom that turkey burger what goes in it Mom.
+cgv	huh.
+kid	we get it at the food store.
+cgv	we sure did.
+kid	we get some more Mom.
+cgv	yeah when we're through eating this we'll go get some more.
+kid	Momma I want my milk.
+cgv	you'll have to wait until I'm done Abe.
+cgv	Abe I'll get it for you okay.
+kid	get it okay.

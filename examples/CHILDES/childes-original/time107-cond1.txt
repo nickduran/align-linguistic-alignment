@@ -1,0 +1,263 @@
+participant	content
+cgv	what kind of sandwich do you want.
+kid	a sandwich with jelly on it a jelly sandwich.
+cgv	okay what were you doing outside.
+kid	Jamie had a hideout at the end of the road.
+cgv	had a what.
+kid	Jamie had a hideout at the at the on the side of the road so we so I said I went outside to play with Jamie and Sherry and we all did that.
+cgv	did what.
+kid	we all went to Jamie's hideout.
+cgv	oh what did you do at Jamie's hideout.
+kid	I just climbed on the hideout.
+cgv	just what.
+kid	climbed on the hideout (ex)cept Dad look at this this is a funny picture.
+cgv	yeah it is what else were you doing outside.
+kid	playing with Jamie and he squirted us and then he roared at us.
+cgv	he what.
+kid	he roared at us when he was chasing us.
+cgv	I'm sorry but I didn't understand what did he do.
+kid	he roared at us.
+cgv	he warned you.
+kid	he roared he roared at us.
+cgv	oh he roared at you.
+kid	yeah like a lion when Jamie wasn't out there we just played by ourselves.
+cgv	what.
+kid	when Jamie wasn't out there we just played by ourselves.
+cgv	oh you and Sherry.
+kid	yeah when Jamie comed@n out we played with him then when Jason comed@n out we played by ourselves.
+cgv	who played by yourself.
+kid	Jamie and I I mean Jason and I Jason and I did.
+cgv	oh when Jamie came out what did you do.
+kid	I already told you.
+cgv	I forgot tell me again.
+kid	we played with him.
+cgv	oh everybody played together that's neat.
+kid	that time when Jamie wasn't out Lisa and Sherry were out and we were playing Indians.
+cgv	oh.
+kid	I want another sandwich.
+cgv	finish that one first.
+kid	I'm really hungry by the time this is all gone I will be ready for another sandwich.
+cgv	okay finish that one.
+kid	it's all gone.
+cgv	okay here's another one I'll get you some more milk.
+kid	thanks there I'm gon (t)a go outside and play right now.
+cgv	what.
+kid	I'm gon (t)a go outside and play right now.
+cgv	did you drink all your milk.
+kid	I almost did.
+cgv	what are you going to do.
+kid	go outside now.
+kid	I want toast with jelly on it look what I did to my cape.
+cgv	what did you do.
+kid	I tied the knot out I tied the knot out.
+cgv	you untied the knot.
+kid	yeah now get me the thing I wanted to eat.
+cgv	what was the thing you wanted.
+kid	I wanted I wanted some jelly I want some jelly toast okay.
+cgv	okay I think we can arrange that.
+kid	that's yucky get me the thing I wanted to eat.
+cgv	it takes a little while to cook you know.
+kid	did you already do it.
+cgv	it's in the toaster.
+kid	(ex)cept what is this thing all about.
+cgv	what.
+kid	this thing you're watching.
+cgv	that's the news.
+kid	why does it have lots of pictures in it when when when we don't see the news_guy@n.
+cgv	that's so you can watch what they're talking about.
+kid	did you put it in the toaster.
+cgv	what.
+kid	my toast.
+cgv	yeah it's in there.
+kid	put jelly on it stop my hand stop it hand you're hurting my hand did you tie the knot in my cape.
+cgv	yeah I sure did.
+kid	Dad how (a)bout you could fold it up like this.
+cgv	go ahead.
+kid	I already did did you see what that girl had to cut pizza.
+cgv	what did she have.
+kid	a funny kind of knife.
+cgv	that's a pizza knife.
+kid	I can't hear what she's talking about how come is that pizza knife round.
+cgv	so it can cut pizza easier.
+kid	Mommy doesn't use a round knife to cut pizza.
+cgv	I know we don't have a pizza knife what did you do outside.
+kid	I can't tell you now.
+cgv	why not.
+kid	because I'm not through playing outside when I'm through playing outside I will tell you.
+cgv	tell me what you've been doing.
+kid	I already told you when I ate not toast just a sandwich.
+cgv	yeah you told me what you were doing then but then you went outside again and then you came back inside to eat some toast so tell me what you did when you went outside again.
+kid	I played with Jamie some more.
+cgv	oh.
+kid	when Jamie was out in the two bed+rooms then I was playing with Jason how could this work.
+kid	how could this stay snapped.
+kid	Dad look how could this stay snapped.
+cgv	just snap it and it'll stay.
+kid	Daddy why are you drinking a beer right now.
+cgv	because I'm thirsty.
+kid	was it in the refrigerator.
+cgv	uhhuh.
+kid	(ex)cept I thought Ninny@f had that for Bumpa@f.
+cgv	no Ninny@f got them for me.
+kid	that was for Bumpa@f Dad look I played with Jason and I played on the slide and we ate some some apples that were so sweet.
+cgv	you ate what.
+kid	I will go out now.
+cgv	no what did you eat.
+kid	some apples that were sweet.
+cgv	what.
+kid	I said when apples were sweet when the apples were sweet we ate em.
+cgv	what apples did you eat.
+kid	apples that didn't grow so big.
+cgv	show me hey.
+kid	what.
+cgv	did you eat apples you found on the ground.
+kid	no.
+cgv	where did you find them.
+kid	on a tree.
+cgv	okay come show me can I fix that.
+kid	yeah.
+cgv	what happened to it.
+kid	it got broke look what I found for you.
+cgv	thanks.
+kid	I'm hungry am I going to stay up now.
+cgv	what do you think.
+kid	I think I can.
+cgv	are you tired.
+kid	no.
+cgv	okay you can stay up for a while then.
+kid	this is for Mommy this is for Momma.
+cgv	she'll like that where did you find it.
+kid	outside I found clothes+pins for Mommy I find clothes+pins for her everytime there's lots of stuff in here lots of stuff.
+cgv	what did you get.
+kid	lots of stuff this is what I found on my way in.
+cgv	wow.
+kid	and I can't blow it up can you blow it up.
+cgv	yeah.
+kid	how.
+kid	how can you blow it up.
+cgv	let me see awoh it has a hole in it I can't do it.
+kid	hey Dad this is how it shouldn't go.
+cgv	how come.
+kid	look.
+cgv	it should move back and forth.
+kid	yeah.
+cgv	it moves a little look.
+kid	I want it to move you could put it the same way I want it.
+cgv	yeah I guess so.
+kid	Dad what is this.
+kid	who got this.
+cgv	that's something I found do you like that.
+kid	yeah (ex)cept (ex)cept how does it work.
+cgv	see if you can open it.
+kid	I can't is this a bag.
+cgv	yeah here I'll show you see you open it like this and you close it like this you try it.
+kid	is this supposed to have lots of stuff in it.
+cgv	you can put stuff in it.
+kid	how do you tie these.
+cgv	you don't need to tie em.
+kid	how did you close this.
+cgv	you close it with the string.
+kid	(ex)cept how could I close it.
+cgv	see.
+cgv	it's closed.
+kid	how could you close it with the string.
+cgv	how could you.
+kid	yeah.
+cgv	because it makes it tight.
+kid	Dad where did you find this.
+cgv	it was up on that shelf.
+kid	which shelf.
+kid	that shelf.
+kid	way up there.
+cgv	uhhuh what would you like to eat.
+kid	I want something like this how (a)bout some jelly toast.
+cgv	is that what you want.
+kid	yeah.
+cgv	but you've already had that.
+kid	I want it again if I want it again just give me it.
+cgv	okay.
+kid	I'm gon (t)a look at all these pictures when we were camping.
+cgv	why don't you look at them after you're done eating.
+kid	okay.
+cgv	did you have fun playing.
+kid	yeah I had fun playing.
+cgv	good who'd you play with.
+kid	with Jason hey Dad you need to fix this will you fix it right now.
+cgv	what.
+kid	will you fix it right now.
+cgv	I can't right now.
+kid	I want to stay up now.
+cgv	okay.
+kid	know where I put that little thing I could carry stuff in.
+cgv	what.
+kid	know where I put that little thing I could carry stuff in.
+cgv	where did you put it.
+kid	on my chair on my rocking chair Daddy how could you play how could you stay down to to the volleyball court if I was not through playing up here.
+cgv	what.
+kid	how could you be down at the volley ball court if I wasn't down there.
+cgv	how could I be down there.
+kid	how could you be down there if I was up here.
+cgv	I was just down there.
+kid	because why.
+kid	because you were still playing volleyball.
+cgv	uhhuh.
+kid	oh by yourself.
+cgv	no I was playing with some other people here's your sandwich.
+kid	Daddy jelly jelly bread is good for you.
+cgv	it is.
+kid	yeah.
+cgv	who told you that.
+kid	who told me that.
+kid	nobody.
+cgv	then how do you know.
+kid	because I dreamed about it.
+cgv	when did you dream about it.
+kid	when I was in my bed.
+cgv	was it a good dream.
+kid	yeah when I was on the monkey+bars I saw the sale you got me these books at.
+cgv	really.
+kid	yeah it was in the two bed+rooms right.
+cgv	uhhuh but I think you must have seen a different sale.
+kid	can I lick the top.
+cgv	sure.
+kid	all up I will okay.
+kid	all up I will lick it all up.
+cgv	okay.
+kid	Daddy why did you use your pocket+knife.
+cgv	I didn't.
+kid	where is your pocket+knife.
+cgv	in my pocket.
+kid	I see it it's not in your pocket.
+cgv	oh it's on my desk that's right.
+kid	can I have some of yours.
+kid	some of your bread too.
+kid	I like the jelly best.
+cgv	okay.
+kid	what is that kind of sandwich.
+kid	what is that kind of sandwich.
+cgv	peanut butter and jelly.
+kid	a peanut butter and jelly sandwich what are we gon (t)a watch.
+cgv	I don't know we're going to see what's on.
+kid	are we going to watch a animal show.
+cgv	I don't think one's on.
+kid	what's on.
+cgv	we'll see.
+kid	that's a cowboy show.
+cgv	uhhuh.
+kid	turn it up a little louder.
+cgv	let's see what else is on.
+kid	that show's not very good Dad why they're why are those men helping each other.
+cgv	because they're trapped in the sand.
+kid	they're trapped in the sand.
+cgv	yeah.
+kid	and they wan(t) (t)a get out.
+cgv	uhhuh.
+kid	(ex)cept why are they getting out of the car.
+cgv	so they can push it easier.
+kid	where are they going to push it.
+cgv	out of the sand is that a good sandwich.
+kid	yeah I ate all my sandwich.
+cgv	what.
+kid	I ate my sandwich.
+cgv	you ate it all.
+kid	yeah.

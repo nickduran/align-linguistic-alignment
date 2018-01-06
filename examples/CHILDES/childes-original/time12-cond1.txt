@@ -1,0 +1,97 @@
+participant	content
+cgv	do you want some water.
+kid	yes.
+cgv	okay here it is.
+kid	milk milk.
+cgv	you want milk.
+kid	uhhuh.
+cgv	okay just a second and I'll get you some.
+kid	Mama my grilled cheese gone.
+cgv	here it is eat your soup too.
+kid	where we going.
+kid	where we going.
+cgv	we're not going anywhere we're eating dinner.
+kid	I get full with milk and grilled cheese sandwich.
+cgv	is it a good sandwich.
+kid	uhhuh that good sandwich.
+kid	what good sandwich Dad.
+cgv	it's good I like it.
+kid	I'm through eating.
+kid	poo+poo.
+kid	Mama you turn the light on.
+cgv	you going to go in there to poop.
+kid	uhhuh turn the light on.
+cgv	okay let's go.
+kid	peanut butter.
+cgv	did you poop.
+kid	uhhuh.
+cgv	let me wipe your bottom off.
+kid	I already did I already did Mom.
+cgv	okay let me wipe it again just to make sure get your panties.
+kid	okay this broken this broken Mom.
+cgv	I'll have to tape it Abe.
+kid	somebody broke it I want paper.
+cgv	are you going to draw a picture.
+kid	uhhuh show me how to make animals Daddy show me how to make animals.
+cgv	okay come here and I'll show you how.
+kid	that's a elephant.
+cgv	uhhuh that's an elephant you draw one now okay.
+kid	show me how again show me how please show me how to work this.
+cgv	okay Abe look you put this on the paper then you keep the pencil against the edge of this and draw see then you end up with a animal.
+kid	what animal.
+cgv	any animal that you want.
+kid	oh.
+cgv	you silly goose.
+kid	you silly goose.
+kid	I'll get you in the water.
+cgv	oh yeah.
+kid	you silly goose.
+cgv	Abe do you want to help me do dishes.
+kid	uhhuh I'll put it in I got a thing in there it dropped.
+cgv	uhhuh it fell into the water now I'll be able to wash it.
+kid	put it in.
+cgv	uhhuh.
+kid	you have to get another one.
+cgv	okay did you tell Daddy that you helped me make cookies today.
+kid	I help my mommy cooking.
+cgv	really.
+cgv	what did you do.
+kid	chocolate chips.
+cgv	you put in the ingredients didn't you.
+kid	uhhuh ingredients and I make chocolate chips.
+kid	we make ginger snaps and chocolate chips.
+cgv	uhhuh.
+kid	I wan(t) (t)a cookie.
+cgv	you'll have to wait a while.
+kid	I get another one put it in okay Mommy.
+cgv	okay.
+kid	I got it.
+cgv	put it in so I can wash it.
+kid	put this in.
+cgv	okay but be careful okay.
+kid	I wan(t) (t)a beat you up Dad.
+cgv	okay come here and see if you can.
+kid	I'm gon (t)a get you.
+cgv	oh yeah I got you I'm gon (t)a blow your tummy.
+kid	I'm gon (t)a go away I'm gon (t)a go away I'm far.
+cgv	you're far from what.
+kid	I'm far from you I wan(t) (t)a be Batman I wan(t) (t)a go wan(t) (t)a go.
+cgv	okay just a second.
+kid	I wan(t) (t)a get up.
+cgv	okay here you go.
+kid	I dropped I wan(t) (t)a be Batman I wan(t) (t)a be Batman up.
+cgv	on your mark.
+kid	get ready go.
+kid	go.
+cgv	okay hold on.
+kid	I falled@n down.
+cgv	you sure did you sure are a ticklish Batman.
+kid	I bite you.
+cgv	don't bite that hurts.
+kid	me bite I'm gon (t)a bite you Momma watch this bite.
+cgv	don't you bite or I'll have to set you in the corner do you want to help me in the garden now.
+kid	I wan(t) (t)a plant something.
+cgv	you do.
+kid	uhhuh.
+cgv	well it's been raining and I think that it's too moist to plant anything.
+kid	plant anything.

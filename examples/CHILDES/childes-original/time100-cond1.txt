@@ -1,0 +1,214 @@
+participant	content
+cgv	okay.
+kid	in in that white glass.
+cgv	this one.
+kid	yeah that black one.
+cgv	it's white on the inside.
+kid	yeah just three get me three.
+cgv	here you go.
+kid	how (a)bout one bite will be plenty.
+cgv	huh.
+kid	how (a)bout one bite will be plenty.
+cgv	one what.
+kid	one bite one bite will be plenty.
+cgv	do you think so.
+kid	yeah.
+cgv	how come.
+kid	instead of eating a lot that would be good.
+cgv	you just want to eat a little.
+kid	yeah.
+cgv	how come.
+kid	I'm just hungry for one bite.
+cgv	why don't you try to eat as much as you can.
+cgv	we're going to play softball.
+kid	can I eat two.
+cgv	huh.
+kid	eat two.
+cgv	eat as much as you can what were you doing outside.
+kid	mine my my hatchet got lost and Stacie found it and Lisa dropped it and Stacie found it again so I so I got it in the right thing right here.
+cgv	where is your hatchet now.
+kid	right here the blade is in here and the not_blade@c is right here.
+cgv	that's called the flat part.
+kid	and my knife is in here.
+cgv	what else did you do.
+kid	we did a lot of stuff I don't know what I did.
+cgv	you don't know or you can't remember.
+kid	I can't (re)member we did so much stuff.
+cgv	is it hard to remember.
+kid	yeah some more.
+cgv	some more what.
+kid	some more milk.
+cgv	boy you're really thirsty.
+kid	don't we have any more milk.
+cgv	we have a lot you can have as much as you want.
+kid	(ex)cept we're almost out of milk.
+cgv	we have another bottle.
+kid	oh here Dad.
+cgv	are you done.
+kid	yeah I wan(t) (t)a go out now.
+cgv	we're going to go play softball soon.
+kid	bring my bat okay.
+cgv	sure.
+kid	(ex)cept find it I can't remember where it is oh I I think I know where it is.
+cgv	where is it.
+kid	I think it's in my rack yeah.
+cgv	good.
+kid	I'm gon (t)a go out now.
+cgv	where are you going to be.
+kid	I don't know I'm gon (t)a be out on the hill.
+cgv	we're going to go in a little while.
+kid	are we going in the night.
+cgv	what.
+kid	are we going in the night.
+cgv	we're going in a few more minutes.
+kid	in two minutes.
+cgv	no it'll be later than that.
+kid	I need to go poop.
+cgv	okay go ahead.
+kid	I'll put my gun right here where it's soft.
+cgv	what.
+kid	I put my gun right there where it's soft.
+cgv	oh on the sponge.
+kid	that's not a sponge.
+cgv	it's a sponge frisbee and it's soft.
+kid	that's what I was saying Daddy help me.
+cgv	okay.
+kid	hurry Dad.
+cgv	I'm hurrying go ahead.
+kid	okay wipe my bottom.
+cgv	are you done.
+kid	yeah did I have a lot.
+cgv	yeah.
+kid	(ex)cept one is just there.
+cgv	yeah but it's one big one go ahead and flush it.
+kid	could you put my hatchet and my knife back on.
+cgv	okay bring em over here we might go fishing tomorrow.
+kid	at a different place.
+cgv	remember where we went ice fishing.
+kid	yeah.
+cgv	that's where we're going.
+kid	oh.
+cgv	White Bear Lake.
+kid	didn't we go there yesterday.
+cgv	what.
+kid	we goed@n ice fishing there yesterday right.
+cgv	nope we went ice fishing there a long time ago and that was the last time we were there.
+kid	Daddy I just cutted the tree when I was outside I just cutted the tree the one with with beautiful blossoms Dad can I show you which part of could I show you which tree I cutted some of the bark off.
+cgv	where did you do that.
+kid	outside.
+cgv	and you want to show me.
+kid	yeah now come with me.
+cgv	okay.
+kid	come with me.
+kid	Dad.
+cgv	yeah.
+kid	could I have some milk before we go.
+cgv	sure.
+kid	I want three three three milks.
+cgv	do you think so.
+cgv	why don't you eat a cookie too.
+kid	I want one more and one more that would make three.
+cgv	oh you want another milk.
+kid	yeah after I drink it then I want one more glass of milk.
+cgv	we'll see.
+kid	Daddy do do do do you like to keep dandelions on the ground.
+cgv	it doesn't matter you can pick em.
+kid	some of em are so pretty.
+cgv	what are you doing.
+kid	just seeing how many I got.
+cgv	how many do you have.
+kid	one two three four five.
+cgv	five dandelions wow.
+kid	now let's see the tops one two three four five tops I never had that many before.
+cgv	five (i)s a lot alright what did you do while you were outside.
+kid	I don't know.
+cgv	yes you do tell me what you did.
+kid	I don't know what I did all of that time I did so many stuff.
+cgv	tell me one thing that you did.
+kid	I did play on the monkey bars.
+cgv	did you have fun.
+kid	yeah and pretended the slide was a airplane.
+cgv	oh that sounds like a lot of fun.
+kid	Daddy.
+cgv	yeah.
+kid	can I put my dandelions where my other dandelions are.
+cgv	where are your other dandelions.
+kid	I don't know I got so many as I could get.
+cgv	I'll find something to put them in.
+kid	something with water we need to put them in something with water what did you get.
+kid	is that too little.
+cgv	no it's good see.
+kid	yeah when Mommy gets home she will she will maybe she will pick some of the dandelion parts off.
+cgv	how come.
+kid	I just I just thought that.
+cgv	oh you think she might.
+kid	yeah my Mommy anyway we like em one two three four where is the number five.
+cgv	I don't know.
+kid	is this number five.
+cgv	is that the fifth flower.
+kid	yeah.
+cgv	it sure looks like it.
+kid	there are only lots of big ones Daddy could I go outside.
+cgv	we're gon (t)a go in just a second.
+kid	could I go see if my my dandelions are growing.
+cgv	where are they.
+kid	in the grass can we go in our car.
+cgv	Mommy has to use our car.
+kid	(ex)cept Mommy took her bike.
+cgv	yeah but when she gets home from school she's going to take the car.
+kid	why.
+cgv	because she has to go to work.
+kid	she has to go to work.
+cgv	yeah what should we take.
+kid	my bat and ball.
+cgv	Sherry's coming.
+kid	huh.
+cgv	Sherry's coming with us so why don't we just take this stuff.
+kid	what stuff.
+kid	what stuff.
+kid	my camping stuff you mean.
+cgv	yeah okay.
+kid	okay how (a)bout my compass.
+cgv	that's a good idea do you think you need a jacket.
+kid	I don't think so.
+cgv	what do you want.
+kid	I don't know.
+cgv	milk.
+kid	yeah milk and cookies milk and cookies okay.
+cgv	okay.
+kid	today today I hope we could make uh when the sun comes up I hope we could make peanut butter cookies.
+cgv	maybe we can.
+kid	this is dirty.
+cgv	what is.
+cgv	that ball.
+kid	yeah.
+cgv	we can wash it off did you have fun at the softball game.
+kid	yeah.
+cgv	good.
+kid	I hope my Mommy will come home.
+cgv	she's going to.
+kid	Dad after these cookies could I have some more cookies.
+cgv	what.
+kid	after these cookies could I have some more cookies.
+cgv	if you're still hungry you can.
+kid	I'm still hungry.
+cgv	we'll wait and see okay.
+kid	okay.
+cgv	what's wrong.
+kid	nothing.
+cgv	what are you doing.
+kid	chewing my cookies.
+cgv	are you ready to go to bed.
+kid	no.
+cgv	it's time get some books.
+kid	(ex)cept I'm not through there's one more cookie.
+cgv	oh.
+kid	I just want I just want some more cookies that's all.
+cgv	eat those and then we'll go to bed you can have some more cookies tomorrow.
+kid	(ex)cept I (ex)cept after these cookies I want some more cookies.
+cgv	what's wrong.
+kid	it keeps getting out of the water.
+cgv	what.
+kid	it keeps getting out of the water.
+cgv	your dandelion keeps falling out of the water.
+kid	yeah this one.

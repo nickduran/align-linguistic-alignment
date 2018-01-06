@@ -1,0 +1,174 @@
+participant	content
+cgv	Abe what is today.
+kid	I don't know.
+cgv	today is June fifth.
+kid	oh.
+cgv	let me get some of your animals and we'll play a game.
+kid	now we don't want that.
+cgv	we don't want that that's trash.
+kid	this is not trash.
+cgv	okay.
+kid	that's a ball.
+cgv	that's a ball.
+kid	a goat.
+cgv	right.
+kid	that's a hippopotamus.
+cgv	uhhuh let's play the game okay.
+kid	he got a beard.
+cgv	that's right the goat has a beard.
+kid	the lion doesn't have a beard.
+cgv	the lion doesn't have a beard that's right okay do you want to play the game.
+kid	uhhuh.
+cgv	Abe the hippo wants the lion to go to the car.
+kid	okay.
+cgv	that's right.
+cgv	the lion went to the car what's he doing.
+kid	he got in.
+cgv	oh the lion got in the car that's good okay Abe the lion wants the goat to kiss the hippo.
+kid	he's sad.
+cgv	who's sad.
+kid	he's sad.
+cgv	oh the goat's sad oh the goat kissed the hippo that's good Abe here's another game Abe the car wants to go to the tree the car drove over to the tree that's right Abe.
+kid	and knock him down.
+cgv	the car knocked the car down funny old car isn't it.
+cgv	here's another one the goat wants a tree the goat goes over to the tree.
+cgv	that's good Abe how about this.
+cgv	the goat wants the hippo to eat the tree the hippo's eating the tree.
+cgv	funny old hippo.
+cgv	is he full now [!].
+kid	uhhuh.
+cgv	do you want to try another one.
+kid	uhhuh.
+cgv	the hippo wants to kiss the lion.
+kid	okay he's sad.
+cgv	who's sad.
+kid	he.
+cgv	oh the lions sad.
+kid	uhhuh.
+cgv	oh now the hippo kisses the lion.
+kid	he fall down.
+cgv	and the lion fell down.
+kid	he cried.
+cgv	who cried.
+kid	he cried.
+cgv	okay do you want to play another game.
+kid	uhhuh.
+cgv	okay let me put there animals up and get some other ones.
+cgv	then we'll play another game.
+kid	I'll help.
+cgv	okay you can help me.
+kid	funny car away okay.
+cgv	oh you want me to put the funny car away.
+kid	uhhuh.
+cgv	do you have a tiger.
+cgv	he doesn't have one.
+kid	here.
+kid	I got this thing.
+cgv	okay we'll have the tiger be someone else.
+kid	he this is a mouse.
+cgv	oh this is a mouse I don't think we'll play with him okay.
+kid	mouse is sad mouse is sad this mouse is sad.
+cgv	okay do you want to play a game.
+kid	you got a camel.
+cgv	come here and sit down and we'll see oh what's this.
+kid	a a a elephant.
+cgv	uhhuh and what's this.
+kid	a lion.
+cgv	what's that.
+kid	a camel.
+cgv	that's right it's a camel you silly goose what's this [!].
+kid	a zebra.
+cgv	that's right.
+kid	we saw him.
+cgv	we saw him.
+cgv	where at.
+kid	at zoo.
+cgv	at the zoo.
+kid	uhhuh.
+cgv	oh I see what's that.
+kid	that's a boat.
+cgv	uhhuh what's this.
+kid	a car.
+cgv	uhhuh do you want to play a game.
+kid	uhhuh.
+cgv	okay put the elephant in the car.
+kid	okay he sit.
+cgv	huh.
+kid	he sit.
+cgv	he's going to sit.
+cgv	boy you're putting him in the car okay he's in the car Abe put the camel with the elephant.
+kid	he's in the boat.
+cgv	okay Abe put the zebra by the boat Abe now put each animal in the boat.
+kid	what animal.
+kid	that animal.
+cgv	uhhuh that's a animal.
+cgv	you wan(t) (t)a put him in the boat.
+kid	no.
+cgv	how come.
+kid	he doesn't fit.
+cgv	oh he doesn't fit with the camel okay you don't have to put him in we'll play another game put the car next to the boat okay Abe make the zebra go from the boat.
+kid	what boat.
+kid	that boat.
+cgv	uhhuh that boat.
+kid	0.
+cgv	okay here's another one put the car in front of the boat.
+kid	like that.
+cgv	Abe puts car beside the boat but if he thinks of +"/..
+cgv	+" in front of.
+cgv	in terms of himself then he did it correctly boat +/..
+kid	Abe.
+cgv	car okay here's another game.
+kid	I like this game.
+cgv	Abe put the elephant outside the boat.
+kid	outside the boat.
+kid	outside.
+cgv	put him outside the boat.
+kid	in the car.
+cgv	you put the elephant in the car.
+kid	he's eating peanuts.
+cgv	okay Abe put the elephant outside the car.
+kid	what outside.
+kid	that outside.
+kid	that side out.
+cgv	okay now put the boat between the elephant and the zebra.
+kid	there he's lying down and he's lying down.
+cgv	oh the elephant and zebra are lying down.
+cgv	okay how about this game.
+cgv	Abe put the car behind the boat okay Abe make the zebra go to the car.
+kid	he's pushing.
+cgv	he's pushing the car okay let's finish these games and then he can push the car all he wants okay Abe make the zebra go around the boat okay how about this one.
+cgv	put the elephant on the car.
+kid	on the car.
+cgv	uhhuh.
+kid	there oh elephant fall down and camel fall down.
+cgv	okay put the elephant back on the car.
+kid	no he fell down.
+cgv	okay here's another one put the camel by the zebra okay do you want to do another one.
+kid	uhhuh.
+cgv	okay put the elephant far away from the car from the car okay now put the boat near the tiger.
+kid	0.
+cgv	okay Abe now here's the last one make the tiger jump over the boat wow the tiger jumped over the boat.
+cgv	that's all are you tired of playing games.
+kid	uhuh.
+cgv	do you want to play more games.
+kid	uhhuh I'm two I'm two.
+kid	I'm Abe.
+kid	I'm Abe Duncan.
+cgv	what's your Daddy's name.
+kid	Stan Duncan you turn that off.
+cgv	you want me to turn it off.
+kid	uhhuh no.
+kid	down down.
+cgv	oh you want to look at it.
+kid	uhhuh.
+kid	down in the lap.
+cgv	you want it down in my lap.
+kid	uhhuh.
+cgv	how come.
+kid	I like it.
+cgv	you want to look at it.
+cgv	here it is.
+kid	oh it's nice.
+cgv	do you want to take a bath.
+kid	uhhuh tee+tee first.
+cgv	okay run in the bath+room and tee+tee.

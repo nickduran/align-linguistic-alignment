@@ -1,0 +1,286 @@
+participant	content
+kid	I don't know.
+cgv	what did you do.
+kid	I don't know daytime.
+cgv	uhhuh.
+kid	it daytime.
+cgv	right now.
+kid	uhhuh.
+cgv	it sure is.
+kid	huh us I don't see the lights off.
+cgv	the sun's behind a cloud because it's raining today so that makes it sort of dark.
+kid	sort of dark.
+cgv	uhhuh not as bright as when the sun's out.
+kid	did you have a do you have a bridge.
+cgv	a bridge.
+kid	uhhuh.
+cgv	uhhuh.
+kid	what is this.
+kid	a black horse.
+cgv	it looks like a brown horse to me what do horses say.
+cgv	what do horses do.
+kid	I don't know giddyup.
+cgv	right.
+kid	where will we go.
+cgv	when.
+kid	now.
+cgv	right now.
+kid	uhhuh.
+cgv	we're not going anywhere right now but at eleven thirty we're going up to the co_op.
+kid	then after the co_op we where going.
+cgv	I think we'll just come home and mess around it's such a yucky day.
+kid	why.
+cgv	it's raining where would you like to go today.
+kid	uh white house uh I don't know.
+cgv	where.
+kid	I don't know I'm holding on.
+cgv	uhhuh.
+kid	I'm hanging in the river.
+cgv	you're in the river.
+kid	uhhuh.
+cgv	what am I.
+cgv	the boat.
+kid	no you are a mommy monkey.
+cgv	a mommy monkey in the river.
+kid	uhhuh a mommy monkey falled@n down hey.
+kid	a baby monkey too hard.
+cgv	hmm.
+kid	I have ta poo+poo.
+cgv	what happened.
+kid	nothing.
+cgv	do you have to poop.
+kid	uhhuh are you are you taking a shower.
+kid	or a bath.
+cgv	I'm just washing my face.
+kid	why.
+cgv	because it's dirty right.
+kid	your nose dirty.
+cgv	it was but I washed it.
+kid	why you didn't have a nose you couldn't smell.
+cgv	because your nose is where all of the smelling happens.
+kid	why.
+cgv	because uh are you done.
+kid	uhuh wipe my bottom.
+cgv	okay.
+cgv	I'll get it okay there you go do you wan(t) (t)a flush it.
+kid	uhhuh.
+cgv	say here's a nickel to buy something when you go to the co_op okay.
+kid	Mommy Daddy got me a nickel.
+cgv	a nickel.
+kid	yeah.
+cgv	what do you want to buy with it.
+cgv	a golden delicious apple when we go to the co_op.
+kid	I already had one.
+cgv	did you like it.
+kid	yeah I want another one are you coming at the co_op with us.
+cgv	I think I'll stay here today okay.
+kid	why.
+cgv	because I have to do some work while you're gone so we can go to Al's tomorrow.
+kid	what's that.
+cgv	a breakfast place remember.
+cgv	we'll go if it's nice.
+kid	it's raining let's go to Al's when it's raining.
+cgv	we'll see.
+kid	go to the co_op then come back then go at Al's.
+cgv	today.
+kid	yeah.
+cgv	no it'll have ta be tomorrow it's already too late.
+kid	too late.
+kid	more milkie more milkie.
+cgv	here.
+kid	here.
+cgv	wow I almost got it both ways one cold and one hot.
+kid	one cold and one hot one cold and one hot one cold and one hot one cold and one hot here these are for mommies to put on little kids.
+cgv	you want your shoes on.
+kid	yeah.
+cgv	okay bring em over here there you go.
+kid	hey down there hey down there let me get you hey you down there what you doing.
+kid	hey.
+kid	where's that penny.
+kid	hey you down there let me get that penny one second oh I don't like you.
+cgv	Abe what would you like for dinner this week.
+kid	I don't know.
+cgv	why not.
+kid	I don't know I want pizza to dinner.
+cgv	you want pizza for dinner.
+kid	yeah I want pizza for dinner when we get home okay.
+kid	okay.
+cgv	in other words you want it for lunch.
+kid	huh.
+kid	Daddy.
+kid	Daddy.
+kid	Daddy.
+kid	Daddy.
+kid	Daddy.
+kid	Daddy.
+cgv	what do you want Abe.
+kid	nothin(g).
+kid	I was just saying +"/..
+kid	+" Daddy Daddy.
+cgv	oh.
+kid	I'm gon (t)a jump and don't be funny I'm gon (t)a move this farther watch this watch this see that.
+cgv	that was really a good jump Abe.
+cgv	it really was.
+kid	don't keep it see that.
+kid	I keeped my balance.
+cgv	I saw that.
+kid	I jumped in the river oh I got a booger how I'm a see saw.
+cgv	a seesaw.
+kid	yeah.
+cgv	well you can lay across the footstool and I can sit on your feet and Daddy can sit on your head.
+kid	no oh a monkey falled@n a monkey sawed something.
+cgv	what did the monkey see.
+kid	a monkey saw a bear.
+cgv	a bear.
+kid	yeah.
+cgv	what was the bear doing.
+kid	here's the bear here's the bear here's the bear Mommy.
+cgv	what's the bear doing.
+kid	he's just sitting here's the bear again here's the bear again here's the bear again here's the bear again.
+cgv	what's he doing.
+kid	he's uh get a monkey [=! growls] a bear's growling scared the monkey away.
+cgv	is the monkey swinging on a tree.
+kid	yeah hippos hippos are bear's friends.
+cgv	oh.
+kid	and the bear falled@n.
+cgv	is the hippo going to help him.
+kid	huh.
+cgv	is the hippo going to help his friend the bear.
+kid	yeah the bear falled@n again.
+cgv	that bear better be careful or he'll break his neck.
+kid	bears don't break their necks when they fall.
+cgv	what do they do.
+kid	they just run around and play.
+cgv	oh.
+kid	some bears live in forests.
+cgv	where do other bears live.
+kid	in the caves.
+cgv	what do bears in the forest do during the day.
+kid	they run around and play.
+cgv	what do bears in the caves do during the day.
+kid	play in their caves also know what the bear and the and the hippo saw.
+cgv	what'd they see.
+kid	a snake right here.
+cgv	what kind of snake was it.
+kid	a rattlesnake I jumped on the snake and and and the hippo no the hippo said he said to the bear +"/..
+kid	+" there's another snake.
+cgv	what'd the bear say.
+kid	the bear jumped on the other snake too.
+cgv	wow that's a pretty mean bear.
+kid	a bear falled@n know what a bear seed.
+cgv	what.
+kid	another snake and and the hippo said +"/..
+kid	+" I uh we will both step on that snake.
+cgv	the bear and the hippo both stepped on the snake.
+kid	yeah.
+cgv	what happened to the snake.
+kid	he died.
+cgv	he did.
+kid	yeah.
+cgv	that's too bad.
+kid	when they when they eat him up a bear and a hippo eat him up and a bear and a hippo shared the snake.
+cgv	they did scare him.
+kid	no they eat him up they shared him when they started eating him.
+cgv	hey.
+cgv	that was really nice of them.
+kid	huh.
+cgv	that was really nice of them.
+kid	huh.
+cgv	did they get full.
+cgv	did they have enough snake to eat.
+kid	no the the bear said +"/..
+kid	+" this is another snake.
+kid	and the bear and the hippo said +"/..
+kid	+" we better step on that one there and eat it.
+cgv	how did they cook it.
+kid	they cooked it in their mouths.
+cgv	oh.
+kid	and and they didn't had any fire they just cooked it.
+cgv	oh.
+kid	they didn't put any pans in it and the bear and the hippo said +"/..
+kid	+" there's (a)nother snake.
+kid	the bear said +"/..
+kid	+" let's eat him up.
+kid	and the bear gave a peanut and they shared.
+kid	there's another snake.
+kid	a bear got a snake and hang it up on their wall.
+kid	then the snake started going then and then the bear said <let's get it> ["] then a and the bear gotted@n first prize and the hippo gotted@n last prize see that.
+kid	see that Mommy.
+cgv	I sure did.
+kid	do you wan(t) (t)a see that Daddy.
+cgv	I sure do I wan(t) (t)a see everything my little acrobat does or is it a bear.
+kid	it's a bear.
+cgv	gosh man.
+cgv	wow you look like you're really flying.
+kid	and the bear said +"/..
+kid	+" let's do that trick on the on the big thing.
+kid	and the bear said +"/..
+kid	+" let's do that mother bear.
+kid	and the hippo said and the bear said uh you read a story when uh when when I jumping.
+cgv	when you're through jumping.
+kid	no when I'm when I am jumping.
+cgv	while you're jumping you want me to read you a story.
+kid	yeah and the bear doed@n it read it you do it over again do that.
+cgv	you help me read it dear +....
+kid	dear +....
+cgv	who's that.
+kid	Santa Claus.
+cgv	I hope everybody at the +/..
+kid	I don't know.
+cgv	we'll read it later okay.
+cgv	did you show Daddy the follow+the+dots we made yesterday.
+cgv	no I didn't see any follow the dots.
+kid	right there.
+cgv	wow you made a snowman and a reindeer.
+kid	and he didn't disappeared.
+cgv	he sure didn't.
+kid	I wan(t) (t)a do something look at it later too.
+cgv	okay you can look at it later with me.
+kid	what is that.
+kid	fish.
+kid	what's that.
+cgv	do you want a bite.
+kid	it's no thank you.
+cgv	how about an apple.
+kid	that apple I got at Pat and Allen's farm.
+cgv	yeah if you want it.
+kid	no I will eat it later and and the bear died and the hippo died then the mother bear died.
+cgv	oh well.
+kid	this is a daddy bear.
+cgv	that's a daddy bear now.
+kid	yeah and and the mother bear said +"/..
+kid	+" let's get a baby bear.
+cgv	oh.
+kid	and they started looking pretty soon they started they saw some thing.
+cgv	what did they see.
+kid	a river and pretty soon something crawled out uh pretty soon something started coming out the river.
+cgv	and what was that something.
+kid	a whale.
+cgv	a whale came out of the river.
+kid	and it was big it had a big tail and the whale said to the bears +"/..
+kid	+" I'm a nice whale we didn't have river.
+cgv	oh was the bear real friendly too.
+kid	yeah and and they doed@n something uh they started cooking something.
+cgv	what were they cooking.
+kid	a snake.
+cgv	a snake.
+kid	yeah.
+cgv	did the whale like it too.
+kid	yeah the whale said +"/..
+kid	+" it's pretty good, let's eat.
+kid	and then they cut it up it was a long snake.
+cgv	did they share it.
+kid	um a mother bear uh pretty soon and pretty soon another something started coming out the river.
+cgv	what was the other something.
+kid	a walrus and he was friendly and then pretty soon something started coming out the river again.
+cgv	what was the other something.
+kid	uh uh a bear goed@n in the river then coming out.
+cgv	oh a bear went in and a bear came out.
+kid	yeah and he was hungry.
+cgv	for snakes right.
+kid	huh.
+cgv	he wanted to eat snakes right.
+kid	yeah.
+cgv	I bet that all of the snakes in that country were all crying.
+kid	I didn't know snakes cry.
+cgv	I don't know if they really do but if they do they would if they were all getting eaten up.
