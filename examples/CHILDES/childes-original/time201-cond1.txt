@@ -1,0 +1,140 @@
+participant	content
+kid	Dad you have to eat though.
+cgv	okay I will I was just teasing.
+kid	Mom.
+cgv	uhhuh.
+kid	can I have some bread.
+cgv	here.
+kid	no why can't I eat bread instead of a bun.
+cgv	don't you like buns.
+kid	I like them but I just want bread today.
+cgv	I made those biscuits for you Abe I thought you liked them.
+kid	I would if you maked them smaller.
+cgv	they taste the same if they're bigger.
+kid	Mommy if they're bigger I can't eat em do you know that.
+cgv	no.
+kid	so if they're smaller I could eat em if they're bigger I can't eat eat em oh I forgot it's time to watch the Flintstones.
+cgv	we're eating early they're not even on.
+kid	but when are they going to be on.
+cgv	after while.
+cgv	Abe do you want to go to Bridgeman's later.
+kid	yeah are we going to ride our bikes.
+kid	no it's raining let's ride our car.
+cgv	what did you do today since it was raining and yucky all day.
+kid	huh.
+cgv	what did you do today since it was raining and yucky all day.
+kid	got cough syrup and baby aspirin.
+cgv	how did you do that.
+kid	go to Harmar and buyed a brand+new book.
+cgv	it's not brand+new.
+kid	it's new but it's not brand+new.
+cgv	where'd you get that.
+kid	at a garage sale and we buyed baby clothes too.
+cgv	wow.
+cgv	well what would you have done if you wouldn't have gone to the store and to the garage sale.
+kid	oh I'd be crying.
+cgv	how come.
+kid	I wouldn't have anything to do I'd be crying because I would have nothing to do.
+cgv	oh think of all the stuff you did at home today.
+kid	Dad.
+cgv	yeah.
+kid	I found some sea+shells that aren't hatched but they aren't alive they aren't hatched but they're not alive.
+cgv	oh.
+cgv	you weren't bored by your homework.
+kid	yeah I wouldn't be crying about my home work I'd be happy about my homework.
+cgv	what.
+kid	I'd be so happy about my homework.
+cgv	how come.
+kid	my homework's nice.
+cgv	you would have been happy doing your homework today if you wouldn't have gone to the store.
+kid	not all my homework I only did a little bit of homework I only do a little bit of homework each day do you want to see what I got.
+cgv	yeah.
+kid	hey Mom where's those number things.
+cgv	what a number things.
+kid	I learned them today.
+cgv	oh you can show Daddy those after dinner okay.
+kid	okay.
+cgv	oh boy.
+kid	Dad I did the follow+the+dots with none help.
+cgv	wow I'll do this one all by myself.
+kid	no.
+kid	if you dare do that I'll kick you I want to do it.
+cgv	okay.
+kid	Mom everytime I laugh zero cough.
+cgv	uhhuh you really have a bad cold.
+kid	Mom.
+cgv	yeah.
+kid	do foxes eat sheep.
+cgv	uhhuh.
+kid	no they don't eat sheep they eat chickens and dogs guard the chickens.
+cgv	yeah but sometimes they sneak up on sheep and attack them.
+kid	no a fox is only about this big.
+cgv	yeah a fox couldn't attack a sheep but a coyote could.
+kid	yeah even a dog a coyote would have no trouble attacking a dog either.
+cgv	that's right.
+kid	just one bite and the dog would be dead.
+cgv	not necessarily.
+kid	a metal dog wouldn't.
+cgv	what.
+kid	a metal dog wouldn't.
+cgv	what's a male dog.
+kid	no a metal dog.
+cgv	not even a real dog because it could fight back.
+kid	yeah but some dogs are littler than foxes.
+cgv	huh.
+kid	some dogs are littler than foxes.
+cgv	yeah.
+kid	remember that one dog that was about that big.
+cgv	uhhuh.
+kid	that would have lots of trouble attacking a coyote.
+cgv	you're right.
+kid	Mom really remember that one cough today.
+cgv	yeah I thought you were going to cough your head off.
+kid	cough my head off for real.
+cgv	no that was just a figure of speech it would be funny if you did cough your head off (be)cause then your head would roll around.
+kid	would you put me back together again.
+cgv	yeah.
+kid	good you'd squash it on you'd have to squash it on Mom remember that one dog that was just this big.
+cgv	uhhuh.
+kid	Dad do you believe a dog could be that big.
+cgv	anything's possible but was it really that small.
+kid	yeah.
+cgv	what do you think about going to Texas for Christmas Abe.
+kid	I think we'll probably come there and we'll probably not I hope we do.
+cgv	maybe we will.
+kid	I'm gon (t)a be the first one done go tell Aunt Ruty the old grey goose is dead go tell Aunt Ruty the old grey goose is dead go tell Aunt Ruty the old grey goose is dead go tell Aunt Ruty the old grey goose is dead go tell Aunt Ruty the old grey goose is dead.
+cgv	who killed the old grey goose.
+kid	the water.
+cgv	how did they find it.
+kid	in a whirl+pool remember.
+cgv	not in a whirl+pool it was just upside+down.
+cgv	I don't understand what's happening somebody tell me what's happening Abe tell me the story.
+kid	I can't tell you I'll show you.
+cgv	you can tell me go ahead.
+kid	the goose was upside+down it was dead.
+cgv	where was it.
+kid	in the middle of the water.
+cgv	how did it get there.
+cgv	that's what I don't know.
+kid	it swimmed.
+cgv	what.
+kid	it swimmed gooses geese] m] can swim.
+cgv	yeah then how did it drown if it could swim.
+cgv	that's not important.
+cgv	how did it drown if it could swim.
+kid	it didn't drown it turned upside down and then these people saw it and then they pulled it out.
+cgv	was it dead.
+kid	yeah it drowned Mommy my milk isn't cold.
+cgv	it's cold enough.
+kid	Mommy I take two vitamins everyday right Dad.
+cgv	right one m_and_m and one real one.
+kid	first I always eat this one first then I eat this one this one is an after_vitamin@c and this is the first vitamin.
+cgv	what are you doing in there partner.
+kid	I'm writing a flag Dad remember you can't come in until I say okay.
+cgv	okay did you eat both your vitamins.
+kid	huh.
+cgv	okay did you eat both your vitamins.
+kid	no this is my after vitamin it's not a real vitamin Daddy don't look.
+cgv	I'm not going to are you about done.
+kid	no yeah I'm almost done can you see it.
+cgv	no I won't peek.
