@@ -1,1 +1,11 @@
-.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+*/align.egg-info
+*/build
+*/dist
+*__pycache__*
+*.swp
+*.swo
+*.ipynb_checkpoints
+*.pyc
+*/*.pyc
+*/MANIFEST
