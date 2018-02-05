@@ -372,7 +372,7 @@ def ApplyPOSTagging(df,
 
 def prepare_transcripts(input_files,
               output_file_directory,
-              training_dictionary,
+              training_dictionary = None,
               minwords=2,
               use_filler_list=None,
               filler_regex_and_list=False,
@@ -427,6 +427,15 @@ def prepare_transcripts(input_files,
         for f in features:
             model[f] += 1
         return model
+
+    # if no training dictionary is specified, use the Gutenburg corpus
+    if training_dictionary is None:
+
+        # first, get the name of the package directory
+        module_path = os.path.dirname(os.path.abspath(__file__))
+
+        # then construct the path to the text file
+        training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
 
     # train our spell-checking model
     nwords = train(re.findall('[a-z]+',(file(training_dictionary).read().lower())))
