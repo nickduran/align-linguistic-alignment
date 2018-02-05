@@ -9,6 +9,7 @@ import numpy as np
 import scipy
 from scipy import spatial
 
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
@@ -55,7 +56,6 @@ def InitialCleanup(dataframe,
 
     # create a new column with only approved text before cleaning per user-specified settings
     dataframe['clean_content'] = dataframe['content'].apply(lambda utterance: ''.join([char for char in utterance if char in WHITELIST]).lower())
-    print(dataframe.head(5))
 
     # DEFAULT: remove typical speech fillers via regular expressions (examples: "um, mm, oh, hm, uh, ha")
     if use_filler_list == None and filler_regex_and_list == False:
@@ -372,7 +372,7 @@ def ApplyPOSTagging(df,
 
 def prepare_transcripts(input_files,
               output_file_directory,
-              training_dictionary,
+              training_dictionary = None,
               minwords=2,
               use_filler_list=None,
               filler_regex_and_list=False,
@@ -390,6 +390,11 @@ def prepare_transcripts(input_files,
     tokenization, lemmatization, and part-of-speech tagging.
     The output serve as the input for later ALIGN
     analysis.
+
+    By default, use the Project Gutenberg corpus to create
+    spell-checker (http://www.gutenberg.org). If desired,
+    a different file may be used to train the spell-checker
+    by setting `training_dictionary` to a path to the desired file.
 
     By default, set a minimum number of words in a turn to
     2. If desired, this may be chaged by changing the
@@ -428,6 +433,15 @@ def prepare_transcripts(input_files,
             model[f] += 1
         return model
 
+    # if no training dictionary is specified, use the Gutenberg corpus
+    if training_dictionary is None:
+
+        # first, get the name of the package directory
+        module_path = os.path.dirname(os.path.abspath(__file__))
+
+        # then construct the path to the text file
+        training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
+
     # train our spell-checking model
     nwords = train(re.findall('[a-z]+',(file(training_dictionary).read().lower())))
 
@@ -435,7 +449,7 @@ def prepare_transcripts(input_files,
     if input_as_directory==False:
         file_list = glob.glob(input_files)
     else:
-        file_list = glob.glob(input_files+"*.txt")
+        file_list = glob.glob(input_files+"/*.txt")
 
     # cycle through all files
     main = pd.DataFrame()
@@ -471,7 +485,8 @@ def prepare_transcripts(input_files,
 
     # save the concatenated dataframe
     if save_concatenated_dataframe != False:
-        main.to_csv(output_file_directory + '../' + "align_concatenated_dataframe.txt",
+        concatenated_file = os.path.join(output_file_directory,'../align_concatenated_dataframe.txt')
+        main.to_csv(concatenated_file,
                     encoding='utf-8',index=False, sep='\t')
 
     # return the dataframe
