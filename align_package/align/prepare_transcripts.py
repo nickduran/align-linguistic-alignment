@@ -56,7 +56,6 @@ def InitialCleanup(dataframe,
 
     # create a new column with only approved text before cleaning per user-specified settings
     dataframe['clean_content'] = dataframe['content'].apply(lambda utterance: ''.join([char for char in utterance if char in WHITELIST]).lower())
-    print(dataframe.head(5))
 
     # DEFAULT: remove typical speech fillers via regular expressions (examples: "um, mm, oh, hm, uh, ha")
     if use_filler_list == None and filler_regex_and_list == False:
