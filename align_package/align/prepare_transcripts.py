@@ -391,6 +391,11 @@ def prepare_transcripts(input_files,
     The output serve as the input for later ALIGN
     analysis.
 
+    By default, use the Project Gutenberg corpus to create
+    spell-checker (http://www.gutenberg.org). If desired,
+    a different file may be used to train the spell-checker
+    by setting `training_dictionary` to a path to the desired file.
+
     By default, set a minimum number of words in a turn to
     2. If desired, this may be chaged by changing the
     `minwords` file.
@@ -428,7 +433,7 @@ def prepare_transcripts(input_files,
             model[f] += 1
         return model
 
-    # if no training dictionary is specified, use the Gutenburg corpus
+    # if no training dictionary is specified, use the Gutenberg corpus
     if training_dictionary is None:
 
         # first, get the name of the package directory
