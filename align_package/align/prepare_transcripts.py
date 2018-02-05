@@ -485,7 +485,8 @@ def prepare_transcripts(input_files,
 
     # save the concatenated dataframe
     if save_concatenated_dataframe != False:
-        main.to_csv(output_file_directory + '../' + "align_concatenated_dataframe.txt",
+        concatenated_file = os.path.join(output_file_directory,'../align_concatenated_dataframe.txt')
+        main.to_csv(concatenated_file,
                     encoding='utf-8',index=False, sep='\t')
 
     # return the dataframe
