@@ -449,7 +449,7 @@ def prepare_transcripts(input_files,
     if input_as_directory==False:
         file_list = glob.glob(input_files)
     else:
-        file_list = glob.glob(input_files+"*.txt")
+        file_list = glob.glob(input_files+"/*.txt")
 
     # cycle through all files
     main = pd.DataFrame()
