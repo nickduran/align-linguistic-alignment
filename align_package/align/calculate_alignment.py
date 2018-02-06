@@ -760,7 +760,7 @@ def calculate_alignment(input_files,
     if not input_as_directory:
         file_list = glob.glob(input_files)
     else:
-        file_list = glob.glob(input_files+"*.txt")
+        file_list = glob.glob(input_files+"/*.txt")
 
     # build the semantic model to be used for all conversations
     [vocablist, highDimModel] = BuildSemanticModel(semantic_model_input_file=semantic_model_input_file,
