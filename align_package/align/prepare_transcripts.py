@@ -58,15 +58,15 @@ def InitialCleanup(dataframe,
     dataframe['clean_content'] = dataframe['content'].apply(lambda utterance: ''.join([char for char in utterance if char in WHITELIST]).lower())
 
     # DEFAULT: remove typical speech fillers via regular expressions (examples: "um, mm, oh, hm, uh, ha")
-    if use_filler_list == None and filler_regex_and_list == False:
+    if use_filler_list is None and not filler_regex_and_list:
         dataframe['clean_content'] = dataframe['clean_content'].apply(applyRegExpression)
 
     # OPTION 1: remove speech fillers or other words specified by user in a list
-    elif use_filler_list != None and filler_regex_and_list == False:
+    elif use_filler_list is not None and not filler_regex_and_list:
         dataframe['clean_content'] = dataframe['clean_content'].apply(lambda utterance: ' '.join([word for word in utterance.split(" ") if word not in use_filler_list]))
 
     # OPTION 2: remove speech fillers via regular expression and any additional words from user-specified list
-    elif use_filler_list != None and filler_regex_and_list == True:
+    elif use_filler_list is not None and filler_regex_and_list:
         dataframe['clean_content'] = dataframe['clean_content'].apply(applyRegExpression)
         dataframe['clean_content'] = dataframe['clean_content'].apply(lambda utterance: ' '.join([word for word in utterance.split(" ") if word not in use_filler_list]))
         cleantext = " ".join(cleantext)
@@ -357,8 +357,8 @@ def ApplyPOSTagging(df,
     """
 
     # if desired, import Stanford tagger
-    if add_stanford_tags == True:
-        if stanford_pos_path == None or stanford_language_path == None:
+    if add_stanford_tags:
+        if stanford_pos_path is None or stanford_language_path is None:
             raise ValueError('Error! Specify path to Stanford POS tagger and language model using the `stanford_pos_path` and `stanford_language_path` arguments')
         else:
             stanford_tagger = StanfordPOSTagger(stanford_pos_path + stanford_language_path,
@@ -369,7 +369,7 @@ def ApplyPOSTagging(df,
     df['tagged_lemma'] = df['lemma'].apply(nltk.pos_tag)
 
     # if desired, also tag with Stanford tagger
-    if add_stanford_tags == True:
+    if add_stanford_tags:
         df['tagged_stan_token'] = df['token'].apply(stanford_tagger.tag)
         df['tagged_stan_lemma'] = df['lemma'].apply(stanford_tagger.tag)
 
@@ -454,7 +454,7 @@ def prepare_transcripts(input_files,
     nwords = train(re.findall('[a-z]+',(file(training_dictionary).read().lower())))
 
     # grab the appropriate files
-    if input_as_directory==False:
+    if not input_as_directory:
         file_list = glob.glob(input_files)
     else:
         file_list = glob.glob(input_files+"/*.txt")
@@ -492,7 +492,7 @@ def prepare_transcripts(input_files,
         main = main.append(dataframe)
 
     # save the concatenated dataframe
-    if save_concatenated_dataframe != False:
+    if save_concatenated_dataframe:
         concatenated_file = os.path.join(output_file_directory,'../align_concatenated_dataframe.txt')
         main.to_csv(concatenated_file,
                     encoding='utf-8',index=False, sep='\t')

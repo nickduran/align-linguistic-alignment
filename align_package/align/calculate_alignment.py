@@ -38,7 +38,7 @@ def ngram_pos(sequence1,sequence2,ngramsize=2,
     sequence2 = set(ngrams(sequence2,ngramsize))
 
     # if desired, remove duplicates from sequences
-    if ignore_duplicates==True:
+    if ignore_duplicates:
         new_sequence1 = [tuple([''.join(pair[1]) for pair in tup]) for tup in list(sequence1 - sequence2)]
         new_sequence2 = [tuple([''.join(pair[1]) for pair in tup]) for tup in list(sequence2 - sequence1)]
     else:
@@ -134,18 +134,18 @@ def BuildSemanticModel(semantic_model_input_file,
     frequency = {word: freq for word, freq in frequency.iteritems() if freq > low_n_cutoff}
 
     # if desired, remove high-frequency words (over user-defined SDs above mean)
-    if high_sd_cutoff == None:
+    if high_sd_cutoff is None:
         contentWords = [word for word in frequency.keys()]
     else:
         getOut = np.mean(frequency.values())+(np.std(frequency.values())*(high_sd_cutoff))
         contentWords = {word: freq for word, freq in frequency.iteritems() if freq < getOut}.keys()
 
     # decide whether to build semantic model from scratch or load in pretrained vectors
-    if use_pretrained_vectors == False:
+    if not use_pretrained_vectors:
         keepSentences = [[word for word in row if word in contentWords] for row in all_sentences]
         semantic_model = word2vec.Word2Vec(all_sentences, min_count=low_n_cutoff)
     else:
-        if pretrained_input_file == None:
+        if pretrained_input_file is None:
             raise ValueError('Error! Specify path to pretrained vector file using the `pretrained_input_file` argument.')
         else:
             semantic_model = gensim.models.KeyedVectors.load_word2vec_format(pretrained_input_file, binary=True)
@@ -188,7 +188,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
     syntax_penn_lem = {}
 
     # if desired, generate Stanford-based scores
-    if add_stanford_tags == True:
+    if add_stanford_tags:
         syntax_stan_tok = {}
         syntax_stan_lem = {}
 
@@ -219,7 +219,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
                                                                                             vector_penn_lem2)
 
         # if desired, also calculate using Stanford POS
-        if add_stanford_tags == True:
+        if add_stanford_tags:
 
             # calculate similarity for Stanford POS ngrams (tokens)
             [vector_stan_tok1, vector_stan_tok2] = ngram_pos(stan_tok1,stan_tok2,
@@ -236,7 +236,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
                                                                                                 vector_stan_lem2)
 
     # return requested information
-    if add_stanford_tags == True:
+    if add_stanford_tags:
         dictionaries_list = [syntax_penn_tok, syntax_penn_lem,
                              syntax_stan_tok, syntax_stan_lem,
                              lexical_tok, lexical_lem]
@@ -359,7 +359,7 @@ def TurnByTurnAnalysis(dataframe,
     """
 
     # if we don't want the Stanford tagger data, set defaults
-    if add_stanford_tags == False:
+    if not add_stanford_tags:
         stan_tok1=None
         stan_lem1=None
         stan_tok2=None
@@ -374,7 +374,7 @@ def TurnByTurnAnalysis(dataframe,
     dataframe['tagged_lemma'] = dataframe['tagged_lemma'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
 
     # if desired, prepare the Stanford tagger data
-    if add_stanford_tags == True:
+    if add_stanford_tags:
         dataframe['tagged_stan_token'] = dataframe['tagged_stan_token'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
         dataframe['tagged_stan_token'] = dataframe['tagged_stan_token'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
         dataframe['tagged_stan_lemma'] = dataframe['tagged_stan_lemma'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
@@ -414,7 +414,7 @@ def TurnByTurnAnalysis(dataframe,
         penn_lem2=lagged_row['tagged_lemma']
 
         # if desired, grab the Stanford tagger data for both participants
-        if add_stanford_tags == True:
+        if add_stanford_tags:
             stan_tok1=first_row['tagged_stan_token']
             stan_lem1=first_row['tagged_stan_lemma']
             stan_tok2=lagged_row['tagged_stan_token']
@@ -484,7 +484,7 @@ def ConvoByConvoAnalysis(dataframe,
         raise ValueError('Error! Dataframe contains multiple conditions. Split dataframe into multiple dataframes, one per condition: '+cond_info)
 
     # if we don't want the Stanford info, set defaults
-    if add_stanford_tags == False:
+    if not add_stanford_tags:
         stan_tok1 = None
         stan_lem1 = None
         stan_tok2 = None
@@ -499,13 +499,13 @@ def ConvoByConvoAnalysis(dataframe,
     lem1 = [word for turn in df_A['lemma'] for word in turn]
     penn_tok1 = [POS for turn in df_A['tagged_token'] for POS in turn]
     penn_lem1 = [POS for turn in df_A['tagged_token'] for POS in turn]
-    if add_stanford_tags == True:
+    if add_stanford_tags:
 
-        if type(df_A['tagged_stan_token'][0]) == list:
+        if isinstance(df_A['tagged_stan_token'][0], list):
             stan_tok1 = [POS for turn in df_A['tagged_stan_token'] for POS in turn]
             stan_lem1 = [POS for turn in df_A['tagged_stan_lemma'] for POS in turn]
 
-        elif type(df_A['tagged_stan_token'][0]) == unicode:
+        elif isinstance(df_A['tagged_stan_token'][0], unicode):
             stan_tok1 = pd.Series(df_A['tagged_stan_token'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
             stan_tok1 = stan_tok1.apply(lambda x: zip(x[0::2],x[1::2]))
             stan_tok1 = [POS for turn in stan_tok1 for POS in turn]
@@ -518,13 +518,13 @@ def ConvoByConvoAnalysis(dataframe,
     lem2 = [word for turn in df_B['lemma'] for word in turn]
     penn_tok2 = [POS for turn in df_B['tagged_token'] for POS in turn]
     penn_lem2 = [POS for turn in df_B['tagged_token'] for POS in turn]
-    if add_stanford_tags == True:
+    if add_stanford_tags:
 
-        if type(df_A['tagged_stan_token'][0]) == list:
+        if isinstance(df_A['tagged_stan_token'][0],list):
             stan_tok2 = [POS for turn in df_B['tagged_stan_token'] for POS in turn]
             stan_lem2 = [POS for turn in df_B['tagged_stan_lemma'] for POS in turn]
 
-        elif type(df_A['tagged_stan_token'][0]) == unicode:
+        elif isinstance(df_A['tagged_stan_token'][0], unicode):
             stan_tok2 = pd.Series(df_B['tagged_stan_token'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
             stan_tok2 = stan_tok2.apply(lambda x: zip(x[0::2],x[1::2]))
             stan_tok2 = [POS for turn in stan_tok2 for POS in turn]
@@ -617,7 +617,7 @@ def GenerateSurrogate(original_conversation_list,
         paired_surrogates = [pair for pair in combinations(files_conditions[condition],2)]
 
         # otherwise, if desired, randomly pull from all pairs to get target surrogate sample
-        if all_surrogates == False:
+        if not all_surrogates:
             import math
             paired_surrogates = random.sample(paired_surrogates,
                                               int(math.ceil(len(files_conditions[condition])/2)))
@@ -650,7 +650,7 @@ def GenerateSurrogate(original_conversation_list,
                                   participantB_1.shape[0]])
 
             # preserve original turn order for surrogate pairs
-            if keep_original_turn_order == True:
+            if keep_original_turn_order:
                 surrogateX_A1 = participantA_1.truncate(after=surrogateX_turns-1,copy=False)
                 surrogateX_B2 = participantB_2.truncate(after=surrogateX_turns-1,copy=False)
                 surrogateX = pd.concat([surrogateX_A1,surrogateX_B2]).sort_index(kind="mergesort").reset_index(drop=True).rename(columns={'index': 'original_index'})
@@ -745,7 +745,7 @@ def calculate_alignment(input_files,
     """
 
     # grab the files in the list
-    if input_as_directory == False:
+    if not input_as_directory:
         file_list = glob.glob(input_files)
     else:
         file_list = glob.glob(input_files+"*.txt")
@@ -891,7 +891,7 @@ def calculate_baseline_alignment(input_files,
     """
 
     # grab the files in the input list
-    if input_as_directory==False:
+    if not input_as_directory:
         file_list = glob.glob(input_files)
     else:
         file_list = glob.glob(input_files+"*.txt")
