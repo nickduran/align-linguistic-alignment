@@ -125,7 +125,15 @@ def Tokenize(text,nwords):
 
     Spell-checking is implemented using a
     Bayesian spell-checking algorithm
-    (http://norvig.com/spell-correct.html)
+    (http://norvig.com/spell-correct.html).
+
+    By default, this is based on the Project Gutenberg
+    corpus, a collection of approximately 1 million texts
+    (http://www.gutenberg.org). A copy of this is included
+    within this package. If desired, users may specify a
+    different spell-check training corpus in the
+    `training_dictionary` argument of the
+    `prepare_transcripts()` function.
 
     """
 

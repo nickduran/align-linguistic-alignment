@@ -766,7 +766,7 @@ def calculate_alignment(input_files,
 
         # process the file if it's got a valid conversation
         dataframe=pd.read_csv(fileName, sep='\t',encoding='utf-8')
-        if len(dataframe) > 0:
+        if len(dataframe) > 1:
 
             # let us know which filename we're processing
             print "Processing: "+fileName
@@ -921,7 +921,7 @@ def calculate_baseline_alignment(input_files,
 
         # process the file if it's got a valid conversation
         dataframe=pd.read_csv(fileName, sep='\t',encoding='utf-8')
-        if len(dataframe) > 0:
+        if len(dataframe) > 1:
 
             # let us know which filename we're processing
             print "Processing: "+fileName
