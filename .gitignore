@@ -9,3 +9,4 @@
 *.pyc
 */*.pyc
 */MANIFEST
+*/_build
