@@ -662,13 +662,25 @@ def GenerateSurrogate(original_conversation_list,
 
             # preserve original turn order for surrogate pairs
             if keep_original_turn_order:
-                surrogateX_A1 = participantA_1.truncate(after=surrogateX_turns-1,copy=False)
-                surrogateX_B2 = participantB_2.truncate(after=surrogateX_turns-1,copy=False)
-                surrogateX = pd.concat([surrogateX_A1,surrogateX_B2]).sort_index(kind="mergesort").reset_index(drop=True).rename(columns={'index': 'original_index'})
+                surrogateX_A1 = participantA_1.truncate(after=surrogateX_turns-1,
+                                                        copy=False)
+                surrogateX_B2 = participantB_2.truncate(after=surrogateX_turns-1,
+                                                        copy=False)
+                surrogateX = pd.concat(
+                    [surrogateX_A1, surrogateX_B2]).sort_index(
+                            kind="mergesort").reset_index(
+                                    drop=True).rename(
+                                        columns={'index': 'original_index'})
 
-                surrogateY_A2 = participantA_2.truncate(after=surrogateY_turns-1,copy=False)
-                surrogateY_B1 = participantB_1.truncate(after=surrogateY_turns-1,copy=False)
-                surrogateY = pd.concat([surrogateY_A2,surrogateY_B1]).sort_index(kind="mergesort").reset_index(drop=True).rename(columns={'index': 'original_index'})
+                surrogateY_A2 = participantA_2.truncate(after=surrogateY_turns-1,
+                                                        copy=False)
+                surrogateY_B1 = participantB_1.truncate(after=surrogateY_turns-1,
+                                                        copy=False)
+                surrogateY = pd.concat(
+                    [surrogateY_A2, surrogateY_B1]).sort_index(
+                            kind="mergesort").reset_index(
+                                    drop=True).rename(
+                                            columns={'index': 'original_index'})
 
             # otherwise, if desired, just shuffle all turns within participants
             else:
@@ -810,32 +822,32 @@ def calculate_alignment(input_files,
 
     # export the final files
     FINAL_TURN.to_csv(output_file_directory+"AlignmentT2T.txt",
-                      encoding='utf-8',index=False,sep='\t')
+                      encoding='utf-8', index=False, sep='\t')
     FINAL_CONVO.to_csv(output_file_directory+"AlignmentC2C.txt",
-                       encoding='utf-8',index=False,sep='\t')
+                       encoding='utf-8', index=False, sep='\t')
 
     # display the info, too
     return FINAL_TURN, FINAL_CONVO
 
 
 def calculate_baseline_alignment(input_files,
-                         surrogate_file_directory,
-                         output_file_directory,
-                         semantic_model_input_file,
-                         pretrained_input_file,
-                         high_sd_cutoff=3,
-                         low_n_cutoff=1,
-                         id_separator = '\-',
-                         condition_label='cond',
-                         dyad_label='dyad',
-                         all_surrogates=True,
-                         keep_original_turn_order=True,
-                         delay=1,
-                         maxngram=2,
-                         use_pretrained_vectors=False,
-                         ignore_duplicates=True,
-                         add_stanford_tags=False,
-                         input_as_directory=True):
+                                 surrogate_file_directory,
+                                 output_file_directory,
+                                 semantic_model_input_file,
+                                 pretrained_input_file,
+                                 high_sd_cutoff=3,
+                                 low_n_cutoff=1,
+                                 id_separator='\-',
+                                 condition_label='cond',
+                                 dyad_label='dyad',
+                                 all_surrogates=True,
+                                 keep_original_turn_order=True,
+                                 delay=1,
+                                 maxngram=2,
+                                 use_pretrained_vectors=False,
+                                 ignore_duplicates=True,
+                                 add_stanford_tags=False,
+                                 input_as_directory=True):
 
     """
     Given a directory of individual .txt files and the
@@ -910,20 +922,22 @@ def calculate_baseline_alignment(input_files,
         file_list = glob.glob(input_files+"/*.txt")
 
     # create a surrogate file list
-    surrogate_file_list = GenerateSurrogate(original_conversation_list = file_list,
-                                                   surrogate_file_directory = surrogate_file_directory,
-                                                   all_surrogates = all_surrogates,
-                                                   id_separator = id_separator,
-                                                   condition_label = condition_label,
-                                                   dyad_label = dyad_label,
-                                                   keep_original_turn_order = keep_original_turn_order)
+    surrogate_file_list = GenerateSurrogate(
+                            original_conversation_list=file_list,
+                            surrogate_file_directory=surrogate_file_directory,
+                            all_surrogates=all_surrogates,
+                            id_separator=id_separator,
+                            condition_label=condition_label,
+                            dyad_label=dyad_label,
+                            keep_original_turn_order=keep_original_turn_order)
 
     # build the semantic model to be used for all conversations
-    [vocablist, highDimModel] = BuildSemanticModel(semantic_model_input_file=semantic_model_input_file,
-                                                       pretrained_input_file=pretrained_input_file,
-                                                       use_pretrained_vectors=use_pretrained_vectors,
-                                                       high_sd_cutoff=high_sd_cutoff,
-                                                       low_n_cutoff=low_n_cutoff)
+    [vocablist, highDimModel] = BuildSemanticModel(
+                            semantic_model_input_file=semantic_model_input_file,
+                            pretrained_input_file=pretrained_input_file,
+                            use_pretrained_vectors=use_pretrained_vectors,
+                            high_sd_cutoff=high_sd_cutoff,
+                            low_n_cutoff=low_n_cutoff)
 
     # create containers for alignment values
     AlignmentT2T = pd.DataFrame()
