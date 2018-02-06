@@ -4,6 +4,6 @@ import os, sys
 module_path = os.path.dirname(os.path.abspath(__file__))
 
 # then construct the path to the text file
-training_dictionary = os.path.join(module_path, 'data/CHILDES')
+CHILDES_directory = os.path.join(module_path, 'data/CHILDES')
 
 # Run as: `from align.datasets import CHILDES_directory`
