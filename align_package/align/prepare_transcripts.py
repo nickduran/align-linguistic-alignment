@@ -487,8 +487,8 @@ def prepare_transcripts(input_files,
                                     stanford_language_path=stanford_language_path)
 
         # export the conversation's dataframe as a CSV
-        dataframe.to_csv(output_file_directory + os.path.basename(fileName),
-                         encoding='utf-8',index=False,sep='\t')
+        conversation_file = os.path.join(output_file_directory,os.path.basename(fileName))
+        dataframe.to_csv(conversation_file, encoding='utf-8',index=False,sep='\t')
         main = main.append(dataframe)
 
     # save the concatenated dataframe
