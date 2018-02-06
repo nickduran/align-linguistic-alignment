@@ -1,14 +1,15 @@
+# import libraries we need just for setup
 import os
 import sys
 
-
+# specify package metadata
 DISTNAME = 'align'
 DESCRIPTION = 'Analyzing Linguistic Interaction with Generalizable techNiques'
 MAINTAINER = 'N. Duran, A. Paxton, & R. Fusaroli'
 MAINTAINER_EMAIL = 'paxton.alexandra@gmail.com'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
-
+# Specify minimum versions for scipy and numpy
 SCIPY_MIN_VERSION = '0.19.0'
 NUMPY_MIN_VERSION = '1.12.0'
 
