@@ -451,7 +451,7 @@ def prepare_transcripts(input_files,
         training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
 
     # train our spell-checking model
-    nwords = train(re.findall('[a-z]+',(file(training_dictionary).read().lower())))
+    nwords = train(re.findall('[a-z]+', (file(training_dictionary).read().lower())))
 
     # grab the appropriate files
     if not input_as_directory:
@@ -469,9 +469,9 @@ def prepare_transcripts(input_files,
 
         # clean up, merge, spellcheck, tokenize, lemmatize, and POS-tag
         dataframe = InitialCleanup(dataframe,
-                                  minwords=minwords,
-                                  use_filler_list=use_filler_list,
-                                  filler_regex_and_list=filler_regex_and_list)
+                                   minwords=minwords,
+                                   use_filler_list=use_filler_list,
+                                   filler_regex_and_list=filler_regex_and_list)
         dataframe = AdjacentMerge(dataframe)
 
         # tokenize and lemmatize
@@ -481,7 +481,7 @@ def prepare_transcripts(input_files,
 
         # apply part-of-speech tagging
         dataframe = ApplyPOSTagging(dataframe,
-                                    filename = os.path.basename(fileName),
+                                    filename=os.path.basename(fileName),
                                     add_stanford_tags=add_stanford_tags,
                                     stanford_pos_path=stanford_pos_path,
                                     stanford_language_path=stanford_language_path)

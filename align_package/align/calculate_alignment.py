@@ -17,6 +17,7 @@ from nltk.util import ngrams
 
 from gensim.models import word2vec
 
+
 def ngram_pos(sequence1,sequence2,ngramsize=2,
                    ignore_duplicates=True):
     """
@@ -48,6 +49,7 @@ def ngram_pos(sequence1,sequence2,ngramsize=2,
     # return counters
     return Counter(new_sequence1), Counter(new_sequence2)
 
+
 def ngram_lexical(sequence1,sequence2,ngramsize=2):
     """
     Create ngrams of the desired size for each of two
@@ -70,6 +72,7 @@ def ngram_lexical(sequence1,sequence2,ngramsize=2):
     # return counters
     return Counter(new_sequence1), Counter(new_sequence2)
 
+
 def get_cosine(vec1, vec2):
     """
     Derive cosine similarity metric, standard measure.
@@ -86,6 +89,7 @@ def get_cosine(vec1, vec2):
     else:
         return float(numerator) / denominator
 
+
 def build_composite_semantic_vector(lemma_seq,vocablist,highDimModel):
     """
     Function for producing vocablist and model is called in the main loop
@@ -100,6 +104,7 @@ def build_composite_semantic_vector(lemma_seq,vocablist,highDimModel):
             semvector = highDimModel[w1]
             getComposite = getComposite + semvector
     return getComposite
+
 
 def BuildSemanticModel(semantic_model_input_file,
                         pretrained_input_file,
@@ -121,7 +126,7 @@ def BuildSemanticModel(semantic_model_input_file,
     """
 
     # build vocabulary list from transcripts
-    data1 = pd.read_csv(semantic_model_input_file, sep='\t',encoding='utf-8')
+    data1 = pd.read_csv(semantic_model_input_file, sep='\t', encoding='utf-8')
 
     # get frequency count of all included words
     all_sentences = [re.sub('[^\w\s]+','',str(row)).split(' ') for row in list(data1['lemma'])]
@@ -152,6 +157,7 @@ def BuildSemanticModel(semantic_model_input_file,
 
     # return all the content words and the trained word vectors
     return contentWords, semantic_model.wv
+
 
 def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
                              tok2,lem2,penn_tok2,penn_lem2,
@@ -246,6 +252,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
 
     return dictionaries_list
 
+
 def conceptualAlignment(lem1, lem2, vocablist, highDimModel):
 
     """
@@ -260,6 +267,7 @@ def conceptualAlignment(lem1, lem2, vocablist, highDimModel):
 
     # return cosine distance alignment score
     return 1 - spatial.distance.cosine(W2Vec1, W2Vec2)
+
 
 def returnMultilevelAlignment(cond_info,
                                    partnerA,tok1,lem1,penn_tok1,penn_lem1,
@@ -324,6 +332,7 @@ def returnMultilevelAlignment(cond_info,
 
     # return alignment scores
     return dictionaries_list
+
 
 def TurnByTurnAnalysis(dataframe,
                             vocablist,
@@ -447,6 +456,7 @@ def TurnByTurnAnalysis(dataframe,
     # give us our finished dataframe
     return aggregated_df
 
+
 def ConvoByConvoAnalysis(dataframe,
                           maxngram=2,
                           ignore_duplicates=True,
@@ -550,6 +560,7 @@ def ConvoByConvoAnalysis(dataframe,
 
     # return the dataframe
     return dictionary_df
+
 
 def GenerateSurrogate(original_conversation_list,
                            surrogate_file_directory,
@@ -687,6 +698,7 @@ def GenerateSurrogate(original_conversation_list,
     # return list of all surrogate files
     return glob.glob(new_surrogate_path+"*.txt")
 
+
 def calculate_alignment(input_files,
                     output_file_directory,
                     semantic_model_input_file,
@@ -804,6 +816,7 @@ def calculate_alignment(input_files,
 
     # display the info, too
     return FINAL_TURN, FINAL_CONVO
+
 
 def calculate_baseline_alignment(input_files,
                          surrogate_file_directory,
