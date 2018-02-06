@@ -907,7 +907,7 @@ def calculate_baseline_alignment(input_files,
     if not input_as_directory:
         file_list = glob.glob(input_files)
     else:
-        file_list = glob.glob(input_files+"*.txt")
+        file_list = glob.glob(input_files+"/*.txt")
 
     # create a surrogate file list
     surrogate_file_list = GenerateSurrogate(original_conversation_list = file_list,
