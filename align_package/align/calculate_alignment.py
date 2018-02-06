@@ -932,7 +932,8 @@ def calculate_baseline_alignment(input_files,
                                          maxngram=maxngram,
                                          vocablist=vocablist,
                                          highDimModel=highDimModel,
-                                         add_stanford_tags = add_stanford_tags)
+                                         add_stanford_tags = add_stanford_tags,
+                                         ignore_duplicates = ignore_duplicates)
             AlignmentT2T=AlignmentT2T.append(xT2T)
 
             # calculate conversation-level alignment scores
