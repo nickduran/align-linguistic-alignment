@@ -25,7 +25,7 @@ Note that `GoogleNews-vectors-negative300.bin` and `stanford-postagger-full-2017
 
 `GoogleNews-vectors-negative300.bin` can be downloaded [HERE](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) (right click and open in new window).
 
-`stanford-postagger-full-2017-06-09` can be downloaded [HERE](https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip) (right click and open in new window). 
+`stanford-postagger-full-2017-06-09` can be downloaded [HERE](https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip) from https://nlp.stanford.edu/software/tagger.shtml#Download 
 
 ## Attribution
 
