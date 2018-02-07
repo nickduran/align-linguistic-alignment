@@ -11,8 +11,8 @@ API reference
   :toctree: generated/
   :template: function.rst
 
-  calculate_alignment
   prepare_transcripts
+  calculate_alignment
   calculate_baseline_alignment
 
 Available datasets
