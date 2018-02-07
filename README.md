@@ -23,7 +23,7 @@ pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 
 Note that `GoogleNews-vectors-negative300.bin` and `stanford-postagger-full-2017-06-09` must be downloaded separately. Once downloaded, add to `align_package` folder.  
 
-`GoogleNews-vectors-negative300.bin` can be downloaded [HERE](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) (right click and open in new window) from https://code.google.com/archive/p/word2vec/
+`GoogleNews-vectors-negative300.bin` can be downloaded [HERE](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) (right click to open in new window) from https://code.google.com/archive/p/word2vec/
 
 `stanford-postagger-full-2017-06-09` can be downloaded [HERE](https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip) from https://nlp.stanford.edu/software/tagger.shtml#Download 
 
