@@ -7,7 +7,7 @@ DISTNAME = 'align'
 DESCRIPTION = 'Analyzing Linguistic Interaction with Generalizable techNiques'
 MAINTAINER = 'N. Duran, A. Paxton, & R. Fusaroli'
 MAINTAINER_EMAIL = 'paxton.alexandra@gmail.com'
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 
 # Specify minimum versions for scipy and numpy
 SCIPY_MIN_VERSION = '0.19.0'
