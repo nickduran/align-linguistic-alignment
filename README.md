@@ -32,4 +32,4 @@ If you find the package useful, please cite our manuscript:
 
 ## Licensing of example data
 
-* **CHILDES**: Example corpus *corpusname* by *authorname* is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (*link to subset*). *citation here*
+* **CHILDES**: Example corpus "Kuczaj Corpus" by Stan Kuczaj is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (https://childes.talkbank.org/access/Eng-NA/Kuczaj.html). Kuczaj, S. (1977). The acquisition of regular and irregular past tense forms. *Journal of Verbal Learning and Verbal Behavior, 16*, 589–600.
