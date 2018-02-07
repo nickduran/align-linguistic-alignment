@@ -9,3 +9,5 @@
 *.pyc
 */*.pyc
 */MANIFEST
+align_package/doc/_build
+align_package/doc/modules/generated

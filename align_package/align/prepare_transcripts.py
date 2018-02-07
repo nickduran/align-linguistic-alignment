@@ -295,6 +295,7 @@ def Tokenize(text,nwords):
             cleantoken.append(word)
     return cleantoken
 
+
 def pos_to_wn(tag):
     """
     Convert NLTK default tagger output into a format that Wordnet
@@ -323,6 +324,7 @@ def pos_to_wn(tag):
     else:
         return wn.NOUN
 
+
 def Lemmatize(tokenlist):
     lemmatizer = WordNetLemmatizer()
     defaultPos = nltk.pos_tag(tokenlist) # get the POS tags from NLTK default tagger
@@ -330,6 +332,7 @@ def Lemmatize(tokenlist):
     for item in defaultPos:
         words_lemma.append(lemmatizer.lemmatize(item[0],pos_to_wn(item[1]))) # need to convert POS tags to a format (NOUN, VERB, ADV, ADJ) that wordnet uses to lemmatize
     return words_lemma
+
 
 def ApplyPOSTagging(df,
                     filename,
@@ -379,18 +382,20 @@ def ApplyPOSTagging(df,
     return df
 
 def prepare_transcripts(input_files,
-              output_file_directory,
-              training_dictionary = None,
-              minwords=2,
-              use_filler_list=None,
-              filler_regex_and_list=False,
-              add_stanford_tags=False,
-              stanford_pos_path=None,
-              stanford_language_path=None,
-              input_as_directory=True,
-              save_concatenated_dataframe=True):
+                        output_file_directory,
+                        training_dictionary=None,
+                        minwords=2,
+                        use_filler_list=None,
+                        filler_regex_and_list=False,
+                        add_stanford_tags=False,
+                        stanford_pos_path=None,
+                        stanford_language_path=None,
+                        input_as_directory=True,
+                        save_concatenated_dataframe=True):
 
     """
+    Prepare transcripts for similarity analysis.
+
     Given individual .txt files of conversations,
     return a completely prepared dataframe of transcribed
     conversations for later ALIGN analysis, including: text
@@ -399,39 +404,58 @@ def prepare_transcripts(input_files,
     The output serve as the input for later ALIGN
     analysis.
 
-    By default, use the Project Gutenberg corpus to create
-    spell-checker (http://www.gutenberg.org). If desired,
-    a different file may be used to train the spell-checker
-    by setting `training_dictionary` to a path to the desired file.
+    input_files : str (directory name) or list of str (file names)
+        Cleaned files to be analyzed. Behavior governed by `input_as_directory`
+        parameter as well.
 
-    By default, set a minimum number of words in a turn to
-    2. If desired, this may be chaged by changing the
-    `minwords` file.
+    output_file_directory : str
+        Name of directory where output for individual conversations will be
+        saved.
 
-    By default, remove common fillers through regex.
-    If desired, remove other words by passing a list
-    of literal strings to `use_filler_list` argument,
-    and if both regex and list of additional literal
-    strings are to be used, update `filler_regex_and_list=True`.
+    training_dictionary : str, optional (default: None)
+        Specify whether to train the spell-checking dictionary using a
+        provided file name (str) or the default Project
+        Gutenberg corpus [http://www.gutenberg.org] (None).
 
-    By default, return only the NLTK default
-    POS tagger values. Optionally, also return Stanford POS
-    tagger values with `add_stanford_tags=True`.
+    minwords : int, optional (2)
+        Specify the minimum number of words in a turn. Any turns with fewer
+        than the minimum number of words will be removed from the corpus.
 
-    If Stanford POS tagging is desired, specify the
-    location of the Stanford POS tagger with the
-    `stanford_pos_path` argument.
+    use_filler_list : list of str, optional (default: None)
+        Specify whether words should be filtered from all conversations using a
+        list of filler words (list of str) or using regular expressions to
+        filter out common filler words (None). Behavior governed by
+        `filler_regex_and_list` parameter as well.
 
-    By default, accept `input_files` as a directory
-    that includes `.txt` files of each individual
-    conversation. If desired, provide individual files
-    as a list of literal paths to the `input_files`
-    argument and set `input_as_directory=False`.
+    filler_regex_and_list : boolean, optional (default: False)
+        If providing a list to `use_filler_list` parameter, specify whether to
+        use only the provided list (False) or to use both the provided list and
+        the regular expression filter (True).
 
-    By default, produce a single concatenated dataframe
-    of all processed conversations in the output directory.
-    If desired, suppress concatenated dataframe with
-    `save_concatenated_dataframe=False`.
+    add_stanford_tags : boolean, optional (default: False)
+        Specify whether to return part-of-speech similarity scores based on
+        Stanford POS tagger in addition to the Penn POS tagger (True) or to
+        return only POS similarity scores from the Penn tagger (False).
+
+    stanford_pos_path : str, optional (default: None)
+        If Stanford POS tagging is desired, specify local path to Stanford POS
+        tagger.
+
+    stanford_language_path : str, optional (default: None)
+        If Stanford POS tagging is desired, specify local path to Stanford POS
+        tagger for the desired language (str) or use the default English tagger
+        (None).
+
+    input_as_directory : boolean, optional (default: True)
+        Specify whether the value passed to `input_files` parameter should
+        be read as a directory (True) or a list of files to be processed
+        (False).
+
+    save_concatenated_dataframe : boolean, optional (default: True)
+        Specify whether to save the individual conversation output data only
+        as individual files in the `output_file_directory` (False) or to save
+        the individual files as well as a single concatenated dataframe (True).
+
     """
 
     # create an internal function to train the model
