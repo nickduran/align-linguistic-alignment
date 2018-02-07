@@ -762,32 +762,34 @@ def calculate_alignment(input_files,
         equal to the number provided here will be removed. To remove the
         low-frequency cutoff, set to 0.
 
-    delay : int (default: 1)
+    delay : int, optional (default: 1)
         Delay (or lag) at which to calculate similarity. A lag of 1 (default)
         considers only adjacent turns.
 
-    maxngram : int (default: 2)
+    maxngram : int, optional (default: 2)
         Maximum n-gram size for calculations. Similarity scores for n-grams
         from unigrams to the maximum size specified here will be calculated.
 
-    use_pretrained_vectors : boolean (default: True)
+    use_pretrained_vectors : boolean, optional (default: True)
         Specify whether to use a pretrained gensim model for word2vec
-        analysis. If True, the file name of a valid model must be
+        analysis (True) or to construct a new model from the provided corpus
+        (False). If True, the file name of a valid model must be
         provided to the `pretrained_input_file` parameter.
 
-    ignore_duplicates : boolean (default: True)
+    ignore_duplicates : boolean, optional (default: True)
         Specify whether to remove exact duplicates when calculating
-        part-of-speech similarity scores. By default, ignore perfectly
-        mimicked lexical items for POS similarity calculation.
+        part-of-speech similarity scores (True) or to retain perfectly
+        mimicked lexical items for POS similarity calculation (False).
 
-    add_stanford_tags : boolean (default: False)
-        Specify whether to return part-of-speech similarity scores
-        based on Stanford POS tagger (in addition to the Penn POS
-        tagger).
+    add_stanford_tags : boolean, optional (default: False)
+        Specify whether to return part-of-speech similarity scores based on
+        Stanford POS tagger in addition to the Penn POS tagger (True) or to
+        return only POS similarity scores from the Penn tagger (False).
 
-    input_as_directory : boolean (default: True)
+    input_as_directory : boolean, optional (default: True)
         Specify whether the value passed to `input_files` parameter should
-        be read as a directory or a list of files to be processed.
+        be read as a directory (True) or a list of files to be processed
+        (False).
     """
 
     # grab the files in the list
