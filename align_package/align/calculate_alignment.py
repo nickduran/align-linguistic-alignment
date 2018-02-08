@@ -790,6 +790,21 @@ def calculate_alignment(input_files,
         Specify whether the value passed to `input_files` parameter should
         be read as a directory (True) or a list of files to be processed
         (False).
+
+    Returns
+    -------
+
+    real_final_turn_df : Pandas DataFrame
+        A dataframe of lexical, syntactic, and conceptual alignment scores
+        between turns at specified delay. `NaN` values will be returned for
+        turns in which the speaker only produced words that were removed
+        from the corpus (e.g., too rare or too common words) or words that were
+        present in the corpus but not in the semantic model.
+
+    real_final_convo_df : Pandas DataFrame
+        A dataframe of lexical, syntactic, and conceptual alignment scores
+        between participants across the entire conversation.
+
     """
 
     # grab the files in the list
@@ -841,17 +856,17 @@ def calculate_alignment(input_files,
             print "Invalid file: "+fileName
 
     # update final dataframes
-    FINAL_TURN = AlignmentT2T.reset_index(drop=True)
-    FINAL_CONVO = AlignmentC2C.reset_index(drop=True)
+    real_final_turn_df = AlignmentT2T.reset_index(drop=True)
+    real_final_convo_df = AlignmentC2C.reset_index(drop=True)
 
     # export the final files
-    FINAL_TURN.to_csv(output_file_directory+"AlignmentT2T.txt",
+    real_final_turn_df.to_csv(output_file_directory+"AlignmentT2T.txt",
                       encoding='utf-8', index=False, sep='\t')
-    FINAL_CONVO.to_csv(output_file_directory+"AlignmentC2C.txt",
+    real_final_convo_df.to_csv(output_file_directory+"AlignmentC2C.txt",
                        encoding='utf-8', index=False, sep='\t')
 
     # display the info, too
-    return FINAL_TURN, FINAL_CONVO
+    return real_final_turn_df, real_final_convo_df
 
 
 def calculate_baseline_alignment(input_files,
@@ -965,6 +980,20 @@ def calculate_baseline_alignment(input_files,
     input_as_directory : boolean, optional (default: True)
         Specify whether the value passed to `input_files` parameter should
         be read as a directory or a list of files to be processed.
+
+    Returns
+    -------
+
+    surrogate_final_turn_df : Pandas DataFrame
+        A dataframe of lexical, syntactic, and conceptual alignment scores
+        between turns at specified delay for surrogate partners. `NaN` values
+        will be returned for turns in which the speaker only produced words
+        that were removed from the corpus (e.g., too rare or too common words)
+        or words that were present in the corpus but not in the semantic model.
+
+    surrogate_final_convo_df : Pandas DataFrame
+        A dataframe of lexical, syntactic, and conceptual alignment scores
+        between surrogate partners across the entire conversation.
     """
 
     # grab the files in the input list
@@ -1027,14 +1056,14 @@ def calculate_baseline_alignment(input_files,
             print "Invalid file: "+fileName
 
     # update final dataframes
-    FINAL_TURN_SURROGATE = AlignmentT2T.reset_index(drop=True)
-    FINAL_CONVO_SURROGATE = AlignmentC2C.reset_index(drop=True)
+    surrogate_final_turn_df = AlignmentT2T.reset_index(drop=True)
+    surrogate_final_convo_df = AlignmentC2C.reset_index(drop=True)
 
     # export the final files
-    FINAL_TURN_SURROGATE.to_csv(output_file_directory+"AlignmentT2T_Surrogate.txt",
+    surrogate_final_turn_df.to_csv(output_file_directory+"AlignmentT2T_Surrogate.txt",
                       encoding='utf-8',index=False,sep='\t')
-    FINAL_CONVO_SURROGATE.to_csv(output_file_directory+"AlignmentC2C_Surrogate.txt",
+    surrogate_final_convo_df.to_csv(output_file_directory+"AlignmentC2C_Surrogate.txt",
                        encoding='utf-8',index=False,sep='\t')
 
     # display the info, too
-    return FINAL_TURN_SURROGATE, FINAL_CONVO_SURROGATE
+    return surrogate_final_turn_df, surrogate_final_convo_df
