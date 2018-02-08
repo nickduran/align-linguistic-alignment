@@ -37,7 +37,9 @@ if SETUPTOOLS_COMMANDS.intersection(sys.argv):
                 'scipy >= {0}'.format(SCIPY_MIN_VERSION),
                 'gensim >= 1.0',
                 'pandas >= 0.19.2',
-                'nltk >= 3.2'
+                'nltk >= 3.2',
+                'jupyter >= 1.0',
+                'rpy2 == 2.8.2'
             ),
         },
     )
