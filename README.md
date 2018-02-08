@@ -16,9 +16,9 @@ To download directly from our GitHub repo:
 pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ```
 
-## Optional additional software
+## Additional tools required for some `align` options
 
-The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`) and the Stanford part-of-speech tagger (`stanford-postagger-full-2017-06-09`) are optional for the running of this package but must be downloaded separately.
+The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`) and the Stanford part-of-speech tagger (`stanford-postagger-full-2017-06-09`) are required for some optional `align` parameters but must be downloaded separately.
 
 * Google News: https://code.google.com/archive/p/word2vec/ (page) or https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing (direct download)
 
