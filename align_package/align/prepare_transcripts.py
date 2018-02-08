@@ -456,6 +456,14 @@ def prepare_transcripts(input_files,
         as individual files in the `output_file_directory` (False) or to save
         the individual files as well as a single concatenated dataframe (True).
 
+    Returns
+    -------
+
+    prepped_df : Pandas DataFrame
+        A single concatenated dataframe of all transcripts, ready for
+        processing with `calculate_alignment()` and
+        `calculate_baseline_alignment()`.
+
     """
 
     # create an internal function to train the model
@@ -484,7 +492,7 @@ def prepare_transcripts(input_files,
         file_list = glob.glob(input_files+"/*.txt")
 
     # cycle through all files
-    main = pd.DataFrame()
+    prepped_df = pd.DataFrame()
     for fileName in file_list:
 
         # let us know which file we're processing
@@ -513,13 +521,13 @@ def prepare_transcripts(input_files,
         # export the conversation's dataframe as a CSV
         conversation_file = os.path.join(output_file_directory,os.path.basename(fileName))
         dataframe.to_csv(conversation_file, encoding='utf-8',index=False,sep='\t')
-        main = main.append(dataframe)
+        prepped_df = prepped_df.append(dataframe)
 
     # save the concatenated dataframe
     if save_concatenated_dataframe:
         concatenated_file = os.path.join(output_file_directory,'../align_concatenated_dataframe.txt')
-        main.to_csv(concatenated_file,
+        prepped_df.to_csv(concatenated_file,
                     encoding='utf-8',index=False, sep='\t')
 
     # return the dataframe
-    return main
+    return prepped_df
