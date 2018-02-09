@@ -404,8 +404,11 @@ def prepare_transcripts(input_files,
     The output serve as the input for later ALIGN
     analysis.
 
+    Parameters
+    ----------
+
     input_files : str (directory name) or list of str (file names)
-        Cleaned files to be analyzed. Behavior governed by `input_as_directory`
+        Raw files to be cleaned. Behavior governed by `input_as_directory`
         parameter as well.
 
     output_file_directory : str
@@ -420,6 +423,9 @@ def prepare_transcripts(input_files,
     minwords : int, optional (2)
         Specify the minimum number of words in a turn. Any turns with fewer
         than the minimum number of words will be removed from the corpus.
+        (Note: `minwords` must be equal to or greater than `maxngram` provided
+        to `calculate_alignment()` and `calculate_baseline_alignment` in later
+        steps.)
 
     use_filler_list : list of str, optional (default: None)
         Specify whether words should be filtered from all conversations using a
@@ -435,7 +441,9 @@ def prepare_transcripts(input_files,
     add_stanford_tags : boolean, optional (default: False)
         Specify whether to return part-of-speech similarity scores based on
         Stanford POS tagger in addition to the Penn POS tagger (True) or to
-        return only POS similarity scores from the Penn tagger (False).
+        return only POS similarity scores from the Penn tagger (False). (Note:
+        Including Stanford POS tags will lead to a significant increase in
+        processing time.)
 
     stanford_pos_path : str, optional (default: None)
         If Stanford POS tagging is desired, specify local path to Stanford POS

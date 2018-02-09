@@ -784,7 +784,9 @@ def calculate_alignment(input_files,
     add_stanford_tags : boolean, optional (default: False)
         Specify whether to return part-of-speech similarity scores based on
         Stanford POS tagger in addition to the Penn POS tagger (True) or to
-        return only POS similarity scores from the Penn tagger (False).
+        return only POS similarity scores from the Penn tagger (False). (Note:
+        Including Stanford POS tags will lead to a significant increase in
+        processing time.)
 
     input_as_directory : boolean, optional (default: True)
         Specify whether the value passed to `input_files` parameter should
