@@ -5,5 +5,8 @@ module_path = os.path.dirname(os.path.abspath(__file__))
 
 # then construct the path to the text file
 CHILDES_directory = os.path.join(module_path, 'data/CHILDES')
-
 # Run as: `from align.datasets import CHILDES_directory`
+
+# construct path for examples
+tutorials_directory = os.path.join(module_path, 'examples/')
+# Run as: `from align.datasets import tutorials_directory`

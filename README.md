@@ -24,6 +24,20 @@ The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bi
 
 * Stanford POS tagger: https://nlp.stanford.edu/software/tagger.shtml#Download (page) or https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip (direct download)
 
+## Tutorials
+
+We also provide tutorials on how to use `align` in this package and would welcome additional options by contributors. These tutorials can be found in the `align` package directory under the `examples` subdirectory. Data for these tutorials are also included in the package in the `data` subdirectory.
+
+To identify where these are stored locally, simply enter the following commands into a Python command line:
+
+```
+import align
+from align.datasets import tutorials_directory
+print(tutorials_directory)
+```
+
+You may then start the Jupyter notebook from that directory in a new terminal window.
+
 ## Attribution
 
 If you find the package useful, please cite our manuscript:
