@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir examples/CHILDES/optional_directories
+
 wget https://drive.google.com/uc?export=download&confirm=Pk1z&id=0B7XkCwpI5KDYNlNUTTlSS21pQmM
+
+gunzip -c file.bin.gz > examples/CHILDES/optional_directories
 
 python setup.py install
