@@ -834,7 +834,7 @@ def calculate_alignment(input_files,
         if len(dataframe) > 1:
 
             # let us know which filename we're processing
-            print "Processing: "+fileName
+            print("Processing: "+fileName)
 
             # calculate turn-by-turn alignment scores
             xT2T=TurnByTurnAnalysis(dataframe=dataframe,
@@ -855,7 +855,7 @@ def calculate_alignment(input_files,
 
         # if it's invalid, let us know
         else:
-            print "Invalid file: "+fileName
+            print("Invalid file: "+fileName)
 
     # update final dataframes
     real_final_turn_df = AlignmentT2T.reset_index(drop=True)
@@ -1034,7 +1034,7 @@ def calculate_baseline_alignment(input_files,
         if len(dataframe) > 1:
 
             # let us know which filename we're processing
-            print "Processing: "+fileName
+            print("Processing: "+fileName)
 
             # calculate turn-by-turn alignment scores
             xT2T=TurnByTurnAnalysis(dataframe=dataframe,
@@ -1055,7 +1055,7 @@ def calculate_baseline_alignment(input_files,
 
         # if it's invalid, let us know
         else:
-            print "Invalid file: "+fileName
+            print("Invalid file: "+fileName)
 
     # update final dataframes
     surrogate_final_turn_df = AlignmentT2T.reset_index(drop=True)
