@@ -32,7 +32,7 @@ We also provide tutorials on how to use `align` in this repository (in the `exam
 
 If you find the package useful, please cite our manuscript:
 
->Duran, N., Paxton, A., & Fusaroli, R (*submitted*). ALIGN: Analyzing
+>Duran, N., Paxton, A., & Fusaroli, R. (*submitted*). ALIGN: Analyzing
 >    Linguistic Interactions with Generalizable techNiques.
 
 ## Licensing of example data
