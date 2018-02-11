@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget https://drive.google.com/uc?export=download&confirm=Pk1z&id=0B7XkCwpI5KDYNlNUTTlSS21pQmM
+
+python setup.py install
