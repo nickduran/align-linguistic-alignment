@@ -4,10 +4,16 @@ mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
 cd examples/CHILDES/optional_directories
 
-wget https://s3.amazonaws.com/mordecai-geo/GoogleNews-vectors-negative300.bin.gz
+brew install git-lfs
+git clone https://github.com/mmihaltz/word2vec-GoogleNews-vectors.git
+
+cd word2vec-GoogleNews-vectors
+git lfs fetch
 
 gunzip GoogleNews-vectors-negative300.bin.gz
 
-cd ../../
+mv GoogleNews-vectors-negative300.bin.gz ../
+
+cd ../../../
 
 python setup.py install
