@@ -26,7 +26,7 @@ The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bi
 
 ## Tutorials
 
-We also provide tutorials on how to use `align` in this package and would welcome additional options by contributors. Tutorials can be found in the `examples` directory in this GitHub repository.
+We also provide tutorials on how to use `align` in this repository (in the `examples` directory). We are in the process of adding more tutorials and would welcome additional tutorials by interested contributors.
 
 ## Attribution
 
