@@ -4,7 +4,9 @@ mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
 cd examples/CHILDES/optional_directories
 
-brew install git-lfs
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+git lfs install
+
 git clone https://github.com/mmihaltz/word2vec-GoogleNews-vectors.git
 
 cd word2vec-GoogleNews-vectors
