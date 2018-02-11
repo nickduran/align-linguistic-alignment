@@ -2,9 +2,12 @@
 
 mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
+cd examples/CHILDES/optional_directories
 
 wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
 
-gunzip -c file.bin.gz > examples/CHILDES/optional_directories
+gunzip -c GoogleNews-vectors-negative300.bin.gz
+
+cd ../../
 
 python setup.py install
