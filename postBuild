@@ -4,7 +4,7 @@ mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
 cd examples/CHILDES/optional_directories
 
-wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+wget https://s3.amazonaws.com/mordecai-geo/GoogleNews-vectors-negative300.bin.gz
 
 gunzip GoogleNews-vectors-negative300.bin.gz
 
