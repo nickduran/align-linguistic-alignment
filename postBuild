@@ -1,8 +1,9 @@
 #!/bin/bash
 
+mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
 
-wget https://drive.google.com/uc?export=download&confirm=Pk1z&id=0B7XkCwpI5KDYNlNUTTlSS21pQmM
+wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
 
 gunzip -c file.bin.gz > examples/CHILDES/optional_directories
 
