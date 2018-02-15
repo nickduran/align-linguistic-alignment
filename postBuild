@@ -1,9 +1,17 @@
 #!/bin/bash
+# set bash options:
+#  e -> Exit on first command failing
+#  x -> Print commands as they are executing (be careful around secrets!)
+#  u -> Exit when using undefined variables
+#  o pipefail -> Consider pipes to have failed more strictly than default
 set -exuo pipefail
 
 DATA_DIR="examples/CHILDES/optional_directories"
 DOWNLOAD_URL="https://doc-0g-8s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/f0qvlb6jpr354fsp1fip9jm2d361ovqa/1518732000000/06848720943842814915/*/0B7XkCwpI5KDYNlNUTTlSS21pQmM?e=download"
+
+# Make sure ${DATA_DIR} exists, creating parent dirs if needed
 mkdir -p ${DATA_DIR}
 
+# Download file from google, unzip it and put it in a specific path
 curl -s -L --fail ${DOWNLOAD_URL} \
     | gunzip > ${DATA_DIR}/GoogleNews-vectors-negative300.bin
