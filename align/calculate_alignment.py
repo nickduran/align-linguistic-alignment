@@ -16,7 +16,7 @@ from nltk.tag.stanford import StanfordPOSTagger
 from nltk.util import ngrams
 
 from gensim.models import word2vec
-
+import gensim
 
 def ngram_pos(sequence1,sequence2,ngramsize=2,
                    ignore_duplicates=True):
