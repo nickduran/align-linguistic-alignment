@@ -4,18 +4,18 @@ mkdir examples/CHILDES
 mkdir examples/CHILDES/optional_directories
 cd examples/CHILDES/optional_directories
 
-curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-git lfs install
+#curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+#git lfs install
 
-git clone https://github.com/mmihaltz/word2vec-GoogleNews-vectors.git
+#git clone https://github.com/mmihaltz/word2vec-GoogleNews-vectors.git
 
-cd word2vec-GoogleNews-vectors
-git lfs fetch
+#cd word2vec-GoogleNews-vectors
+#git lfs fetch
 
-gunzip GoogleNews-vectors-negative300.bin.gz
+#gunzip GoogleNews-vectors-negative300.bin.gz
 
-mv GoogleNews-vectors-negative300.bin.gz ../
+#mv GoogleNews-vectors-negative300.bin.gz ../
 
-cd ../../../
+#cd ../../../
 
-python setup.py install
+pip install -e .
