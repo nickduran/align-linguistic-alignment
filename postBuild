@@ -8,4 +8,4 @@ mkdir -p ${DATA_DIR}
 curl -s -L --fail ${DOWNLOAD_URL} \
     | gunzip > ${DATA_DIR}/GoogleNews-vectors-negative300.bin
 
-pip install -e .
+pip2 install -e .
