@@ -5,3 +5,4 @@ nltk==3.2.5
 gensim==3.1.0
 jupyter==1.0.0
 rpy2==2.8.2
+-e .
