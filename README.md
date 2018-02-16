@@ -2,6 +2,12 @@
 
 `align` is a Python library for extracting quantitative, reproducible metrics of multi-level alignment between two speakers in naturalistic language corpora. The method was introduced in "ALIGN: Analyzing Linguistic Interactions with Generalizable techNiques" (Duran, Paxton, & Fusaroli, *submitted*).
 
+## Try out `align` with Binder
+
+Interested in seeing how `align` works, but not sure if you want to install it yet? Try it out through Binder. Click the "launch" button to get a complete cloud environment to try out the ALIGN pipeline on our tutorials.
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/nickduran/align-linguistic-alignment/master)
+
 ## Installation
 
 `align` may downloaded directly using `pip`.
