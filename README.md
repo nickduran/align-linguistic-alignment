@@ -32,7 +32,8 @@ The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bi
 
 ## Tutorials
 
-We created Jupyter Notebook tutorials to provide an easily accessible step-by-step walkthrough on how to use `align`. Below are descriptions of the current tutorials that can be found in this repository (in the `examples` directory). Instructions for installing and running Jupyter Notebook can be found here: http://jupyter.org/install 
+We created Jupyter Notebook tutorials to provide an easily accessible step-by-step walkthrough on how to use `align`. Below are descriptions of the current tutorials that can be found in the `examples` directory within this repository. If unfamiliar with Jupyter Notebooks, instructions for installing and running can be found here: http://jupyter.org/install 
+
 * **Jupyter Notebook 1: CHILDES**
     * This tutorial walks users through an analysis of conversations from a single English corpus from the CHILDES database (MacWhinney, 2000)---specifically, Kuczaj’s Abe corpus (Kuczaj, 1976). We analyze the last 20 conversations in the corpus in order to explore how ALIGN can be used to track multi-level linguistic alignment between a parent and child over time, which may be of interest to developmental language researchers. Specifically, we explore how alignment between a parent and a child changes over a brief span of developmental trajectory.
 
@@ -56,4 +57,4 @@ If you find the package useful, please cite our manuscript:
     >     forms. *Journal of Verbal Learning and Verbal Behavior, 16*, 589–600.
 
 * **Devil's Advocate**
-    * The complete de-identified dataset of raw conversational transcripts is hosted on a secure protected access data repository provided by the Inter-university Consortium for Political and Social Research (ICPSR). Please click on the link to access: [TO BE ADDED ONCE APPROVED BY ICPSR DATA ARCHIVIST]
+    * The complete de-identified dataset of raw conversational transcripts is hosted on a secure protected-access repository provided by the Inter-university Consortium for Political and Social Research (ICPSR). Please click on the link to access: [TO BE ADDED ONCE APPROVED BY ICPSR DATA ARCHIVIST].
