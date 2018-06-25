@@ -34,10 +34,11 @@ The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bi
 
 We also provide tutorials on how to use `align` in this repository (in the `examples` directory). 
 
-* **Example 1: CHILDES**
+We created Jupyter Notebook tutorials to provide an easily accessible step-by-step walkthrough on how to use `align`. Below are descriptions of the current tutorials that can be found in this repository (in the `examples` directory). Instructions for installing and running Jupyter Notebook can be found here: http://jupyter.org/install 
+* **Jupyter Notebook 1: CHILDES**
     * This tutorial walks users through an analysis of conversations from a single English corpus from the CHILDES database (MacWhinney, 2000)---specifically, Kuczaj’s Abe corpus (Kuczaj, 1976). We analyze the last 20 conversations in the corpus in order to explore how ALIGN can be used to track multi-level linguistic alignment between a parent and child over time, which may be of interest to developmental language researchers. Specifically, we explore how alignment between a parent and a child changes over a brief span of developmental trajectory.
 
-* **Example 1: Devil's Advocate**
+* **Jupyter Notebook 2: Devil's Advocate**
     * This tutorial walks users throught the analysis reported in (Duran, Paxton, & Fusaroli, *under review*). The corpus consists of 94 written transcripts of conversations, lasting eight minutes each, collected from an experimental study of truthful and deceptive communication. The goal of the study was to examine interpersonal linguistic alignment between dyads across two conversations where participants either agreed or disagreed with each other (as a randomly assigned between-dyads condition) and where one of the conversations involved the truth and the other deception (as a within-subjects condition), with order of conversations counterbalanced across dyads.
     
 We are in the process of adding more tutorials and would welcome additional tutorials by interested contributors.
