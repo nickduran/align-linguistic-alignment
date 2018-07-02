@@ -7,7 +7,7 @@ DISTNAME = 'align'
 DESCRIPTION = 'Analyzing Linguistic Interaction with Generalizable techNiques'
 MAINTAINER = 'N. Duran, A. Paxton, & R. Fusaroli'
 MAINTAINER_EMAIL = 'paxton.alexandra@gmail.com'
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 
 # Specify minimum versions for scipy and numpy
 SCIPY_MIN_VERSION = '0.19.0'
@@ -62,6 +62,7 @@ def configuration(parent_package='', top_path=None):
                        quiet=True)
 
     config.add_subpackage('align')
+    config.add_data_dir('align/data')
 
     return config
 

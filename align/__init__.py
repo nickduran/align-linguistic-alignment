@@ -1,4 +1,4 @@
 from .prepare_transcripts import *
 from .calculate_alignment import *
 from . import datasets
-__version__ = "0.0.4"
+__version__ = "0.0.5"
