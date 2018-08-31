@@ -96,3 +96,9 @@ If you find the package useful, please cite our manuscript:
       is hosted on a secure protected-access repository provided by the
       Inter-university Consortium for Political and Social Research
       (ICPSR). Please click on the link to access: https://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/37124
+     > Duran, Nicholas, Alexandra Paxton, and Riccardo
+     >  Fusaroli. Conversational Transcripts of Truthful and
+     >  Deceptive Speech Involving Controversial Topics,
+     >  Central California, 2012. ICPSR37124-v1. Ann Arbor,
+     >  MI: Inter-university Consortium for Political and
+     >  Social Research [distributor], 2018-08-29.
