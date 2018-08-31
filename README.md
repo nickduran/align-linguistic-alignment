@@ -95,5 +95,4 @@ If you find the package useful, please cite our manuscript:
     * The complete de-identified dataset of raw conversational transcripts
       is hosted on a secure protected-access repository provided by the
       Inter-university Consortium for Political and Social Research
-      (ICPSR). Please click on the link to access: [TO BE ADDED ONCE
-      APPROVED BY ICPSR DATA ARCHIVIST].
+      (ICPSR). Please click on the link to access: https://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/37124
