@@ -79,8 +79,8 @@ tutorials by interested contributors.
 
 If you find the package useful, please cite our manuscript:
 
->Duran, N., Paxton, A., & Fusaroli, R. (*submitted*). ALIGN: Analyzing
->    Linguistic Interactions with Generalizable techNiques. https://psyarxiv.com/a5yh9/
+>Duran, N., Paxton, A., & Fusaroli, R. (*in press*). ALIGN: Analyzing
+>    Linguistic Interactions with Generalizable techNiques. *Psychological Methods*. https://psyarxiv.com/a5yh9/
 
 ## Licensing of example data
 
