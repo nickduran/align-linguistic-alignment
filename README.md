@@ -4,7 +4,7 @@
 metrics of multi-level alignment between two speakers in naturalistic
 language corpora. The method was introduced in "ALIGN: Analyzing
 Linguistic Interactions with Generalizable techNiques" (Duran, Paxton, &
-Fusaroli, *under review*).
+Fusaroli, *in press*).
 
 ## Try out `align` with Binder
 
