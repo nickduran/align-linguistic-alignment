@@ -63,7 +63,7 @@ and running can be found here: http://jupyter.org/install
 
 * **Jupyter Notebook 2: Devil's Advocate**
     * This tutorial walks users throught the analysis reported in (Duran,
-      Paxton, & Fusaroli, *under review*). The corpus consists of 94 written
+      Paxton, & Fusaroli, *in press*). The corpus consists of 94 written
       transcripts of conversations, lasting eight minutes each, collected from
       an experimental study of truthful and deceptive communication. The goal
       of the study was to examine interpersonal linguistic alignment between
