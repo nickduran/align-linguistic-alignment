@@ -4,7 +4,7 @@
 metrics of multi-level alignment between two speakers in naturalistic
 language corpora. The method was introduced in "ALIGN: Analyzing
 Linguistic Interactions with Generalizable techNiques" (Duran, Paxton, &
-Fusaroli, *in press*; Psychological Methods).
+Fusaroli, 2019; Psychological Methods).
 
 ## Try out `align` with Binder
 
@@ -63,7 +63,7 @@ and running can be found here: http://jupyter.org/install
 
 * **Jupyter Notebook 2: Devil's Advocate**
     * This tutorial walks users throught the analysis reported in (Duran,
-      Paxton, & Fusaroli, *in press*). The corpus consists of 94 written
+      Paxton, & Fusaroli, 2019). The corpus consists of 94 written
       transcripts of conversations, lasting eight minutes each, collected from
       an experimental study of truthful and deceptive communication. The goal
       of the study was to examine interpersonal linguistic alignment between
@@ -79,8 +79,8 @@ tutorials by interested contributors.
 
 If you find the package useful, please cite our manuscript:
 
->Duran, N., Paxton, A., & Fusaroli, R. (*in press*). ALIGN: Analyzing
->    Linguistic Interactions with Generalizable techNiques. *Psychological Methods*. https://psyarxiv.com/a5yh9/
+>Duran, N., Paxton, A., & Fusaroli, R. (2019). ALIGN: Analyzing
+>    Linguistic Interactions with Generalizable techNiques. *Psychological Methods*. http://dynamicog.org/papers/
 
 ## Licensing of example data
 
