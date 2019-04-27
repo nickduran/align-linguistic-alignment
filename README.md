@@ -95,7 +95,10 @@ If you find the package useful, please cite our manuscript:
     * The complete de-identified dataset of raw conversational transcripts
       is hosted on a secure protected-access repository provided by the
       Inter-university Consortium for Political and Social Research
-      (ICPSR). Please click on the link to access: http://dx.doi.org/10.3886/ICPSR37124.v1
+      (ICPSR). Please click on the link to access: http://dx.doi.org/10.3886/ICPSR37124.v1.
+      Due to the requirements of our IRB, please note that users interested in
+      obtaining these data must complete a Restricted Data Use Agreement, specify
+      the reason for the request, and obtain IRB approval or notice of exemption for their research.
      > Duran, Nicholas, Alexandra Paxton, and Riccardo
      >  Fusaroli. Conversational Transcripts of Truthful and
      >  Deceptive Speech Involving Controversial Topics,
