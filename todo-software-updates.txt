@@ -1,0 +1,12 @@
+**SOFTWARE TODO**
+[ ] Compute similarity over longer turn ranges
+[ ] Compute or display self-similarity
+[ ] Add additional languages
+[ ] Set lexical alignment default to 1
+[ ] Add utterance length as a column to the output
+[ ] Add pre-existing POS tags for syntactic alignment. 
+
+**OLDER COMMENTS TO CHECK IF STILL RELEVANT**
+[ ] For "prepare_transcripts" function: For big corpora it might be handy to turn off the output printed out (e.g. via a parameter)
+[ ] For "calculate_alignment" function: What about putting a parameter specifying the minimum number of turns per speaker that have to be present for the analysis to run on that file?
+[ ] For "calculate_baseline_alignment" function: add the dyad/condition labels as parameters at the beginning? 

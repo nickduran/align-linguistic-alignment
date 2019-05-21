@@ -1,0 +1,71 @@
+[ ] Alex - Packaging on PyPI
+[ ] Alex - Dockerizing
+[ ] Alex - Remaining issues: how do we make `GoogleNews-vectors-negative300.bin` and `/stanford-postagger-full-2017-06-09` available as separate downloads if not added directly to Github? Do we just specify in the README that these need to be downloaded and added by the user to the "package_files" folder?
+[ ] Alex and Nick - MIT license for code and CC-BY 4.0 for data on Github repository
+[ ] Nick - Update README file
+[ ] Nick - Add datasheet and cleanup R code
+
+[ ] ALL - Final review of the manuscript
+[ ] ALL - Final review of the cover letter
+[ ] Riccardo - ADD references
+[ ] Alex - ADD URL for PyPI and short statement on Docker container
+
+
+
+
+Riccardo suggestions:
+1. This function: model_store = prepare_transcripts(...
+[X] 1.1. This code "hard-codes" the example directory instead of using the parameters above (here modified to match my example)
+[ ] 1.2. The same code could also provide (in case of failure) a reminder of the specifics required for the dataset (participant, tab, content).
+[ ] 1.3. One could also allow for the colnames and delimiter to be specified as parameters.
+[ ] 1.4. For big corpora it might be handy to turn off the output printed out (e.g. via a parameter)
+
+2. This function: [turn_real,convo_real]= calculate_alignment(..
+[X] 2.1. same as 1.1.
+[X] 2.2. the link to the align_concatenated_dataframe.txt file is broken, since that file is saved within the example folder and not the main one.
+[ ] 2.3. I get a warning: /Users/au209589/anaconda3/envs/ipykernel_py2/lib/python2.7/site-packages/scipy/spatial/distance.py:644: RuntimeWarning: invalid value encountered in double_scalars
+  dist = 1.0 - uv / np.sqrt(uu * vv)
+[X] 2.4. in a file I had a child only using one-word sentences and when the file is cleaned, this leads to an error of the function (finding only one interlocutor) in this line: 
+df_B = dataframe.loc[dataframe['participant'] == dataframe['participant'].unique()[1]]
+We might put an exception catch there and a meaningful warning to the user. FIX: if len(dataframe) > 0: And it can be replace with if len(dataframe) > 1: # or higher if one thinks it should be higher.
+[ ] 2.5. What about putting a parameter specifying the minimum number of turns per speaker that have to be present for the analysis to run on that file?
+
+3. This function [turn_surrogate,convo_surrogate] = calculate_baseline_alignment(...
+[X] 3.1. same as 1.1.
+[ ] 3.2. should we add the dyad/condition labels as parameters at the beginning?
+[X] 3.3. cond and dyad should be better mentioned in the paper as requisites for the filenames > NOW HIGHLIGHT THIS IN THE README FOR THE NOTEBOOK
+
+4.
+[ ] I think what we’ll need to do in the next version is: i) allowing for more delays; ii) working on non English languages (I’ll have a go at that). 
+
+
+
+
+
+
+
+
+**Things for Alex to do:**
+* [ ] Handling requirements (after getting them)
+* [ ] Dockerizing
+* [ ] Jupyter app-ifying
+* [x] Getting Stanford tagger included automatically
+* [ ] Clean up markdown text (when final notebooks are ready)
+* ~~[ ] See if I can implement w2v function (https://github.com/a-paxton/Gensim-LSI-Word-Similarities)~~
+* [ ] Convert functions into library
+* [ ] See whether `BuildSemanticSpace` can be sped up when pulling in the prebuilt GoogleNews vectors
+
+**Things for Nick to do:**
+* [x] Implement surrogate to match by conversation order AND conversation type
+* [x] Make file names more intuitive
+* [ ] Identify condition/dyad/number flexibly (using regex)
+* [x] Allow surrogate baseline to be created using a smaller subset (permutations) — 2-3x?
+* [x] Do pip freeze or conda list -e > req.txt
+* [**???**] Redo analysis with new baseline + consider doing sample-wise shuffled baseline - Have questions on how to proceed
+* [x] Go over manuscript again with new baseline + review comments/edits
+* [x] Need to create a simple other_filler_list as a text file that can be modified by a user and imported to be used here - make note that we only catch 2-letter fillers at this point with the regular expression default 
+* [x] Note that align_concatenated_dataframe.txt takes the place of forSemantic.txt. Make updates accordingly. 
+* [ ] We could/should probably make `convobyconvo` an optional add-on from `turnbyturn`.
+* [ ] Consider other POS taggers: https://stackoverflow.com/questions/30821188/python-nltk-pos-tag-not-returning-the-correct-part-of-speech-tag
+* [ ] Create semantic space using the TASA corpus to make available to users
+* [ ] Still some issues with lemmatizer in that any POS tag not recognized defaults to NOUN. Consider other lemmatizer options that doesn't rely on Wordnet.
