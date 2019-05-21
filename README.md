@@ -10,7 +10,9 @@ Fusaroli, 2019; Psychological Methods).
 
 Interested in seeing how `align` works, but not sure if you want to install it
 yet? Try it out through Binder. Click the "launch" button to get a complete
-cloud environment to try out the ALIGN pipeline on our tutorials.
+cloud environment to try out the ALIGN pipeline on our Python tutorials (the CHILDES
+  tutorial is currently the only one fully operational). The process for Binder to launch may
+  take several minutes.  
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/nickduran/align-linguistic-alignment/master)
 
