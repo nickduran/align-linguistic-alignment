@@ -18,5 +18,6 @@ mkdir -p ${DATA_DIR}
 # curl -s -L --fail ${DOWNLOAD_URL} \
 #    | gunzip > ${DATA_DIR}/GoogleNews-vectors-negative300.bin
 
+pip install gdown
 gdown ${DOWNLOAD_URL} \
     | gunzip > ${DATA_DIR}/GoogleNews-vectors-negative300.bin
