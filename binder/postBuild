@@ -21,3 +21,5 @@ mkdir -p ${DATA_DIR}
 pip install gdown
 gdown https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM
 gunzip GoogleNews-vectors-negative300.bin.gz && mv -f GoogleNews-vectors-negative300.bin ${DATA_DIR}
+
+pip install align
