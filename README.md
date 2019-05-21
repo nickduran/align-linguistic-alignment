@@ -5,7 +5,7 @@ metrics of multi-level alignment between two speakers in naturalistic
 language corpora. The method was introduced in "ALIGN: Analyzing
 Linguistic Interactions with Generalizable techNiques" (Duran, Paxton, &
 Fusaroli, 2019; Psychological Methods).
-
+<!--
 ## Try out `align` with Binder
 
 Interested in seeing how `align` works, but not sure if you want to install it
@@ -15,7 +15,7 @@ cloud environment to try out the ALIGN pipeline on our Python tutorials (the CHI
   take several minutes.  
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/nickduran/align-linguistic-alignment/master)
-
+-->
 ## Installation
 
 `align` may downloaded directly using `pip`.
