@@ -51,7 +51,11 @@ We created Jupyter Notebook tutorials to provide an easily accessible
 step-by-step walkthrough on how to use `align`. Below are descriptions of the
 current tutorials that can be found in the `examples` directory within this
 repository. If unfamiliar with Jupyter Notebooks, instructions for installing
-and running can be found here: http://jupyter.org/install
+and running can be found here: http://jupyter.org/install. We recommend installing
+Jupyter using Anaconda. Anaconda is a widely-used Python data science platform
+that helps streamline workflows. A major advantage is that Anaconda also makes it easy
+to set up unique Python environments - which may be necessary to run `align`
+and the tutorials given `align` is currently optimized for Python 2.7. 
 
 * **Jupyter Notebook 1: CHILDES**
     * This tutorial walks users through an analysis of conversations from a
