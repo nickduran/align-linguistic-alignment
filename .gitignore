@@ -11,3 +11,4 @@ dist
 MANIFEST
 doc/_build
 doc/modules/generated
+*/*.DS_Store
