@@ -15,9 +15,9 @@ rpy2==2.8.2 ## this is not needed, not used
 -e .
 
 ipython==7.6.1
-jupyter core==4.5.0
+jupyter-core==4.5.0
 jupyter-notebook==6.0.0
 
-python=3.7.3
+python==3.7.3
 
 ## there is also the issue of needing at least the Java 8 JDK for Mac when using the new Stanford POS tagger. Not sure whether to mention here or in the tutorial. We likely need to test on Windows machine and more recent versions of Java JDK. 
