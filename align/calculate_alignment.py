@@ -136,14 +136,14 @@ def BuildSemanticModel(semantic_model_input_file,
         frequency[word] += 1
 
     # remove words that only occur more frequently than our cutoff (defined in occurrences)
-    frequency = {word: freq for word, freq in frequency.iteritems() if freq > low_n_cutoff}
+    frequency = {word: freq for word, freq in frequency.items() if freq > low_n_cutoff}
 
     # if desired, remove high-frequency words (over user-defined SDs above mean)
     if high_sd_cutoff is None:
         contentWords = [word for word in frequency.keys()]
     else:
         getOut = np.mean(frequency.values())+(np.std(frequency.values())*(high_sd_cutoff))
-        contentWords = {word: freq for word, freq in frequency.iteritems() if freq < getOut}.keys()
+        contentWords = {word: freq for word, freq in frequency.items() if freq < getOut}.keys()
 
     # decide whether to build semantic model from scratch or load in pretrained vectors
     if not use_pretrained_vectors:
