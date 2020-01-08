@@ -41,7 +41,7 @@ def InitialCleanup(dataframe,
     """
 
     # only allow strings, spaces, and newlines to pass
-    WHITELIST = string.letters + '\'' + ' '
+    WHITELIST = string.ascii_letters + '\'' + ' '
 
     # remove inadvertent empty turns
     dataframe = dataframe[pd.notnull(dataframe['content'])]
@@ -142,8 +142,8 @@ def Tokenize(text,nwords):
         splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
         deletes    = [a + b[1:] for a, b in splits if b]
         transposes = [a + b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
-        replaces   = [a + c + b[1:] for a, b in splits for c in string.lowercase if b]
-        inserts    = [a + c + b     for a, b in splits for c in string.lowercase]
+        replaces   = [a + c + b[1:] for a, b in splits for c in string.ascii_lowercase if b]
+        inserts    = [a + c + b     for a, b in splits for c in string.ascii_lowercase]
         return set(deletes + transposes + replaces + inserts)
 
     # internal function: identify known edits
