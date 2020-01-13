@@ -1,4 +1,4 @@
-import os,re,math,csv,string,random,logging,glob,itertools,operator, sys
+import os,re,math,csv,string,random,logging,glob,itertools,operator,sys
 from os import listdir
 from os.path import isfile, join
 from collections import Counter, defaultdict, OrderedDict
@@ -16,6 +16,7 @@ from nltk.corpus import wordnet as wn
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.util import ngrams
 
+import gensim
 from gensim.models import word2vec
 
 def InitialCleanup(dataframe,
@@ -276,7 +277,7 @@ def Tokenize(text,nwords):
         "you'll've": "you will have",
         "you're": "you are",
         "you've": "you have" }
-    contractions_re = re.compile('(%s)' % '|'.join(contract_dict.keys()))
+    contractions_re = re.compile('(%s)' % '|'.join(list(contract_dict.keys())))
 
     # internal function:
     def expand_contractions(text, contractions_re=contractions_re):
@@ -366,7 +367,7 @@ def ApplyPOSTagging(df,
         else:
             stanford_tagger = StanfordPOSTagger(stanford_pos_path + stanford_language_path,
                                                 stanford_pos_path + 'stanford-postagger.jar')
-
+            
     # add new columns to dataframe
     df['tagged_token'] = df['token'].apply(nltk.pos_tag)
     df['tagged_lemma'] = df['lemma'].apply(nltk.pos_tag)
@@ -483,7 +484,7 @@ def prepare_transcripts(input_files,
 
     # if no training dictionary is specified, use the Gutenberg corpus
     if training_dictionary is None:
-
+            
         # first, get the name of the package directory
         module_path = os.path.dirname(os.path.abspath(__file__))
 
@@ -491,7 +492,7 @@ def prepare_transcripts(input_files,
         training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
 
     # train our spell-checking model
-    nwords = train(re.findall('[a-z]+', (file(training_dictionary).read().lower())))
+    nwords = train(re.findall('[a-z]+', (open(training_dictionary).read().lower())))
 
     # grab the appropriate files
     if not input_as_directory:
@@ -505,7 +506,7 @@ def prepare_transcripts(input_files,
 
         # let us know which file we're processing
         dataframe = pd.read_csv(fileName, sep='\t',encoding='utf-8')
-        print("Processing: "+fileName)
+        print(("Processing: "+fileName))
 
         # clean up, merge, spellcheck, tokenize, lemmatize, and POS-tag
         dataframe = InitialCleanup(dataframe,

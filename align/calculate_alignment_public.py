@@ -15,8 +15,8 @@ from nltk.corpus import wordnet as wn
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.util import ngrams
 
-from gensim.models import word2vec
 import gensim
+from gensim.models import word2vec
 
 def ngram_pos(sequence1,sequence2,ngramsize=2,
                    ignore_duplicates=True):
@@ -81,8 +81,8 @@ def get_cosine(vec1, vec2):
 
     intersection = set(vec1.keys()) & set(vec2.keys())
     numerator = sum([vec1[x] * vec2[x] for x in intersection])
-    sum1 = sum([vec1[x]**2 for x in vec1.keys()])
-    sum2 = sum([vec2[x]**2 for x in vec2.keys()])
+    sum1 = sum([vec1[x]**2 for x in list(vec1.keys())])
+    sum2 = sum([vec2[x]**2 for x in list(vec2.keys())])
     denominator = math.sqrt(sum1) * math.sqrt(sum2)
     if not denominator:
         return 0.0
@@ -140,10 +140,10 @@ def BuildSemanticModel(semantic_model_input_file,
 
     # if desired, remove high-frequency words (over user-defined SDs above mean)
     if high_sd_cutoff is None:
-        contentWords = [word for word in frequency.keys()]
+        contentWords = [word for word in list(frequency.keys())]
     else:
-        getOut = np.mean(frequency.values())+(np.std(frequency.values())*(high_sd_cutoff))
-        contentWords = {word: freq for word, freq in frequency.items() if freq < getOut}.keys()
+        getOut = np.mean(list(frequency.values()))+(np.std(list(frequency.values()))*(high_sd_cutoff))
+        contentWords = list({word: freq for word, freq in frequency.items() if freq < getOut}.keys())
 
     # decide whether to build semantic model from scratch or load in pretrained vectors
     if not use_pretrained_vectors:
@@ -322,7 +322,7 @@ def returnMultilevelAlignment(cond_info,
     cosine_semanticL['cosine_semanticL'] = conceptualAlignment(lem1,lem2,vocablist,highDimModel)
     dictionaries_list.append(cosine_semanticL.copy())
 
-    # determine directionality of leading/following comparison
+    # determine directionality of leading/following comparison;  Note: Partner B is the lagged partner, thus, B is following A
     partner_direction['partner_direction'] = str(partnerA) + ">" + str(partnerB)
     dictionaries_list.append(partner_direction.copy())
 
@@ -378,16 +378,16 @@ def TurnByTurnAnalysis(dataframe,
     dataframe['token'] = dataframe['token'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
     dataframe['lemma'] = dataframe['lemma'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
     dataframe['tagged_token'] = dataframe['tagged_token'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-    dataframe['tagged_token'] = dataframe['tagged_token'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
+    dataframe['tagged_token'] = dataframe['tagged_token'].apply(lambda x: list(zip(x[0::2],x[1::2]))) # thanks to https://stackoverflow.com/a/4647086
     dataframe['tagged_lemma'] = dataframe['tagged_lemma'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-    dataframe['tagged_lemma'] = dataframe['tagged_lemma'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
+    dataframe['tagged_lemma'] = dataframe['tagged_lemma'].apply(lambda x: list(zip(x[0::2],x[1::2]))) # thanks to https://stackoverflow.com/a/4647086
 
     # if desired, prepare the Stanford tagger data
     if add_stanford_tags:
         dataframe['tagged_stan_token'] = dataframe['tagged_stan_token'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-        dataframe['tagged_stan_token'] = dataframe['tagged_stan_token'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
+        dataframe['tagged_stan_token'] = dataframe['tagged_stan_token'].apply(lambda x: list(zip(x[0::2],x[1::2]))) # thanks to https://stackoverflow.com/a/4647086
         dataframe['tagged_stan_lemma'] = dataframe['tagged_stan_lemma'].apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-        dataframe['tagged_stan_lemma'] = dataframe['tagged_stan_lemma'].apply(lambda x: zip(x[0::2],x[1::2])) # thanks to https://stackoverflow.com/a/4647086
+        dataframe['tagged_stan_lemma'] = dataframe['tagged_stan_lemma'].apply(lambda x: list(zip(x[0::2],x[1::2]))) # thanks to https://stackoverflow.com/a/4647086
 
     # create lagged version of the dataframe
     df_original = dataframe.drop(dataframe.tail(delay).index,inplace=False)
@@ -508,38 +508,38 @@ def ConvoByConvoAnalysis(dataframe,
     tok1 = [word for turn in df_A['token'] for word in turn]
     lem1 = [word for turn in df_A['lemma'] for word in turn]
     penn_tok1 = [POS for turn in df_A['tagged_token'] for POS in turn]
-    penn_lem1 = [POS for turn in df_A['tagged_token'] for POS in turn]
+    penn_lem1 = [POS for turn in df_A['tagged_lemma'] for POS in turn]
     if add_stanford_tags:
 
         if isinstance(df_A['tagged_stan_token'][0], list):
             stan_tok1 = [POS for turn in df_A['tagged_stan_token'] for POS in turn]
             stan_lem1 = [POS for turn in df_A['tagged_stan_lemma'] for POS in turn]
 
-        elif isinstance(df_A['tagged_stan_token'][0], unicode):
+        elif isinstance(df_A['tagged_stan_token'][0], str):
             stan_tok1 = pd.Series(df_A['tagged_stan_token'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-            stan_tok1 = stan_tok1.apply(lambda x: zip(x[0::2],x[1::2]))
+            stan_tok1 = stan_tok1.apply(lambda x: list(zip(x[0::2],x[1::2])))
             stan_tok1 = [POS for turn in stan_tok1 for POS in turn]
             stan_lem1 = pd.Series(df_A['tagged_stan_lemma'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-            stan_lem1 = stan_lem1.apply(lambda x: zip(x[0::2],x[1::2]))
+            stan_lem1 = stan_lem1.apply(lambda x: list(zip(x[0::2],x[1::2])))
             stan_lem1 = [POS for turn in stan_lem1 for POS in turn]
 
     # concatenate the token, lemma, and POS information for participant B
     tok2 = [word for turn in df_B['token'] for word in turn]
     lem2 = [word for turn in df_B['lemma'] for word in turn]
     penn_tok2 = [POS for turn in df_B['tagged_token'] for POS in turn]
-    penn_lem2 = [POS for turn in df_B['tagged_token'] for POS in turn]
+    penn_lem2 = [POS for turn in df_B['tagged_lemma'] for POS in turn]
     if add_stanford_tags:
 
         if isinstance(df_A['tagged_stan_token'][0],list):
             stan_tok2 = [POS for turn in df_B['tagged_stan_token'] for POS in turn]
             stan_lem2 = [POS for turn in df_B['tagged_stan_lemma'] for POS in turn]
 
-        elif isinstance(df_A['tagged_stan_token'][0], unicode):
+        elif isinstance(df_A['tagged_stan_token'][0], str):
             stan_tok2 = pd.Series(df_B['tagged_stan_token'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-            stan_tok2 = stan_tok2.apply(lambda x: zip(x[0::2],x[1::2]))
+            stan_tok2 = stan_tok2.apply(lambda x: list(zip(x[0::2],x[1::2])))
             stan_tok2 = [POS for turn in stan_tok2 for POS in turn]
             stan_lem2 = pd.Series(df_B['tagged_stan_lemma'].values).apply(lambda x: re.sub('[^\w\s]+','',x).split(' '))
-            stan_lem2 = stan_lem2.apply(lambda x: zip(x[0::2],x[1::2]))
+            stan_lem2 = stan_lem2.apply(lambda x: list(zip(x[0::2],x[1::2])))
             stan_lem2 = [POS for turn in stan_lem2 for POS in turn]
 
     # process multilevel alignment
@@ -622,7 +622,7 @@ def GenerateSurrogate(original_conversation_list,
         files_conditions[unique_condition] = next_condition_files
 
     # cycle through conditions
-    for condition in files_conditions.keys():
+    for condition in list(files_conditions.keys()):
 
         # default: grab all possible pairs of conversations of this condition
         paired_surrogates = [pair for pair in combinations(files_conditions[condition],2)]
@@ -834,7 +834,7 @@ def calculate_alignment(input_files,
         if len(dataframe) > 1:
 
             # let us know which filename we're processing
-            print("Processing: "+fileName)
+            print(("Processing: "+fileName))
 
             # calculate turn-by-turn alignment scores
             xT2T=TurnByTurnAnalysis(dataframe=dataframe,
@@ -855,7 +855,7 @@ def calculate_alignment(input_files,
 
         # if it's invalid, let us know
         else:
-            print("Invalid file: "+fileName)
+            print(("Invalid file: "+fileName))
 
     # update final dataframes
     real_final_turn_df = AlignmentT2T.reset_index(drop=True)
@@ -1034,7 +1034,7 @@ def calculate_baseline_alignment(input_files,
         if len(dataframe) > 1:
 
             # let us know which filename we're processing
-            print("Processing: "+fileName)
+            print(("Processing: "+fileName))
 
             # calculate turn-by-turn alignment scores
             xT2T=TurnByTurnAnalysis(dataframe=dataframe,
@@ -1055,7 +1055,7 @@ def calculate_baseline_alignment(input_files,
 
         # if it's invalid, let us know
         else:
-            print("Invalid file: "+fileName)
+            print(("Invalid file: "+fileName))
 
     # update final dataframes
     surrogate_final_turn_df = AlignmentT2T.reset_index(drop=True)
