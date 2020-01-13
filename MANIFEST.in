@@ -1,0 +1,6 @@
+recursive-include *.py
+recursive-include *.txt
+recursive-include align *.md
+graft doc
+graft doc/_static
+graft doc/_templates
