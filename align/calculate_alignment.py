@@ -508,7 +508,7 @@ def ConvoByConvoAnalysis(dataframe,
     tok1 = [word for turn in df_A['token'] for word in turn]
     lem1 = [word for turn in df_A['lemma'] for word in turn]
     penn_tok1 = [POS for turn in df_A['tagged_token'] for POS in turn]
-    penn_lem1 = [POS for turn in df_A['tagged_token'] for POS in turn]
+    penn_lem1 = [POS for turn in df_A['tagged_lemma'] for POS in turn]
     if add_stanford_tags:
 
         if isinstance(df_A['tagged_stan_token'][0], list):
@@ -527,7 +527,7 @@ def ConvoByConvoAnalysis(dataframe,
     tok2 = [word for turn in df_B['token'] for word in turn]
     lem2 = [word for turn in df_B['lemma'] for word in turn]
     penn_tok2 = [POS for turn in df_B['tagged_token'] for POS in turn]
-    penn_lem2 = [POS for turn in df_B['tagged_token'] for POS in turn]
+    penn_lem2 = [POS for turn in df_B['tagged_lemma'] for POS in turn]
     if add_stanford_tags:
 
         if isinstance(df_A['tagged_stan_token'][0],list):
