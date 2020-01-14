@@ -1,3 +1,7 @@
+NOTE: Be aware that the PYTHON 3 version of the ALIGN package has not yet been uploaded to PyPI for pip installation. If you want to use the PYTHON 3 version, you can directly use the `prepare_transcripts_private.ipynb` and `calculate_alignment_private.ipynb` code in the "align" folder on this `python3-update-branch`. However, the ALIGN package and all accompanying tutorials on the master branch are tested and work for PYTHON 2.7.
+
+We will update `python3-update-branch` soon with new information once the PYTHON 3 version is tested and ready.
+
 # ALIGN, a computational tool for multi-level language analysis
 
 `align` is a Python library for extracting quantitative, reproducible
@@ -33,7 +37,7 @@ pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ## Additional tools required for some `align` options
 
 The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`)
-and the Stanford part-of-speech tagger (`stanford-postagger-full-2017-06-09`)
+and the Stanford part-of-speech tagger (`stanford-postagger-full-2018-10-16`)
 are required for some optional `align` parameters but must be downloaded
 separately.
 
@@ -42,7 +46,7 @@ https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
 (direct download)
 
 * Stanford POS tagger: https://nlp.stanford.edu/software/tagger.shtml#Download (page)
-or https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip
+or https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-16.zip
 (direct download)
 
 ## Tutorials
@@ -55,7 +59,7 @@ and running can be found here: http://jupyter.org/install. We recommend installi
 Jupyter using Anaconda. Anaconda is a widely-used Python data science platform
 that helps streamline workflows. A major advantage is that Anaconda also makes it easy
 to set up unique Python environments - which may be necessary to run `align`
-and the tutorials given `align` is currently optimized for Python 2.7. 
+and the tutorials given `align` is currently optimized for Python 3.
 
 * **Jupyter Notebook 1: CHILDES**
     * This tutorial walks users through an analysis of conversations from a
@@ -94,6 +98,7 @@ If you find the package useful, please cite our manuscript:
     * Example corpus "Kuczaj Corpus" by Stan Kuczaj is licensed under a
       Creative Commons Attribution-ShareAlike 3.0 Unported License
       (https://childes.talkbank.org/access/Eng-NA/Kuczaj.html):
+
     > Kuczaj, S. (1977). The acquisition of regular and irregular past tense
     >     forms. *Journal of Verbal Learning and Verbal Behavior, 16*, 589–600.
 
@@ -105,6 +110,7 @@ If you find the package useful, please cite our manuscript:
       Due to the requirements of our IRB, please note that users interested in
       obtaining these data must complete a Restricted Data Use Agreement, specify
       the reason for the request, and obtain IRB approval or notice of exemption for their research.
+
      > Duran, Nicholas, Alexandra Paxton, and Riccardo
      >  Fusaroli. Conversational Transcripts of Truthful and
      >  Deceptive Speech Involving Controversial Topics,
