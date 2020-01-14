@@ -7,9 +7,7 @@ dist
 *.swo
 *.ipynb_checkpoints
 *.pyc
-*/*.pyc
 MANIFEST
 doc/_build
 doc/modules/generated
-*/*.DS_Store
 *.DS_Store
