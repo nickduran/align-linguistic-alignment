@@ -7,11 +7,11 @@ DISTNAME = 'align'
 DESCRIPTION = 'Analyzing Linguistic Interaction with Generalizable techNiques'
 MAINTAINER = 'N. Duran, A. Paxton, & R. Fusaroli'
 MAINTAINER_EMAIL = 'paxton.alexandra@gmail.com'
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 
 # Specify minimum versions for scipy and numpy
-SCIPY_MIN_VERSION = '0.19.0'
-NUMPY_MIN_VERSION = '1.12.0'
+SCIPY_MIN_VERSION = '1.3.1'
+NUMPY_MIN_VERSION = '1.17.2'
 
 
 # Optional setuptools features
@@ -35,11 +35,10 @@ if SETUPTOOLS_COMMANDS.intersection(sys.argv):
             'alldeps': (
                 'numpy >= {0}'.format(NUMPY_MIN_VERSION),
                 'scipy >= {0}'.format(SCIPY_MIN_VERSION),
-                'gensim >= 1.0',
-                'pandas >= 0.19.2',
-                'nltk >= 3.2',
-                'jupyter >= 1.0',
-                'rpy2 == 2.8.2'
+                'gensim >= 3.8.0',
+                'pandas >= 0.25.1',
+                'nltk >= 3.4.5',
+                'ipython >= 7.8.0'
             ),
         },
     )
