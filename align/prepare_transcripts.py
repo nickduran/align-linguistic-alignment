@@ -70,7 +70,6 @@ def InitialCleanup(dataframe,
     elif use_filler_list is not None and filler_regex_and_list:
         dataframe['clean_content'] = dataframe['clean_content'].apply(applyRegExpression)
         dataframe['clean_content'] = dataframe['clean_content'].apply(lambda utterance: ' '.join([word for word in utterance.split(" ") if word not in use_filler_list]))
-        cleantext = " ".join(cleantext)
 
     # OPTION 3: nothing is filtered
     else:
@@ -367,7 +366,7 @@ def ApplyPOSTagging(df,
         else:
             stanford_tagger = StanfordPOSTagger(stanford_pos_path + stanford_language_path,
                                                 stanford_pos_path + 'stanford-postagger.jar')
-            
+
     # add new columns to dataframe
     df['tagged_token'] = df['token'].apply(nltk.pos_tag)
     df['tagged_lemma'] = df['lemma'].apply(nltk.pos_tag)
@@ -484,7 +483,7 @@ def prepare_transcripts(input_files,
 
     # if no training dictionary is specified, use the Gutenberg corpus
     if training_dictionary is None:
-            
+
         # first, get the name of the package directory
         module_path = os.path.dirname(os.path.abspath(__file__))
 
