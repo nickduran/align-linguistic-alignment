@@ -1,4 +1,4 @@
-# ALIGN, a computational tool for multi-level language analysis
+# ALIGN, a computational tool for multi-level language analysis (optimized for Python 3)
 
 `align` is a Python library for extracting quantitative, reproducible
 metrics of multi-level alignment between two speakers in naturalistic
