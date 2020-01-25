@@ -306,6 +306,8 @@ def returnMultilevelAlignment(cond_info,
     partner_direction = {}
     condition_info = {}
     cosine_semanticL = {}
+    utterance_length1 = {}
+    utterance_length2 = {}
 
     # calculate lexical and syntactic alignment
     dictionaries_list = LexicalPOSAlignment(tok1=tok1,lem1=lem1,
@@ -326,6 +328,13 @@ def returnMultilevelAlignment(cond_info,
     partner_direction['partner_direction'] = str(partnerA) + ">" + str(partnerB)
     dictionaries_list.append(partner_direction.copy())
 
+    # add number of tokens in each utterance
+    utterance_length1['utterance_length1'] = len(tok1)
+    dictionaries_list.append(utterance_length1.copy())   
+
+    utterance_length2['utterance_length2'] = len(tok2)
+    dictionaries_list.append(utterance_length2.copy())    
+    
     # add condition information
     condition_info['condition_info'] = cond_info
     dictionaries_list.append(condition_info.copy())
