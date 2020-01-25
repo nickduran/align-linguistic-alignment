@@ -203,7 +203,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
     lexical_lem = {}
 
     # cycle through all desired ngram lengths
-    for ngram in range(2,maxngram+1):
+    for ngram in range(1,maxngram+1):
 
         # calculate similarity for lexical ngrams (tokens and lemmas)
         [vectorT1, vectorT2] = ngram_lexical(tok1,tok2,ngramsize=ngram)
