@@ -504,8 +504,8 @@ def prepare_transcripts(input_files,
     for fileName in file_list:
 
         # let us know which file we're processing
-        dataframe = pd.read_csv(fileName, sep='\t',encoding='utf-8')
         print(("Processing: "+fileName))
+        dataframe = pd.read_csv(fileName, sep='\t',encoding='utf-8')
 
         # clean up, merge, spellcheck, tokenize, lemmatize, and POS-tag
         dataframe = InitialCleanup(dataframe,
