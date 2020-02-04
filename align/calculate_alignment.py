@@ -203,7 +203,7 @@ def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
     lexical_lem = {}
 
     # cycle through all desired ngram lengths
-    for ngram in range(2,maxngram+1):
+    for ngram in range(1,maxngram+1):
 
         # calculate similarity for lexical ngrams (tokens and lemmas)
         [vectorT1, vectorT2] = ngram_lexical(tok1,tok2,ngramsize=ngram)
@@ -306,6 +306,8 @@ def returnMultilevelAlignment(cond_info,
     partner_direction = {}
     condition_info = {}
     cosine_semanticL = {}
+    utterance_length1 = {}
+    utterance_length2 = {}
 
     # calculate lexical and syntactic alignment
     dictionaries_list = LexicalPOSAlignment(tok1=tok1,lem1=lem1,
@@ -326,6 +328,13 @@ def returnMultilevelAlignment(cond_info,
     partner_direction['partner_direction'] = str(partnerA) + ">" + str(partnerB)
     dictionaries_list.append(partner_direction.copy())
 
+    # add number of tokens in each utterance
+    utterance_length1['utterance_length1'] = len(tok1)
+    dictionaries_list.append(utterance_length1.copy())   
+
+    utterance_length2['utterance_length2'] = len(tok2)
+    dictionaries_list.append(utterance_length2.copy())    
+    
     # add condition information
     condition_info['condition_info'] = cond_info
     dictionaries_list.append(condition_info.copy())
