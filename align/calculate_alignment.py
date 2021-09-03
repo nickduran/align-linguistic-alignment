@@ -159,7 +159,7 @@ def BuildSemanticModel(semantic_model_input_file,
     word_to_vector = {}
     for word, index in semantic_model.key_to_index.items():
         word_to_vector[word] = semantic_model.vectors[index, :]
-    return contentWords, word_to_vector #semantic_model.key_to_index
+    return contentWords, word_to_vector
 
 
 def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
