@@ -100,7 +100,7 @@ def build_composite_semantic_vector(lemma_seq,vocablist,highDimModel):
     ## build composite vector
     getComposite = [0] * len(highDimModel[vocablist[1]])
     for w1 in filter_lemma_seq:
-        if w1 in highDimModel.vocab:
+        if w1 in highDimModel:
             semvector = highDimModel[w1]
             getComposite = getComposite + semvector
     return getComposite
@@ -156,7 +156,10 @@ def BuildSemanticModel(semantic_model_input_file,
             semantic_model = gensim.models.KeyedVectors.load_word2vec_format(pretrained_input_file, binary=True)
 
     # return all the content words and the trained word vectors
-    return contentWords, semantic_model.wv
+    word_to_vector = {}
+    for word, index in semantic_model.key_to_index.items():
+        word_to_vector[word] = semantic_model.vectors[index, :]
+    return contentWords, word_to_vector
 
 
 def LexicalPOSAlignment(tok1,lem1,penn_tok1,penn_lem1,
@@ -330,11 +333,11 @@ def returnMultilevelAlignment(cond_info,
 
     # add number of tokens in each utterance
     utterance_length1['utterance_length1'] = len(tok1)
-    dictionaries_list.append(utterance_length1.copy())   
+    dictionaries_list.append(utterance_length1.copy())
 
     utterance_length2['utterance_length2'] = len(tok2)
-    dictionaries_list.append(utterance_length2.copy())    
-    
+    dictionaries_list.append(utterance_length2.copy())
+
     # add condition information
     condition_info['condition_info'] = cond_info
     dictionaries_list.append(condition_info.copy())
