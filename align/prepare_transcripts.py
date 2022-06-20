@@ -1,5 +1,5 @@
 import os,re,math,csv,string,random,logging,glob,itertools,operator,sys
-from os import listdir
+from os import listdir, pathsep
 from os.path import isfile, join
 from collections import Counter, defaultdict, OrderedDict
 from itertools import chain, combinations
@@ -16,18 +16,18 @@ from nltk.corpus import wordnet as wn
 from nltk.tag.stanford import StanfordPOSTagger
 from nltk.util import ngrams
 
+############### adding this new - should this be added to the main aling folder? or anything that is being "downloaded" needs to go in the tutorial?
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('omw-1.4') ## interesting, this looks new and necessary for running wordnet
+
+import time
+import warnings
+############### adding this new
+
 import gensim
 from gensim.models import word2vec
-
-
-print("Pandas Version Info:\n{}".format(pd.__version__))
-print("Numpy Version Info:\n{}".format(np.__version__))
-print("Scipy Version Info:\n{}".format(scipy.__version__))
-print("NLTK Version Info:\n{}".format(nltk.__version__))
-print("Gensim Version Info:\n{}".format(gensim.__version__))
-print("Python and Conda Environment Info:\n{}".format(sys.version))
-
-
 
 def InitialCleanup(dataframe,
                    minwords=2,
@@ -549,3 +549,50 @@ def prepare_transcripts(input_files,
 
     # return the dataframe
     return prepped_df
+
+
+
+
+########################### TEST/RUN CODE
+
+# Specify ALIGN PATHS
+BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/"
+
+COUPLES_EXAMPLE = os.path.join(BASE_PATH, 'couples-analysis/')
+
+# TRANSCRIPTS = align.datasets.CHILDES_directory
+TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE, 'transcripts/')
+
+PREPPED_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE, 'prepped-penn/')
+
+ANALYSIS_READY = os.path.join(COUPLES_EXAMPLE, 'analysis-pennkeep/')
+
+# SURROGATE_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE,  'childes-surrogate/')
+
+OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
+
+STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2018-10-16/')
+
+PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
+
+# PHASE 1: PREPARE TRANSCRIPTS
+
+model_store = prepare_transcripts(
+                    input_files=TRANSCRIPTS,
+                    output_file_directory=PREPPED_TRANSCRIPTS,
+                    minwords=2,
+                    use_filler_list=None,
+                    filler_regex_and_list=False,
+                    training_dictionary=None,
+                    add_stanford_tags=False,
+                    # stanford_pos_path=STANFORD_POS_PATH,
+                    # stanford_language_path=STANFORD_LANGUAGE,
+                    save_concatenated_dataframe=True)
+
+
+
+
+
+
+
+
