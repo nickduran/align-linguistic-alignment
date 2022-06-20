@@ -19,6 +19,16 @@ from nltk.util import ngrams
 import gensim
 from gensim.models import word2vec
 
+
+print("Pandas Version Info:\n{}".format(pd.__version__))
+print("Numpy Version Info:\n{}".format(np.__version__))
+print("Scipy Version Info:\n{}".format(scipy.__version__))
+print("NLTK Version Info:\n{}".format(nltk.__version__))
+print("Gensim Version Info:\n{}".format(gensim.__version__))
+print("Python and Conda Environment Info:\n{}".format(sys.version))
+
+
+
 def InitialCleanup(dataframe,
                    minwords=2,
                    use_filler_list=None,
