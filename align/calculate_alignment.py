@@ -1,4 +1,4 @@
-import os,re,math,csv,string,random,logging,glob,itertools,operator, sys
+import os,re,math,csv,string,random,logging,glob,itertools,operator,sys
 from os import listdir
 from os.path import isfile, join
 from collections import Counter, defaultdict, OrderedDict
