@@ -551,9 +551,6 @@ def prepare_transcripts(input_files,
     # return the dataframe
     return prepped_df
 
-
-
-
 ########################### TEST/RUN CODE
 
 ############### unfortunately, anything that is being "downloaded" needs to go in the tutorial and outside of package
@@ -572,7 +569,7 @@ BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/san
 COUPLES_EXAMPLE = os.path.join(BASE_PATH, 'couples-analysis/')
 
 # TRANSCRIPTS = align.datasets.CHILDES_directory
-TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE, 'transcripts/')
+TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE, 'transcripts2/')
 
 PREPPED_PENN = os.path.join(COUPLES_EXAMPLE, 'prepped-penn/')
 PREPPED_STAN = os.path.join(COUPLES_EXAMPLE, 'prepped-stan/')
@@ -584,7 +581,7 @@ OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
 STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2020-11-17/')
 STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
 
-PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
+# PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
 
 # PHASE 1: PREPARE TRANSCRIPTS
 
@@ -599,10 +596,6 @@ model_store = prepare_transcripts(
                         stanford_pos_path=STANFORD_POS_PATH,
                         stanford_language_path=STANFORD_LANGUAGE,
                     save_concatenated_dataframe=True)
-
-
-# PHASE 2: ANALYZE 
-# ANALYSIS_READY = os.path.join(COUPLES_EXAMPLE, 'analysis-pennkeep/')
 
 
 # NOTES
