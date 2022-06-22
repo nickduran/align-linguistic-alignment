@@ -407,7 +407,9 @@ def TurnByTurnAnalysis(dataframe,
     df_lagged = dataframe.shift(-delay).drop(dataframe.tail(delay).index,inplace=False)
 
     # cycle through each pair of turns
-    aggregated_df = pd.DataFrame()
+    # aggregated_df = pd.DataFrame()
+    tmpfiles = list()
+    
     for i in range(0,df_original.shape[0]):
 
         # identify the condition for this dataframe
@@ -461,9 +463,12 @@ def TurnByTurnAnalysis(dataframe,
         # sort columns so they are in order, append data to existing structures
         next_df_line = pd.DataFrame.from_dict(OrderedDict(k for num, i in enumerate(d for d in dictionaries_list) for k in sorted(i.items())),
                                orient='index').transpose()
-        aggregated_df = aggregated_df.append(next_df_line)
-
+            
+        # aggregated_df = aggregated_df.append(next_df_line) ## problematic. appending a dataframe to a dataframe. 
+        tmpfiles.append(next_df_line)    
+    
     # reformat turn information and add index
+    aggregated_df = pd.concat(tmpfiles)
     aggregated_df = aggregated_df.reset_index(drop=True).reset_index().rename(columns={"index":"time"})
 
     # give us our finished dataframe
