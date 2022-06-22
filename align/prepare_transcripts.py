@@ -512,6 +512,9 @@ def prepare_transcripts(input_files,
 
     # cycle through all files
     prepped_df = pd.DataFrame()
+    
+    tmp = [append_files]
+    
     for fileName in file_list:
 
         # let us know which file we're processing
@@ -540,7 +543,8 @@ def prepare_transcripts(input_files,
         # export the conversation's dataframe as a CSV
         conversation_file = os.path.join(output_file_directory,os.path.basename(fileName))
         dataframe.to_csv(conversation_file, encoding='utf-8',index=False,sep='\t')
-        prepped_df = prepped_df.append(dataframe)
+        
+        prepped_df = prepped_df.append(dataframe) # new pandas does not like appending dataframes (only lists)
 
     # save the concatenated dataframe
     if save_concatenated_dataframe:
@@ -587,14 +591,14 @@ STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
 
 model_store = prepare_transcripts(
                     input_files=TRANSCRIPTS,
-                    output_file_directory=PREPPED_STAN,
+                    output_file_directory=PREPPED_PENN,
                     minwords=2,
                     use_filler_list=None,
                     filler_regex_and_list=False,
                     training_dictionary=None,
-                    add_stanford_tags=True,
-                        stanford_pos_path=STANFORD_POS_PATH,
-                        stanford_language_path=STANFORD_LANGUAGE,
+                    add_stanford_tags=False,
+                        # stanford_pos_path=STANFORD_POS_PATH,
+                        # stanford_language_path=STANFORD_LANGUAGE,
                     save_concatenated_dataframe=True)
 
 
