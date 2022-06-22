@@ -9,6 +9,7 @@ import numpy as np
 import scipy
 from scipy import spatial
 
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
