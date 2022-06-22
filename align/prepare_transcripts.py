@@ -511,10 +511,9 @@ def prepare_transcripts(input_files,
         file_list = glob.glob(input_files+"/*.txt")
 
     # cycle through all files
-    prepped_df = pd.DataFrame()
-    
-    tmp = [append_files]
-    
+    # prepped_df = pd.DataFrame()
+    tmpfiles = list()
+       
     for fileName in file_list:
 
         # let us know which file we're processing
@@ -544,8 +543,11 @@ def prepare_transcripts(input_files,
         conversation_file = os.path.join(output_file_directory,os.path.basename(fileName))
         dataframe.to_csv(conversation_file, encoding='utf-8',index=False,sep='\t')
         
-        prepped_df = prepped_df.append(dataframe) # new pandas does not like appending dataframes (only lists)
+        # prepped_df = prepped_df.append(dataframe) # new pandas does not like appending dataframes (only lists)
+        tmpfiles.append(dataframe)
 
+    prepped_df = pd.concat(tmpfiles)
+    
     # save the concatenated dataframe
     if save_concatenated_dataframe:
         concatenated_file = os.path.join(output_file_directory,'../align_concatenated_dataframe.txt')
