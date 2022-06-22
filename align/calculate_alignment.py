@@ -841,8 +841,11 @@ def calculate_alignment(input_files,
                                                        low_n_cutoff=low_n_cutoff)
 
     # create containers for alignment values
-    AlignmentT2T = pd.DataFrame()
-    AlignmentC2C = pd.DataFrame()
+    # AlignmentT2T = pd.DataFrame()
+    # AlignmentC2C = pd.DataFrame()
+
+    tempT2T = list()
+    tempC2C = list()
 
     # cycle through each prepared file
     for fileName in file_list:
@@ -862,21 +865,26 @@ def calculate_alignment(input_files,
                                          highDimModel=highDimModel,
                                          add_stanford_tags=add_stanford_tags,
                                          ignore_duplicates=ignore_duplicates)
-            AlignmentT2T=AlignmentT2T.append(xT2T)
+            # AlignmentT2T=AlignmentT2T.append(xT2T)
+            tempT2T.append(xT2T)
 
             # calculate conversation-level alignment scores
             xC2C = ConvoByConvoAnalysis(dataframe=dataframe,
                                              maxngram = maxngram,
                                              ignore_duplicates=ignore_duplicates,
                                              add_stanford_tags = add_stanford_tags)
-            AlignmentC2C=AlignmentC2C.append(xC2C)
+            # AlignmentC2C=AlignmentC2C.append(xC2C)
+            tempC2C.append(xT2T)
 
         # if it's invalid, let us know
         else:
             print(("Invalid file: "+fileName))
 
     # update final dataframes
+    AlignmentT2T = pd.concat(tempT2T)
     real_final_turn_df = AlignmentT2T.reset_index(drop=True)
+    
+    AlignmentC2C = pd.concat(tempC2C)
     real_final_convo_df = AlignmentC2C.reset_index(drop=True)
 
     # export the final files
