@@ -137,7 +137,14 @@ def BuildSemanticModel(semantic_model_input_file,
     for word in all_words:
         frequency[word] += 1
 
-    # remove words that only occur more frequently than our cutoff (defined in occurrences)
+    # only include words whose length is greater than 1
+    frequency = {word: freq for word, freq in frequency.items() if len(word) > 1}
+
+    # NOTE: experimental feature, print out list of all unique words with frequency count
+    df_freqlist = pd.DataFrame(list(frequency.items()), columns=["word", "count"]).sort_values(by=['count'], ascending=False)
+    df_freqlist.to_csv("/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/couples-analysis/"+"vocabfreqlist.txt", encoding='utf-8', index=False, sep='\t')
+    
+    # only include words that occur more frequently than our cutoff (defined in occurrences)
     frequency = {word: freq for word, freq in frequency.items() if freq > low_n_cutoff}
 
     # if desired, remove high-frequency words (over user-defined SDs above mean)
@@ -270,7 +277,7 @@ def conceptualAlignment(lem1, lem2, vocablist, highDimModel):
     W2Vec1 = build_composite_semantic_vector(lem1,vocablist,highDimModel)
     W2Vec2 = build_composite_semantic_vector(lem2,vocablist,highDimModel)
 
-    # return cosine distance alignment score; checks whether one of the vectors is composed of all zeros (occasionaly occurs when words in utterance were not in master vocablist where low or high frequency words can be removed)
+    # return cosine distance alignment score; checks whether one of the vectors is composed of all zeros (occasionaly occurs when words in utterance were removed from master vocablist because of low or high frequency issues)
     if all(v == 0 for v in W2Vec1) | all(v == 0 for v in W2Vec2):
         return 0.0   
     else:
