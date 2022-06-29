@@ -110,11 +110,11 @@ def build_composite_semantic_vector(lemma_seq,vocablist,highDimModel):
 
 def BuildSemanticModel(semantic_model_input_file,
                         pretrained_input_file,
+                        output_file_directory,
                         use_pretrained_vectors=True,
                         high_sd_cutoff=3,
                         low_n_cutoff=1,
-                        save_vocab_freqs=False,
-                        output_file_directory):
+                        save_vocab_freqs=False):
 
     """
     Given an input file produced by the ALIGN Phase 1 functions,
@@ -1128,8 +1128,8 @@ COUPLES_EXAMPLE = os.path.join(BASE_PATH, 'couples-analysis/')
 PREPPED_PENN = os.path.join(COUPLES_EXAMPLE, 'prepped-penn/')
 PREPPED_STAN = os.path.join(COUPLES_EXAMPLE, 'prepped-stan/')
 
-ANALYSIS_PENN = os.path.join(COUPLES_EXAMPLE, 'analysis-pennkeep/')
-ANALYSIS_STAN = os.path.join(COUPLES_EXAMPLE, 'analysis-stankeep/')
+ANALYSIS_PENN = os.path.join(COUPLES_EXAMPLE, 'analysis-penn/')
+ANALYSIS_STAN = os.path.join(COUPLES_EXAMPLE, 'analysis-stan/')
 
 OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
 PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
