@@ -127,6 +127,9 @@ def BuildSemanticModel(semantic_model_input_file,
 
     Frequency cutoffs can be removed by `high_sd_cutoff=None` and/or
     `low_n_cutoff=0`.
+    
+    Also optionally saves to `output_file_directory` a .txt list of all 
+    unique words and their frequency count if `save_vocab_freqs=True`
     """
 
     # build vocabulary list from transcripts
@@ -142,11 +145,7 @@ def BuildSemanticModel(semantic_model_input_file,
     # only include words whose length is greater than 1
     frequency = {word: freq for word, freq in frequency.items() if len(word) > 1}
 
-    # NOTE: experimental feature, print out list of all unique words with frequency count
-    df_freqlist = pd.DataFrame(list(frequency.items()), columns=["word", "count"]).sort_values(by=['count'], ascending=False)
-    df_freqlist.to_csv("/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/couples-analysis/"+"vocabfreqlist.txt", 
-                       encoding='utf-8', index=False, sep='\t')
-    
+    # NOTE: experimental feature for 0.0.12, print out list of all unique words with frequency count    
     if save_vocab_freqs:
         vocabfreq_df = pd.DataFrame(list(frequency.items()), columns=["word", "count"]).sort_values(by=['count'], ascending=False)
         vocabfreq_file = os.path.join(output_file_directory,'../vocabfreqs.txt')
@@ -830,6 +829,10 @@ def calculate_alignment(input_files,
         Specify whether the value passed to `input_files` parameter should
         be read as a directory (True) or a list of files to be processed
         (False).
+        
+    save_vocab_freqs: boolean, optional (default: False)
+        Specify whether to save a .txt file to `output_file_directory` that 
+        contains list of all unique words in corpus with frequency counts 
 
     Returns
     -------
@@ -1025,7 +1028,7 @@ def calculate_baseline_alignment(input_files,
     input_as_directory : boolean, optional (default: True)
         Specify whether the value passed to `input_files` parameter should
         be read as a directory or a list of files to be processed.
-
+        
     Returns
     -------
 
@@ -1065,11 +1068,11 @@ def calculate_baseline_alignment(input_files,
                             high_sd_cutoff=high_sd_cutoff,
                             low_n_cutoff=low_n_cutoff,
                             save_vocab_freqs=save_vocab_freqs,
-                            output_file_directory=output_file_directory)
+                            output_file_directory=output_file_directory)                           
 
     # create containers for alignment values
-    AlignmentT2T = pd.DataFrame()
-    AlignmentC2C = pd.DataFrame()
+    tempT2T = list()
+    tempC2C = list()
 
     # cycle through the files
     for fileName in surrogate_file_list:
@@ -1089,21 +1092,23 @@ def calculate_baseline_alignment(input_files,
                                          highDimModel=highDimModel,
                                          add_stanford_tags = add_stanford_tags,
                                          ignore_duplicates = ignore_duplicates)
-            AlignmentT2T=AlignmentT2T.append(xT2T)
-
+            tempT2T.append(xT2T)
+                
             # calculate conversation-level alignment scores
             xC2C = ConvoByConvoAnalysis(dataframe=dataframe,
                                              maxngram = maxngram,
                                              ignore_duplicates=ignore_duplicates,
                                              add_stanford_tags = add_stanford_tags)
-            AlignmentC2C=AlignmentC2C.append(xC2C)
-
+            tempC2C.append(xC2C)
+            
         # if it's invalid, let us know
         else:
             print(("Invalid file: "+fileName))
 
     # update final dataframes
+    AlignmentT2T = pd.concat(tempT2T)
     surrogate_final_turn_df = AlignmentT2T.reset_index(drop=True)
+    AlignmentC2C = pd.concat(tempC2C)
     surrogate_final_convo_df = AlignmentC2C.reset_index(drop=True)
 
     # export the final files
@@ -1147,15 +1152,38 @@ IGNORE_DUPLICATES = True
 HIGH_SD_CUTOFF = 3
 LOW_N_CUTOFF = 1
 
-[turn_real,convo_real] = calculate_alignment(
-                            input_files=INPUT_FILES,
-                            maxngram=MAXNGRAM,   
-                            use_pretrained_vectors=USE_PRETRAINED_VECTORS,
-                            pretrained_input_file=PRETRAINED_INPUT_FILE,
-                            semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
-                            output_file_directory=ANALYSIS_PENN,
-                            add_stanford_tags=ADD_STANFORD_TAGS,
-                            ignore_duplicates=IGNORE_DUPLICATES,
-                            high_sd_cutoff=HIGH_SD_CUTOFF,
-                            low_n_cutoff=LOW_N_CUTOFF,
-                            save_vocab_freqs=True)
+# [turn_real,convo_real] = calculate_alignment(
+#                             input_files=INPUT_FILES,
+#                             maxngram=MAXNGRAM,   
+#                             use_pretrained_vectors=USE_PRETRAINED_VECTORS,
+#                             pretrained_input_file=PRETRAINED_INPUT_FILE,
+#                             semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
+#                             output_file_directory=ANALYSIS_PENN,
+#                             add_stanford_tags=ADD_STANFORD_TAGS,
+#                             ignore_duplicates=IGNORE_DUPLICATES,
+#                             high_sd_cutoff=HIGH_SD_CUTOFF,
+#                             low_n_cutoff=LOW_N_CUTOFF,
+#                             save_vocab_freqs=True)
+
+
+SURROGATE_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE,
+                                     'surrogate/')
+
+[turn_surrogate,convo_surrogate] = calculate_baseline_alignment(
+                                    input_files=INPUT_FILES, 
+                                    maxngram=MAXNGRAM,
+                                    use_pretrained_vectors=USE_PRETRAINED_VECTORS,
+                                    pretrained_input_file=PRETRAINED_INPUT_FILE,
+                                    semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
+                                    output_file_directory=SURROGATE_TRANSCRIPTS,
+                                    add_stanford_tags=ADD_STANFORD_TAGS,
+                                    ignore_duplicates=IGNORE_DUPLICATES,
+                                    high_sd_cutoff=HIGH_SD_CUTOFF,
+                                    low_n_cutoff=LOW_N_CUTOFF,
+                                    surrogate_file_directory=SURROGATE_TRANSCRIPTS,
+                                    all_surrogates=False,
+                                    keep_original_turn_order=True,
+                                    id_separator='\_',
+                                    dyad_label='team',
+                                    condition_label='cond')
+
