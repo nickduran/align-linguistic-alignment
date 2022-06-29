@@ -557,7 +557,10 @@ def prepare_transcripts(input_files,
 
 ########################### TEST/RUN CODE
 
-############### unfortunately, anything that is being "downloaded" needs to go in the tutorial and outside of package
+####### IGNORE #######
+## NOTE: Below is for testing and developing future ALIGN versions. 
+
+############### "downloaded" outside of package and only in the tutorial. should probably be stated somewhere in the README. 
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
@@ -567,25 +570,24 @@ import time
 import warnings
 ############### 
 
-# Specify ALIGN PATHS
+## Specify ALIGN PATHS
+# BASE_PATH = "INSERT PATHNAME OF WHERE DICTIONARY AND OPTIONAL_DIRECTORIES AND PROJECT FOLDERS ARE LOCATED/"
 BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/"
 
-COUPLES_EXAMPLE = os.path.join(BASE_PATH, 'couples-analysis/')
+# PROJECT = os.path.join(BASE_PATH, 'INSERT PROJECT FOLDER HERE/')
+PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
 
-# TRANSCRIPTS = align.datasets.CHILDES_directory
-TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE, 'transcripts2/')
+PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
+PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
 
-PREPPED_PENN = os.path.join(COUPLES_EXAMPLE, 'prepped-penn/')
-PREPPED_STAN = os.path.join(COUPLES_EXAMPLE, 'prepped-stan/')
-
-# SURROGATE_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE,  'childes-surrogate/')
+ANALYSIS_PENN = os.path.join(PROJECT, 'analysis-penn/')
+ANALYSIS_STAN = os.path.join(PROJECT, 'analysis-stan/')
 
 OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
-
 STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2020-11-17/')
 STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
 
-# PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
+TRANSCRIPTS = os.path.join(PROJECT, 'transcripts2/')
 
 # PHASE 1: PREPARE TRANSCRIPTS
 
@@ -611,6 +613,7 @@ model_store = prepare_transcripts(
 # A value is trying to be set on a copy of a slice from a DataFrame.
 # Try using .loc[row_indexer,col_indexer] = value instead
 # dataframe['clean_content'] = dataframe['content'].apply(lambda utterance: ''.join([char for char in utterance if char in WHITELIST]).lower())
+# See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
 
 # SettingWithCopyWarning: 
 # A value is trying to be set on a copy of a slice from a DataFrame.

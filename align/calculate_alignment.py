@@ -1123,50 +1123,54 @@ def calculate_baseline_alignment(input_files,
 
 
 
-########################### TEST/RUN CODE
+####### IGNORE #######
+## NOTE: Below is for testing and developing future ALIGN versions. 
 
-# Specify ALIGN PATHS
+## Specify ALIGN PATHS
+# BASE_PATH = "INSERT PATHNAME OF WHERE DICTIONARY AND OPTIONAL_DIRECTORIES AND PROJECT FOLDERS ARE LOCATED/"
 BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/"
 
-COUPLES_EXAMPLE = os.path.join(BASE_PATH, 'couples-analysis/')
+# PROJECT = os.path.join(BASE_PATH, 'INSERT PROJECT FOLDER HERE/')
+PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
 
-PREPPED_PENN = os.path.join(COUPLES_EXAMPLE, 'prepped-penn/')
-PREPPED_STAN = os.path.join(COUPLES_EXAMPLE, 'prepped-stan/')
+PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
+PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
 
-ANALYSIS_PENN = os.path.join(COUPLES_EXAMPLE, 'analysis-penn/')
-ANALYSIS_STAN = os.path.join(COUPLES_EXAMPLE, 'analysis-stan/')
+ANALYSIS_PENN = os.path.join(PROJECT, 'analysis-penn/')
+ANALYSIS_STAN = os.path.join(PROJECT, 'analysis-stan/')
 
 OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
 PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
 
 
-# set standards to be used for real and surrogate
-INPUT_FILES = PREPPED_PENN
+## set standards to be used for real and surrogate
+INPUT_FILES = PREPPED_STAN
+OUTPUT_DIR = ANALYSIS_STAN
 MAXNGRAM = 2
 USE_PRETRAINED_VECTORS = True
-SEMANTIC_MODEL_INPUT_FILE = os.path.join(COUPLES_EXAMPLE,
+SEMANTIC_MODEL_INPUT_FILE = os.path.join(PROJECT,
                                          'align_concatenated_dataframe.txt')
 PRETRAINED_FILE_DIRECTORY = PRETRAINED_INPUT_FILE
-ADD_STANFORD_TAGS = False
+ADD_STANFORD_TAGS = True
 IGNORE_DUPLICATES = True
 HIGH_SD_CUTOFF = 3
 LOW_N_CUTOFF = 1
 
-# [turn_real,convo_real] = calculate_alignment(
-#                             input_files=INPUT_FILES,
-#                             maxngram=MAXNGRAM,   
-#                             use_pretrained_vectors=USE_PRETRAINED_VECTORS,
-#                             pretrained_input_file=PRETRAINED_INPUT_FILE,
-#                             semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
-#                             output_file_directory=ANALYSIS_PENN,
-#                             add_stanford_tags=ADD_STANFORD_TAGS,
-#                             ignore_duplicates=IGNORE_DUPLICATES,
-#                             high_sd_cutoff=HIGH_SD_CUTOFF,
-#                             low_n_cutoff=LOW_N_CUTOFF,
-#                             save_vocab_freqs=True)
+[turn_real,convo_real] = calculate_alignment(
+                            input_files=INPUT_FILES,
+                            maxngram=MAXNGRAM,   
+                            use_pretrained_vectors=USE_PRETRAINED_VECTORS,
+                            pretrained_input_file=PRETRAINED_INPUT_FILE,
+                            semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
+                            output_file_directory=OUTPUT_DIR,
+                            add_stanford_tags=ADD_STANFORD_TAGS,
+                            ignore_duplicates=IGNORE_DUPLICATES,
+                            high_sd_cutoff=HIGH_SD_CUTOFF,
+                            low_n_cutoff=LOW_N_CUTOFF,
+                            save_vocab_freqs=True)
 
 
-SURROGATE_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE,
+SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
                                      'surrogate/')
 
 [turn_surrogate,convo_surrogate] = calculate_baseline_alignment(
@@ -1186,4 +1190,3 @@ SURROGATE_TRANSCRIPTS = os.path.join(COUPLES_EXAMPLE,
                                     id_separator='\_',
                                     dyad_label='team',
                                     condition_label='cond')
-
