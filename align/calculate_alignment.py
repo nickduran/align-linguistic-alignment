@@ -80,6 +80,7 @@ def get_cosine(vec1, vec2):
     Adapted from <https://stackoverflow.com/a/33129724>.
     """
 
+    # NOTE: results identical to sklearn class `cosine_similarity` EXCEPT sklearn removes single letter words, the ALIGN method does not
     intersection = set(vec1.keys()) & set(vec2.keys())
     numerator = sum([vec1[x] * vec2[x] for x in intersection])
     sum1 = sum([vec1[x]**2 for x in list(vec1.keys())])
@@ -95,10 +96,10 @@ def build_composite_semantic_vector(lemma_seq,vocablist,highDimModel):
     """
     Function for producing vocablist and model is called in the main loop
     """
-
-    ## filter out words in corpus that do not appear in vocablist (either too rare or too frequent)
+    
+    # vocablist are all unique lemmas except those removed if only occurred once or user-specified setting of frequency threshold
     filter_lemma_seq = [word for word in lemma_seq if word in vocablist]
-    ## build composite vector
+    # build composite vector via simple sum of vectors
     getComposite = [0] * len(highDimModel[vocablist[1]])
     for w1 in filter_lemma_seq:
         if w1 in highDimModel:
@@ -269,9 +270,11 @@ def conceptualAlignment(lem1, lem2, vocablist, highDimModel):
     W2Vec1 = build_composite_semantic_vector(lem1,vocablist,highDimModel)
     W2Vec2 = build_composite_semantic_vector(lem2,vocablist,highDimModel)
 
-    # return cosine distance alignment score
-    return 1 - spatial.distance.cosine(W2Vec1, W2Vec2)
-
+    # return cosine distance alignment score; checks whether one of the vectors is composed of all zeros (occasionaly occurs when words in utterance were not in master vocablist where low or high frequency words can be removed)
+    if all(v == 0 for v in W2Vec1) | all(v == 0 for v in W2Vec2):
+        return 0.0   
+    else:
+        return 1 - spatial.distance.cosine(W2Vec1, W2Vec2)
 
 def returnMultilevelAlignment(cond_info,
                                    partnerA,tok1,lem1,penn_tok1,penn_lem1,
@@ -841,9 +844,6 @@ def calculate_alignment(input_files,
                                                        low_n_cutoff=low_n_cutoff)
 
     # create containers for alignment values
-    # AlignmentT2T = pd.DataFrame()
-    # AlignmentC2C = pd.DataFrame()
-
     tempT2T = list()
     tempC2C = list()
 
@@ -865,7 +865,6 @@ def calculate_alignment(input_files,
                                          highDimModel=highDimModel,
                                          add_stanford_tags=add_stanford_tags,
                                          ignore_duplicates=ignore_duplicates)
-            # AlignmentT2T=AlignmentT2T.append(xT2T)
             tempT2T.append(xT2T)
 
             # calculate conversation-level alignment scores
@@ -873,7 +872,6 @@ def calculate_alignment(input_files,
                                              maxngram = maxngram,
                                              ignore_duplicates=ignore_duplicates,
                                              add_stanford_tags = add_stanford_tags)
-            # AlignmentC2C=AlignmentC2C.append(xC2C)
             tempC2C.append(xT2T)
 
         # if it's invalid, let us know
@@ -883,7 +881,6 @@ def calculate_alignment(input_files,
     # update final dataframes
     AlignmentT2T = pd.concat(tempT2T)
     real_final_turn_df = AlignmentT2T.reset_index(drop=True)
-    
     AlignmentC2C = pd.concat(tempC2C)
     real_final_convo_df = AlignmentC2C.reset_index(drop=True)
 
@@ -1122,7 +1119,7 @@ MAXNGRAM = 2
 USE_PRETRAINED_VECTORS = True
 SEMANTIC_MODEL_INPUT_FILE = os.path.join(COUPLES_EXAMPLE,
                                          'align_concatenated_dataframe.txt')
-PRETRAINED_FILE_DRIRECTORY = PRETRAINED_INPUT_FILE
+PRETRAINED_FILE_DIRECTORY = PRETRAINED_INPUT_FILE
 ADD_STANFORD_TAGS = False
 IGNORE_DUPLICATES = True
 HIGH_SD_CUTOFF = 3
