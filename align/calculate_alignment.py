@@ -112,7 +112,9 @@ def BuildSemanticModel(semantic_model_input_file,
                         pretrained_input_file,
                         use_pretrained_vectors=True,
                         high_sd_cutoff=3,
-                        low_n_cutoff=1):
+                        low_n_cutoff=1,
+                        save_vocab_freqs=False,
+                        output_file_directory):
 
     """
     Given an input file produced by the ALIGN Phase 1 functions,
@@ -142,7 +144,14 @@ def BuildSemanticModel(semantic_model_input_file,
 
     # NOTE: experimental feature, print out list of all unique words with frequency count
     df_freqlist = pd.DataFrame(list(frequency.items()), columns=["word", "count"]).sort_values(by=['count'], ascending=False)
-    df_freqlist.to_csv("/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/couples-analysis/"+"vocabfreqlist.txt", encoding='utf-8', index=False, sep='\t')
+    df_freqlist.to_csv("/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/couples-analysis/"+"vocabfreqlist.txt", 
+                       encoding='utf-8', index=False, sep='\t')
+    
+    if save_vocab_freqs:
+        vocabfreq_df = pd.DataFrame(list(frequency.items()), columns=["word", "count"]).sort_values(by=['count'], ascending=False)
+        vocabfreq_file = os.path.join(output_file_directory,'../vocabfreqs.txt')
+        vocabfreq_df.to_csv(vocabfreq_file,
+                    encoding='utf-8',index=False, sep='\t')
     
     # only include words that occur more frequently than our cutoff (defined in occurrences)
     frequency = {word: freq for word, freq in frequency.items() if freq > low_n_cutoff}
@@ -750,7 +759,8 @@ def calculate_alignment(input_files,
                         use_pretrained_vectors=True,
                         ignore_duplicates=True,
                         add_stanford_tags=False,
-                        input_as_directory=True):
+                        input_as_directory=True,
+                        save_vocab_freqs=False):
 
     """
     Calculate lexical, syntactic, and conceptual alignment between speakers.
@@ -848,7 +858,9 @@ def calculate_alignment(input_files,
                                                        pretrained_input_file=pretrained_input_file,
                                                        use_pretrained_vectors=use_pretrained_vectors,
                                                        high_sd_cutoff=high_sd_cutoff,
-                                                       low_n_cutoff=low_n_cutoff)
+                                                       low_n_cutoff=low_n_cutoff,
+                                                       save_vocab_freqs=save_vocab_freqs,
+                                                       output_file_directory=output_file_directory)
 
     # create containers for alignment values
     tempT2T = list()
@@ -918,7 +930,8 @@ def calculate_baseline_alignment(input_files,
                                  use_pretrained_vectors=True,
                                  ignore_duplicates=True,
                                  add_stanford_tags=False,
-                                 input_as_directory=True):
+                                 input_as_directory=True,
+                                 save_vocab_freqs=False):
 
     """
     Calculate baselines for lexical, syntactic, and conceptual
@@ -1050,7 +1063,9 @@ def calculate_baseline_alignment(input_files,
                             pretrained_input_file=pretrained_input_file,
                             use_pretrained_vectors=use_pretrained_vectors,
                             high_sd_cutoff=high_sd_cutoff,
-                            low_n_cutoff=low_n_cutoff)
+                            low_n_cutoff=low_n_cutoff,
+                            save_vocab_freqs=save_vocab_freqs,
+                            output_file_directory=output_file_directory)
 
     # create containers for alignment values
     AlignmentT2T = pd.DataFrame()
@@ -1142,4 +1157,5 @@ LOW_N_CUTOFF = 1
                             add_stanford_tags=ADD_STANFORD_TAGS,
                             ignore_duplicates=IGNORE_DUPLICATES,
                             high_sd_cutoff=HIGH_SD_CUTOFF,
-                            low_n_cutoff=LOW_N_CUTOFF)
+                            low_n_cutoff=LOW_N_CUTOFF,
+                            save_vocab_freqs=True)
