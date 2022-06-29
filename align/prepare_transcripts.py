@@ -606,19 +606,3 @@ model_store = prepare_transcripts(
                         # stanford_language_path=STANFORD_LANGUAGE,
                     save_concatenated_dataframe=True)
 
-
-# NOTES
-
-# WARNING 1
-# /Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/couples-analysis/transcripts/teamT14_condCU-ExpBlock1.txt
-
-# SettingWithCopyWarning: 
-# A value is trying to be set on a copy of a slice from a DataFrame.
-# Try using .loc[row_indexer,col_indexer] = value instead
-# dataframe['clean_content'] = dataframe['content'].apply(lambda utterance: ''.join([char for char in utterance if char in WHITELIST]).lower())
-# See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-
-# SettingWithCopyWarning: 
-# A value is trying to be set on a copy of a slice from a DataFrame.
-# Try using .loc[row_indexer,col_indexer] = value instead
-# dataframe['clean_content'] = dataframe['clean_content'].apply(applyRegExpression)
