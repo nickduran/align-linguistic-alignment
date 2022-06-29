@@ -48,6 +48,9 @@ def InitialCleanup(dataframe,
     # remove inadvertent empty turns
     dataframe = dataframe[pd.notnull(dataframe['content'])]
 
+    # remove turns where content is equal to NA (otherwise will throw a `SettingWithCopyWarning` warning) 
+    dataframe = dataframe.dropna(subset=['content'])
+    
     # internal function: remove fillers via regular expressions
     def applyRegExpression(textFiller):
         textClean = re.sub('^(?!mom|am|ham)[u*|h*|m*|o*|a*]+[m*|h*|u*|a*]+\s', ' ', textFiller) # at the start of a string
