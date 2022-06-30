@@ -1134,25 +1134,30 @@ BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/san
 PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
 
 PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
-PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
-
 ANALYSIS_PENN = os.path.join(PROJECT, 'analysis-penn/')
+ANALYSIS_PENN_IGNORE = os.path.join(PROJECT, 'analysis-pennignore/')
+
+PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
 ANALYSIS_STAN = os.path.join(PROJECT, 'analysis-stan/')
+ANALYSIS_STAN_IGNORE = os.path.join(PROJECT, 'analysis-stanignore/')
 
 OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
 PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negative300.bin')
 
 
 ## set standards to be used for real and surrogate
-INPUT_FILES = PREPPED_STAN
-OUTPUT_DIR = ANALYSIS_STAN
-MAXNGRAM = 2
+INPUT_FILES = PREPPED_PENN
+OUTPUT_DIR = ANALYSIS_PENN
+IGNORE_DUPLICATES = False
+
+ADD_STANFORD_TAGS = False
+
+MAXNGRAM = 4
+
 USE_PRETRAINED_VECTORS = True
 SEMANTIC_MODEL_INPUT_FILE = os.path.join(PROJECT,
                                          'align_concatenated_dataframe.txt')
 PRETRAINED_FILE_DIRECTORY = PRETRAINED_INPUT_FILE
-ADD_STANFORD_TAGS = True
-IGNORE_DUPLICATES = True
 HIGH_SD_CUTOFF = 3
 LOW_N_CUTOFF = 1
 
@@ -1171,22 +1176,24 @@ LOW_N_CUTOFF = 1
 
 
 SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
-                                     'surrogate/')
+                                     'surrogateraw/')
 
 [turn_surrogate,convo_surrogate] = calculate_baseline_alignment(
                                     input_files=INPUT_FILES, 
+                                    output_file_directory=OUTPUT_DIR,
+                                    surrogate_file_directory=SURROGATE_TRANSCRIPTS,
                                     maxngram=MAXNGRAM,
                                     use_pretrained_vectors=USE_PRETRAINED_VECTORS,
                                     pretrained_input_file=PRETRAINED_INPUT_FILE,
                                     semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
-                                    output_file_directory=SURROGATE_TRANSCRIPTS,
                                     add_stanford_tags=ADD_STANFORD_TAGS,
                                     ignore_duplicates=IGNORE_DUPLICATES,
                                     high_sd_cutoff=HIGH_SD_CUTOFF,
                                     low_n_cutoff=LOW_N_CUTOFF,
-                                    surrogate_file_directory=SURROGATE_TRANSCRIPTS,
                                     all_surrogates=False,
                                     keep_original_turn_order=True,
                                     id_separator='\_',
                                     dyad_label='team',
                                     condition_label='cond')
+
+

@@ -586,26 +586,23 @@ PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
 PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
 PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
 
-ANALYSIS_PENN = os.path.join(PROJECT, 'analysis-penn/')
-ANALYSIS_STAN = os.path.join(PROJECT, 'analysis-stan/')
-
 OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
 STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2020-11-17/')
 STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
 
-TRANSCRIPTS = os.path.join(PROJECT, 'transcripts2/')
+TRANSCRIPTS = os.path.join(PROJECT, 'output/')
 
 # PHASE 1: PREPARE TRANSCRIPTS
 
 model_store = prepare_transcripts(
                     input_files=TRANSCRIPTS,
-                    output_file_directory=PREPPED_PENN,
+                    output_file_directory=PREPPED_STAN,
                     minwords=2,
                     use_filler_list=None,
                     filler_regex_and_list=False,
                     training_dictionary=None,
-                    add_stanford_tags=False,
-                        # stanford_pos_path=STANFORD_POS_PATH,
-                        # stanford_language_path=STANFORD_LANGUAGE,
+                    add_stanford_tags=True,
+                        stanford_pos_path=STANFORD_POS_PATH,
+                        stanford_language_path=STANFORD_LANGUAGE,
                     save_concatenated_dataframe=True)
 
