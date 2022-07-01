@@ -676,8 +676,10 @@ def GenerateSurrogate(original_conversation_list,
             original_file1 = os.path.basename(next_surrogate[0])
             original_file2 = os.path.basename(next_surrogate[1])
             original_df1=pd.read_csv(next_surrogate[0], sep='\t',encoding='utf-8')
-            original_df2=pd.read_csv(next_surrogate[1], sep='\t',encoding='utf-8')
-
+            original_df2=pd.read_csv(next_surrogate[1], sep='\t',encoding='utf-8')      
+            if (len(original_df1) < 1 or len(original_df2) < 1):
+                raise Exception("You are attempting to process a file with no conversational turns")
+                            
             # get participants A and B from df1
             participantA_1_code = min(original_df1['participant'].unique())
             participantB_1_code = max(original_df1['participant'].unique())
