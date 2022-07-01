@@ -596,13 +596,13 @@ TRANSCRIPTS = os.path.join(PROJECT, 'output/')
 
 model_store = prepare_transcripts(
                     input_files=TRANSCRIPTS,
-                    output_file_directory=PREPPED_STAN,
+                    output_file_directory=PREPPED_PENN,
                     minwords=2,
                     use_filler_list=None,
                     filler_regex_and_list=False,
                     training_dictionary=None,
-                    add_stanford_tags=True,
-                        stanford_pos_path=STANFORD_POS_PATH,
-                        stanford_language_path=STANFORD_LANGUAGE,
+                    add_stanford_tags=False,
+                        # stanford_pos_path=STANFORD_POS_PATH,
+                        # stanford_language_path=STANFORD_LANGUAGE,
                     save_concatenated_dataframe=True)
 

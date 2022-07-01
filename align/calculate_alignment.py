@@ -1161,27 +1161,26 @@ PRETRAINED_FILE_DIRECTORY = PRETRAINED_INPUT_FILE
 HIGH_SD_CUTOFF = 3
 LOW_N_CUTOFF = 1
 
-[turn_real,convo_real] = calculate_alignment(
-                            input_files=INPUT_FILES,
-                            maxngram=MAXNGRAM,   
-                            use_pretrained_vectors=USE_PRETRAINED_VECTORS,
-                            pretrained_input_file=PRETRAINED_INPUT_FILE,
-                            semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
-                            output_file_directory=OUTPUT_DIR,
-                            add_stanford_tags=ADD_STANFORD_TAGS,
-                            ignore_duplicates=IGNORE_DUPLICATES,
-                            high_sd_cutoff=HIGH_SD_CUTOFF,
-                            low_n_cutoff=LOW_N_CUTOFF,
-                            save_vocab_freqs=True)
+# [turn_real,convo_real] = calculate_alignment(
+#                             input_files=INPUT_FILES,
+#                             maxngram=MAXNGRAM,   
+#                             use_pretrained_vectors=USE_PRETRAINED_VECTORS,
+#                             pretrained_input_file=PRETRAINED_INPUT_FILE,
+#                             semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
+#                             output_file_directory=OUTPUT_DIR,
+#                             add_stanford_tags=ADD_STANFORD_TAGS,
+#                             ignore_duplicates=IGNORE_DUPLICATES,
+#                             high_sd_cutoff=HIGH_SD_CUTOFF,
+#                             low_n_cutoff=LOW_N_CUTOFF,
+#                             save_vocab_freqs=True)
 
-
-SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
-                                     'surrogateraw/')
+# SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
+#                                      'surrogateraw/')
 
 [turn_surrogate,convo_surrogate] = calculate_baseline_alignment(
                                     input_files=INPUT_FILES, 
                                     output_file_directory=OUTPUT_DIR,
-                                    surrogate_file_directory=SURROGATE_TRANSCRIPTS,
+                                    surrogate_file_directory=OUTPUT_DIR,
                                     maxngram=MAXNGRAM,
                                     use_pretrained_vectors=USE_PRETRAINED_VECTORS,
                                     pretrained_input_file=PRETRAINED_INPUT_FILE,
@@ -1193,7 +1192,5 @@ SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
                                     all_surrogates=False,
                                     keep_original_turn_order=True,
                                     id_separator='\_',
-                                    dyad_label='team',
+                                    dyad_label='dyad',
                                     condition_label='cond')
-
-
