@@ -651,6 +651,11 @@ def GenerateSurrogate(original_conversation_list,
 
     # grab condition types from each file name
     file_info = [re.sub('\.txt','',os.path.basename(file_name)) for file_name in original_conversation_list]
+    
+    # common user mistake is not including in the filename the correct dyad, condition, or separator specifications
+    if (dyad_label not in file_info[0] or condition_label not in file_info[0] or id_separator.strip("\\") not in file_info[0]):
+        raise Exception("You most likely have a problem with your filenames. The filename needs to include the `id_separator`, `dyad_label`, and `condition_label` specified in the parameters for the main function.")
+    
     condition_ids = list(set([re.findall('[^'+id_separator+']*'+condition_label+'.*',metadata)[0] for metadata in file_info]))
     files_conditions = {}
     for unique_condition in condition_ids:
@@ -678,7 +683,7 @@ def GenerateSurrogate(original_conversation_list,
             original_df1=pd.read_csv(next_surrogate[0], sep='\t',encoding='utf-8')
             original_df2=pd.read_csv(next_surrogate[1], sep='\t',encoding='utf-8')      
             if (len(original_df1) < 1 or len(original_df2) < 1):
-                raise Exception("You are attempting to process a file with no conversational turns")
+                raise Exception("You are attempting to process a file with no conversational turns. Double-check your files and remove any empty ones.")
                             
             # get participants A and B from df1
             participantA_1_code = min(original_df1['participant'].unique())
