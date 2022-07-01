@@ -1153,11 +1153,11 @@ PRETRAINED_INPUT_FILE = os.path.join(OPTIONAL_PATHS, 'GoogleNews-vectors-negativ
 
 
 ## set standards to be used for real and surrogate
-INPUT_FILES = PREPPED_PENN
-OUTPUT_DIR = ANALYSIS_PENN
-IGNORE_DUPLICATES = False
+INPUT_FILES = PREPPED_STAN
+OUTPUT_DIR = ANALYSIS_STAN_IGNORE
+IGNORE_DUPLICATES = True
 
-ADD_STANFORD_TAGS = False
+ADD_STANFORD_TAGS = True
 
 MAXNGRAM = 4
 
@@ -1168,21 +1168,18 @@ PRETRAINED_FILE_DIRECTORY = PRETRAINED_INPUT_FILE
 HIGH_SD_CUTOFF = 3
 LOW_N_CUTOFF = 1
 
-# [turn_real,convo_real] = calculate_alignment(
-#                             input_files=INPUT_FILES,
-#                             maxngram=MAXNGRAM,   
-#                             use_pretrained_vectors=USE_PRETRAINED_VECTORS,
-#                             pretrained_input_file=PRETRAINED_INPUT_FILE,
-#                             semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
-#                             output_file_directory=OUTPUT_DIR,
-#                             add_stanford_tags=ADD_STANFORD_TAGS,
-#                             ignore_duplicates=IGNORE_DUPLICATES,
-#                             high_sd_cutoff=HIGH_SD_CUTOFF,
-#                             low_n_cutoff=LOW_N_CUTOFF,
-#                             save_vocab_freqs=True)
-
-# SURROGATE_TRANSCRIPTS = os.path.join(PROJECT,
-#                                      'surrogateraw/')
+[turn_real,convo_real] = calculate_alignment(
+                            input_files=INPUT_FILES,
+                            maxngram=MAXNGRAM,   
+                            use_pretrained_vectors=USE_PRETRAINED_VECTORS,
+                            pretrained_input_file=PRETRAINED_INPUT_FILE,
+                            semantic_model_input_file=SEMANTIC_MODEL_INPUT_FILE,
+                            output_file_directory=OUTPUT_DIR,
+                            add_stanford_tags=ADD_STANFORD_TAGS,
+                            ignore_duplicates=IGNORE_DUPLICATES,
+                            high_sd_cutoff=HIGH_SD_CUTOFF,
+                            low_n_cutoff=LOW_N_CUTOFF,
+                            save_vocab_freqs=True)
 
 [turn_surrogate,convo_surrogate] = calculate_baseline_alignment(
                                     input_files=INPUT_FILES, 
