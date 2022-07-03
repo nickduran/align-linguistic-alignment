@@ -561,48 +561,46 @@ def prepare_transcripts(input_files,
 
 
 
+# ####### IGNORE #######
+# ## NOTE: Below is for testing and developing future ALIGN versions. 
 
+# ############### "downloaded" outside of package and only in the tutorial. should probably be stated somewhere in the README. 
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4') ## new and necessary for running wordnet 06/20/22
 
-####### IGNORE #######
-## NOTE: Below is for testing and developing future ALIGN versions. 
+# import time
+# import warnings
+# ############### 
 
-############### "downloaded" outside of package and only in the tutorial. should probably be stated somewhere in the README. 
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('omw-1.4') ## new and necessary for running wordnet 06/20/22
+# ## Specify ALIGN PATHS
+# # BASE_PATH = "INSERT PATHNAME OF WHERE DICTIONARY AND OPTIONAL_DIRECTORIES AND PROJECT FOLDERS ARE LOCATED/"
+# BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/"
 
-import time
-import warnings
-############### 
+# # PROJECT = os.path.join(BASE_PATH, 'INSERT PROJECT FOLDER HERE/')
+# PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
 
-## Specify ALIGN PATHS
-# BASE_PATH = "INSERT PATHNAME OF WHERE DICTIONARY AND OPTIONAL_DIRECTORIES AND PROJECT FOLDERS ARE LOCATED/"
-BASE_PATH = "/Users/nickduran/Desktop/GitProjects/align-linguistic-alignment/sandbox/"
+# PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
+# PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
 
-# PROJECT = os.path.join(BASE_PATH, 'INSERT PROJECT FOLDER HERE/')
-PROJECT = os.path.join(BASE_PATH, 'couples-analysis/')
+# OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
+# STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2020-11-17/')
+# STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
 
-PREPPED_PENN = os.path.join(PROJECT, 'prepped-penn/')
-PREPPED_STAN = os.path.join(PROJECT, 'prepped-stan/')
+# TRANSCRIPTS = os.path.join(PROJECT, 'output/')
 
-OPTIONAL_PATHS = os.path.join(BASE_PATH, 'optional_directories/')
-STANFORD_POS_PATH = os.path.join(OPTIONAL_PATHS, 'stanford-postagger-full-2020-11-17/')
-STANFORD_LANGUAGE = os.path.join('models/english-left3words-distsim.tagger')
+# # PHASE 1: PREPARE TRANSCRIPTS
 
-TRANSCRIPTS = os.path.join(PROJECT, 'output/')
-
-# PHASE 1: PREPARE TRANSCRIPTS
-
-model_store = prepare_transcripts(
-                    input_files=TRANSCRIPTS,
-                    output_file_directory=PREPPED_STAN,
-                    minwords=2,
-                    use_filler_list=None,
-                    filler_regex_and_list=False,
-                    training_dictionary=None,
-                    add_stanford_tags=True,
-                        stanford_pos_path=STANFORD_POS_PATH,
-                        stanford_language_path=STANFORD_LANGUAGE,
-                    save_concatenated_dataframe=True)
+# model_store = prepare_transcripts(
+#                     input_files=TRANSCRIPTS,
+#                     output_file_directory=PREPPED_STAN,
+#                     minwords=2,
+#                     use_filler_list=None,
+#                     filler_regex_and_list=False,
+#                     training_dictionary=None,
+#                     add_stanford_tags=True,
+#                         stanford_pos_path=STANFORD_POS_PATH,
+#                         stanford_language_path=STANFORD_LANGUAGE,
+#                     save_concatenated_dataframe=True)
 
