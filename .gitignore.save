@@ -12,5 +12,4 @@ docs/_build
 docs/modules/generated
 *.DS_Store
 build/
-sandbox/
-align/__pycache__
+sandbox/ 
