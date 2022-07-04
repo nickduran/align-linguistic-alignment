@@ -8,9 +8,8 @@ dist
 *.ipynb_checkpoints
 *.pyc
 MANIFEST
-docs/_build
-docs/modules/generated
+docs/
 *.DS_Store
 build/
 sandbox/
-align/__pycache__
+venv/
