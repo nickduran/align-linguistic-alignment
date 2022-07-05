@@ -34,6 +34,12 @@ To download directly from our GitHub repo:
 pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ```
 
+ALIGN consists of two primary modules for conducting analyses: `prepare_transcripts` and `calculate_alignment`. The relevant functions are described in detail within the downloaded ALIGN package, but if curious, descriptions are avaialble in the following:
+
+- `prepare_transcripts`: https://nickduran.github.io/align-linguistic-alignment/prepare_transcripts.html
+
+- `calculate_alignment`: https://nickduran.github.io/align-linguistic-alignment/calculate_alignment.html
+
 ## Additional tools required for some `align` options
 
 The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`)
