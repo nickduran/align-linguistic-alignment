@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>prepare_transcripts module &mdash; ALIGN 0.0.12 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="calculate_alignment module" href="calculate_alignment.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ALIGN
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">align</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="calculate_alignment.html">calculate_alignment module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">prepare_transcripts module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ALIGN</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">align</a> &raquo;</li>
+        
+      <li>prepare_transcripts module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/prepare_transcripts.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="module-prepare_transcripts">
+<span id="prepare-transcripts-module"></span><h1>prepare_transcripts module<a class="headerlink" href="#module-prepare_transcripts" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="prepare_transcripts.AdjacentMerge">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">AdjacentMerge</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.AdjacentMerge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a dataframe of conversation turns,
+merge adjacent turns by the same speaker.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.ApplyPOSTagging">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">ApplyPOSTagging</code><span class="sig-paren">(</span><em class="sig-param">df</em>, <em class="sig-param">filename</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">stanford_pos_path=None</em>, <em class="sig-param">stanford_language_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.ApplyPOSTagging" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a dataframe of conversation turns, return a new
+dataframe with part-of-speech tagging. Add filename
+(given as string) as a new column in returned dataframe.</p>
+<p>By default, return only tags from the NLTK default POS
+tagger. Optionally, also return Stanford POS tagger
+results by setting <cite>add_stanford_tags=True</cite>.</p>
+<p>If Stanford POS tagging is desired, specify the
+location of the Stanford POS tagger with the
+<cite>stanford_pos_path</cite> argument. Also note that the
+default language model for the Stanford tagger is
+English (english-left3words-distsim.tagger). To change
+language model, specify the location with the
+<cite>stanford_language_path</cite> argument.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.InitialCleanup">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">InitialCleanup</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em>, <em class="sig-param">minwords=2</em>, <em class="sig-param">use_filler_list=None</em>, <em class="sig-param">filler_regex_and_list=False</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.InitialCleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform basic text cleaning to prepare dataframe
+for analysis. Remove non-letter/-space characters,
+empty turns, turns below a minimum length, and
+fillers.</p>
+<p>By default, preserves turns 2 words or longer.
+If desired, this may be changed by updating the
+<cite>minwords</cite> argument.</p>
+<p>By default, remove common fillers through regex.
+If desired, ignore regex default and only remove
+user-specified words by passing a list of literal strings
+to <cite>use_filler_list</cite> argument, and if both regex default and
+list of additional literal strings are to be used,
+update <cite>filler_regex_and_list=True</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.Lemmatize">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">Lemmatize</code><span class="sig-paren">(</span><em class="sig-param">tokenlist</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.Lemmatize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.Tokenize">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">Tokenize</code><span class="sig-paren">(</span><em class="sig-param">text</em>, <em class="sig-param">nwords</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.Tokenize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given list of text to be processed and a list
+of known words, return a list of edited and
+tokenized words.</p>
+<p>Spell-checking is implemented using a
+Bayesian spell-checking algorithm
+(<a class="reference external" href="http://norvig.com/spell-correct.html">http://norvig.com/spell-correct.html</a>).</p>
+<p>By default, this is based on the Project Gutenberg
+corpus, a collection of approximately 1 million texts
+(<a class="reference external" href="http://www.gutenberg.org">http://www.gutenberg.org</a>). A copy of this is included
+within this package. If desired, users may specify a
+different spell-check training corpus in the
+<cite>training_dictionary</cite> argument of the
+<cite>prepare_transcripts()</cite> function.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.pos_to_wn">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">pos_to_wn</code><span class="sig-paren">(</span><em class="sig-param">tag</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.pos_to_wn" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert NLTK default tagger output into a format that Wordnet
+can use in order to properly lemmatize the text.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="prepare_transcripts.prepare_transcripts">
+<code class="sig-prename descclassname">prepare_transcripts.</code><code class="sig-name descname">prepare_transcripts</code><span class="sig-paren">(</span><em class="sig-param">input_files</em>, <em class="sig-param">output_file_directory</em>, <em class="sig-param">training_dictionary=None</em>, <em class="sig-param">minwords=2</em>, <em class="sig-param">use_filler_list=None</em>, <em class="sig-param">filler_regex_and_list=False</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">stanford_pos_path=None</em>, <em class="sig-param">stanford_language_path=None</em>, <em class="sig-param">input_as_directory=True</em>, <em class="sig-param">save_concatenated_dataframe=True</em><span class="sig-paren">)</span><a class="headerlink" href="#prepare_transcripts.prepare_transcripts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prepare transcripts for similarity analysis.</p>
+<p>Given individual .txt files of conversations,
+return a completely prepared dataframe of transcribed
+conversations for later ALIGN analysis, including: text
+cleaning, merging adjacent turns, spell-checking,
+tokenization, lemmatization, and part-of-speech tagging.
+The output serve as the input for later ALIGN
+analysis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_files</strong> (<em>str</em><em> (</em><em>directory name</em><em>) or </em><em>list of str</em><em> (</em><em>file names</em><em>)</em>) – Raw files to be cleaned. Behavior governed by <cite>input_as_directory</cite>
+parameter as well.</p></li>
+<li><p><strong>output_file_directory</strong> (<em>str</em>) – Name of directory where output for individual conversations will be
+saved.</p></li>
+<li><p><strong>training_dictionary</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: None</em><em>)</em>) – Specify whether to train the spell-checking dictionary using a
+provided file name (str) or the default Project
+Gutenberg corpus [<a class="reference external" href="http://www.gutenberg.org">http://www.gutenberg.org</a>] (None).</p></li>
+<li><p><strong>minwords</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>2</em><em>)</em>) – Specify the minimum number of words in a turn. Any turns with fewer
+than the minimum number of words will be removed from the corpus.
+(Note: <cite>minwords</cite> must be equal to or greater than <cite>maxngram</cite> provided
+to <cite>calculate_alignment()</cite> and <cite>calculate_baseline_alignment</cite> in later
+steps.)</p></li>
+<li><p><strong>use_filler_list</strong> (<em>list of str</em><em>, </em><em>optional</em><em> (</em><em>default: None</em><em>)</em>) – Specify whether words should be filtered from all conversations using a
+list of filler words (list of str) or using regular expressions to
+filter out common filler words (None). Behavior governed by
+<cite>filler_regex_and_list</cite> parameter as well.</p></li>
+<li><p><strong>filler_regex_and_list</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: False</em><em>)</em>) – If providing a list to <cite>use_filler_list</cite> parameter, specify whether to
+use only the provided list (False) or to use both the provided list and
+the regular expression filter (True).</p></li>
+<li><p><strong>add_stanford_tags</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: False</em><em>)</em>) – Specify whether to return part-of-speech similarity scores based on
+Stanford POS tagger in addition to the Penn POS tagger (True) or to
+return only POS similarity scores from the Penn tagger (False). (Note:
+Including Stanford POS tags will lead to a significant increase in
+processing time.)</p></li>
+<li><p><strong>stanford_pos_path</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: None</em><em>)</em>) – If Stanford POS tagging is desired, specify local path to Stanford POS
+tagger.</p></li>
+<li><p><strong>stanford_language_path</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: None</em><em>)</em>) – If Stanford POS tagging is desired, specify local path to Stanford POS
+tagger for the desired language (str) or use the default English tagger
+(None).</p></li>
+<li><p><strong>input_as_directory</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether the value passed to <cite>input_files</cite> parameter should
+be read as a directory (True) or a list of files to be processed
+(False).</p></li>
+<li><p><strong>save_concatenated_dataframe</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to save the individual conversation output data only
+as individual files in the <cite>output_file_directory</cite> (False) or to save
+the individual files as well as a single concatenated dataframe (True).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>prepped_df</strong> – A single concatenated dataframe of all transcripts, ready for
+processing with <cite>calculate_alignment()</cite> and
+<cite>calculate_baseline_alignment()</cite>.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Pandas DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="calculate_alignment.html" class="btn btn-neutral float-left" title="calculate_alignment module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2022, Nick Duran, Riccardo Fusaroli, Alexandra Paxton
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

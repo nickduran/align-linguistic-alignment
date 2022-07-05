@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "align"
+description = "Analyzing Linguistic Interaction with Generalizable techNiques. Read the latest ALIGN tutorials."
+readme = "README.md"
+authors = [
+    { name = "Nicholas Duran", email = "nickduran101@gmail.com" },
+    { name = "Alexandra Paxton", email = "paxton.alexandra@gmail.com" },
+    { name = "Riccardo Fusaroli", email = "fusaroli@gmail.com" },
+    ]
+requires-python = ">=3.10"
+keywords = ["linguistic-analysis", "linguistic-alignment", "corpus-tools", "conversation-analysis", "ngram-analysis", "text-analysis", "nltk", "word2vec", "notebooks"]
+license = {text = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Framework :: Jupyter",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "numpy >= 1.22.3",
+    "scipy >= 1.7.3",
+    "gensim >= 4.1.2",
+    "pandas >= 1.4.2",
+    "nltk >= 3.7",
+    "ipython >= 8.3.0",
+]
+# dynamic = ["version"] ## not sure what to make of this - just set it for now?
+version = "0.1.0"
+
+# [project.optional-dependencies]
+# pdf = ["ReportLab>=1.2", "RXP"]
+# rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
+
+[project.urls]
+Homepage = "https://github.com/nickduran/align-linguistic-alignment"
+
+# [tool.setuptools.packages.find]
+# where = ["src"]
+
+# [tool.setuptools.exclude-package-data]
+# mypkg = ["__pycache__"]
+
+# [project.scripts] ## entry points, I think this takes the place of having something like __main__.py
+# my-script = "my_package.module:function"
+
+# [tool.bumpver] # consider using for dynamic updating of version number
+# [tool.bumpver.file_patterns]
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/

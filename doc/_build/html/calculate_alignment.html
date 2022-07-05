@@ -1,0 +1,530 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>calculate_alignment module &mdash; ALIGN 0.0.12 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="prepare_transcripts module" href="prepare_transcripts.html" />
+    <link rel="prev" title="align" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> ALIGN
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">align</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">calculate_alignment module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prepare_transcripts.html">prepare_transcripts module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ALIGN</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">align</a> &raquo;</li>
+        
+      <li>calculate_alignment module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/calculate_alignment.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="module-calculate_alignment">
+<span id="calculate-alignment-module"></span><h1>calculate_alignment module<a class="headerlink" href="#module-calculate_alignment" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="calculate_alignment.BuildSemanticModel">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">BuildSemanticModel</code><span class="sig-paren">(</span><em class="sig-param">semantic_model_input_file</em>, <em class="sig-param">pretrained_input_file</em>, <em class="sig-param">output_file_directory</em>, <em class="sig-param">use_pretrained_vectors=True</em>, <em class="sig-param">high_sd_cutoff=3</em>, <em class="sig-param">low_n_cutoff=1</em>, <em class="sig-param">save_vocab_freqs=False</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.BuildSemanticModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given an input file produced by the ALIGN Phase 1 functions,
+build a semantic model from all transcripts in all conversations
+in target corpus after removing high- and low-frequency words.
+High-frequency words are determined by a user-defined number of
+SDs over the mean (by default, <cite>high_sd_cutoff=3</cite>). Low-frequency
+words must appear over a specified number of raw occurrences
+(by default, <cite>low_n_cutoff=1</cite>).</p>
+<p>Frequency cutoffs can be removed by <cite>high_sd_cutoff=None</cite> and/or
+<cite>low_n_cutoff=0</cite>.</p>
+<p>Also optionally saves to <cite>output_file_directory</cite> a .txt list of all
+unique words and their frequency count if <cite>save_vocab_freqs=True</cite></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.ConvoByConvoAnalysis">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">ConvoByConvoAnalysis</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">ignore_duplicates=True</em>, <em class="sig-param">add_stanford_tags=False</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.ConvoByConvoAnalysis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate analysis of multilevel similarity over
+a conversation between two interlocutors from a
+transcript dataframe prepared by Phase 1
+of ALIGN. Automatically detect speakers by unique
+speaker codes.</p>
+<p>By default, include maximum n-gram comparison of 2. If
+desired, this may be changed by passing the appropriate
+value to the the <cite>maxngram</cite> argument.</p>
+<p>By default, return scores based only on Penn POS taggers.
+If desired, also return scores using Stanford tagger with
+<cite>add_stanford_tags=True</cite>.</p>
+<p>By default, remove exact duplicates when calculating POS
+similarity scores (i.e., does not consider perfectly
+mimicked lexical items between speakers). If desired,
+duplicates may be included when calculating scores by
+passing <cite>ignore_duplicates=False</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.GenerateSurrogate">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">GenerateSurrogate</code><span class="sig-paren">(</span><em class="sig-param">original_conversation_list</em>, <em class="sig-param">surrogate_file_directory</em>, <em class="sig-param">all_surrogates=True</em>, <em class="sig-param">keep_original_turn_order=True</em>, <em class="sig-param">id_separator='\\-'</em>, <em class="sig-param">dyad_label='dyad'</em>, <em class="sig-param">condition_label='cond'</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.GenerateSurrogate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create transcripts for surrogate pairs of
+participants (i.e., participants who did not
+genuinely interact in the experiment), which
+will later be used to generate baseline levels
+of alignment. Store surrogate files in a new
+folder each time the surrogate generation is run.</p>
+<p>Returns a list of all surrogate files created.</p>
+<p>By default, the separator between dyad ID and
+condition ID is a hyphen (‘-‘). If desired,
+this may be changed in the <cite>id_separator</cite>
+argument.</p>
+<p>By default, condition IDs will be identified as
+any characters following <cite>cond</cite>. If desired,
+this may be changed with the <cite>condition_label</cite>
+argument.</p>
+<p>By default, dyad IDs will be identified as
+any characters following <cite>dyad</cite>. If desired,
+this may be changed with the <cite>dyad_label</cite>
+argument.</p>
+<p>By default, generate surrogates from all possible
+pairings. If desired, instead generate surrogates
+only from a subset of all possible pairings
+with <cite>all_surrogates=False</cite>.</p>
+<p>By default, create surrogates by retaining the
+original ordering of each surrogate partner’s
+data. If desired, create surrogates by shuffling
+all turns within each surrogate partner’s data
+with <cite>keep_original_turn_order = False</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.LexicalPOSAlignment">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">LexicalPOSAlignment</code><span class="sig-paren">(</span><em class="sig-param">tok1</em>, <em class="sig-param">lem1</em>, <em class="sig-param">penn_tok1</em>, <em class="sig-param">penn_lem1</em>, <em class="sig-param">tok2</em>, <em class="sig-param">lem2</em>, <em class="sig-param">penn_tok2</em>, <em class="sig-param">penn_lem2</em>, <em class="sig-param">stan_tok1=None</em>, <em class="sig-param">stan_lem1=None</em>, <em class="sig-param">stan_tok2=None</em>, <em class="sig-param">stan_lem2=None</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">ignore_duplicates=True</em>, <em class="sig-param">add_stanford_tags=False</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.LexicalPOSAlignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Derive lexical and part-of-speech alignment scores
+between interlocutors (suffix <cite>1</cite> and <cite>2</cite> in arguments
+passed to function).</p>
+<p>By default, return scores based only on Penn POS taggers.
+If desired, also return scores using Stanford tagger with
+<cite>add_stanford_tags=True</cite> and by providing appropriate
+values for <cite>stan_tok1</cite>, <cite>stan_lem1</cite>, <cite>stan_tok2</cite>, and
+<cite>stan_lem2</cite>.</p>
+<p>By default, consider only bigram when calculating
+similarity. If desired, this window may be expanded
+by changing the <cite>maxngram</cite> argument value.</p>
+<p>By default, remove exact duplicates when calculating
+similarity scores (i.e., does not consider perfectly
+mimicked lexical items between speakers). If desired,
+duplicates may be included when calculating scores by
+passing <cite>ignore_duplicates=False</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.TurnByTurnAnalysis">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">TurnByTurnAnalysis</code><span class="sig-paren">(</span><em class="sig-param">dataframe</em>, <em class="sig-param">vocablist</em>, <em class="sig-param">highDimModel</em>, <em class="sig-param">delay=1</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">ignore_duplicates=True</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.TurnByTurnAnalysis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate lexical, syntactic, and conceptual alignment
+between interlocutors over an entire conversation.
+Automatically detect individual speakers by unique
+speaker codes.</p>
+<p>By default, compare only adjacent turns. If desired,
+the comparison distance may be changed by increasing
+the <cite>delay</cite> argument.</p>
+<p>By default, include maximum n-gram comparison of 2. If
+desired, this may be changed by passing the appropriate
+value to the the <cite>maxngram</cite> argument.</p>
+<p>By default, return scores based only on Penn POS taggers.
+If desired, also return scores using Stanford tagger with
+<cite>add_stanford_tags=True</cite>.</p>
+<p>By default, remove exact duplicates when calculating POS
+similarity scores (i.e., does not consider perfectly
+mimicked lexical items between speakers). If desired,
+duplicates may be included when calculating scores by
+passing <cite>ignore_duplicates=False</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.build_composite_semantic_vector">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">build_composite_semantic_vector</code><span class="sig-paren">(</span><em class="sig-param">lemma_seq</em>, <em class="sig-param">vocablist</em>, <em class="sig-param">highDimModel</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.build_composite_semantic_vector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function for producing vocablist and model is called in the main loop</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.calculate_alignment">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">calculate_alignment</code><span class="sig-paren">(</span><em class="sig-param">input_files</em>, <em class="sig-param">output_file_directory</em>, <em class="sig-param">semantic_model_input_file</em>, <em class="sig-param">pretrained_input_file</em>, <em class="sig-param">high_sd_cutoff=3</em>, <em class="sig-param">low_n_cutoff=1</em>, <em class="sig-param">delay=1</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">use_pretrained_vectors=True</em>, <em class="sig-param">ignore_duplicates=True</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">input_as_directory=True</em>, <em class="sig-param">save_vocab_freqs=False</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.calculate_alignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate lexical, syntactic, and conceptual alignment between speakers.</p>
+<p>Given a directory of individual .txt files and the
+vocabulary list that have been generated by the <cite>prepare_transcripts</cite>
+preparation stage, return multi-level alignment
+scores with turn-by-turn and conversation-level metrics.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_files</strong> (<em>str</em><em> (</em><em>directory name</em><em>) or </em><em>list of str</em><em> (</em><em>file names</em><em>)</em>) – Cleaned files to be analyzed. Behavior governed by <cite>input_as_directory</cite>
+parameter as well.</p></li>
+<li><p><strong>output_file_directory</strong> (<em>str</em>) – Name of directory where output for individual conversations will be
+saved.</p></li>
+<li><p><strong>semantic_model_input_file</strong> (<em>str</em>) – Name of file to be used for creating the semantic model. A compatible
+file will be saved as an output of <cite>prepare_transcripts()</cite>.</p></li>
+<li><p><strong>pretrained_input_file</strong> (<em>str</em><em> or </em><em>None</em>) – If using a pretrained vector to create the semantic model, use
+name of model here. If not, use None. Behavior governed by
+<cite>use_pretrained_vectors</cite> parameter as well.</p></li>
+<li><p><strong>high_sd_cutoff</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 3</em><em>)</em>) – High-frequency cutoff (in SD over the mean) for lexical items
+when creating the semantic model.</p></li>
+<li><p><strong>low_n_cutoff</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 1</em><em>)</em>) – Low-frequency cutoff (in raw frequency) for lexical items when
+creating the semantic models. Items with frequency less than or
+equal to the number provided here will be removed. To remove the
+low-frequency cutoff, set to 0.</p></li>
+<li><p><strong>delay</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 1</em><em>)</em>) – Delay (or lag) at which to calculate similarity. A lag of 1 (default)
+considers only adjacent turns.</p></li>
+<li><p><strong>maxngram</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 2</em><em>)</em>) – Maximum n-gram size for calculations. Similarity scores for n-grams
+from unigrams to the maximum size specified here will be calculated.</p></li>
+<li><p><strong>use_pretrained_vectors</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to use a pretrained gensim model for word2vec
+analysis (True) or to construct a new model from the provided corpus
+(False). If True, the file name of a valid model must be
+provided to the <cite>pretrained_input_file</cite> parameter.</p></li>
+<li><p><strong>ignore_duplicates</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to remove exact duplicates when calculating
+part-of-speech similarity scores (True) or to retain perfectly
+mimicked lexical items for POS similarity calculation (False).</p></li>
+<li><p><strong>add_stanford_tags</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: False</em><em>)</em>) – Specify whether to return part-of-speech similarity scores based on
+Stanford POS tagger in addition to the Penn POS tagger (True) or to
+return only POS similarity scores from the Penn tagger (False). (Note:
+Including Stanford POS tags will lead to a significant increase in
+processing time.)</p></li>
+<li><p><strong>input_as_directory</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether the value passed to <cite>input_files</cite> parameter should
+be read as a directory (True) or a list of files to be processed
+(False).</p></li>
+<li><p><strong>save_vocab_freqs</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: False</em><em>)</em>) – Specify whether to save a .txt file to <cite>output_file_directory</cite> that
+contains list of all unique words in corpus with frequency counts</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>real_final_turn_df</strong> (<em>Pandas DataFrame</em>) – A dataframe of lexical, syntactic, and conceptual alignment scores
+between turns at specified delay. <cite>NaN</cite> values will be returned for
+turns in which the speaker only produced words that were removed
+from the corpus (e.g., too rare or too common words) or words that were
+present in the corpus but not in the semantic model.</p></li>
+<li><p><strong>real_final_convo_df</strong> (<em>Pandas DataFrame</em>) – A dataframe of lexical, syntactic, and conceptual alignment scores
+between participants across the entire conversation.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.calculate_baseline_alignment">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">calculate_baseline_alignment</code><span class="sig-paren">(</span><em class="sig-param">input_files</em>, <em class="sig-param">surrogate_file_directory</em>, <em class="sig-param">output_file_directory</em>, <em class="sig-param">semantic_model_input_file</em>, <em class="sig-param">pretrained_input_file</em>, <em class="sig-param">high_sd_cutoff=3</em>, <em class="sig-param">low_n_cutoff=1</em>, <em class="sig-param">id_separator='\\-'</em>, <em class="sig-param">condition_label='cond'</em>, <em class="sig-param">dyad_label='dyad'</em>, <em class="sig-param">all_surrogates=True</em>, <em class="sig-param">keep_original_turn_order=True</em>, <em class="sig-param">delay=1</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">use_pretrained_vectors=True</em>, <em class="sig-param">ignore_duplicates=True</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">input_as_directory=True</em>, <em class="sig-param">save_vocab_freqs=False</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.calculate_baseline_alignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate baselines for lexical, syntactic, and conceptual
+alignment between speakers.</p>
+<p>Given a directory of individual .txt files and the
+vocab list that have been generated by the <cite>prepare_transcripts</cite>
+preparation stage, return multi-level alignment
+scores with turn-by-turn and conversation-level metrics
+for surrogate baseline conversations.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_files</strong> (<em>str</em><em> (</em><em>directory name</em><em>) or </em><em>list of str</em><em> (</em><em>file names</em><em>)</em>) – Cleaned files to be analyzed. Behavior governed by <cite>input_as_directory</cite>
+parameter as well.</p></li>
+<li><p><strong>surrogate_file_directory</strong> (<em>str</em>) – Name of directory where raw surrogate data will be saved.</p></li>
+<li><p><strong>output_file_directory</strong> (<em>str</em>) – Name of directory where output for individual surrogate
+conversations will be saved.</p></li>
+<li><p><strong>semantic_model_input_file</strong> (<em>str</em>) – Name of file to be used for creating the semantic model. A compatible
+file will be saved as an output of <cite>prepare_transcripts()</cite>.</p></li>
+<li><p><strong>pretrained_input_file</strong> (<em>str</em><em> or </em><em>None</em>) – If using a pretrained vector to create the semantic model, use
+name of model here. If not, use None. Behavior governed by
+<cite>use_pretrained_vectors</cite> parameter as well.</p></li>
+<li><p><strong>high_sd_cutoff</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 3</em><em>)</em>) – High-frequency cutoff (in SD over the mean) for lexical items
+when creating the semantic model.</p></li>
+<li><p><strong>low_n_cutoff</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 1</em><em>)</em>) – Low-frequency cutoff (in raw frequency) for lexical items when
+creating the semantic models. Items with frequency less than or
+equal to the number provided here will be removed. To remove the
+low-frequency cutoff, set to 0.</p></li>
+<li><p><strong>id_separator</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: '-'</em><em>)</em>) – Character separator between the dyad and condition IDs in
+original data file names.</p></li>
+<li><p><strong>condition_label</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: 'cond'</em><em>)</em>) – String preceding ID for each unique condition. Anything after this
+label will be identified as a unique condition ID.</p></li>
+<li><p><strong>dyad_label</strong> (<em>str</em><em>, </em><em>optional</em><em> (</em><em>default: 'dyad'</em><em>)</em>) – String preceding ID for each unique dyad. Anything after this label
+will be identified as a unique dyad ID.</p></li>
+<li><p><strong>all_surrogates</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to generate all possible surrogates across original
+dataset (True) or to generate only a subset of surrogates equal to
+the real sample size drawn randomly from all possible surrogates
+(False).</p></li>
+<li><p><strong>keep_original_turn_order</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to retain original turn ordering when pairing surrogate
+dyads (True) or to pair surrogate partners’ turns in random order
+(False).</p></li>
+<li><p><strong>delay</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 1</em><em>)</em>) – Delay (or lag) at which to calculate similarity. A lag of 1 (default)
+considers only adjacent turns.</p></li>
+<li><p><strong>maxngram</strong> (<em>int</em><em>, </em><em>optional</em><em> (</em><em>default: 2</em><em>)</em>) – Maximum n-gram size for calculations. Similarity scores for n-grams
+from unigrams to the maximum size specified here will be calculated.</p></li>
+<li><p><strong>use_pretrained_vectors</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to use a pretrained gensim model for word2vec
+analysis. If True, the file name of a valid model must be
+provided to the <cite>pretrained_input_file</cite> parameter.</p></li>
+<li><p><strong>ignore_duplicates</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether to remove exact duplicates when calculating
+part-of-speech similarity scores. By default, ignore perfectly
+mimicked lexical items for POS similarity calculation.</p></li>
+<li><p><strong>add_stanford_tags</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: False</em><em>)</em>) – Specify whether to return part-of-speech similarity scores
+based on Stanford POS tagger (in addition to the Penn POS
+tagger).</p></li>
+<li><p><strong>input_as_directory</strong> (<em>boolean</em><em>, </em><em>optional</em><em> (</em><em>default: True</em><em>)</em>) – Specify whether the value passed to <cite>input_files</cite> parameter should
+be read as a directory or a list of files to be processed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>surrogate_final_turn_df</strong> (<em>Pandas DataFrame</em>) – A dataframe of lexical, syntactic, and conceptual alignment scores
+between turns at specified delay for surrogate partners. <cite>NaN</cite> values
+will be returned for turns in which the speaker only produced words
+that were removed from the corpus (e.g., too rare or too common words)
+or words that were present in the corpus but not in the semantic model.</p></li>
+<li><p><strong>surrogate_final_convo_df</strong> (<em>Pandas DataFrame</em>) – A dataframe of lexical, syntactic, and conceptual alignment scores
+between surrogate partners across the entire conversation.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.conceptualAlignment">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">conceptualAlignment</code><span class="sig-paren">(</span><em class="sig-param">lem1</em>, <em class="sig-param">lem2</em>, <em class="sig-param">vocablist</em>, <em class="sig-param">highDimModel</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.conceptualAlignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate conceptual alignment scores from list of lemmas
+from between two interocutors (suffix <cite>1</cite> and <cite>2</cite> in arguments
+passed to function) using <cite>word2vec</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.get_cosine">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">get_cosine</code><span class="sig-paren">(</span><em class="sig-param">vec1</em>, <em class="sig-param">vec2</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.get_cosine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Derive cosine similarity metric, standard measure.
+Adapted from &lt;<a class="reference external" href="https://stackoverflow.com/a/33129724">https://stackoverflow.com/a/33129724</a>&gt;.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.ngram_lexical">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">ngram_lexical</code><span class="sig-paren">(</span><em class="sig-param">sequence1</em>, <em class="sig-param">sequence2</em>, <em class="sig-param">ngramsize=2</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.ngram_lexical" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create ngrams of the desired size for each of two
+interlocutors’ sequences and return a dictionary
+of counts of ngrams for each sequence.</p>
+<p>By default, consider bigrams. If desired, this may be
+changed by setting <cite>ngramsize</cite> to the appropriate
+value.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.ngram_pos">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">ngram_pos</code><span class="sig-paren">(</span><em class="sig-param">sequence1</em>, <em class="sig-param">sequence2</em>, <em class="sig-param">ngramsize=2</em>, <em class="sig-param">ignore_duplicates=True</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.ngram_pos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove mimicked lexical sequences from two interlocutors’
+sequences and return a dictionary of counts of ngrams
+of the desired size for each sequence.</p>
+<p>By default, consider bigrams. If desired, this may be
+changed by setting <cite>ngramsize</cite> to the appropriate
+value.</p>
+<p>By default, ignore duplicate lexical n-grams when
+processing these sequences. If desired, this may
+be changed with <cite>ignore_duplicates=False</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="calculate_alignment.returnMultilevelAlignment">
+<code class="sig-prename descclassname">calculate_alignment.</code><code class="sig-name descname">returnMultilevelAlignment</code><span class="sig-paren">(</span><em class="sig-param">cond_info</em>, <em class="sig-param">partnerA</em>, <em class="sig-param">tok1</em>, <em class="sig-param">lem1</em>, <em class="sig-param">penn_tok1</em>, <em class="sig-param">penn_lem1</em>, <em class="sig-param">partnerB</em>, <em class="sig-param">tok2</em>, <em class="sig-param">lem2</em>, <em class="sig-param">penn_tok2</em>, <em class="sig-param">penn_lem2</em>, <em class="sig-param">vocablist</em>, <em class="sig-param">highDimModel</em>, <em class="sig-param">stan_tok1=None</em>, <em class="sig-param">stan_lem1=None</em>, <em class="sig-param">stan_tok2=None</em>, <em class="sig-param">stan_lem2=None</em>, <em class="sig-param">add_stanford_tags=False</em>, <em class="sig-param">maxngram=2</em>, <em class="sig-param">ignore_duplicates=True</em><span class="sig-paren">)</span><a class="headerlink" href="#calculate_alignment.returnMultilevelAlignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate lexical, syntactic, and conceptual alignment
+between a pair of turns by individual interlocutors
+(suffix <cite>1</cite> and <cite>2</cite> in arguments passed to function),
+including leading/following comparison directionality.</p>
+<p>By default, return scores based only on Penn POS taggers.
+If desired, also return scores using Stanford tagger with
+<cite>add_stanford_tags=True</cite> and by providing appropriate
+values for <cite>stan_tok1</cite>, <cite>stan_lem1</cite>, <cite>stan_tok2</cite>, and
+<cite>stan_lem2</cite>.</p>
+<p>By default, consider only bigrams when calculating
+similarity. If desired, this window may be expanded
+by changing the <cite>maxngram</cite> argument value.</p>
+<p>By default, remove exact duplicates when calculating
+similarity scores (i.e., does not consider perfectly
+mimicked lexical items between speakers). If desired,
+duplicates may be included when calculating scores by
+passing <cite>ignore_duplicates=False</cite>.</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prepare_transcripts.html" class="btn btn-neutral float-right" title="prepare_transcripts module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules.html" class="btn btn-neutral float-left" title="align" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2022, Nick Duran, Riccardo Fusaroli, Alexandra Paxton
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

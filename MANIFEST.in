@@ -1,6 +1,32 @@
-recursive-include *.py
-recursive-include *.txt
-recursive-include align *.md
-graft doc
-graft doc/_static
-graft doc/_templates
+# include src/align/data/*.txt
+# include src/align/data/*.md
+# recursive-include *.py
+# recursive-include *.txt
+# recursive-include align *.md
+# graft doc 
+# graft doc/_static
+# graft doc/_templates
+
+
+# added by check-manifest
+# recursive-include doc *.bat
+# recursive-include doc *.buildinfo
+# recursive-include doc *.css
+# recursive-include doc *.doctree
+# recursive-include doc *.eot
+# recursive-include doc *.html
+# recursive-include doc *.inv
+# recursive-include doc *.js
+# recursive-include doc *.pickle
+# recursive-include doc *.png
+# recursive-include doc *.py
+# recursive-include doc *.rst
+# recursive-include doc *.svg
+# recursive-include doc *.ttf
+# recursive-include doc *.txt
+# recursive-include doc *.woff
+# recursive-include doc *.woff2
+# recursive-include doc Makefile
+# recursive-include examples *.ipynb
+recursive-include src *.md
+recursive-include src *.txt
