@@ -34,7 +34,7 @@ To download directly from our GitHub repo:
 pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ```
 
-## Quick Documentation
+## Quick documentation
 
 ALIGN consists of two primary modules for conducting analyses, `prepare_transcripts` and `calculate_alignment`. To get a quick glance of the functions contained within each module, please check out the following:
 
