@@ -8,7 +8,6 @@ dist
 *.ipynb_checkpoints
 *.pyc
 MANIFEST
-docs/
 *.DS_Store
 build/
 sandbox/
