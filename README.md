@@ -1,4 +1,4 @@
-# ALIGN, a computational tool for multi-level language analysis (optimized for Python 3.8)
+# ALIGN, a computational tool for multi-level language analysis (optimized for Python 3.10)
 
 `align` is a Python library for extracting quantitative, reproducible
 metrics of multi-level alignment between two speakers in naturalistic
@@ -20,7 +20,7 @@ cloud environment to try out the ALIGN pipeline on our Python tutorials (the CHI
 
 ## Installation
 
-`align` may downloaded directly using `pip`.
+`align` may be downloaded directly using `pip`.
 
 To download the stable version released on PyPI:
 
@@ -37,7 +37,7 @@ pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ## Additional tools required for some `align` options
 
 The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`)
-and the Stanford part-of-speech tagger (`stanford-postagger-full-2018-10-16`)
+and the Stanford part-of-speech tagger (`stanford-postagger-full-2020-11-17`)
 are required for some optional `align` parameters but must be downloaded
 separately.
 
@@ -46,7 +46,7 @@ separately.
   (direct download)
 
 - Stanford POS tagger: https://nlp.stanford.edu/software/tagger.shtml#Download (page)
-  or https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-16.zip
+  or https://nlp.stanford.edu/software/stanford-tagger-4.2.0.zip
   (direct download)
 
 ## Tutorials

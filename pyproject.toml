@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "align"
 description = "Analyzing Linguistic Interaction with Generalizable techNiques. Read the latest ALIGN tutorials."
-readme = "README.rst"
+readme = "README.md"
 authors = [
     { name = "Nicholas Duran", email = "nickduran101@gmail.com" },
     { name = "Alexandra Paxton", email = "paxton.alexandra@gmail.com" },
