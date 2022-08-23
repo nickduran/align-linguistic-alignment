@@ -131,7 +131,9 @@ def AdjacentMerge(dataframe):
 
     return dataframe
 
-def Tokenize(text,nwords):
+def Tokenize(text,
+             nwords,
+             run_spell_check=True):
     """
     Given list of text to be processed and a list
     of known words, return a list of edited and
@@ -148,7 +150,6 @@ def Tokenize(text,nwords):
     different spell-check training corpus in the
     `training_dictionary` argument of the
     `prepare_transcripts()` function.
-
     """
 
     # internal function: identify possible spelling errors for a given word
@@ -302,11 +303,22 @@ def Tokenize(text,nwords):
     cleantoken = []
     text = expand_contractions(text)
     token = word_tokenize(text)
-    for word in token:
-        if "'" not in word:
-            cleantoken.append(correct(word,nwords))
-        else:
+    
+    if run_spell_check == False:
+        for word in token:
             cleantoken.append(word)
+    else:
+        for word in token:
+            if "'" not in word:
+                cleantoken.append(correct(word,nwords))
+            else:
+                cleantoken.append(word)       
+        
+    # for word in token:
+    #     if "'" not in word:
+    #         cleantoken.append(correct(word,nwords))
+    #     else:
+    #         cleantoken.append(word)
     return cleantoken
 
 
@@ -397,6 +409,7 @@ def ApplyPOSTagging(df,
 
 def prepare_transcripts(input_files,
                         output_file_directory,
+                        run_spell_check=True,
                         training_dictionary=None,
                         minwords=2,
                         use_filler_list=None,
@@ -428,6 +441,10 @@ def prepare_transcripts(input_files,
     output_file_directory : str
         Name of directory where output for individual conversations will be
         saved.
+
+    run_spell_check : boolean, optional (default: True)
+        Specify whether to run the spell-checking algorithm (True) or to 
+        ignore it (False). 
 
     training_dictionary : str, optional (default: None)
         Specify whether to train the spell-checking dictionary using a
@@ -530,8 +547,10 @@ def prepare_transcripts(input_files,
         dataframe = AdjacentMerge(dataframe)
 
         # tokenize and lemmatize
+        # dataframe['token'] = dataframe['content'].apply(Tokenize,
+        #                              args=(nwords,))
         dataframe['token'] = dataframe['content'].apply(Tokenize,
-                                     args=(nwords,))
+                                     nwords, run_spell_check)        
         dataframe['lemma'] = dataframe['token'].apply(Lemmatize)
 
         # apply part-of-speech tagging
