@@ -29,7 +29,7 @@ dependencies = [
     "ipython >= 8.3.0",
 ]
 # dynamic = ["version"] ## not sure what to make of this - just set it for now?
-version = "0.1.0"
+version = "0.1.1"
 
 # [project.optional-dependencies]
 # pdf = ["ReportLab>=1.2", "RXP"]
