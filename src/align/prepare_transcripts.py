@@ -131,47 +131,11 @@ def AdjacentMerge(dataframe):
 
     return dataframe
 
-def Tokenize(text,
-             nwords,
-             run_spell_check=True):
+def Tokenize(text):
     """
-    Given list of text to be processed and a list
-    of known words, return a list of edited and
-    tokenized words.
-
-    Spell-checking is implemented using a
-    Bayesian spell-checking algorithm
-    (http://norvig.com/spell-correct.html).
-
-    By default, this is based on the Project Gutenberg
-    corpus, a collection of approximately 1 million texts
-    (http://www.gutenberg.org). A copy of this is included
-    within this package. If desired, users may specify a
-    different spell-check training corpus in the
-    `training_dictionary` argument of the
-    `prepare_transcripts()` function.
+    Given list of text to be processed and returns list
+    (expands out common contractions in the process)
     """
-
-    # internal function: identify possible spelling errors for a given word
-    def edits1(word):
-        splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
-        deletes    = [a + b[1:] for a, b in splits if b]
-        transposes = [a + b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
-        replaces   = [a + c + b[1:] for a, b in splits for c in string.ascii_lowercase if b]
-        inserts    = [a + c + b     for a, b in splits for c in string.ascii_lowercase]
-        return set(deletes + transposes + replaces + inserts)
-
-    # internal function: identify known edits
-    def known_edits2(word,nwords):
-        return set(e2 for e1 in edits1(word) for e2 in edits1(e1) if e2 in nwords)
-
-    # internal function: identify known words
-    def known(words,nwords): return set(w for w in words if w in nwords)
-
-    # internal function: correct spelling
-    def correct(word,nwords):
-        candidates = known([word],nwords) or known(edits1(word),nwords) or known_edits2(word,nwords) or [word]
-        return max(candidates, key=nwords.get)
 
     # expand out based on a fixed list of common contractions
     contract_dict = { "ain't": "is not",
@@ -300,28 +264,64 @@ def Tokenize(text,
         return contractions_re.sub(replace, text.lower())
 
     # process all words in the text
-    cleantoken = []
     text = expand_contractions(text)
-    token = word_tokenize(text)
-    
-    if run_spell_check == False:
-        for word in token:
-            cleantoken.append(word)
-    else:
-        for word in token:
-            if "'" not in word:
-                cleantoken.append(correct(word,nwords))
-            else:
-                cleantoken.append(word)       
-        
-    # for word in token:
-    #     if "'" not in word:
-    #         cleantoken.append(correct(word,nwords))
-    #     else:
-    #         cleantoken.append(word)
+    cleantoken = word_tokenize(text)
+            
     return cleantoken
 
 
+def TokenizeSpell(text,
+             nwords):    
+    """
+    Given list of text to be processed and a list
+    of known words, return a list of edited and
+    tokenized words. 
+
+    Spell-checking is implemented using a
+    Bayesian spell-checking algorithm
+    (http://norvig.com/spell-correct.html).
+
+    By default, this is based on the Project Gutenberg
+    corpus, a collection of approximately 1 million texts
+    (http://www.gutenberg.org). A copy of this is included
+    within this package. If desired, users may specify a
+    different spell-check training corpus in the
+    `training_dictionary` argument of the
+    `prepare_transcripts()` function.
+    """    
+    
+    # internal function: identify possible spelling errors for a given word
+    def edits1(word):
+        splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
+        deletes    = [a + b[1:] for a, b in splits if b]
+        transposes = [a + b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
+        replaces   = [a + c + b[1:] for a, b in splits for c in string.ascii_lowercase if b]
+        inserts    = [a + c + b     for a, b in splits for c in string.ascii_lowercase]
+        return set(deletes + transposes + replaces + inserts)
+
+    # internal function: identify known edits
+    def known_edits2(word,nwords):
+        return set(e2 for e1 in edits1(word) for e2 in edits1(e1) if e2 in nwords)
+
+    # internal function: identify known words
+    def known(words,nwords): return set(w for w in words if w in nwords)
+
+    # internal function: correct spelling
+    def correct(word,nwords):
+        candidates = known([word],nwords) or known(edits1(word),nwords) or known_edits2(word,nwords) or [word]
+        return max(candidates, key=nwords.get)
+    
+    cleantoken = []
+    token = Tokenize(text)
+        
+    for word in token:
+        if "'" not in word:
+            cleantoken.append(correct(word,nwords))
+        else:
+            cleantoken.append(word)
+    return cleantoken
+    
+    
 def pos_to_wn(tag):
     """
     Convert NLTK default tagger output into a format that Wordnet
