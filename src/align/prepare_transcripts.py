@@ -506,7 +506,7 @@ def prepare_transcripts(input_files,
     """
     if run_spell_check == True:
 
-        # create an internal function to train the model
+        # create an internal function to train the spell-checking model
         def train(features):
             model = defaultdict(lambda: 1)
             for f in features:
@@ -548,10 +548,12 @@ def prepare_transcripts(input_files,
         dataframe = AdjacentMerge(dataframe)
 
         # tokenize and lemmatize
-        # dataframe['token'] = dataframe['content'].apply(Tokenize,
-        #                              args=(nwords,))
-        dataframe['token'] = dataframe['content'].apply(Tokenize,
-                                     nwords, run_spell_check)        
+        if run_spell_check == True:
+            dataframe['token'] = dataframe['content'].apply(TokenizeSpell,
+                                            args=(nwords,))        
+        else:
+            dataframe['token'] = dataframe['content'].apply(Tokenize)                  
+                        
         dataframe['lemma'] = dataframe['token'].apply(Lemmatize)
 
         # apply part-of-speech tagging
