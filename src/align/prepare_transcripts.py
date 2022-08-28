@@ -132,6 +132,7 @@ def AdjacentMerge(dataframe):
     return dataframe
 
 def Tokenize(text):
+    
     """
     Given list of text to be processed and returns list
     (expands out common contractions in the process)
@@ -271,7 +272,8 @@ def Tokenize(text):
 
 
 def TokenizeSpell(text,
-             nwords):    
+             nwords):  
+      
     """
     Given list of text to be processed and a list
     of known words, return a list of edited and
@@ -323,6 +325,7 @@ def TokenizeSpell(text,
     
     
 def pos_to_wn(tag):
+    
     """
     Convert NLTK default tagger output into a format that Wordnet
     can use in order to properly lemmatize the text.
