@@ -22,7 +22,7 @@ copyright = '2022, Nick Duran, Riccardo Fusaroli, Alexandra Paxton'
 author = 'Nick Duran, Riccardo Fusaroli, Alexandra Paxton'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.12'
+release = '0.1.1'
 
 
 # -- General configuration ---------------------------------------------------
