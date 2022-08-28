@@ -504,25 +504,26 @@ def prepare_transcripts(input_files,
         `calculate_baseline_alignment()`.
 
     """
+    if run_spell_check == True:
 
-    # create an internal function to train the model
-    def train(features):
-        model = defaultdict(lambda: 1)
-        for f in features:
-            model[f] += 1
-        return model
+        # create an internal function to train the model
+        def train(features):
+            model = defaultdict(lambda: 1)
+            for f in features:
+                model[f] += 1
+            return model
 
-    # if no training dictionary is specified, use the Gutenberg corpus
-    if training_dictionary is None:
+        # if no training dictionary is specified, use the Gutenberg corpus
+        if training_dictionary is None:
 
-        # first, get the name of the package directory
-        module_path = os.path.dirname(os.path.abspath(__file__))
+            # first, get the name of the package directory
+            module_path = os.path.dirname(os.path.abspath(__file__))
 
-        # then construct the path to the text file
-        training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
+            # then construct the path to the text file
+            training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
 
-    # train our spell-checking model
-    nwords = train(re.findall('[a-z]+', (open(training_dictionary).read().lower())))
+        # train our spell-checking model
+        nwords = train(re.findall('[a-z]+', (open(training_dictionary).read().lower())))
 
     # grab the appropriate files
     if not input_as_directory:
