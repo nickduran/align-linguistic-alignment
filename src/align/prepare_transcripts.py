@@ -131,46 +131,12 @@ def AdjacentMerge(dataframe):
 
     return dataframe
 
-def Tokenize(text,nwords):
+def Tokenize(text):
+    
     """
-    Given list of text to be processed and a list
-    of known words, return a list of edited and
-    tokenized words.
-
-    Spell-checking is implemented using a
-    Bayesian spell-checking algorithm
-    (http://norvig.com/spell-correct.html).
-
-    By default, this is based on the Project Gutenberg
-    corpus, a collection of approximately 1 million texts
-    (http://www.gutenberg.org). A copy of this is included
-    within this package. If desired, users may specify a
-    different spell-check training corpus in the
-    `training_dictionary` argument of the
-    `prepare_transcripts()` function.
-
+    Given list of text to be processed and returns list
+    (expands out common contractions in the process)
     """
-
-    # internal function: identify possible spelling errors for a given word
-    def edits1(word):
-        splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
-        deletes    = [a + b[1:] for a, b in splits if b]
-        transposes = [a + b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
-        replaces   = [a + c + b[1:] for a, b in splits for c in string.ascii_lowercase if b]
-        inserts    = [a + c + b     for a, b in splits for c in string.ascii_lowercase]
-        return set(deletes + transposes + replaces + inserts)
-
-    # internal function: identify known edits
-    def known_edits2(word,nwords):
-        return set(e2 for e1 in edits1(word) for e2 in edits1(e1) if e2 in nwords)
-
-    # internal function: identify known words
-    def known(words,nwords): return set(w for w in words if w in nwords)
-
-    # internal function: correct spelling
-    def correct(word,nwords):
-        candidates = known([word],nwords) or known(edits1(word),nwords) or known_edits2(word,nwords) or [word]
-        return max(candidates, key=nwords.get)
 
     # expand out based on a fixed list of common contractions
     contract_dict = { "ain't": "is not",
@@ -299,18 +265,67 @@ def Tokenize(text,nwords):
         return contractions_re.sub(replace, text.lower())
 
     # process all words in the text
-    cleantoken = []
     text = expand_contractions(text)
-    token = word_tokenize(text)
+    cleantoken = word_tokenize(text)
+            
+    return cleantoken
+
+
+def TokenizeSpell(text,
+             nwords):  
+      
+    """
+    Given list of text to be processed and a list
+    of known words, return a list of edited and
+    tokenized words. 
+
+    Spell-checking is implemented using a
+    Bayesian spell-checking algorithm
+    (http://norvig.com/spell-correct.html).
+
+    By default, this is based on the Project Gutenberg
+    corpus, a collection of approximately 1 million texts
+    (http://www.gutenberg.org). A copy of this is included
+    within this package. If desired, users may specify a
+    different spell-check training corpus in the
+    `training_dictionary` argument of the
+    `prepare_transcripts()` function.
+    """    
+    
+    # internal function: identify possible spelling errors for a given word
+    def edits1(word):
+        splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
+        deletes    = [a + b[1:] for a, b in splits if b]
+        transposes = [a + b[1] + b[0] + b[2:] for a, b in splits if len(b)>1]
+        replaces   = [a + c + b[1:] for a, b in splits for c in string.ascii_lowercase if b]
+        inserts    = [a + c + b     for a, b in splits for c in string.ascii_lowercase]
+        return set(deletes + transposes + replaces + inserts)
+
+    # internal function: identify known edits
+    def known_edits2(word,nwords):
+        return set(e2 for e1 in edits1(word) for e2 in edits1(e1) if e2 in nwords)
+
+    # internal function: identify known words
+    def known(words,nwords): return set(w for w in words if w in nwords)
+
+    # internal function: correct spelling
+    def correct(word,nwords):
+        candidates = known([word],nwords) or known(edits1(word),nwords) or known_edits2(word,nwords) or [word]
+        return max(candidates, key=nwords.get)
+    
+    cleantoken = []
+    token = Tokenize(text)
+        
     for word in token:
         if "'" not in word:
             cleantoken.append(correct(word,nwords))
         else:
             cleantoken.append(word)
     return cleantoken
-
-
+    
+    
 def pos_to_wn(tag):
+    
     """
     Convert NLTK default tagger output into a format that Wordnet
     can use in order to properly lemmatize the text.
@@ -397,6 +412,7 @@ def ApplyPOSTagging(df,
 
 def prepare_transcripts(input_files,
                         output_file_directory,
+                        run_spell_check=True,
                         training_dictionary=None,
                         minwords=2,
                         use_filler_list=None,
@@ -420,7 +436,6 @@ def prepare_transcripts(input_files,
 
     Parameters
     ----------
-
     input_files : str (directory name) or list of str (file names)
         Raw files to be cleaned. Behavior governed by `input_as_directory`
         parameter as well.
@@ -428,6 +443,10 @@ def prepare_transcripts(input_files,
     output_file_directory : str
         Name of directory where output for individual conversations will be
         saved.
+
+    run_spell_check : boolean, optional (default: True)
+        Specify whether to run the spell-checking algorithm (True) or to 
+        ignore it (False). 
 
     training_dictionary : str, optional (default: None)
         Specify whether to train the spell-checking dictionary using a
@@ -480,32 +499,32 @@ def prepare_transcripts(input_files,
 
     Returns
     -------
-
     prepped_df : Pandas DataFrame
         A single concatenated dataframe of all transcripts, ready for
         processing with `calculate_alignment()` and
         `calculate_baseline_alignment()`.
 
     """
+    if run_spell_check == True:
 
-    # create an internal function to train the model
-    def train(features):
-        model = defaultdict(lambda: 1)
-        for f in features:
-            model[f] += 1
-        return model
+        # create an internal function to train the spell-checking model
+        def train(features):
+            model = defaultdict(lambda: 1)
+            for f in features:
+                model[f] += 1
+            return model
 
-    # if no training dictionary is specified, use the Gutenberg corpus
-    if training_dictionary is None:
+        # if no training dictionary is specified, use the Gutenberg corpus
+        if training_dictionary is None:
 
-        # first, get the name of the package directory
-        module_path = os.path.dirname(os.path.abspath(__file__))
+            # first, get the name of the package directory
+            module_path = os.path.dirname(os.path.abspath(__file__))
 
-        # then construct the path to the text file
-        training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
+            # then construct the path to the text file
+            training_dictionary = os.path.join(module_path, 'data/gutenberg.txt')
 
-    # train our spell-checking model
-    nwords = train(re.findall('[a-z]+', (open(training_dictionary).read().lower())))
+        # train our spell-checking model
+        nwords = train(re.findall('[a-z]+', (open(training_dictionary).read().lower())))
 
     # grab the appropriate files
     if not input_as_directory:
@@ -530,8 +549,12 @@ def prepare_transcripts(input_files,
         dataframe = AdjacentMerge(dataframe)
 
         # tokenize and lemmatize
-        dataframe['token'] = dataframe['content'].apply(Tokenize,
-                                     args=(nwords,))
+        if run_spell_check == True:
+            dataframe['token'] = dataframe['content'].apply(TokenizeSpell,
+                                            args=(nwords,))        
+        else:
+            dataframe['token'] = dataframe['content'].apply(Tokenize)                  
+                        
         dataframe['lemma'] = dataframe['token'].apply(Lemmatize)
 
         # apply part-of-speech tagging
