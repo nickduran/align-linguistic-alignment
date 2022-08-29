@@ -436,7 +436,6 @@ def prepare_transcripts(input_files,
 
     Parameters
     ----------
-
     input_files : str (directory name) or list of str (file names)
         Raw files to be cleaned. Behavior governed by `input_as_directory`
         parameter as well.
@@ -500,7 +499,6 @@ def prepare_transcripts(input_files,
 
     Returns
     -------
-
     prepped_df : Pandas DataFrame
         A single concatenated dataframe of all transcripts, ready for
         processing with `calculate_alignment()` and
