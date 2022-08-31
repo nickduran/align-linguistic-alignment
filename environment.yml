@@ -1,0 +1,21 @@
+name: align0.1.1
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - gensim=4.1.2=py310he9d5cce_0
+  - ipython=8.4.0=py310hecd8cb5_0
+  - nltk=3.7=pyhd3eb1b0_0
+  - numpy=1.22.3=py310hdcd3fac_0
+  - numpy-base=1.22.3=py310hfd2de13_0
+  - pandas=1.4.2=py310he9d5cce_0
+  - python=3.10.4=hdfd78df_0
+  - python-build=0.8.0=pyhd8ed1ab_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
+  - scipy=1.7.3=py310h3dd3380_0
+  - pip:
+      - pip==21.2.4
+      - align==0.1.1
+prefix: /Users/nickduran/opt/anaconda3/envs/align0.1.1

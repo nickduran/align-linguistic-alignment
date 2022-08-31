@@ -20,19 +20,37 @@ cloud environment to try out the ALIGN pipeline on our Python tutorials (the CHI
 
 ## Installation
 
-`align` may be downloaded directly using `pip`.
+`align` may be downloaded directly using `pip`. [As an aside, it's always good practice to install a package like align, which has several dependencies (see `requirements.txt`), in a virtual environment - just remember to activate it before running any analyses]
 
 To download the stable version released on PyPI:
 
 ```
 pip install align
+
 ```
 
+Or to update:
+
+```
+pip install align --upgrade
+
+```
+
+The above should work in the vast majority of scenarios, including if you use Anaconda for all your Python needs (which is highly recommended). However, there might be issues if you already have `align` installed with Anaconda and want to update `align` to a new version, or you just prefer any easy way to install `align` in a virtual environment in one go. In this case, a YAML file has been provided. Just follow these simple steps:
+
+1. Download the `environment.yml` file and navigate to the folder where it has been downloaded
+2. Run the following command in Terminal: `conda env create -f environment.yml`
+3. Be sure to activate the new enviroment (i.e., `conda activate align0.1.1`) before running any `align` analyses (such as the tutorials; see below)
+
+If you experience any problems, please put them in the "Issues" section of this repository.
+
+<!--
 To download directly from our GitHub repo:
 
 ```
 pip install git+https://github.com/nickduran/align-linguistic-alignment.git
 ```
+-->
 
 ## Quick documentation
 
@@ -47,7 +65,7 @@ ALIGN consists of two primary modules for conducting analyses, `prepare_transcri
 The Google News pre-trained word2vec vectors (`GoogleNews-vectors-negative300.bin`)
 and the Stanford part-of-speech tagger (`stanford-postagger-full-2020-11-17`)
 are required for some optional `align` parameters but must be downloaded
-separately.
+separately. Please see the tutorials for more information.
 
 - Google News: https://code.google.com/archive/p/word2vec/ (page) or
   https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
@@ -65,9 +83,7 @@ current tutorials that can be found in the `examples` directory within this
 repository. If unfamiliar with Jupyter Notebooks, instructions for installing
 and running can be found here: http://jupyter.org/install. We recommend installing
 Jupyter using Anaconda. Anaconda is a widely-used Python data science platform
-that helps streamline workflows. A major advantage is that Anaconda also makes it easy
-to set up unique Python environments - which may be necessary to run `align`
-and the tutorials given `align` is currently optimized for Python 3.
+that helps streamline workflows.
 
 - **Jupyter Notebook 1: CHILDES**
 
