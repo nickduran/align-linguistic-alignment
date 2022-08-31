@@ -20,27 +20,27 @@ cloud environment to try out the ALIGN pipeline on our Python tutorials (the CHI
 
 ## Installation
 
-`align` may be downloaded directly using `pip`. [As an aside, it's always good practice to install a package like align, which has several dependencies (see `requirements.txt`), in a virtual environment - just remember to activate it before running any analyses]
+`align` may be downloaded directly using `pip`.
 
 To download the stable version released on PyPI:
 
 ```
 pip install align
-
 ```
 
 Or to update:
 
 ```
 pip install align --upgrade
-
 ```
 
-The above should work in the vast majority of scenarios, including if you use Anaconda for all your Python needs (which is highly recommended). However, there might be issues if you already have `align` installed with Anaconda and want to update `align` to a new version, or you just prefer any easy way to install `align` in a virtual environment in one go. In this case, a YAML file has been provided. Just follow these simple steps:
+> And it's always good practice to install a package like `align`, which has several dependencies (see `requirements.txt`), in a virtual environment.
 
-1. Download the `environment.yml` file and navigate to the folder where it has been downloaded
-2. Run the following command in Terminal: `conda env create -f environment.yml`
-3. Be sure to activate the new enviroment (i.e., `conda activate align0.1.1`) before running any `align` analyses (such as the tutorials; see below)
+> **Anaconda users:** The above should work in the vast majority of cases. However, if you prefer an easy way to install `align` within a virtual environment in one go, or you are experiencing problems with trying to update `align`, a YAML file has been provided to streamline things. Just follow these simple steps:
+
+> 1. Download the `environment.yml` file and navigate to the folder where it has been downloaded
+> 2. Run the following command in Terminal: `conda env create -f environment.yml`
+> 3. Be sure to activate the new enviroment (i.e., `conda activate align0.1.1`) before running any `align` analyses (such as the tutorials; see below)
 
 If you experience any problems, please put them in the "Issues" section of this repository.
 
