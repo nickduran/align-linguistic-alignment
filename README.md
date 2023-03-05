@@ -6,6 +6,13 @@ language corpora. The method was introduced in "ALIGN: Analyzing
 Linguistic Interactions with Generalizable techNiques" (Duran, Paxton, &
 Fusaroli, 2019; Psychological Methods).
 
+Examples of papers relying on the ALIGN library:
+
+* Dideriksen, C., Christiansen, M. H., Tylén, K., Dingemanse, M., & Fusaroli, R. (in press). Quantifying the interplay of conversational devices in building mutual understanding. Journal of Experimental Psychology: General. Pre-print: https://doi.org/10.31234/osf.io/a5r74
+* Dideriksen C, Christiansen MH, Dingemanse M, et al. Language specific constraints on conversation: Evidence from Danish and Norwegian. PsyArXiv; 2022. Pre-print: https://doi.org/10.31234/osf.io/t3s6c.
+* Fusaroli, R., Weed, E., Fein, D., & Naigles, L. (in press). Caregiver linguistic alignment to autistic and typically developing children. Cognition. Pre-print: https://doi.org/10.31234/osf.io/ysjec
+* Fusaroli R, Weed E, Rocca R, fein d, Naigles L. (under review) Repeat after me? Both Children with and without Autism Commonly Align Their Language with That of Their Caregivers. PsyArXiv; 2023. DOI: 10.31234/osf.io/m8fhk.
+
 <!--
 ## Try out `align` with Binder
 
