@@ -9,10 +9,12 @@ Fusaroli, 2019; Psychological Methods).
 Examples of papers relying on the ALIGN library:
 
 * Duran, N. D., Paige, A., & D'Mello, S. K. (2024). Multi‐Level Linguistic Alignment in a Dynamic Collaborative Problem‐Solving Task. Cognitive Science, 48(1), e13398. https://doi.org/10.1111/cogs.13398
-* Dideriksen, C., Christiansen, M. H., Tylén, K., Dingemanse, M., & Fusaroli, R. (in press). Quantifying the interplay of conversational devices in building mutual understanding. Journal of Experimental Psychology: General. Pre-print: https://doi.org/10.31234/osf.io/a5r74
-* Dideriksen C, Christiansen MH, Dingemanse M, et al. Language specific constraints on conversation: Evidence from Danish and Norwegian. PsyArXiv; 2022. Pre-print: https://doi.org/10.31234/osf.io/t3s6c.
-* Fusaroli, R., Weed, E., Fein, D., & Naigles, L. (in press). Caregiver linguistic alignment to autistic and typically developing children. Cognition. Pre-print: https://doi.org/10.31234/osf.io/ysjec
-* Fusaroli R, Weed E, Rocca R, fein d, Naigles L. (under review) Repeat after me? Both Children with and without Autism Commonly Align Their Language with That of Their Caregivers. PsyArXiv; 2023. DOI: 10.31234/osf.io/m8fhk.
+* Dideriksen, C., Christiansen, M. H., Tylén, K., Dingemanse, M., & Fusaroli, R. (2023). Quantifying the interplay of conversational devices in building mutual understanding. Journal of Experimental Psychology: General, 152(3), 864. Pre-print: https://doi.org/10.31234/osf.io/a5r74
+* Dideriksen, C., Christiansen, M. H., Dingemanse, M., Højmark‐Bertelsen, M., Johansson, C., Tylén, K., & Fusaroli, R. (2023). Language‐Specific Constraints on Conversation: Evidence from Danish and Norwegian. Cognitive Science, 47(11), e13387. Pre-print: https://doi.org/10.31234/osf.io/t3s6c.
+* Fusaroli, R., Weed, E., Rocca, R., Fein, D., & Naigles, L. (2023). Caregiver linguistic alignment to autistic and typically developing children: A natural language processing approach illuminates the interactive components of language development. Cognition, 236, 105422. Pre-print: https://doi.org/10.31234/osf.io/ysjec
+* Fusaroli, R., Weed, E., Rocca, R., Fein, D., & Naigles, L. (2023). Repeat After Me? Both Children With and Without Autism Commonly Align Their Language With That of Their Caregivers. Cognitive Science, 47(11), e13369. DOI: 10.31234/osf.io/m8fhk.
+* Tylén, K., Fusaroli, R., Østergaard, S. M., Smith, P., & Arnoldi, J. (2023). The Social Route to Abstraction: Interaction and Diversity Enhance Performance and Transfer in a Rule‐Based Categorization Task. Cognitive Science, 47(9), e13338.
+* Trujillo, J. P., Dideriksen, C., Tylén, K., Christiansen, M. H., & Fusaroli, R. (2023). The dynamic interplay of kinetic and linguistic coordination in Danish and Norwegian conversation. Cognitive Science, 47(6), e13298.
 
 <!--
 ## Try out `align` with Binder
