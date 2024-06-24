@@ -8,6 +8,7 @@ Fusaroli, 2019; Psychological Methods).
 
 Examples of papers relying on the ALIGN library:
 
+* Duran, N. D., Paige, A., & D'Mello, S. K. (2024). Multi‐Level Linguistic Alignment in a Dynamic Collaborative Problem‐Solving Task. Cognitive Science, 48(1), e13398. https://doi.org/10.1111/cogs.13398
 * Dideriksen, C., Christiansen, M. H., Tylén, K., Dingemanse, M., & Fusaroli, R. (in press). Quantifying the interplay of conversational devices in building mutual understanding. Journal of Experimental Psychology: General. Pre-print: https://doi.org/10.31234/osf.io/a5r74
 * Dideriksen C, Christiansen MH, Dingemanse M, et al. Language specific constraints on conversation: Evidence from Danish and Norwegian. PsyArXiv; 2022. Pre-print: https://doi.org/10.31234/osf.io/t3s6c.
 * Fusaroli, R., Weed, E., Fein, D., & Naigles, L. (in press). Caregiver linguistic alignment to autistic and typically developing children. Cognition. Pre-print: https://doi.org/10.31234/osf.io/ysjec
