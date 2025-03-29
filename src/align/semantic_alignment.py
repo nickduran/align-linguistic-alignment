@@ -16,8 +16,7 @@ import gensim.downloader as api  # Downloads and loads pre-trained models and da
 
 #For BERT specifically 
 import torch
-from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
-from huggingface_hub import login
+from transformers import BertTokenizer, BertModel
 
 
 
