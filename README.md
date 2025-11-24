@@ -1,6 +1,4 @@
-# ALIGN v0.1.1 (Original Version) - PyPI Release
-
-> **⚠️ IMPORTANT UPDATE:** A new and improved version—**ALIGN 2.0**—is now available!  
+# **⚠️ IMPORTANT UPDATE:** A new and improved version—**ALIGN 2.0**—is now available!  
 > 
 > **We recommend using ALIGN 2.0** for all new projects. It's faster, more feature-rich, and easier to use while maintaining full compatibility with the original methodology.
 > 
