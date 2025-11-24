@@ -1,4 +1,41 @@
-# ALIGN, a computational tool for multi-level language analysis (optimized for Python 3.10)
+# ALIGN v0.1.1 (Original Version) - PyPI Release
+
+> **⚠️ IMPORTANT UPDATE:** A new and improved version—**ALIGN 2.0**—is now available!  
+> 
+> **We recommend using ALIGN 2.0** for all new projects. It's faster, more feature-rich, and easier to use while maintaining full compatibility with the original methodology.
+> 
+> 🔗 **Get ALIGN 2.0:** https://github.com/nickduran/align2-linguistic-alignment
+>
+> This repository (v0.1.1) remains available on PyPI for backward compatibility, but will no longer receive updates.
+
+---
+
+## ALIGN 1.0 vs ALIGN 2.0 Comparison
+
+| Feature | ALIGN 1.0 (This Version) | ALIGN 2.0 (Recommended) |
+|---------|--------------------------|-------------------------|
+| **Installation** | PyPI: `pip install align` | GitHub: Clone + editable install |
+| **Python Version** | Python 3.10 | Python 3.7+ (tested on 3.13) |
+| **Semantic Models** | word2vec (manual download required) | BERT + FastText (auto-download) |
+| **POS Taggers** | NLTK + Stanford (manual setup) | NLTK + spaCy + Stanford |
+| **Speed** | Baseline | 100-200x faster with spaCy |
+| **Setup Complexity** | Manual downloads required | Streamlined pip install |
+| **Preprocessing** | Basic module | Enhanced with validation |
+| **Progress Tracking** | Limited | Full tqdm progress bars |
+| **Documentation** | Basic tutorials | Interactive Jupyter tutorials |
+| **Code Quality** | Standard | Type hints + comprehensive docs |
+| **Active Development** | No (final release: Aug 28, 2022) | Yes (ongoing) |
+| **Methodology** | ✅ Original paper (Duran et al., 2019) | ✅ Same methodology, enhanced |
+
+**Bottom line:** ALIGN 2.0 does everything this version does, but faster and with modern language models. Choose ALIGN 2.0 unless you specifically need the exact PyPI v0.1.1 release.
+
+---
+
+## About ALIGN v0.1.1 (This Version)
+
+**Last Updated:** August 28, 2022  
+**Status:** Stable, final release. No further updates planned.  
+**Availability:** PyPI (https://pypi.org/project/align/)
 
 `align` is a Python library for extracting quantitative, reproducible
 metrics of multi-level alignment between two speakers in naturalistic
