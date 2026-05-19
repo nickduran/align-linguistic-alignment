@@ -901,7 +901,7 @@ def calculate_alignment(input_files,
                                              maxngram = maxngram,
                                              ignore_duplicates=ignore_duplicates,
                                              add_stanford_tags = add_stanford_tags)
-            tempC2C.append(xT2T)
+            tempC2C.append(xC2C)
 
         # if it's invalid, let us know
         else:
