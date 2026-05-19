@@ -2,28 +2,35 @@
 
 > A faster, more feature-rich version of ALIGN is being prepared for release (expected late 2026) along with an accompanying methods paper. Once available, ALIGN 2.0 will be the recommended version for new projects.
 >
+> **Interested in early access?** Contact nicholas.duran [at] austin.utexas.edu
+>
 > This repository (v0.1.1) remains available on PyPI and continues to work for existing projects.
 
 ---
 
-## ALIGN 1.0 vs ALIGN 2.0 (Preview)
+## ALIGN 2.0 (Coming Soon) — Preview
 
-| Feature | ALIGN 1.0 (This Version) | ALIGN 2.0 (Coming Soon) |
-|---------|--------------------------|-------------------------|
-| **Installation** | PyPI: `pip install align` | GitHub: Clone + editable install |
-| **Python Version** | Python 3.10 | Python 3.7+ (tested on 3.13) |
-| **Semantic Models** | word2vec (manual download required) | BERT + FastText (auto-download) |
-| **POS Taggers** | NLTK + Stanford (manual setup) | NLTK + spaCy + Stanford |
-| **Speed** | Baseline | 100-200x faster with spaCy |
-| **Setup Complexity** | Manual downloads required | Streamlined pip install |
-| **Preprocessing** | Basic module | Enhanced with validation |
-| **Progress Tracking** | Limited | Full tqdm progress bars |
-| **Documentation** | Basic tutorials | Interactive Jupyter tutorials |
-| **Code Quality** | Standard | Type hints + comprehensive docs |
-| **Active Development** | No (final release: Aug 28, 2022) | Yes (ongoing) |
-| **Methodology** | ✅ Original paper (Duran et al., 2019) | ✅ Same methodology, enhanced |
+ALIGN 2.0 reframes alignment as **five theoretically distinct constructs**, each with purpose-built measures:
 
-**Bottom line:** ALIGN 2.0 will do everything this version does, but faster and with modern language models (BERT, Sentence-BERT, FastText). Continue using this version until ALIGN 2.0 is released.
+| Construct | What it captures | Measure |
+|---|---|---|
+| **Lexical** | Direct word/n-gram repetition | `lexsyn` (lexical) |
+| **Syntactic** | POS-pattern reuse; constituency rule overlap | `lexsyn` (syntactic), `rules` |
+| **Topical/conceptual** | Token-level conceptual overlap | `bertscore` |
+| **Distributional** | Overlapping vocabulary clusters | `fasttext` |
+| **Paraphrastic** | Equivalent meaning irrespective of surface form | `sbert` |
+
+### Key enhancements
+
+- **100-200x faster** with spaCy POS tagging (Stanford still available)
+- **Streamlined setup** — BERT/FastText models auto-download, no manual dependencies
+- **Conversation-level analysis** — aggregate repertoire overlap, not just turn-by-turn
+- **Multi-party support** — conversations with 3+ speakers
+- **Enhanced surrogates** — proper cross-role pairing logic for baselines
+- **Companion reports** — every analysis generates a `.txt` documenting parameters and interpretation
+- **Interactive Jupyter tutorials** with real conversational data
+
+**Bottom line:** ALIGN 2.0 will do everything this version does, but faster and with modern language models. Continue using this version until ALIGN 2.0 is released.
 
 ---
 
