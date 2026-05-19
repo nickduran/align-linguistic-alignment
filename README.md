@@ -1,16 +1,14 @@
-# **⚠️ IMPORTANT UPDATE:** A new and improved version—**ALIGN 2.0**—is now available!  
-> 
-> **We recommend using ALIGN 2.0** for all new projects. It's faster, more feature-rich, and easier to use while maintaining full compatibility with the original methodology.
-> 
-> 🔗 **Get ALIGN 2.0:** https://github.com/nickduran/align2-linguistic-alignment
+# **⚠️ COMING SOON:** ALIGN 2.0 is in active development!
+
+> A faster, more feature-rich version of ALIGN is being prepared for release (expected late 2026) along with an accompanying methods paper. Once available, ALIGN 2.0 will be the recommended version for new projects.
 >
-> This repository (v0.1.1) remains available on PyPI for backward compatibility, but will no longer receive updates.
+> This repository (v0.1.1) remains available on PyPI and continues to work for existing projects.
 
 ---
 
-## ALIGN 1.0 vs ALIGN 2.0 Comparison
+## ALIGN 1.0 vs ALIGN 2.0 (Preview)
 
-| Feature | ALIGN 1.0 (This Version) | ALIGN 2.0 (Recommended) |
+| Feature | ALIGN 1.0 (This Version) | ALIGN 2.0 (Coming Soon) |
 |---------|--------------------------|-------------------------|
 | **Installation** | PyPI: `pip install align` | GitHub: Clone + editable install |
 | **Python Version** | Python 3.10 | Python 3.7+ (tested on 3.13) |
@@ -25,7 +23,7 @@
 | **Active Development** | No (final release: Aug 28, 2022) | Yes (ongoing) |
 | **Methodology** | ✅ Original paper (Duran et al., 2019) | ✅ Same methodology, enhanced |
 
-**Bottom line:** ALIGN 2.0 does everything this version does, but faster and with modern language models. Choose ALIGN 2.0 unless you specifically need the exact PyPI v0.1.1 release.
+**Bottom line:** ALIGN 2.0 will do everything this version does, but faster and with modern language models (BERT, Sentence-BERT, FastText). Continue using this version until ALIGN 2.0 is released.
 
 ---
 
