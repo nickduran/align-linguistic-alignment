@@ -10,27 +10,33 @@
 
 ## ALIGN 2.0 (Coming Soon) — Preview
 
-ALIGN 2.0 reframes alignment as **five theoretically distinct constructs**, each with purpose-built measures:
+ALIGN 2.0 reframes alignment as a **family of theoretically distinct constructs** rather than a single quantity measured one way. The guiding idea: *which* alignment measure you should use depends on the conversational goal and the alignment mechanism you mean to study. "Semantic alignment," in particular, is not one thing — it decomposes into several separable constructs — and the same is true of syntactic alignment.
 
-| Construct | What it captures | Measure |
+| Construct | What it captures | Measure(s) |
 |---|---|---|
 | **Lexical** | Direct word/n-gram repetition | `lexsyn` (lexical) |
-| **Syntactic** | POS-pattern reuse; constituency rule overlap | `lexsyn` (syntactic), `rules` |
-| **Topical/conceptual** | Token-level conceptual overlap | `bertscore` |
-| **Distributional** | Overlapping vocabulary clusters | `fasttext` |
+| **Syntactic** | Flat POS-pattern reuse; hierarchical constituency-rule overlap; directional rule predictability | `lexsyn` (syntactic), `rules` (Jaccard, PMI, conditional entropy) |
+| **Topical/conceptual** | Whether a response takes up the prior turn's content (uptake, containment, mutual overlap) | `bertscore` (recall / precision / F1) |
+| **Distributional** | Overlapping vocabulary clusters (topical similarity conflated with register/style) | `fasttext` |
 | **Paraphrastic** | Equivalent meaning irrespective of surface form | `sbert` |
+
+Each measure reports on a scale matched to its theoretical question rather than forcing every construct onto a single similarity metric, and each can be computed against surrogate baselines so that alignment can be distinguished from shared-topic coincidence.
 
 ### Key enhancements
 
 - **100-200x faster** with spaCy POS tagging (Stanford still available)
 - **Streamlined setup** — BERT/FastText models auto-download, no manual dependencies
-- **Conversation-level analysis** — aggregate repertoire overlap, not just turn-by-turn
+- **Selectable temporal grain** — turn-by-turn alignment trajectories (where convergence over a conversation can be modeled directly), or aggregate conversation-level scores for between-dyad comparison
 - **Multi-party support** — conversations with 3+ speakers
 - **Enhanced surrogates** — proper cross-role pairing logic for baselines
 - **Companion reports** — every analysis generates a `.txt` documenting parameters and interpretation
 - **Interactive Jupyter tutorials** with real conversational data
 
-**Bottom line:** ALIGN 2.0 will do everything this version does, but faster and with modern language models. Continue using this version until ALIGN 2.0 is released.
+**Bottom line:** ALIGN 2.0 will do everything this version does, faster and with modern language models, while making the choice of measure a theoretically motivated one rather than a default.
+
+A project prospectus describing the conceptual framework, the measures, the validation strategy, and open questions (including opportunities for collaboration) is available on OSF: **https://osf.io/2gyuw/**
+
+Continue using this version until ALIGN 2.0 is released.
 
 ---
 
